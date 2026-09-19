@@ -1,0 +1,98 @@
+/* Legacy PHP page markup inside Automark dark theme */
+.theme-php-content,
+.theme-php-main {
+  color: #dad4de;
+  min-height: 60vh;
+}
+.theme-php-content .container,
+.theme-php-content .section.container,
+.theme-php-main .container,
+.theme-php-main .section.container {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.theme-php-main h1,
+.theme-php-main h2,
+.theme-php-main h3,
+.theme-php-main h4 {
+  color: #e5e5e5;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.theme-php-main h2 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-bottom: 1.25rem;
+}
+.theme-php-main .muted,
+.theme-php-main p {
+  color: #817e84;
+  line-height: 1.65;
+}
+.theme-php-main a:not(.btn):not(.cta-btn):not(.footer-link):not(.nav-link) {
+  color: #937aff;
+}
+.theme-php-main .card,
+.theme-php-main .panel,
+.theme-php-main .faq-item {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid #202128;
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.theme-php-main .grid-3 {
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .theme-php-main .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.theme-php-main .cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  text-decoration: none;
+  background: #937aff;
+  color: #03010e;
+}
+.theme-php-main .cta-btn.secondary {
+  background: transparent;
+  border: 1px solid #937aff;
+  color: #e5e5e5;
+}
+.theme-php-main .faq-list details summary {
+  cursor: pointer;
+  color: #e5e5e5;
+  font-weight: 500;
+  padding: 0.75rem 0;
+}
+.theme-php-main .sticky-cta {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 40;
+  padding: 0.75rem 1rem;
+  border-radius: 9999px;
+  background: #937aff;
+  color: #03010e;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+.theme-php-main iframe {
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .theme-php-main [style*="grid-template-columns:1fr 440px"] {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}

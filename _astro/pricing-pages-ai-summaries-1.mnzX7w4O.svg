@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img">
+  <rect width="960" height="540" rx="16" fill="#12121a"/>
+  <text x="48" y="52" fill="#ffffff" font-family="system-ui,sans-serif" font-size="24" font-weight="700">Pricing Pages That Survive AI Summaries</text>
+  <text x="48" y="82" fill="#a8a8b8" font-family="system-ui,sans-serif" font-size="14">Article map · AI SEO</text>
+  <rect x="48" y="120" width="864" height="35" rx="10" fill="#1a1a26" stroke="#937AFF" stroke-width="2"/>
+  <text x="68" y="142.5" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="15">What to expose</text>
+  <text x="900" y="142.5" text-anchor="end" fill="#937AFF" font-family="system-ui,sans-serif" font-size="13">1</text>
+  <rect x="48" y="167" width="864" height="35" rx="10" fill="#1a1a26" stroke="#4D36D0" stroke-width="1"/>
+  <text x="68" y="189.5" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="15">Schema and copy alignment</text>
+  <text x="900" y="189.5" text-anchor="end" fill="#937AFF" font-family="system-ui,sans-serif" font-size="13">2</text>
+  <rect x="48" y="214" width="864" height="35" rx="10" fill="#1a1a26" stroke="#4D36D0" stroke-width="1"/>
+  <text x="68" y="236.5" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="15">FAQ under pricing</text>
+  <text x="900" y="236.5" text-anchor="end" fill="#937AFF" font-family="system-ui,sans-serif" font-size="13">3</text>
+  <rect x="48" y="261" width="864" height="35" rx="10" fill="#1a1a26" stroke="#4D36D0" stroke-width="1"/>
+  <text x="68" y="283.5" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="15">Why founders should care now</text>
+  <text x="900" y="283.5" text-anchor="end" fill="#937AFF" font-family="system-ui,sans-serif" font-size="13">4</text>
+  <rect x="48" y="308" width="864" height="35" rx="10" fill="#1a1a26" stroke="#4D36D0" stroke-width="1"/>
+  <text x="68" y="330.5" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="15">Mistakes I see on live sites</text>
+  <text x="900" y="330.5" text-anchor="end" fill="#937AFF" font-family="system-ui,sans-serif" font-size="13">5</text><text x="48" y="508" fill="#666" font-family="system-ui,sans-serif" font-size="11">Figure 1 — sections covered in this blog · Fundaking Media · pricing-pages-ai-summaries</text>
+</svg>

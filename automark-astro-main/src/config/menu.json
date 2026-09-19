@@ -1,0 +1,29 @@
+{
+  "main": [
+    { "name": "Services", "url": "/features" },
+    { "name": "Case Studies", "url": "/case-study" },
+    { "name": "Blog", "url": "/blog" },
+    { "name": "About", "url": "/about" },
+    { "name": "Contact", "url": "/contact" }
+  ],
+  "footer_col_1_title": "Services",
+  "footer_col_2_title": "Resources",
+  "footer_col_3_title": "Company",
+  "footer_primary": [
+    { "name": "Home", "url": "/" },
+    { "name": "SEO consulting", "url": "/seo-consulting-services" },
+    { "name": "Technical SEO", "url": "/technical-seo-consultant" },
+    { "name": "Local SEO", "url": "/local-seo-consultant" },
+    { "name": "Hire in Pune", "url": "/hire-seo-consultant-pune" },
+    { "name": "Contact", "url": "/contact" }
+  ],
+  "footer_resource": [
+    { "name": "Blog", "url": "/blog" },
+    { "name": "Case studies", "url": "/case-study" },
+    { "name": "Consultant vs agency", "url": "/seo-consultant-vs-agency" }
+  ],
+  "footer_legal": [
+    { "name": "Privacy Policy", "url": "/privacy-policy" },
+    { "name": "Terms and Conditions", "url": "/term-and-condition" }
+  ]
+}

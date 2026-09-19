@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 864" width="1152" height="864" role="img">
+  <rect width="1152" height="864" fill="#071A2B"/>
+  <g fill="none" stroke="#8DC63F" stroke-width="2" opacity="0.55" stroke-linecap="round">
+    <path d="M980 36 l40 -8 m8 4 l28 -6"/>
+    <path d="M1020 52 l36 -6"/>
+    <circle cx="1072" cy="28" r="3" fill="#8DC63F" stroke="none"/>
+    <circle cx="1104" cy="44" r="2.5" fill="#3EC6D4" stroke="none"/>
+  </g>
+  <!-- mark -->
+  <rect x="56" y="40" width="44" height="44" rx="8" fill="#2BA3C7"/>
+  <rect x="66" y="52" width="24" height="6" rx="2" fill="#071A2B"/>
+  <rect x="66" y="64" width="16" height="6" rx="2" fill="#071A2B"/>
+  <text x="112" y="62" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800">eWeb<tspan fill="#8DC63F">Guru</tspan></text>
+  <text x="112" y="82" fill="#8DC63F" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Feel the power of cloud</text>
+
+  <text x="576" y="150" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="800">Managed dedicated in India</text>
+  <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Entry SKUs I opened, Sep 2026. Not VPS. Not self-managed.</text>
+
+  <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">eWebGuru Cloud Server 1</text>
+    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Rs 3,995 / mo  |  4 cores, 16 GB, 100 GB SSD</text>
+    <text x="104" y="322" fill="#A8C0D0" font-size="15">Managed in: patches, monitoring, weekly off-server backups, 1-click resize, 30-day MBG. Weak spec: 100 GB.</text>
+    <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
+
+    <text x="104" y="382" fill="#3EC6D4" font-size="15" font-weight="700">MilesWeb DS 6C</text>
+    <text x="104" y="410" fill="#FFFFFF" font-size="22" font-weight="700">Rs 4,999 intro (renews 5,499)  |  6c/12t, 32 GB, 480 GB NVMe</text>
+    <text x="104" y="436" fill="#A8C0D0" font-size="15">Best hardware per rupee. Management is a checkout add-on. Backups extra. 7-day MBG.</text>
+    <line x1="104" y1="456" x2="1048" y2="456" stroke="#1A4A5C" stroke-width="1"/>
+
+    <text x="104" y="496" fill="#3EC6D4" font-size="15" font-weight="700">BigRock Mach-1 SSD</text>
+    <text x="104" y="524" fill="#FFFFFF" font-size="22" font-weight="700">Rs 8,249 / mo  |  16 GB, 500 GB SSD RAID 1, 2 IPs</text>
+    <text x="104" y="550" fill="#A8C0D0" font-size="15">Fully managed on that page. CPU listed as 2.20 GHz octa, generation not printed. RAID 1 is not a backup.</text>
+    <line x1="104" y1="570" x2="1048" y2="570" stroke="#1A4A5C" stroke-width="1"/>
+
+    <text x="104" y="610" fill="#3EC6D4" font-size="15" font-weight="700">ResellerClub Standard (India toggle)</text>
+    <text x="104" y="638" fill="#FFFFFF" font-size="22" font-weight="700">Rs 11,998 / mo on 1-year  |  4 vCPU, 32 GB, 500 GB NVMe</text>
+    <text x="104" y="664" fill="#A8C0D0" font-size="15">Default location is US. Floor is 32 GB. Configure still lists Managed Services at Rs 5,999. Renews 14,998.</text>
+    <line x1="104" y1="684" x2="1048" y2="684" stroke="#1A4A5C" stroke-width="1"/>
+
+    <text x="104" y="724" fill="#8DC63F" font-size="16" font-weight="700">Unit math: Rs per GB RAM</text>
+    <text x="104" y="752" fill="#FFFFFF" font-size="16">eWebGuru CS1 250 (managed)  |  MilesWeb 156 (hardware)  |  BigRock 516  |  ResellerClub 375</text>
+  </g>
+
+  <text x="576" y="828" text-anchor="middle" fill="#7FA3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Left off: Hostinger VPS, GoDaddy VPS, OVH self-managed, Hetzner (no India DC). Confirm checkout. eWebGuru blog.</text>
+</svg>

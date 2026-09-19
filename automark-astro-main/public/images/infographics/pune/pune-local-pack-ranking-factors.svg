@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Local pack ranking factor weights</title>
+  <desc id="desc">Whitespark local search ranking factors survey weights for map pack</desc>
+  <rect width="960" height="540" rx="16" fill="#12121a"/>
+  <text x="48" y="52" fill="#ffffff" font-family="system-ui,sans-serif" font-size="26" font-weight="700">Local pack ranking signals (survey weights)</text>
+  <text x="48" y="82" fill="#a8a8b8" font-family="system-ui,sans-serif" font-size="15">Whitespark Local Search Ranking Factors  local pack / Google Maps (2025 edition, industry survey)</text>
+  <rect x="48" y="130" width="310" height="40" rx="6" fill="#937AFF"/>
+  <text x="60" y="156" fill="#12121a" font-size="14" font-weight="700">Google Business Profile 32%</text>
+  <rect x="48" y="182" width="184" height="40" rx="6" fill="#4D36D0"/>
+  <text x="60" y="208" fill="#fff" font-size="14" font-weight="700">On-page SEO 19%</text>
+  <rect x="48" y="234" width="155" height="40" rx="6" fill="#7c6cf0"/>
+  <text x="60" y="260" fill="#fff" font-size="14">Review signals 16%</text>
+  <rect x="48" y="286" width="120" height="40" rx="6" fill="#5c5c7a"/>
+  <text x="60" y="312" fill="#fff" font-size="14">Links 9%</text>
+  <rect x="48" y="338" width="100" height="40" rx="6" fill="#3a3a4a"/>
+  <text x="60" y="364" fill="#ccc" font-size="13">Other ~24%</text>
+  <rect x="400" y="130" width="512" height="248" rx="12" fill="#1a1a26" stroke="#937AFF"/>
+  <text x="420" y="168" fill="#fff" font-size="16" font-weight="700">Pune Type A vs Type B (quick map)</text>
+  <text x="420" y="200" fill="#937AFF" font-size="14" font-weight="700">Type A  Maps-led (clinics, services)</text>
+  <text x="420" y="224" fill="#a8a8b8" font-size="13">Invest heavily in GBP + reviews + local pages</text>
+  <text x="420" y="260" fill="#4D36D0" font-size="14" font-weight="700">Type B  Product / B2B (Hinjewadi SaaS)</text>
+  <text x="420" y="284" fill="#a8a8b8" font-size="13">Invest in technical SEO + clusters; Pune in trust content only</text>
+  <text x="420" y="320" fill="#a8a8b8" font-size="13">93% of local-intent queries show a 3-pack (Sagapixel / SEOClarity citations in industry compilations)</text>
+  <text x="48" y="430" fill="#a8a8b8" font-size="13">Weights are practitioner survey estimates, not Google official factors. Use directionally for prioritization.</text>
+  <text x="48" y="508" fill="#666" font-size="12">Fundaking Media  research summary infographic</text>
+</svg>

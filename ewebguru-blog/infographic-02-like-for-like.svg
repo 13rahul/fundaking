@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 864" width="1152" height="864" role="img">
+  <rect width="1152" height="864" fill="#071A2B"/>
+  <g fill="none" stroke="#8DC63F" stroke-width="2" opacity="0.55" stroke-linecap="round">
+    <path d="M980 36 l40 -8 m8 4 l28 -6"/>
+    <path d="M1020 52 l36 -6"/>
+    <circle cx="1072" cy="28" r="3" fill="#8DC63F" stroke="none"/>
+    <circle cx="1104" cy="44" r="2.5" fill="#3EC6D4" stroke="none"/>
+  </g>
+  <rect x="56" y="40" width="44" height="44" rx="8" fill="#2BA3C7"/>
+  <rect x="66" y="52" width="24" height="6" rx="2" fill="#071A2B"/>
+  <rect x="66" y="64" width="16" height="6" rx="2" fill="#071A2B"/>
+  <text x="112" y="62" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800">eWeb<tspan fill="#8DC63F">Guru</tspan></text>
+  <text x="112" y="82" fill="#8DC63F" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Feel the power of cloud</text>
+
+  <text x="576" y="148" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800">If I were buying next week</text>
+  <text x="576" y="184" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Match RAM class. Do not put a 16 GB card next to a 32 GB NVMe box.</text>
+
+  <rect x="72" y="214" width="488" height="520" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
+  <text x="316" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">16 GB managed</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#FFFFFF">
+    <text x="104" y="310" font-size="20" font-weight="700">Start: Cloud Server 1 or 3</text>
+    <text x="104" y="342" font-size="16" fill="#A8C0D0">Rs 3,995 if disk fits. Rs 5,995 for 500 GB.</text>
+    <text x="104" y="372" font-size="16" fill="#8DC63F">Managed in. 30-day out. 1-click resize.</text>
+    <text x="104" y="430" font-size="20" font-weight="700">Pay extra: BigRock Mach-1</text>
+    <text x="104" y="462" font-size="16" fill="#A8C0D0">Rs 8,249. RAID 1 + 2 IPs. Managed page.</text>
+    <text x="104" y="492" font-size="16" fill="#A8C0D0">About Rs 2,250 more than Cloud Server 3.</text>
+    <text x="104" y="548" font-size="16" fill="#A8C0D0">Ask CPU generation. RAID 1 is two disks</text>
+    <text x="104" y="574" font-size="16" fill="#A8C0D0">agreeing, not a backup.</text>
+  </g>
+
+  <rect x="592" y="214" width="488" height="520" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
+  <text x="836" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">32 GB class</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#FFFFFF">
+    <text x="624" y="310" font-size="20" font-weight="700">MilesWeb DS 6C  Rs 4,999 intro</text>
+    <text x="624" y="342" font-size="16" fill="#A8C0D0">6c/12t, 480 GB NVMe. Tick 24x7 managed.</text>
+    <text x="624" y="372" font-size="16" fill="#A8C0D0">Ask where backups land. Renews 5,499.</text>
+    <text x="624" y="430" font-size="20" font-weight="700">eWebGuru CS5 / CS6</text>
+    <text x="624" y="462" font-size="16" fill="#A8C0D0">Rs 5,495 (200 GB) or Rs 7,245 (500 GB).</text>
+    <text x="624" y="492" font-size="16" fill="#8DC63F">This is the honest stack vs DS 6C.</text>
+    <text x="624" y="548" font-size="20" font-weight="700">ResellerClub Standard IN</text>
+    <text x="624" y="580" font-size="16" fill="#A8C0D0">Rs 11,998 on 1-year. Switch off US.</text>
+    <text x="624" y="610" font-size="16" fill="#A8C0D0">Rs 5,999 widget still in configure.</text>
+    <text x="624" y="640" font-size="16" fill="#A8C0D0">No 16 GB card on that page.</text>
+  </g>
+
+  <text x="576" y="774" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">My rule: start from RAM, disk, and who owns the 2 a.m. call.</text>
+  <text x="576" y="828" text-anchor="middle" fill="#7FA3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">eWebGuru dedicated cloud is reserved VMware, never oversold. Snapshot Sep 2026. eWebGuru blog.</text>
+</svg>

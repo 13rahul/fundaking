@@ -1,0 +1,13 @@
+---
+import CallToAction from "@/layouts/components/CallToAction.astro";
+import Faq from "@/layouts/components/Faq.astro";
+
+interface Props {
+  faqSlug?: string;
+}
+
+const { faqSlug = "faq" } = Astro.props;
+---
+
+<Faq slug={faqSlug} />
+<CallToAction />

@@ -1,0 +1,7 @@
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fundaking Media">
+  <rect width="48" height="48" rx="12" fill="#937AFF"/>
+  <path d="M24 10L14 16v16l10 6 10-6V16L24 10z" fill="#03010E" opacity="0.15"/>
+  <text x="24" y="31" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">FK</text>
+  <text x="58" y="22" font-family="system-ui,sans-serif" font-weight="700" font-size="17" fill="#E5E5E5" letter-spacing="0.02em">FUNDAKING</text>
+  <text x="58" y="38" font-family="system-ui,sans-serif" font-weight="500" font-size="11" fill="#937AFF" letter-spacing="0.28em">MEDIA</text>
+</svg>

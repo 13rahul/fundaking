@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">India digital advertising spend mix FY24</title>
+  <desc id="desc">Share of digital ad formats in India including paid search</desc>
+  <rect width="960" height="540" rx="16" fill="#12121a"/>
+  <text x="48" y="52" fill="#ffffff" font-family="system-ui,sans-serif" font-size="26" font-weight="700">India digital ad spend mix (FY24)</text>
+  <text x="48" y="82" fill="#a8a8b8" font-family="system-ui,sans-serif" font-size="15">Ipsos State of Digital Marketing in India 202425  format share</text>
+  <rect x="48" y="120" width="864" height="48" rx="6" fill="#937AFF"/>
+  <text x="60" y="150" fill="#12121a" font-size="14" font-weight="700">Social media 30%</text>
+  <rect x="48" y="178" width="835" height="48" rx="6" fill="#4D36D0"/>
+  <text x="60" y="208" fill="#fff" font-size="14" font-weight="700">Online video 29%</text>
+  <rect x="48" y="236" width="633" height="48" rx="6" fill="#7c6cf0"/>
+  <text x="60" y="266" fill="#fff" font-size="14" font-weight="700">Paid search 22% (+32% YoY growth  fastest format)</text>
+  <rect x="48" y="294" width="432" height="48" rx="6" fill="#5c5c7a"/>
+  <text x="60" y="324" fill="#fff" font-size="14">Display 15%</text>
+  <rect x="48" y="352" width="115" height="48" rx="6" fill="#3a3a4a"/>
+  <text x="60" y="382" fill="#ccc" font-size="14">Other 4%</text>
+  <text x="48" y="440" fill="#e8e8ef" font-size="15">Digital = 41% of total India adex (~¹40,800 cr FY24); projected 44% in FY25.</text>
+  <text x="48" y="468" fill="#a8a8b8" font-size="13">Source: Ipsos India, The State of Digital Marketing 202425 (Dec 2024).</text>
+  <text x="48" y="508" fill="#666" font-size="12">Organic SEO complements rising paid search costs  especially for high-trust B2B services in Pune.</text>
+</svg>

@@ -1,0 +1,26 @@
+---
+enable: true
+badge: "From keywords to revenue"
+title: "The 5 stages of <strong>SEO-driven growth</strong>"
+items:
+  - image: "/images/brands-group-1.png"
+    number: "01"
+    title: "KEYWORDS"
+    content: "Clusters mapped to buyer intent and pipeline — not vanity volume."
+  - image: "/images/brands-group-2.png"
+    number: "02"
+    title: "VISIBILITY"
+    content: "Technical foundation so the right URLs earn impressions in Search."
+  - image: "/images/brands-group-3.png"
+    number: "03"
+    title: "QUALIFIED TRAFFIC"
+    content: "Content architecture and internal linking that brings evaluators, not tire-kickers."
+  - image: "/images/brands-group-4.png"
+    number: "04"
+    title: "CONVERSION"
+    content: "On-page CRO, schema, and measurement so visits become demos and revenue."
+  - image: "/images/brands-group-5.png"
+    number: "05"
+    title: "COMPOUND"
+    content: "Monthly governance — fix, publish, measure, and scale what works."
+---

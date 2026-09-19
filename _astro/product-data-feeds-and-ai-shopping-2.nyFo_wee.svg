@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img">
+  <rect width="960" height="540" rx="16" fill="#12121a"/>
+  <text x="48" y="52" fill="#ffffff" font-family="system-ui,sans-serif" font-size="24" font-weight="700">Product Data Feeds and AI Shopping Surfaces</text>
+  <text x="48" y="82" fill="#a8a8b8" font-family="system-ui,sans-serif" font-size="14">Key takeaways pulled from this article</text>
+  <circle cx="64" cy="134" r="14" fill="#937AFF"/>
+  <text x="64" y="139" text-anchor="middle" fill="#12121a" font-size="12" font-weight="700">1</text>
+  <text x="92" y="139" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="14">Align on-page product schema with Merchant Center fields</text>
+  <circle cx="64" cy="202" r="14" fill="#937AFF"/>
+  <text x="64" y="207" text-anchor="middle" fill="#12121a" font-size="12" font-weight="700">2</text>
+  <text x="92" y="207" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="14">Keep variant grouping consistent (size/color SKUs)</text>
+  <circle cx="64" cy="270" r="14" fill="#937AFF"/>
+  <text x="64" y="275" text-anchor="middle" fill="#12121a" font-size="12" font-weight="700">3</text>
+  <text x="92" y="275" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="14">Document shipping and warranty in plain text near add-to-cart</text>
+  <circle cx="64" cy="338" r="14" fill="#937AFF"/>
+  <text x="64" y="343" text-anchor="middle" fill="#12121a" font-size="12" font-weight="700">4</text>
+  <text x="92" y="343" fill="#e8e8ef" font-family="system-ui,sans-serif" font-size="14">Refresh sale prices quickly — models repeat outdated numbers</text><text x="48" y="508" fill="#666" font-family="system-ui,sans-serif" font-size="11">Figure 2 — action points from this post · Fundaking Media · product-data-feeds-and-ai-shopping</text>
+</svg>

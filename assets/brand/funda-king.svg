@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 52" role="img" aria-labelledby="fkTitle">
+  <title id="fkTitle">+!> King</title>
+  <text x="0" y="36" font-family="Noto Serif Devanagari, Nirmala UI, Mangal, serif" font-size="30" font-weight="700" fill="#141414">+!></text>
+  <text x="108" y="36" font-family="Source Sans 3, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#141414">King</text>
+  <circle cx="198" cy="14" r="3.2" fill="#C45C26"/>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img">
+  <rect width="960" height="540" rx="16" fill="#12121a"/>
+  <text x="48" y="52" fill="#ffffff" font-family="system-ui,sans-serif" font-size="24" font-weight="700">GEO Basics: Generative Engine Optimization Without the Hype</text>
+  <text x="48" y="82" fill="#a8a8b8" font-family="system-ui,sans-serif" font-size="14">Key takeaways pulled from this article</text>
+  <text x="48" y="120" fill="#937AFF" font-size="16" font-weight="700">Classic SEO</text>
+  <text x="500" y="120" fill="#4D36D0" font-size="16" font-weight="700">GEO emphasis</text>
+  <rect x="48" y="150" width="420" height="48" rx="8" fill="#1a1a26"/>
+  <text x="64" y="180" fill="#e8e8ef" font-size="13">Rankings &amp; CTR</text>
+  <rect x="492" y="150" width="420" height="48" rx="8" fill="#1a1a26"/>
+  <text x="508" y="180" fill="#e8e8ef" font-size="13">Citation share &amp; accuracy</text>
+  <rect x="48" y="208" width="420" height="48" rx="8" fill="#1a1a26"/>
+  <text x="64" y="238" fill="#e8e8ef" font-size="13">Keywords</text>
+  <rect x="492" y="208" width="420" height="48" rx="8" fill="#1a1a26"/>
+  <text x="508" y="238" fill="#e8e8ef" font-size="13">Prompts &amp; passages</text>
+  <rect x="48" y="266" width="420" height="48" rx="8" fill="#1a1a26"/>
+  <text x="64" y="296" fill="#e8e8ef" font-size="13">Title tags</text>
+  <rect x="492" y="266" width="420" height="48" rx="8" fill="#1a1a26"/>
+  <text x="508" y="296" fill="#e8e8ef" font-size="13">Definitional ledes</text>
+  <rect x="48" y="324" width="420" height="48" rx="8" fill="#1a1a26"/>
+  <text x="64" y="354" fill="#e8e8ef" font-size="13">Backlinks</text>
+  <rect x="492" y="324" width="420" height="48" rx="8" fill="#1a1a26"/>
+  <text x="508" y="354" fill="#e8e8ef" font-size="13">Mentions + proof pages</text><text x="48" y="508" fill="#666" font-family="system-ui,sans-serif" font-size="11">Figure 2 — comparison from post table · Fundaking Media · geo-generative-engine-optimization-basics</text>
+</svg>

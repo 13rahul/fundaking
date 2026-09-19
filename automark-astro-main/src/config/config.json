@@ -1,0 +1,41 @@
+{
+  "site": {
+    "title": "Fundaking Media | SEO Consultant Pune",
+    "base_url": "http://localhost/fundaking",
+    "base_path": "/fundaking/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.svg",
+    "logo": "/images/logo.svg",
+    "logo_width": "160",
+    "logo_height": "45",
+    "logo_text": "Fundaking"
+  },
+  "settings": {
+    "sticky_header": true
+  },
+  "params": {
+    "contact_form_action": "mailto:consult@fundaking.com",
+    "checklist_form_action": "mailto:consult@fundaking.com",
+    "apply_form_action": "mailto:consult@fundaking.com",
+    "copyright": "Copyright &copy; 2026 <strong>Fundaking Media OPC Pvt Ltd</strong>. All rights reserved.",
+    "footer_tagline": "SEO consultant in Pune — technical depth, revenue-focused organic growth.",
+    "footer_email": "consult@fundaking.com",
+    "footer_phone": "+91 84210 53710"
+  },
+  "navigation_button": {
+    "enable": true,
+    "label": "Book free SEO audit",
+    "link": "/contact"
+  },
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  },
+  "metadata": {
+    "meta_author": "Rahul Agarwal",
+    "founder_name": "Rahul Agarwal",
+    "founder_job_title": "Founder, Fundaking Media",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Top SEO consultant in Pune — Rahul Agarwal, Fundaking Media. Technical SEO, content strategy, CRO and monthly advisory for SaaS, D2C, and B2B founders."
+  }
+}

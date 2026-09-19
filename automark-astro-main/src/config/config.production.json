@@ -1,0 +1,7 @@
+{
+  "site": {
+    "base_url": "https://fundaking.com",
+    "base_path": "/"
+  },
+  "_note": "Copy site.base_url and site.base_path into config.json before npm run build:main for production deploy."
+}

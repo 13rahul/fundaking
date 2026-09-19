@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">SEO consultant Pune content cluster model</title>
+  <desc id="desc">Hub and spoke content architecture for ranking SEO consultant in Pune keywords</desc>
+  <rect width="960" height="540" rx="16" fill="#12121a"/>
+  <text x="48" y="52" fill="#ffffff" font-family="system-ui,sans-serif" font-size="26" font-weight="700">Content cluster for SEO consultant Pune</text>
+  <text x="48" y="82" fill="#a8a8b8" font-family="system-ui,sans-serif" font-size="15">Intent-mapped architecture (Fundaking implementation model)</text>
+  <circle cx="480" cy="280" r="72" fill="#937AFF"/>
+  <text x="480" y="272" text-anchor="middle" fill="#12121a" font-family="system-ui,sans-serif" font-size="14" font-weight="700">HUB</text>
+  <text x="480" y="292" text-anchor="middle" fill="#12121a" font-family="system-ui,sans-serif" font-size="12">Hire / services</text>
+  <line x1="480" y1="208" x2="480" y2="130" stroke="#937AFF" stroke-width="2"/>
+  <rect x="380" y="96" width="200" height="44" rx="8" fill="#1a1a26" stroke="#937AFF"/>
+  <text x="480" y="124" text-anchor="middle" fill="#e8e8ef" font-size="13">Transactional: hire intent</text>
+  <line x1="552" y1="240" x2="680" y2="180" stroke="#4D36D0" stroke-width="2"/>
+  <rect x="680" y="148" width="220" height="44" rx="8" fill="#1a1a26" stroke="#4D36D0"/>
+  <text x="790" y="176" text-anchor="middle" fill="#e8e8ef" font-size="13">Comparison: agency vs consultant</text>
+  <line x1="552" y1="320" x2="700" y2="380" stroke="#4D36D0" stroke-width="2"/>
+  <rect x="700" y="368" width="220" height="44" rx="8" fill="#1a1a26" stroke="#4D36D0"/>
+  <text x="810" y="396" text-anchor="middle" fill="#e8e8ef" font-size="13">Playbook: how to rank</text>
+  <line x1="408" y1="320" x2="260" y2="380" stroke="#4D36D0" stroke-width="2"/>
+  <rect x="40" y="368" width="220" height="44" rx="8" fill="#1a1a26" stroke="#4D36D0"/>
+  <text x="150" y="396" text-anchor="middle" fill="#e8e8ef" font-size="13">Founder guide + pricing</text>
+  <line x1="408" y1="240" x2="260" y2="180" stroke="#4D36D0" stroke-width="2"/>
+  <rect x="40" y="148" width="220" height="44" rx="8" fill="#1a1a26" stroke="#4D36D0"/>
+  <text x="150" y="176" text-anchor="middle" fill="#e8e8ef" font-size="13">Technical + local pillars</text>
+  <text x="48" y="460" fill="#a8a8b8" font-family="system-ui,sans-serif" font-size="13">Internal links flow upward to the hub and sideways between spokes  avoids one page stuffed with SEO consultant in Pune.</text>
+  <text x="48" y="508" fill="#666" font-family="system-ui,sans-serif" font-size="12">Fundaking Media  strategic model infographic</text>
+</svg>

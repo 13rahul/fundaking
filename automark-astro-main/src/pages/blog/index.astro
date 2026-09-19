@@ -1,0 +1,260 @@
+---
+import Base from "@/layouts/Base.astro";
+import BlogCard from "@/layouts/components/BlogCard.astro";
+import PageEnd from "@/layouts/components/PageEnd.astro";
+import FeaturedPostCard from "@/layouts/components/FeaturedPostCard.astro";
+import ImageMod from "@/layouts/components/ImageMod.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
+import { withBase } from "@/lib/paths";
+import {
+  absoluteUrl,
+  breadcrumbList,
+  collectionPageNode,
+  pageGraph,
+} from "@/lib/schema";
+import dateFormat from "@/lib/utils/dateFormat";
+import { sortByDate } from "@/lib/utils/sortFunctions";
+import { markdownify, plainify } from "@/lib/utils/textConverter";
+import type { BlogIndex } from "@/types";
+
+const blogIndex = await getListPage("blogIndex", "-index");
+const pageData: BlogIndex = blogIndex.data;
+
+const allPosts = sortByDate(await getSinglePage("blog")).filter(
+  (p) => !p.data.draft,
+);
+
+function topicKey(categories: string[] = []) {
+  if (categories.includes("LLM SEO")) return "llm-seo";
+  if (categories.includes("AI SEO")) return "ai-seo";
+  return "consulting";
+}
+
+const featuredId = pageData.page_header?.featured_post;
+const featuredPost = featuredId
+  ? (allPosts.find((p) => p.id === featuredId) ?? allPosts[0])
+  : allPosts[0];
+const latestPosts = allPosts.filter((p) => p.id !== featuredPost?.id);
+
+const aiCount = allPosts.filter((p) => topicKey(p.data.categories) === "ai-seo")
+  .length;
+const llmCount = allPosts.filter(
+  (p) => topicKey(p.data.categories) === "llm-seo",
+).length;
+
+const blogUrl = absoluteUrl("/blog");
+const blogListTitle = plainify(
+  pageData.page_header?.title ?? pageData.title ?? "Blog",
+);
+const blogListDesc = plainify(
+  pageData.description ?? pageData.page_header?.subtitle ?? "",
+);
+const blogSchema = pageGraph({
+  name: blogListTitle,
+  description: blogListDesc,
+  url: blogUrl,
+  extra: [
+    collectionPageNode({
+      name: blogListTitle,
+      description: blogListDesc,
+      url: blogUrl,
+    }),
+    breadcrumbList([
+      { name: "Home", url: absoluteUrl("/") },
+      { name: "Blog", url: blogUrl },
+    ]),
+  ],
+});
+---
+
+<Base
+  {...pageData}
+  canonical={blogUrl}
+  jsonLd={blogSchema}
+  faqSlug="faq-features"
+>
+  <section class="section-ph pb-10 relative">
+    <div class="container relative">
+      <div class="absolute top-0 left-0 w-full">
+        <div class="h-100 w-full overflow-hidden -translate-y-10">
+          <canvas class="heroSporeCanvas w-full opacity-70"></canvas>
+        </div>
+      </div>
+      <div class="lg:max-w-4xl mx-auto text-center relative z-10">
+        <h1
+          class="hasHighlight mb-4"
+          set:html={markdownify(pageData.page_header?.title ?? pageData.title)}
+        />
+        {
+          pageData.page_header?.subtitle && (
+            <p class="text-lg text-text max-w-2xl mx-auto">
+              {pageData.page_header.subtitle}
+            </p>
+          )
+        }
+      </div>
+    </div>
+    <div
+      class="absolute left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 size-160 xl:size-300 -z-20 blur-2xl"
+      style="background: radial-gradient(circle, var(--color-primary) 0%, color-mix(in srgb, var(--color-primary) 78%, transparent) 20%, transparent 70%);"
+    >
+    </div>
+  </section>
+
+  {
+    featuredPost && (pageData.featured_post?.enable ?? true) && (
+      <section class="section pt-0">
+        <div class="container">
+          <p class="text-sm font-medium text-primary mb-4 text-center lg:text-left">
+            Featured guide
+          </p>
+          <div class="grid gap-4 lg:grid-cols-[1fr_1.03fr]">
+            <div class="overflow-hidden rounded-2xl border border-white/10">
+              <ImageMod
+                src={
+                  featuredPost.data.image ?? "/images/blog/featured-cover.png"
+                }
+                alt={featuredPost.data.title}
+                width={700}
+                height={500}
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <FeaturedPostCard
+              tag={featuredPost.data.tag ?? featuredPost.data.categories?.[0] ?? "Guide"}
+              title={featuredPost.data.title}
+              description={featuredPost.data.description ?? ""}
+              authorImage={
+                featuredPost.data.author_image ?? "/images/avatar.png"
+              }
+              authorName={featuredPost.data.author}
+              date={dateFormat(featuredPost.data.date ?? new Date())}
+              readTime={featuredPost.data.read_time ?? "5 min read"}
+              href={withBase(`/blog/${featuredPost.id}`)}
+            />
+          </div>
+
+          <hr class="mt-16 h-px border-0 bg-linear-to-r from-transparent via-white/15 to-transparent" />
+        </div>
+      </section>
+    )
+  }
+
+  {
+    (pageData.latest_posts?.enable ?? true) && (
+      <section class="section pt-10 lg:pt-14">
+        <div class="container relative isolate">
+          <div class="mb-8 flex flex-col items-center gap-6 md:flex-row md:justify-between">
+            <div class="text-center md:text-left">
+              <h2 class="text-h3-sm md:text-h2 capitalize">
+                {pageData.latest_posts?.title ?? "Latest articles"}
+              </h2>
+              <p class="text-sm text-text mt-2">
+                {allPosts.length} articles · {aiCount} AI SEO · {llmCount} LLM
+                SEO
+              </p>
+            </div>
+            <div
+              class="flex flex-wrap justify-center gap-2"
+              role="group"
+              aria-label="Filter by topic"
+              data-blog-filters
+            >
+              <button
+                type="button"
+                class="blog-filter btn btn-sm btn-outline is-active"
+                data-filter="all">All</button
+              >
+              <button
+                type="button"
+                class="blog-filter btn btn-sm btn-outline"
+                data-filter="ai-seo">AI SEO</button
+              >
+              <button
+                type="button"
+                class="blog-filter btn btn-sm btn-outline"
+                data-filter="llm-seo">LLM SEO</button
+              >
+              <button
+                type="button"
+                class="blog-filter btn btn-sm btn-outline"
+                data-filter="consulting">SEO consulting</button
+              >
+            </div>
+          </div>
+
+          <div
+            class="grid gap-6 md:grid-cols-2 xl:grid-cols-3"
+            id="blog-grid"
+          >
+            {latestPosts.map((post) => (
+              <BlogCard
+                image={post.data.image ?? "/images/blog/post-1.png"}
+                imageAlt={post.data.title}
+                title={post.data.title}
+                description={post.data.description ?? ""}
+                authorImage={
+                  post.data.author_image ?? "/images/avatar.png"
+                }
+                authorName={post.data.author}
+                date={dateFormat(post.data.date ?? new Date())}
+                href={withBase(`/blog/${post.id}`)}
+                category={post.data.categories?.[0]}
+                dataTopic={topicKey(post.data.categories)}
+              />
+            ))}
+          </div>
+          <p
+            id="blog-grid-empty"
+            class="hidden text-center text-text py-12"
+            hidden
+          >
+            No articles in this topic yet.
+          </p>
+
+          <div class="pointer-events-none absolute left-1/2 top-1/2 -z-10 size-310.5 -translate-x-1/2 -translate-y-1/3 rounded-full bg-radial from-primary/16 from-0% to-transparent to-70% blur-2xl" />
+        </div>
+      </section>
+    )
+  }
+
+  <PageEnd faqSlug="faq-features" />
+</Base>
+
+<script is:inline>
+  (function () {
+    var filters = document.querySelector("[data-blog-filters]");
+    var grid = document.getElementById("blog-grid");
+    var empty = document.getElementById("blog-grid-empty");
+    if (!filters || !grid) return;
+
+    filters.addEventListener("click", function (e) {
+      var btn = e.target.closest("[data-filter]");
+      if (!btn) return;
+      var topic = btn.getAttribute("data-filter");
+      filters.querySelectorAll(".blog-filter").forEach(function (b) {
+        b.classList.toggle("is-active", b === btn);
+        b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+      });
+      var visible = 0;
+      grid.querySelectorAll("[data-blog-topic]").forEach(function (card) {
+        var match =
+          topic === "all" || card.getAttribute("data-blog-topic") === topic;
+        card.classList.toggle("hidden", !match);
+        if (match) visible++;
+      });
+      if (empty) {
+        empty.hidden = visible > 0;
+        empty.classList.toggle("hidden", visible > 0);
+      }
+    });
+  })();
+</script>
+
+<style>
+  .blog-filter.is-active {
+    background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+    border-color: var(--color-primary);
+    color: var(--color-text-light);
+  }
+</style>

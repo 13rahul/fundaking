@@ -1,0 +1,22 @@
+# Dependencies
+**/node_modules/
+
+# Astro build cache (deployed copy lives at repo root)
+automark-astro-main/dist/
+automark-astro-main/.astro/
+automark-astro-main/.output/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Local tooling
+.claude/
