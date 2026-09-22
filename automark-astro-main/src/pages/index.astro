@@ -11,6 +11,7 @@ import BrandsCarousel from "@/layouts/components/BrandsCarousel.astro";
 import OurStory from "@/layouts/components/OurStory.astro";
 import PageEnd from "@/layouts/components/PageEnd.astro";
 import VideoShowcase from "@/layouts/components/VideoShowcase.astro";
+import PainPointPill from "@/layouts/components/PainPointPill.astro";
 import LeadGeneration from "@/layouts/components/LeadGeneration.astro";
 import config from "@/config/config.json";
 import { getListPage } from "@/lib/contentParser.astro";
@@ -90,7 +91,7 @@ const homeSchema = pageGraph({
   jsonLd={homeSchema}
 >
   <!-- Banner -->
-  <section class="section-ph relative overflow-hidden">
+  <section class="section-ph section-ph--compact relative overflow-hidden">
     <div class="container relative">
       <div class="absolute top-0 left-0 w-full">
         <div class="h-100 w-full overflow-hidden -translate-y-10">
@@ -98,13 +99,22 @@ const homeSchema = pageGraph({
         </div>
       </div>
       <div class="row justify-center">
-        <div class="mb-20 text-center relative">
+        <div class="mb-10 lg:mb-16 text-center relative">
           <h1
-            class="mb-8 lg:col-9 mx-auto text-h3 lg:text-h1 hasHighlight"
+            class="mb-6 lg:mb-8 lg:col-9 mx-auto text-h3 lg:text-h1 hasHighlight px-1"
             set:html={markdownify(homepageData.banner.title)}
           />
-          <p class="mb-10 lg:col-6 mx-auto">{homepageData.banner.content}</p>
-          <div class="flex gap-4 justify-center items-center flex-wrap">
+          <p class="mb-6 lg:mb-8 lg:col-6 mx-auto text-base sm:text-lg px-2">
+            {homepageData.banner.content}
+          </p>
+          {
+            homepageData.banner.trust_line && (
+              <p class="mb-8 text-sm sm:text-base text-text/90 max-w-xl mx-auto">
+                {homepageData.banner.trust_line}
+              </p>
+            )
+          }
+          <div class="flex gap-3 sm:gap-4 justify-center items-center flex-wrap">
             <a
               class="btn btn-primary"
               rel="noopener noreferrer"
@@ -300,48 +310,14 @@ const homeSchema = pageGraph({
                 {homepageData.main_features.items
                   .slice(0, 3)
                   .map((text: string) => (
-                    <div class="bg-body border border-border px-4 w-full py-2.5 rounded-full flex items-center justify-center relative z-10 gap-x-2">
-                      <svg
-                        class="shrink-0"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.99999 1.04163C14.9476 1.04163 18.9583 5.05241 18.9583 9.99996C18.9583 14.9475 14.9476 18.9583 9.99999 18.9583C5.05244 18.9583 1.04166 14.9475 1.04166 9.99996C1.04166 5.05241 5.05244 1.04163 9.99999 1.04163ZM8.02571 6.8538C7.69841 6.58685 7.2159 6.6057 6.9108 6.91077C6.60581 7.21587 6.5869 7.6984 6.85383 8.02568L6.9108 8.08915L8.82157 9.99996L6.91161 11.9108C6.5863 12.2362 6.58619 12.7638 6.91161 13.0891C7.23705 13.4143 7.76464 13.4145 8.09 13.0891L9.99999 11.1784L11.91 13.0891L11.9735 13.1461C12.3007 13.413 12.7832 13.394 13.0884 13.0891C13.3934 12.7842 13.4128 12.3015 13.1462 11.9742L13.0884 11.9108L11.1776 9.99996L13.0892 8.08915L13.1462 8.02568C13.4131 7.69839 13.3942 7.21587 13.0892 6.91077C12.7841 6.6057 12.3016 6.58685 11.9742 6.8538L11.9108 6.91077L9.99999 8.82154L8.08918 6.91077L8.02571 6.8538Z"
-                          fill="var(--color-secondary)"
-                        />
-                      </svg>
-                      <span class="font-semibold text-white text-lg">
-                        {text}
-                      </span>
-                    </div>
+                    <PainPointPill text={text} />
                   ))}
               </div>
               <div class="feature-items-group">
                 {homepageData.main_features.items
                   .slice(3)
                   .map((text: string) => (
-                    <div class="bg-body border border-border px-4 w-full py-2.5 rounded-full flex items-center justify-center relative z-10 gap-x-2">
-                      <svg
-                        class="shrink-0"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.99999 1.04163C14.9476 1.04163 18.9583 5.05241 18.9583 9.99996C18.9583 14.9475 14.9476 18.9583 9.99999 18.9583C5.05244 18.9583 1.04166 14.9475 1.04166 9.99996C1.04166 5.05241 5.05244 1.04163 9.99999 1.04163ZM8.02571 6.8538C7.69841 6.58685 7.2159 6.6057 6.9108 6.91077C6.60581 7.21587 6.5869 7.6984 6.85383 8.02568L6.9108 8.08915L8.82157 9.99996L6.91161 11.9108C6.5863 12.2362 6.58619 12.7638 6.91161 13.0891C7.23705 13.4143 7.76464 13.4145 8.09 13.0891L9.99999 11.1784L11.91 13.0891L11.9735 13.1461C12.3007 13.413 12.7832 13.394 13.0884 13.0891C13.3934 12.7842 13.4128 12.3015 13.1462 11.9742L13.0884 11.9108L11.1776 9.99996L13.0892 8.08915L13.1462 8.02568C13.4131 7.69839 13.3942 7.21587 13.0892 6.91077C12.7841 6.6057 12.3016 6.58685 11.9742 6.8538L11.9108 6.91077L9.99999 8.82154L8.08918 6.91077L8.02571 6.8538Z"
-                          fill="var(--color-secondary)"
-                        />
-                      </svg>
-                      <span class="font-semibold text-white text-lg">
-                        {text}
-                      </span>
-                    </div>
+                    <PainPointPill text={text} />
                   ))}
               </div>
             </div>
@@ -599,14 +575,19 @@ const homeSchema = pageGraph({
               />
             </div>
             <div class="section-content">
-              <div class="flex items-center justify-center flex-wrap [&>div]:-ml-5">
+              <div class="flex items-start justify-center flex-wrap gap-4 sm:gap-6 [&>div]:-ml-0">
                 {homepageData.integrations.items.map((item: any) => (
-                  <div class="size-35 bg-text-light/10 backdrop-blur-xl rounded-full grid place-items-center">
-                    <ImageMod
-                      src={item.image}
-                      alt={item.alt}
-                      class="max-h-14 object-contain"
-                    />
+                  <div class="flex flex-col items-center gap-2 w-28 sm:w-32">
+                    <div class="size-28 sm:size-35 bg-text-light/10 backdrop-blur-xl rounded-full grid place-items-center p-4">
+                      <ImageMod
+                        src={item.image}
+                        alt={item.alt}
+                        class="max-h-12 sm:max-h-14 w-full object-contain"
+                      />
+                    </div>
+                    <span class="text-xs sm:text-sm text-text text-center leading-tight">
+                      {item.alt}
+                    </span>
                   </div>
                 ))}
               </div>

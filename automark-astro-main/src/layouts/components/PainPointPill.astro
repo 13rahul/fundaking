@@ -1,0 +1,31 @@
+---
+interface Props {
+  text: string;
+}
+const { text } = Astro.props;
+---
+
+<div
+  class="bg-body border border-border px-4 py-2.5 rounded-full flex items-center justify-center relative z-10 gap-x-2 max-w-full"
+>
+  <svg
+    class="shrink-0"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <circle cx="10" cy="10" r="8.5" stroke="var(--color-secondary)" stroke-width="1.5"></circle>
+    <path
+      d="M10 6v5"
+      stroke="var(--color-secondary)"
+      stroke-width="1.75"
+      stroke-linecap="round"></path>
+    <circle cx="10" cy="13.25" r="1" fill="var(--color-secondary)"></circle>
+  </svg>
+  <span class="font-semibold text-white text-base sm:text-lg text-center leading-snug">
+    {text}
+  </span>
+</div>

@@ -6,7 +6,8 @@ const brandsInfo = await getListPage("brandsSection", "brands");
 const brandsData: BrandsSection = brandsInfo.data;
 if (!brandsData.enable) return;
 
-const brandUrls = brandsData.images.map((img) => img.src);
+const brandUrls = brandsData.images?.map((img) => img.src) ?? [];
+const badges = brandsData.badges ?? [];
 ---
 
 {
@@ -16,12 +17,22 @@ const brandUrls = brandsData.images.map((img) => img.src);
         <div class="text-center mb-10">
           <p class="text-text-light text-base  " set:html={brandsData.title} />
         </div>
-        <div
-          class="flex gap-10 xl:gap-x-16 flex-wrap justify-center items-center [&>img]:lg:h-8"
-          data-trusted-brands-images={JSON.stringify(brandUrls)}
-        >
-          {/* <!-- Handled by script: main.js updateTrustedPartners() --> */}
-        </div>
+        {badges.length > 0 ? (
+          <div class="flex flex-wrap justify-center gap-3 sm:gap-4 max-w-3xl mx-auto">
+            {badges.map((label) => (
+              <span class="inline-flex items-center rounded-full border border-border bg-body/80 px-5 py-2.5 text-sm sm:text-base font-semibold text-white">
+                {label}
+              </span>
+            ))}
+          </div>
+        ) : (
+          <div
+            class="flex gap-10 xl:gap-x-16 flex-wrap justify-center items-center [&>img]:lg:h-8"
+            data-trusted-brands-images={JSON.stringify(brandUrls)}
+          >
+            {/* <!-- Handled by script: main.js updateTrustedPartners() --> */}
+          </div>
+        )}
       </div>
     </section>
   )

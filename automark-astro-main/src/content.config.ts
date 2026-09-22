@@ -96,6 +96,7 @@ const homepageCollection = defineCollection({
   schema: z.object({
     banner: z.object({
       badge: z.string().optional(),
+      trust_line: z.string().optional(),
       title: z.string(),
       content: z.string(),
       image: z.string().optional(),
@@ -538,7 +539,11 @@ const brandsSectionCollection = defineCollection({
   schema: z.object({
     enable: z.boolean(),
     title: z.string(),
-    images: z.array(z.object({ src: z.string(), alt: z.string() })),
+    images: z
+      .array(z.object({ src: z.string(), alt: z.string() }))
+      .optional()
+      .default([]),
+    badges: z.array(z.string()).optional(),
   }),
 });
 

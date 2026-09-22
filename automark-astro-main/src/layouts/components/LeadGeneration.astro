@@ -28,7 +28,7 @@ const { lead_generation } = Astro.props;
               class="space-y-4"
               set:html={markdownify(lead_generation.content, true)}
             />
-            <ul class="green-tick-list [&>li]:mb-8 mt-10">
+            <ul class="green-tick-list [&>li]:mb-6 sm:[&>li]:mb-8 mt-6 sm:mt-10">
               {lead_generation.list.map((item: string) => (
                 <li set:html={markdownify(item)} />
               ))}

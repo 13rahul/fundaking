@@ -1,7 +1,8 @@
 ---
 banner:
   title: "SEO consultant in Pune for <strong>technical SEO, AI/LLM SEO & local lead gen</strong>"
-  content: "Rahul Agarwal — technical SEO, generative-engine (LLM) visibility, and local lead generation for SaaS, D2C, and B2B. Pipeline and CAC, not ranking PDFs. Pune · Hinjewadi · Baner · Viman Nagar · Koregaon Park · Wakad."
+  content: "Rahul Agarwal — technical SEO and LLM visibility for SaaS, D2C, and B2B. Pipeline and CAC, not ranking PDFs."
+  trust_line: "8+ years · Pune & remote · Dev-ready SEO specs"
   button_primary:
     enable: true
     label: "Book free SEO audit"
@@ -58,39 +59,39 @@ our_features:
   title: "What you get working with an <strong>independent consultant</strong>"
   content: "Business-first SEO with the technical depth agencies rarely staff on your account."
   items:
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-business.svg"
       title: "Business-first recommendations"
       description: "Every priority ties to pipeline, LTV, and CAC — not vanity keyword lists."
       is_starred: false
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-technical.svg"
       title: "Deep technical mastery"
       description: "Crawl, index, JS rendering, log files, and schema — dev-ready specs."
       is_starred: true
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-playbook.svg"
       title: "Execution playbooks & QA"
       description: "Governance so your team or agency ships fixes correctly the first time."
       is_starred: false
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-roadmap.svg"
       title: "Transparent, actionable roadmaps"
       description: "No fluff PDFs — clear next actions CEOs can approve this week."
       is_starred: false
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-wins.svg"
       title: "Quick wins + compounding growth"
       description: "Technical wins in weeks; durable organic revenue over 3–6 months."
       is_starred: false
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-direct.svg"
       title: "Direct access — no junior AM layer"
       description: "You work with Rahul — capped clients, WhatsApp/call access."
       is_starred: true
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-pune.svg"
       title: "Pune-based, globally capable"
       description: "In-person across Pune; remote for Mumbai, Bangalore, and international teams."
       is_starred: false
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-agency.svg"
       title: "Agency mentorship & white-label depth"
       description: "Senior technical QA for agencies winning larger SEO accounts."
       is_starred: false
-    - logo: "/images/features-menu-icon.svg"
+    - logo: "/images/home/feat-llm.svg"
       title: "LLM / GEO optimization"
       description: "Entity clarity and structured content for AI-assisted discovery."
       is_starred: false
@@ -119,13 +120,13 @@ growth_process:
   enable: true
   title: 'From audit to <strong class="italic">compounding organic revenue</strong>'
   items:
-    - logo: "/images/value-proposition/values-icon-2.svg"
+    - logo: "/images/value-proposition/values-icon-1.svg"
       title: "1. Diagnose & align"
       content: "Free strategy call, technical and content audit, and a revenue-linked priority list — not a generic checklist."
-    - logo: "/images/value-proposition/values-icon-2.svg"
+    - logo: "/images/value-proposition/values-icon-3.svg"
       title: "2. Architect & ship"
       content: "Dev-ready specs, content clusters, and governance so your team or agency implements correctly the first time."
-    - logo: "/images/value-proposition/values-icon-2.svg"
+    - logo: "/images/value-proposition/values-icon-4.svg"
       title: "3. Measure & compound"
       content: "Search Console, GA4, and pipeline metrics reviewed monthly; we double down on what moves demos and revenue."
   button:
@@ -135,24 +136,24 @@ growth_process:
 
 integrations:
   enable: true
-  title: "Stack-agnostic — we work in <strong>your tools</strong>"
+  title: "Your <strong>SEO & analytics stack</strong> — we meet you there"
   items:
-    - image: "/images/integrations/slack.png"
-      alt: "Collaboration"
-    - image: "/images/integrations/mailchimp.png"
-      alt: "Email"
-    - image: "/images/integrations/asana.png"
-      alt: "Project management"
-    - image: "/images/integrations/youtube.png"
-      alt: "Content"
-    - image: "/images/integrations/airtable.png"
-      alt: "Data"
-    - image: "/images/integrations/zendesk.png"
-      alt: "Support"
-    - image: "/images/integrations/snapchat.png"
-      alt: "Social"
-    - image: "/images/integrations/fastapi.png"
-      alt: "Engineering"
+    - image: "/images/integrations/seo/search-console.svg"
+      alt: "Google Search Console"
+    - image: "/images/integrations/seo/ga4.svg"
+      alt: "Google Analytics 4"
+    - image: "/images/integrations/seo/seo-platform.svg"
+      alt: "SEO platforms (Ahrefs, Semrush)"
+    - image: "/images/integrations/seo/screaming-frog.svg"
+      alt: "Site crawlers"
+    - image: "/images/integrations/seo/looker.svg"
+      alt: "Looker Studio"
+    - image: "/images/integrations/seo/sheets.svg"
+      alt: "Sheets & reporting"
+    - image: "/images/integrations/seo/slack.svg"
+      alt: "Slack"
+    - image: "/images/integrations/seo/notion.svg"
+      alt: "Notion & docs"
 
 lead_generation:
   enable: true
@@ -162,6 +163,8 @@ lead_generation:
     On the call we review your site, Search Console signals, and growth goals. You leave with honest priorities — whether we work together or not.
 
     **No pitch deck.** Senior strategist time only.
+
+    **Local focus:** Hinjewadi · Baner · Viman Nagar · Koregaon Park · Wakad — plus remote across India.
   list:
     - "<strong>Technical quick wins:</strong> indexation, CWV, and schema gaps worth fixing first."
     - "<strong>Content architecture:</strong> where clusters and BOFU pages are missing."
