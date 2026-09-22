@@ -37,23 +37,23 @@ const badges = brandsData.badges ?? [];
                   height={80}
                   loading="lazy"
                   decoding="async"
-                  class="h-10 sm:h-12 lg:h-14 w-auto max-w-[180px] sm:max-w-[220px] object-contain opacity-90 hover:opacity-100 transition-opacity"
+                  class="h-10 sm:h-11 lg:h-12 w-auto max-w-[160px] sm:max-w-[190px] object-contain"
                 />
               );
+              const tileClass =
+                "inline-flex items-center justify-center rounded-lg bg-white min-w-[200px] sm:min-w-[220px] min-h-[72px] sm:min-h-[80px] px-6 py-4 shadow-sm ring-1 ring-black/5 hover:ring-black/10 transition-shadow";
               return item.url ? (
                 <a
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex items-center justify-center rounded-xl bg-white/5 border border-white/10 px-6 py-4 hover:bg-white/10 transition-colors"
+                  class={tileClass}
                   aria-label={item.alt}
                 >
                   {img}
                 </a>
               ) : (
-                <div class="inline-flex items-center justify-center rounded-xl bg-white/5 border border-white/10 px-6 py-4">
-                  {img}
-                </div>
+                <div class={tileClass}>{img}</div>
               );
             })}
           </div>
