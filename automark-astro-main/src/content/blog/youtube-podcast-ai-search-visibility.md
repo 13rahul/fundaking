@@ -27,12 +27,12 @@ Publish full text on site with episode title, guest credentials, summary bullets
 
 Repeat canonical product name, spell founder name consistently, mention city/market when relevant.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/youtube-podcast-ai-search-visibility-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/youtube-podcast-ai-search-visibility-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/youtube-podcast-ai-search-visibility-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/youtube-podcast-ai-search-visibility-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

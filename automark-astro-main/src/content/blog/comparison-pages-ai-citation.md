@@ -27,12 +27,12 @@ H1 with both brands, lede with who each is for, table with criteria rows (not fe
 
 Acknowledge where a competitor is strong; models and humans both trust you more. Link to their official pricing if public.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/comparison-pages-ai-citation-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/comparison-pages-ai-citation-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/comparison-pages-ai-citation-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/comparison-pages-ai-citation-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

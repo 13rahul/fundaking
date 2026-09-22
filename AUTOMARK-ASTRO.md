@@ -9,7 +9,7 @@ The theme source lives at **`fundaking/automark-astro-main/`**. It powers the st
 
 ```bash
 npm install
-npm run build:main
+npm run build:production
 ```
 
 3. Open **http://localhost/fundaking/** — `DirectoryIndex index.html index.php` serves Astro `index.html` first.
@@ -48,7 +48,7 @@ Before building for production, edit `automark-astro-main/src/config/config.json
 | `site.base_url` | `https://fundaking.com` |
 | `site.base_path` | `/` |
 
-Then run `npm run build:main` and upload the merged site root (HTML, `_astro/`, `images/`, `scripts/`, PHP, `includes/`) to Hostinger.
+Then run `npm run build:production` and upload the merged site root (HTML, `_astro/`, `images/`, `scripts/`, PHP, `includes/`) to Hostinger.
 
 **Post-deploy checklist**
 
@@ -90,7 +90,9 @@ Edit the article → rebuild → infographics refresh. Draft posts are skipped.
 
 ## Config notes
 
-- Local dev uses `base_path: /fundaking/` so links work under XAMPP; Astro components use `withBase()` from `src/lib/paths.ts`.
+- **Production (fundaking.com):** `npm run build:production` — `base_path: /`
+- **Local XAMPP:** `npm run build:local` — `base_path: /fundaking/` (see `config.local.json`)
+- Astro components use `withBase()` from `src/lib/paths.ts`.
 - Contact forms use mailto / contact page until a server endpoint is wired.
 - Careers routes are `noindex`; `/careers` redirects to `/contact` in `.htaccess`.
 

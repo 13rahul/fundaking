@@ -33,12 +33,12 @@ If you hire a [local SEO consultant](/local-seo-consultant), demand a system —
 Maps competition differs by market; process does not. Apply the same checklist in [Mumbai](/seo-consultant-mumbai) and [Pune](/hire-seo-consultant-pune).
 <!-- fk-expanded -->
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/local-seo-consultant-checklist-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/local-seo-consultant-checklist-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/local-seo-consultant-checklist-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/local-seo-consultant-checklist-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

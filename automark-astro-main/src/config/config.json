@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "Fundaking Media | SEO Consultant Pune",
-    "base_url": "http://localhost/fundaking",
-    "base_path": "/fundaking/",
+    "base_url": "https://fundaking.com",
+    "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.svg",
     "logo": "/images/logo.svg",

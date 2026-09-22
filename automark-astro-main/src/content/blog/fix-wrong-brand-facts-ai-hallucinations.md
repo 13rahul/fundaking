@@ -31,12 +31,12 @@ Publish a single ‘Facts’ or FAQ page sales can link in email—models latch 
 
 Use Organization + Product schema that mirrors visible copy exactly.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/fix-wrong-brand-facts-ai-hallucinations-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/fix-wrong-brand-facts-ai-hallucinations-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/fix-wrong-brand-facts-ai-hallucinations-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/fix-wrong-brand-facts-ai-hallucinations-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

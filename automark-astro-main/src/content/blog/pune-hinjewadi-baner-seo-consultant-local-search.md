@@ -62,12 +62,12 @@ These are patterns from client work — not rules about every company on a road.
 - Opportunity in spec sheets, certifications, export keywords, and technical PDFs made crawlable
 - Local SEO matters for distributor findability; international SEO for actual revenue
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/pune-hinjewadi-baner-seo-consultant-local-search-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/pune-hinjewadi-baner-seo-consultant-local-search-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/pune-hinjewadi-baner-seo-consultant-local-search-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/pune-hinjewadi-baner-seo-consultant-local-search-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

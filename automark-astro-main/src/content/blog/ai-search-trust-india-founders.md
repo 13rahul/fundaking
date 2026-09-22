@@ -27,12 +27,12 @@ Publish implementation timelines, team size required, rupee ranges where possibl
 
 Write for clear Indian English; add city pages where service is local; do not machine-translate Hindi pages without native review.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/ai-search-trust-india-founders-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/ai-search-trust-india-founders-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/ai-search-trust-india-founders-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/ai-search-trust-india-founders-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

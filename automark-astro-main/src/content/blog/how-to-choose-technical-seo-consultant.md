@@ -27,12 +27,12 @@ Look for log-file analysis, JavaScript rendering decisions, indexation prunes, a
 
 The best consultants write tickets your developers can ship. If everything stays in slides, nothing compounds.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/how-to-choose-technical-seo-consultant-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/how-to-choose-technical-seo-consultant-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/how-to-choose-technical-seo-consultant-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/how-to-choose-technical-seo-consultant-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

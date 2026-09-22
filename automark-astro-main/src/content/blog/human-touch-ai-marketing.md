@@ -21,12 +21,12 @@ AI is the ultimate creative ally — analyzing data, generating drafts, and opti
 
 Even as AI-generated content floods social platforms, audiences crave authenticity. They can tell when something feels robotic — and they reward honesty, emotion, and personality. AI can mimic tone, but it can't feel. That's why successful marketers use AI to enhance authenticity, not replace it.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/human-touch-ai-marketing-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/human-touch-ai-marketing-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/human-touch-ai-marketing-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/human-touch-ai-marketing-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

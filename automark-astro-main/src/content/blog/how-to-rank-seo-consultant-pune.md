@@ -51,12 +51,12 @@ Google and AI systems summarize **who** you are before they summarize **what** y
 
 If NAP (name, address, phone) drifts between footer, contact, and GBP, you leak trust. Fix that before you publish another “top 10 tips” post.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/how-to-rank-seo-consultant-pune-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/how-to-rank-seo-consultant-pune-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/how-to-rank-seo-consultant-pune-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/how-to-rank-seo-consultant-pune-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 

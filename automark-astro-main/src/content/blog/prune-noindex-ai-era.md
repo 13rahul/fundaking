@@ -27,12 +27,12 @@ Tag pages with no clicks, duplicate intents, old campaign LPs, parameterized fac
 
 If it does not serve a human or a citation-worthy fact, merge or noindex. Redirect merged content with 301.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/prune-noindex-ai-era-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/prune-noindex-ai-era-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/prune-noindex-ai-era-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/prune-noindex-ai-era-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

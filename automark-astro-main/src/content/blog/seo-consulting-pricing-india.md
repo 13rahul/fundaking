@@ -29,12 +29,12 @@ Founders ask how much an SEO consultant in India costs. The honest answer: it de
 
 Junior execution, generic reports, and keywords nobody converts on. If the pitch is “30 backlinks for ₹X,” you are buying a commodity — not [SEO consulting services](/seo-consulting-services).
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/seo-consulting-pricing-india-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/seo-consulting-pricing-india-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/seo-consulting-pricing-india-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/seo-consulting-pricing-india-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

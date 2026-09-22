@@ -37,12 +37,12 @@ I do not sell GEO as magic. I sell a **repeatable operating system**—because o
 
 Black-hat “AI bait” paragraphs stuffed with synonyms. Fake statistics. Pages that exist only to catch bots. Models and search systems both learn to deprioritize low-utility fluff—and your brand risk is not worth it.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/geo-generative-engine-optimization-basics-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/geo-generative-engine-optimization-basics-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/geo-generative-engine-optimization-basics-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/geo-generative-engine-optimization-basics-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 

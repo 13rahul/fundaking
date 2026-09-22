@@ -27,12 +27,12 @@ Re-run 10 priority prompts; log changes in citations or wording.
 
 Ship one content patch: lede, table, or FAQ block on a target URL.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/weekly-ai-seo-operating-cadence-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/weekly-ai-seo-operating-cadence-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/weekly-ai-seo-operating-cadence-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/weekly-ai-seo-operating-cadence-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

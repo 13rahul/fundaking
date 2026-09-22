@@ -29,12 +29,12 @@ Tag competitors and neutrals (Wikipedia, Reddit, G2).
 
 If a competitor doc wins on ‘implementation timeline,’ outline their headings and data types—then publish something more current with your POV.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/competitor-citation-analysis-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/competitor-citation-analysis-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/competitor-citation-analysis-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/competitor-citation-analysis-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

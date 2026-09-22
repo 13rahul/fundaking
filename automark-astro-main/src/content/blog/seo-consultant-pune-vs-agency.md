@@ -39,12 +39,12 @@ Neither is “better.” They fit different org shapes.
 | Lock-in risk | Lower if scoped well | Higher on 12-month retainers |
 | Local meetings | Easy to schedule in Pune | Depends on branch / team location |
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/seo-consultant-pune-vs-agency-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/seo-consultant-pune-vs-agency-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/seo-consultant-pune-vs-agency-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/seo-consultant-pune-vs-agency-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 

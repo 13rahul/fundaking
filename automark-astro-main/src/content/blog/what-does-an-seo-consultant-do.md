@@ -32,12 +32,12 @@ If the deliverable is a PDF of keyword positions, you already have software for 
 
 Agencies excel at volume execution. An independent strategist fits when you need senior diagnosis, direct access, and deep technical work without account-manager dilution.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/what-does-an-seo-consultant-do-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/what-does-an-seo-consultant-do-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/what-does-an-seo-consultant-do-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/what-does-an-seo-consultant-do-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

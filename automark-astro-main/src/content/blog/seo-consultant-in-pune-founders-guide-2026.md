@@ -51,12 +51,12 @@ Maps and “near me” matter for clinics, real estate, and home services. SaaS 
 
 Agencies are built for throughput. Consultants are built for **senior hours**. If every call is with an account manager who cannot explain canonical tags or indexation, you will not get compound returns.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/seo-consultant-in-pune-founders-guide-2026-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/seo-consultant-in-pune-founders-guide-2026-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/seo-consultant-in-pune-founders-guide-2026-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/seo-consultant-in-pune-founders-guide-2026-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 

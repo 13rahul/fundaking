@@ -27,12 +27,12 @@ Product facts, pricing rules, security posture, integration list, support proced
 
 Margins, roadmap debates, draft positioning—leaking them hurts trust if indexed.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/internal-wiki-vs-public-content-llm-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/internal-wiki-vs-public-content-llm-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/internal-wiki-vs-public-content-llm-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/internal-wiki-vs-public-content-llm-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

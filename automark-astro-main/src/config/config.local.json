@@ -1,0 +1,7 @@
+{
+  "site": {
+    "base_url": "http://localhost/fundaking",
+    "base_path": "/fundaking/"
+  },
+  "_note": "Used by npm run build:local / dev on XAMPP subfolder."
+}

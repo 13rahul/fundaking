@@ -11,6 +11,8 @@
     "build": "node scripts/themeGenerator.js && node scripts/generate-llms.mjs && node scripts/expand-thin-blogs.mjs && node scripts/generate-blog-infographics.mjs && astro build",
     "build:xampp": "npm run build && node scripts/copy-dist-xampp.mjs",
     "build:main": "npm run build && node scripts/copy-dist-main.mjs",
+    "build:production": "node scripts/apply-site-config.mjs production && npm run build && node scripts/copy-dist-main.mjs",
+    "build:local": "node scripts/apply-site-config.mjs local && npm run build && node scripts/copy-dist-main.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "format": "prettier -w ./src",

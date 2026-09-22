@@ -35,12 +35,12 @@ What changes is the **ceiling**: you are optimizing for passages and entities, n
 
 **3. Reputation layer** — Models trust brands that look consistent everywhere: site, LinkedIn, G2, reviews, podcasts, docs. When those disagree, assistants pick a median—and you lose control of the story.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/what-is-ai-seo-definition-2026-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/what-is-ai-seo-definition-2026-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/what-is-ai-seo-definition-2026-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/what-is-ai-seo-definition-2026-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 

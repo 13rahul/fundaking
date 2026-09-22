@@ -27,12 +27,12 @@ Export 30 days, filter known AI/search bots, chart status codes and top paths, c
 
 429/503 spikes, redirect chains, WAF blocks, geo blocks on CDN.
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/ai-crawler-logs-user-agents-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/ai-crawler-logs-user-agents-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
 </figure>
 
 <figure class="blog-infographic">
-  <img src="/fundaking/images/infographics/blog/ai-crawler-logs-user-agents-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <img src="/images/infographics/blog/ai-crawler-logs-user-agents-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
