@@ -1,6 +1,8 @@
 ---
 import Share from "@/components/Share.astro";
+import authorConfig from "@/config/author.json";
 import Base from "@/layouts/Base.astro";
+import AuthorBio from "@/layouts/components/AuthorBio.astro";
 import BlogCard from "@/layouts/components/BlogCard.astro";
 import ImageMod from "@/layouts/components/ImageMod.astro";
 import config from "@/config/config.json";
@@ -68,6 +70,11 @@ const postSchema = pageGraph({
 });
 const authorTitle =
   postData.author_title ?? config.metadata.founder_job_title;
+const isFounderAuthor =
+  plainify(postData.author) === plainify(authorConfig.name);
+const authorImage = isFounderAuthor
+  ? authorConfig.image
+  : (postData.author_image ?? "/images/blog/author-1.png");
 ---
 
 <Base {...postData} canonical={postUrl} jsonLd={postSchema} ogType="article">
@@ -95,10 +102,10 @@ const authorTitle =
         >
           <span class="inline-flex items-center gap-2">
             <ImageMod
-              src={postData.author_image ?? "/images/blog/author-1.png"}
+              src={authorImage}
               width={24}
               height={24}
-              class="size-6 rounded-full"
+              class="size-6 rounded-full object-cover"
               alt={postData.author}
             />
             <span>
@@ -149,6 +156,7 @@ const authorTitle =
           <div class="content">
             <Content />
           </div>
+          {isFounderAuthor && <AuthorBio />}
         </article>
 
         <!-- Share -->

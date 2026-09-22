@@ -1,0 +1,23 @@
+{
+  "name": "Rahul Agarwal",
+  "title": "Founder, Fundaking Media · SEO consultant in Pune",
+  "image": "/images/author/rahul-agarwal.png",
+  "bio": "Rahul Agarwal is an independent SEO consultant based in Pune with 8+ years helping SaaS, D2C, and B2B teams. He focuses on technical SEO, AI/LLM visibility, and dev-ready roadmaps that tie organic search to pipeline—not vanity rankings.",
+  "profile_url": "/about",
+  "social": [
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedinIn",
+      "link": "https://www.linkedin.com/in/rahul-agarwal-510a5b79/"
+    },
+    {
+      "name": "Email",
+      "icon": "FaEnvelope",
+      "link": "mailto:consult@fundaking.com"
+    }
+  ],
+  "same_as": [
+    "https://www.linkedin.com/in/rahul-agarwal-510a5b79/",
+    "https://fundaking.com/about"
+  ]
+}

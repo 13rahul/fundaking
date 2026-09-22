@@ -1,3 +1,4 @@
+import authorConfig from "@/config/author.json";
 import config from "@/config/config.json";
 import { plainify } from "@/lib/utils/textConverter";
 
@@ -58,13 +59,17 @@ export function organizationNode() {
 }
 
 export function personFounderNode() {
+  const sameAs = authorConfig.same_as?.length
+    ? authorConfig.same_as
+    : undefined;
   return {
     "@type": "Person",
     "@id": `${siteOrigin()}/#founder`,
     name: founder.name,
     jobTitle: founder.jobTitle,
     url: founder.url,
-    image: founder.image,
+    image: absoluteUrl(authorConfig.image ?? config.metadata.meta_image),
+    ...(sameAs ? { sameAs } : {}),
     worksFor: { "@id": `${siteOrigin()}/#organization` },
   };
 }
@@ -224,10 +229,7 @@ export function blogPostingNode(options: {
     datePublished: options.datePublished,
     dateModified: options.dateModified ?? options.datePublished,
     author: {
-      "@type": "Person",
-      name: authorName,
-      jobTitle: founder.jobTitle,
-      url: founder.url,
+      "@id": `${siteOrigin()}/#founder`,
     },
     publisher: {
       "@type": "Organization",

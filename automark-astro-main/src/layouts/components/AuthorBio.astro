@@ -1,0 +1,57 @@
+---
+import authorConfig from "@/config/author.json";
+import Social from "@/layouts/components/Social.astro";
+import ImageMod from "@/layouts/components/ImageMod.astro";
+import { withBase } from "@/lib/paths";
+
+interface Props {
+  name?: string;
+  title?: string;
+  image?: string;
+  bio?: string;
+  profileUrl?: string;
+}
+
+const {
+  name = authorConfig.name,
+  title = authorConfig.title,
+  image = authorConfig.image,
+  bio = authorConfig.bio,
+  profileUrl = authorConfig.profile_url,
+} = Astro.props;
+
+const social = authorConfig.social;
+---
+
+<aside
+  class="author-bio mt-12 rounded-3xl corner-squircle border border-white/10 bg-light/40 p-6 sm:p-8 md:p-10"
+  aria-labelledby="author-bio-heading"
+>
+  <div class="flex flex-col sm:flex-row gap-6 sm:gap-8 items-center sm:items-start">
+    <a
+      href={withBase(profileUrl)}
+      class="shrink-0 rounded-2xl overflow-hidden ring-2 ring-white/10 hover:ring-primary/40 transition-shadow"
+    >
+      <ImageMod
+        src={image}
+        alt={name}
+        width={160}
+        height={160}
+        class="size-28 sm:size-32 object-cover object-top"
+      />
+    </a>
+    <div class="flex-1 text-center sm:text-left">
+      <p class="text-xs uppercase tracking-wider text-primary font-semibold mb-1">
+        About the author
+      </p>
+      <h2 id="author-bio-heading" class="text-h5 md:text-h4 mb-1">
+        <a href={withBase(profileUrl)} class="hover:text-primary transition-colors">
+          {name}
+        </a>
+      </h2>
+      <p class="text-text/80 text-sm sm:text-base mb-4">{title}</p>
+      <p class="text-text-light text-base leading-relaxed mb-6">{bio}</p>
+      <Social className="social-icons !ml-0" source={social} follow />
+    </div>
+  </div>
+</aside>

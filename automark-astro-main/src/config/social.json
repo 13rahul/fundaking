@@ -1,14 +1,14 @@
 {
   "main": [
     {
-      "name": "instagram",
-      "icon": "FaInstagram",
-      "link": "https://www.instagram.com/"
+      "name": "LinkedIn",
+      "icon": "FaLinkedinIn",
+      "link": "https://www.linkedin.com/in/rahul-agarwal-510a5b79/"
     },
     {
-      "name": "youtube",
-      "icon": "FaYoutube",
-      "link": "https://www.youtube.com/"
+      "name": "Email",
+      "icon": "FaEnvelope",
+      "link": "mailto:consult@fundaking.com"
     }
   ]
 }
