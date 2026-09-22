@@ -8,5 +8,11 @@ badges:
   - Fintech
   - Manufacturing
   - EdTech
-images: []
+images:
+  - src: "/images/clients/real-group.png"
+    alt: "Real Group India — Real Chakki Fresh Atta"
+    url: "https://realgroupindia.com"
+  - src: "/images/clients/ewebguru.png"
+    alt: "eWebGuru — cloud hosting"
+    url: "https://ewebguru.com"
 ---

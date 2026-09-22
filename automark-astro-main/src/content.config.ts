@@ -540,7 +540,13 @@ const brandsSectionCollection = defineCollection({
     enable: z.boolean(),
     title: z.string(),
     images: z
-      .array(z.object({ src: z.string(), alt: z.string() }))
+      .array(
+        z.object({
+          src: z.string(),
+          alt: z.string(),
+          url: z.string().optional(),
+        }),
+      )
       .optional()
       .default([]),
     badges: z.array(z.string()).optional(),
