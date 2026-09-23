@@ -16,14 +16,19 @@ function fundaking_schema_origin()
 
 function fundaking_schema_founder()
 {
+    $origin = fundaking_schema_origin();
     return [
         '@type' => 'Person',
-        '@id' => fundaking_schema_origin() . '/#founder',
+        '@id' => $origin . '/#founder',
         'name' => 'Rahul Agarwal',
         'jobTitle' => 'Founder, Fundaking Media',
-        'url' => fundaking_schema_origin() . '/about',
-        'image' => fundaking_schema_origin() . '/images/og-image.png',
-        'worksFor' => ['@id' => fundaking_schema_origin() . '/#organization'],
+        'url' => $origin . '/about',
+        'image' => $origin . '/images/author/rahul-agarwal.png',
+        'sameAs' => [
+            'https://www.linkedin.com/in/rahul-agarwal-510a5b79/',
+            $origin . '/about',
+        ],
+        'worksFor' => ['@id' => $origin . '/#organization'],
     ];
 }
 

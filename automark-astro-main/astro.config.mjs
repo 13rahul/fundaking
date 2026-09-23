@@ -10,8 +10,10 @@ import sharp from "sharp";
 import config from "./src/config/config.json";
 import theme from "./src/config/theme.json";
 import { rehypeBasePath } from "./src/lib/rehype-base-path.mjs";
+import { collectBlogLastmods } from "./scripts/blog-sitemap-lastmod.mjs";
 
 const markdownBase = config.site.base_path || "/";
+const blogLastmod = collectBlogLastmods();
 
 // Helper to parse font string format: "FontName:wght@400;500;600;700"
 function parseFontString(fontStr) {
@@ -60,7 +62,20 @@ export default defineConfig({
   fonts: fontsConfig,
   integrations: [
     react(),
-    sitemap(),
+    sitemap({
+      serialize(item) {
+        try {
+          const pathname = new URL(item.url).pathname.replace(/\/$/, "") || "/";
+          const iso = blogLastmod.get(pathname);
+          if (iso) {
+            item.lastmod = new Date(iso);
+          }
+        } catch {
+          /* keep default lastmod */
+        }
+        return item;
+      },
+    }),
     AutoImport({
       imports: [
         "@/shortcodes/Button",

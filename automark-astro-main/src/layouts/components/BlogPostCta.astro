@@ -1,0 +1,59 @@
+---
+import { withBase } from "@/lib/paths";
+
+interface Props {
+  categories?: string[];
+}
+
+const { categories = [] } = Astro.props;
+
+const cat = (categories[0] ?? "").toLowerCase();
+
+type LinkItem = { label: string; href: string };
+
+function contextualLinks(): LinkItem[] {
+  if (cat.includes("local")) {
+    return [{ label: "Local SEO consulting", href: "/local-seo-consultant" }];
+  }
+  if (cat.includes("llm") || cat.includes("ai") || cat.includes("geo")) {
+    return [{ label: "LLM / GEO SEO", href: "/llm-seo-consultant" }];
+  }
+  if (cat.includes("technical") || cat.includes("tech")) {
+    return [{ label: "Technical SEO consulting", href: "/technical-seo-consultant" }];
+  }
+  if (cat.includes("ecommerce") || cat.includes("d2c")) {
+    return [{ label: "Ecommerce SEO", href: "/ecommerce-seo-consultant" }];
+  }
+  return [
+    { label: "SEO services overview", href: "/features" },
+    { label: "Case studies", href: "/case-study" },
+  ];
+}
+
+const secondary = contextualLinks();
+---
+
+<aside
+  class="mt-12 rounded-3xl corner-squircle border border-primary/25 bg-primary/10 p-6 sm:p-8"
+  aria-labelledby="blog-post-cta-heading"
+>
+  <h3 id="blog-post-cta-heading" class="text-h5 md:text-h4 mb-3">
+    Need help shipping this on your site?
+  </h3>
+  <p class="text-text-light text-base mb-6 max-w-prose">
+    Book a free SEO audit with Rahul — technical priorities, content gaps, and a
+    roadmap your team or agency can execute.
+  </p>
+  <div class="flex flex-wrap gap-3 sm:gap-4">
+    <a href={withBase("/contact")} class="btn btn-primary">
+      Book free SEO audit
+    </a>
+    {
+      secondary.map((link) => (
+        <a href={withBase(link.href)} class="btn btn-outline">
+          {link.label}
+        </a>
+      ))
+    }
+  </div>
+</aside>

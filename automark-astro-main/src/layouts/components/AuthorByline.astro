@@ -1,0 +1,66 @@
+---
+import authorConfig from "@/config/author.json";
+import ImageMod from "@/layouts/components/ImageMod.astro";
+import { withBase } from "@/lib/paths";
+
+interface Props {
+  name?: string;
+  title?: string;
+  image?: string;
+  profileUrl?: string;
+  linkedinUrl?: string;
+}
+
+const {
+  name = authorConfig.name,
+  title = authorConfig.title,
+  image = authorConfig.image,
+  profileUrl = authorConfig.profile_url,
+} = Astro.props;
+
+const linkedin =
+  Astro.props.linkedinUrl ??
+  authorConfig.social.find((s) => s.name === "LinkedIn")?.link;
+---
+
+<div
+  class="mx-auto mt-8 max-w-140 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 text-left"
+>
+  <a
+    href={withBase(profileUrl)}
+    class="shrink-0 rounded-full ring-2 ring-white/15 hover:ring-primary/50 transition-shadow overflow-hidden"
+  >
+    <ImageMod
+      src={image}
+      alt={name}
+      width={56}
+      height={56}
+      class="size-14 object-cover object-top"
+    />
+  </a>
+  <div class="text-center sm:text-left text-sm md:text-base">
+    <p class="text-text/70 text-xs uppercase tracking-wide mb-0.5">Written by</p>
+    <p class="font-semibold text-white mb-0.5">
+      <a href={withBase(profileUrl)} class="hover:text-primary transition-colors">
+        {name}
+      </a>
+      {
+        linkedin && (
+          <>
+            {" "}
+            ·{" "}
+            <a
+              href={linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-primary hover:underline font-medium"
+            >
+              LinkedIn
+            </a>
+          </>
+        )
+      }
+    </p>
+    <p class="text-text/80 text-xs sm:text-sm">{title}</p>
+  </div>
+</div>

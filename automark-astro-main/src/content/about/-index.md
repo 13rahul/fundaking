@@ -27,7 +27,7 @@ our_team:
   badge: "Who you work with"
   title: "Meet <strong>Rahul Agarwal</strong>"
   members:
-    - image: "/images/og-image.png"
+    - image: "/images/author/rahul-agarwal.png"
       name: "Rahul Agarwal"
       role: "Founder · SEO consultant · Fundaking Media"
 

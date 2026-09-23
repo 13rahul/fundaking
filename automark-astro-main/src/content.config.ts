@@ -22,6 +22,7 @@ const blogCollection = defineCollection({
     tags: z.array(z.string()).default(() => ["others"]),
     tag: z.string().optional(),
     read_time: z.string().optional(),
+    date_modified: z.coerce.date().optional(),
   }),
 });
 

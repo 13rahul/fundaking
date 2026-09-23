@@ -3,9 +3,12 @@ import Share from "@/components/Share.astro";
 import authorConfig from "@/config/author.json";
 import Base from "@/layouts/Base.astro";
 import AuthorBio from "@/layouts/components/AuthorBio.astro";
+import AuthorByline from "@/layouts/components/AuthorByline.astro";
+import BlogPostCta from "@/layouts/components/BlogPostCta.astro";
 import BlogCard from "@/layouts/components/BlogCard.astro";
 import ImageMod from "@/layouts/components/ImageMod.astro";
 import config from "@/config/config.json";
+import { resolveAuthorImage } from "@/lib/authorImage";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { withBase } from "@/lib/paths";
 import {
@@ -43,9 +46,18 @@ const relatedPosts = allPosts
   .slice(0, 3);
 
 const postUrl = absoluteUrl(`/blog/${post.id}`);
-const published = postData.date
-  ? new Date(postData.date).toISOString()
-  : new Date().toISOString();
+const publishedDate = postData.date ? new Date(postData.date) : new Date();
+const modifiedDate = postData.date_modified
+  ? new Date(postData.date_modified)
+  : publishedDate;
+const lastModifiedDate = new Date(
+  Math.max(publishedDate.getTime(), modifiedDate.getTime()),
+);
+const published = publishedDate.toISOString();
+const modified = lastModifiedDate.toISOString();
+const showUpdated =
+  postData.date_modified &&
+  modifiedDate.getTime() > publishedDate.getTime();
 const headline = plainify(postData.title);
 const postDescription = plainify(postData.description ?? "");
 const postSchema = pageGraph({
@@ -63,6 +75,7 @@ const postSchema = pageGraph({
       description: postDescription,
       url: postUrl,
       datePublished: published,
+      dateModified: modified,
       image: absoluteUrl(postData.image ?? config.metadata.meta_image),
       authorName: postData.author,
     }),
@@ -72,12 +85,23 @@ const authorTitle =
   postData.author_title ?? config.metadata.founder_job_title;
 const isFounderAuthor =
   plainify(postData.author) === plainify(authorConfig.name);
-const authorImage = isFounderAuthor
-  ? authorConfig.image
-  : (postData.author_image ?? "/images/blog/author-1.png");
+const authorImage = resolveAuthorImage(
+  postData.author,
+  postData.author_image,
+);
+const articleAuthorUrl = absoluteUrl(authorConfig.profile_url);
 ---
 
-<Base {...postData} canonical={postUrl} jsonLd={postSchema} ogType="article">
+<Base
+  {...postData}
+  canonical={postUrl}
+  jsonLd={postSchema}
+  ogType="article"
+  publishedTime={published}
+  modifiedTime={modified}
+  articleAuthorName={postData.author}
+  articleAuthorUrl={articleAuthorUrl}
+>
   <!-- Blog Single Hero -->
   <section class="section-ph relative pb-10 lg:pb-14">
     <div class="container">
@@ -119,6 +143,14 @@ const authorImage = isFounderAuthor
             {dateFormat(postData.date ?? new Date())}
           </span>
           {
+            showUpdated && (
+              <span class="inline-flex items-center gap-2 text-text/80">
+                <span class="text-xs">Updated</span>
+                {dateFormat(postData.date_modified!)}
+              </span>
+            )
+          }
+          {
             postData.read_time && (
               <span class="inline-flex items-center gap-2">
                 <i class="fa-regular fa-clock text-xs" aria-hidden="true" />
@@ -127,6 +159,8 @@ const authorImage = isFounderAuthor
             )
           }
         </div>
+
+        {isFounderAuthor && <AuthorByline />}
 
         <hr
           class="mt-8 h-px border-0 bg-linear-to-r from-transparent via-white/15 to-transparent"
@@ -156,7 +190,12 @@ const authorImage = isFounderAuthor
           <div class="content">
             <Content />
           </div>
-          {isFounderAuthor && <AuthorBio />}
+          {isFounderAuthor && (
+            <>
+              <BlogPostCta categories={postData.categories} />
+              <AuthorBio />
+            </>
+          )}
         </article>
 
         <!-- Share -->
@@ -189,9 +228,10 @@ const authorImage = isFounderAuthor
                 imageAlt={relPost.data.title}
                 title={relPost.data.title}
                 description={relPost.data.description ?? ""}
-                authorImage={
-                  relPost.data.author_image ?? "/images/blog/author-1.png"
-                }
+                authorImage={resolveAuthorImage(
+                  relPost.data.author,
+                  relPost.data.author_image,
+                )}
                 authorName={relPost.data.author}
                 date={dateFormat(relPost.data.date ?? new Date())}
                 href={withBase(`/blog/${relPost.id}`)}

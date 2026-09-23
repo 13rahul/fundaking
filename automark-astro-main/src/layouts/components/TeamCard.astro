@@ -1,11 +1,22 @@
 ---
+import authorConfig from "@/config/author.json";
 import ImageMod from "@/layouts/components/ImageMod.astro";
+import DynamicIcon from "@/helpers/DynamicIcon";
+
 interface Props {
   image: string;
   name: string;
   role: string;
+  linkedinUrl?: string;
 }
-const { image, name, role } = Astro.props;
+const { image, name, role, linkedinUrl } = Astro.props;
+
+const isFounder = name === authorConfig.name;
+const linkedin =
+  linkedinUrl ??
+  (isFounder
+    ? authorConfig.social.find((s) => s.name === "LinkedIn")?.link
+    : undefined);
 ---
 
 <div class="text-center group">
@@ -22,4 +33,17 @@ const { image, name, role } = Astro.props;
   </div>
   <h4 class="text-h5-sm font-bold text-white mb-1">{name}</h4>
   <p class="text-text text-sm">{role}</p>
+  {
+    linkedin && (
+      <a
+        href={linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center mt-3 size-10 rounded-full bg-white/5 hover:bg-white/15 text-white transition-colors"
+        aria-label={`${name} on LinkedIn`}
+      >
+        <DynamicIcon className="size-5" icon="FaLinkedinIn" />
+      </a>
+    )
+  }
 </div>

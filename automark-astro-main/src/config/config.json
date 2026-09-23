@@ -27,9 +27,10 @@
     "label": "Book free SEO audit",
     "link": "/contact"
   },
+  "google_site_verification": "",
   "google_tag_manager": {
     "enable": false,
-    "gtm_id": "GTM-XXXXXX"
+    "gtm_id": ""
   },
   "metadata": {
     "meta_author": "Rahul Agarwal",

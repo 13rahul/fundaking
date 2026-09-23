@@ -4,6 +4,7 @@ import BlogCard from "@/layouts/components/BlogCard.astro";
 import PageEnd from "@/layouts/components/PageEnd.astro";
 import FeaturedPostCard from "@/layouts/components/FeaturedPostCard.astro";
 import ImageMod from "@/layouts/components/ImageMod.astro";
+import { resolveAuthorImage } from "@/lib/authorImage";
 import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
 import { withBase } from "@/lib/paths";
 import {
@@ -124,9 +125,10 @@ const blogSchema = pageGraph({
               tag={featuredPost.data.tag ?? featuredPost.data.categories?.[0] ?? "Guide"}
               title={featuredPost.data.title}
               description={featuredPost.data.description ?? ""}
-              authorImage={
-                featuredPost.data.author_image ?? "/images/avatar.png"
-              }
+              authorImage={resolveAuthorImage(
+                featuredPost.data.author,
+                featuredPost.data.author_image,
+              )}
               authorName={featuredPost.data.author}
               date={dateFormat(featuredPost.data.date ?? new Date())}
               readTime={featuredPost.data.read_time ?? "5 min read"}
@@ -193,9 +195,10 @@ const blogSchema = pageGraph({
                 imageAlt={post.data.title}
                 title={post.data.title}
                 description={post.data.description ?? ""}
-                authorImage={
-                  post.data.author_image ?? "/images/avatar.png"
-                }
+                authorImage={resolveAuthorImage(
+                  post.data.author,
+                  post.data.author_image,
+                )}
                 authorName={post.data.author}
                 date={dateFormat(post.data.date ?? new Date())}
                 href={withBase(`/blog/${post.id}`)}
