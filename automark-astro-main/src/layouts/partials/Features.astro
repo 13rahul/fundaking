@@ -12,13 +12,14 @@ const { our_features } = Astro.props;
 <section class="section-box mx-4 sm:mx-5 relative isolate overflow-x-hidden max-w-[100vw]">
   <div class="container">
     <div class="section-container">
-      <div class="section-intro centralize">
+      <div class="section-intro centralize" data-animate="fade-up">
         <h2 class="title hasHighlight" set:html={our_features.title} />
         <p class="subtitle">{our_features.content}</p>
       </div>
       <div class="section-content">
         <div
           class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 border-r border-text-light/5 border-b"
+          data-animate-stagger
         >
           {
             our_features.items.map((item) => (

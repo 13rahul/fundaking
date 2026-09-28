@@ -99,22 +99,32 @@ const homeSchema = pageGraph({
         </div>
       </div>
       <div class="row justify-center">
-        <div class="mb-10 lg:mb-16 text-center relative">
+        <div class="mb-10 lg:mb-16 text-center relative" data-home-hero>
           <h1
+            data-hero-item
             class="mb-6 lg:mb-8 lg:col-9 mx-auto text-h3 lg:text-h1 hasHighlight px-1"
             set:html={markdownify(homepageData.banner.title)}
           />
-          <p class="mb-6 lg:mb-8 lg:col-6 mx-auto text-base sm:text-lg px-2">
+          <p
+            data-hero-item
+            class="mb-6 lg:mb-8 lg:col-6 mx-auto text-base sm:text-lg px-2"
+          >
             {homepageData.banner.content}
           </p>
           {
             homepageData.banner.trust_line && (
-              <p class="mb-8 text-sm sm:text-base text-text/90 max-w-xl mx-auto">
+              <p
+                data-hero-item
+                class="mb-8 text-sm sm:text-base text-text/90 max-w-xl mx-auto"
+              >
                 {homepageData.banner.trust_line}
               </p>
             )
           }
-          <div class="flex gap-3 sm:gap-4 justify-center items-center flex-wrap">
+          <div
+            data-hero-item
+            class="flex gap-3 sm:gap-4 justify-center items-center flex-wrap"
+          >
             <a
               class="btn btn-primary"
               rel="noopener noreferrer"
@@ -289,6 +299,7 @@ const homeSchema = pageGraph({
     </div>
   </section>
   <hr
+    data-animate="fade-in"
     class="h-px bg-linear-to-r from-transparent from-10% via-white/50 to-90% to-transparent border-0"
   />
 
@@ -298,7 +309,7 @@ const homeSchema = pageGraph({
       <section class="section pt-30 xl:pt-37">
         <div class="container">
           <div class="section-container">
-            <div class="section-intro centralize">
+            <div class="section-intro centralize" data-animate="fade-up">
               <h2
                 class="title hasHighlight  "
                 set:html={markdownify(homepageData.main_features.title)}
@@ -306,14 +317,14 @@ const homeSchema = pageGraph({
               <p class="subtitle">{homepageData.main_features.content}</p>
             </div>
             <div class="section-content">
-              <div class="feature-items-group mb-9">
+              <div class="feature-items-group mb-9" data-animate-stagger>
                 {homepageData.main_features.items
                   .slice(0, 3)
                   .map((text: string) => (
                     <PainPointPill text={text} />
                   ))}
               </div>
-              <div class="feature-items-group">
+              <div class="feature-items-group" data-animate-stagger>
                 {homepageData.main_features.items
                   .slice(3)
                   .map((text: string) => (
@@ -333,7 +344,7 @@ const homeSchema = pageGraph({
       <section class="section relative overflow-hidden">
         <div class="container">
           <div class="section-container">
-            <div class="section-intro centralize">
+            <div class="section-intro centralize" data-animate="fade-up">
               <h2
                 class="title hasHighlight  "
                 set:html={markdownify(homepageData.value_props.title)}
@@ -341,7 +352,10 @@ const homeSchema = pageGraph({
               <p class="subtitle">{homepageData.value_props.content}</p>
             </div>
             <div class="section-content">
-              <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 mb-9">
+              <div
+                class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 mb-9"
+                data-animate-stagger
+              >
                 {homepageData.value_props.items.map((item: any) => (
                   <ValueCard
                     logo={item.logo}
@@ -377,13 +391,13 @@ const homeSchema = pageGraph({
       <section class="section overflow-hidden">
         <div class="container">
           <div class="section-container">
-            <div class="section-intro centralize">
+            <div class="section-intro centralize" data-animate="fade-up">
               <h2
                 class="title hasHighlight  "
                 set:html={markdownify(homepageData.testimonial_quote.title)}
               />
             </div>
-            <div class="section-content">
+            <div class="section-content" data-animate="fade-up">
               <hr class="h-px bg-linear-to-r from-transparent from-5% via-white/40 to-95% to-transparent border-0" />
               <div class="relative max-w-220 mx-auto">
                 <blockquote class="text-center text-h6 text-white p-6 xl:p-10 xl:px-15 border-x border-text/20">
@@ -412,7 +426,7 @@ const homeSchema = pageGraph({
         <div class="container">
           <div class="section-container">
             <div class="section-content">
-              <div class="row g-4 items-center">
+              <div class="row g-4 items-center" data-animate-stagger>
                 <div class="lg:col-5">
                   <div class="flex flex-col">
                     {homepageData.single_testimonial.stats.map(
@@ -493,14 +507,17 @@ const homeSchema = pageGraph({
       <section class="section-box max-lg:overflow-hidden pb-16 xl:pb-19 bg-transparent relative isolate overflow-hidden">
         <div class="container">
           <div class="section-container">
-            <div class="section-intro centralize">
+            <div class="section-intro centralize" data-animate="fade-up">
               <h2
                 class="title hasHighlight  "
                 set:html={markdownify(homepageData.growth_process.title)}
               />
             </div>
             <div class="section-content">
-              <div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-16">
+              <div
+                class="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-16"
+                data-animate-stagger
+              >
                 {homepageData.growth_process.items.map((item: any) => (
                   <ProcessCard
                     logo={item.logo}
@@ -568,14 +585,18 @@ const homeSchema = pageGraph({
       <section class="section relative isolate max-md:overflow-hidden">
         <div class="container-sm">
           <div class="section-container">
-            <div class="section-intro centralize">
+            <div class="section-intro centralize" data-animate="fade-up">
               <h2
                 class="title hasHighlight  "
                 set:html={markdownify(homepageData.integrations.title)}
               />
             </div>
             <div class="section-content">
-              <div class="flex items-start justify-center flex-wrap gap-4 sm:gap-6 [&>div]:-ml-0">
+              <div
+                class="flex items-start justify-center flex-wrap gap-4 sm:gap-6 [&>div]:-ml-0"
+                data-animate-stagger
+                data-stagger="0.08"
+              >
                 {homepageData.integrations.items.map((item: any) => (
                   <div class="flex flex-col items-center gap-2 w-28 sm:w-32">
                     <div class="size-28 sm:size-35 bg-text-light/10 backdrop-blur-xl rounded-full grid place-items-center p-4">

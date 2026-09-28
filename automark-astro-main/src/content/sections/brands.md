@@ -11,8 +11,10 @@ badges:
 images:
   - src: "/images/clients/real-group.png"
     alt: "Real Group India — Real Chakki Fresh Atta"
-    url: "https://realgroupindia.com"
   - src: "/images/clients/ewebguru.png"
     alt: "eWebGuru — cloud hosting"
-    url: "https://ewebguru.com"
+  - src: "/images/clients/shubhshrey-industries.png"
+    alt: "Shubhshrey Industries Private Limited"
+  - src: "/images/clients/sky-group.png"
+    alt: "Sky Group"
 ---

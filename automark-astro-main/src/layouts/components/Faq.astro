@@ -38,10 +38,10 @@ if (!faqData.enable) return;
         </div>
       </div>
       <div class="section-content">
-        <div class="space-y-4">
+        <div class="space-y-4" data-animate-stagger data-stagger="0.08">
           {
             faqData.items.map((item) => (
-              <div data-animate="fade-up">
+              <div>
                 <Accordion title={item.question} content={item.answer} />
               </div>
             ))

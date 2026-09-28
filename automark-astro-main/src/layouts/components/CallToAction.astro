@@ -14,7 +14,7 @@ if (!ctaData.enable) return;
     class="container bg-light py-20 rounded-4xl relative overflow-hidden isolate"
   >
     <div class="section-container">
-      <div class="section-intro centralize">
+      <div class="section-intro centralize" data-animate="fade-up">
         <Badge title={ctaData.badge ? ctaData.badge : ""} />
         <h2 class="title hasHighlight lg:col-7" set:html={ctaData.title} />
         <p class="subtitle text-h6-sm lg:col-6">{ctaData.description}</p>

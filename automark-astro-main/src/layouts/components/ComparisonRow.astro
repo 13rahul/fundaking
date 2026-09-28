@@ -16,11 +16,11 @@ if (!comparisonData.enable) return;
     <section class="section relative isolate overflow-x-hidden">
       <div class="container">
         <div class="section-container">
-          <div class="section-intro centralize">
+          <div class="section-intro centralize" data-animate="fade-up">
             <h2 class="title hasHighlight  " set:html={comparisonData.title} />
           </div>
           <div class="section-content">
-            <div class="flex flex-col gap-y-5 px-4">
+            <div class="flex flex-col gap-y-5 px-4" data-animate-stagger>
               {comparisonData.items.map(({ title, price, images }) => (
                 <div class="relative max-lg:border max-lg:border-border max-lg:rounded-4xl max-lg:py-8 max-lg:corner-squircle">
                   <div class="flex items-center flex-col lg:flex-row lg:justify-between w-full gap-y-8">

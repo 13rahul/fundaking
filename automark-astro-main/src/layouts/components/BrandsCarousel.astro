@@ -14,11 +14,15 @@ const badges = brandsData.badges ?? [];
   brandsData.enable && (
     <section class="section-sm pt-16 xl:pt-20">
       <div class="container">
-        <div class="text-center mb-10">
+        <div class="text-center mb-10" data-animate="fade-up">
           <p class="text-text-light text-base  " set:html={brandsData.title} />
         </div>
         {badges.length > 0 && (
-          <div class="flex flex-wrap justify-center gap-3 sm:gap-4 max-w-3xl mx-auto mb-10">
+          <div
+            class="flex flex-wrap justify-center gap-3 sm:gap-4 max-w-3xl mx-auto mb-10"
+            data-animate-stagger
+            data-stagger="0.06"
+          >
             {badges.map((label) => (
               <span class="inline-flex items-center rounded-full border border-border bg-body/80 px-5 py-2.5 text-sm sm:text-base font-semibold text-white">
                 {label}
@@ -27,9 +31,15 @@ const badges = brandsData.badges ?? [];
           </div>
         )}
         {clientLogos.length > 0 && (
-          <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-12 lg:gap-16 max-w-4xl mx-auto">
-            {clientLogos.map((item) => {
-              const img = (
+          <div
+            class="flex flex-wrap justify-center items-center gap-8 sm:gap-12 lg:gap-16 max-w-4xl mx-auto"
+            data-animate-stagger
+            data-stagger="0.12"
+          >
+            {clientLogos.map((item) => (
+              <div
+                class="inline-flex items-center justify-center rounded-lg bg-white min-w-[200px] sm:min-w-[220px] min-h-[72px] sm:min-h-[80px] px-6 py-4 shadow-sm ring-1 ring-black/5"
+              >
                 <img
                   src={item.src}
                   alt={item.alt}
@@ -39,23 +49,8 @@ const badges = brandsData.badges ?? [];
                   decoding="async"
                   class="h-10 sm:h-11 lg:h-12 w-auto max-w-[160px] sm:max-w-[190px] object-contain"
                 />
-              );
-              const tileClass =
-                "inline-flex items-center justify-center rounded-lg bg-white min-w-[200px] sm:min-w-[220px] min-h-[72px] sm:min-h-[80px] px-6 py-4 shadow-sm ring-1 ring-black/5 hover:ring-black/10 transition-shadow";
-              return item.url ? (
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class={tileClass}
-                  aria-label={item.alt}
-                >
-                  {img}
-                </a>
-              ) : (
-                <div class={tileClass}>{img}</div>
-              );
-            })}
+              </div>
+            ))}
           </div>
         )}
       </div>

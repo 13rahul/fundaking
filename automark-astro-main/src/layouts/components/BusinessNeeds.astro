@@ -17,7 +17,7 @@ if (!bnData.enable) return;
             <h2 class="title hasHighlight  " set:html={bnData.title} />
           </div>
           <div class="section-content">
-            <div class="flex flex-col gap-y-2 px-4">
+            <div class="flex flex-col gap-y-2 px-4" data-animate-stagger>
               {bnData.items.map((item) => (
                 <StepCard
                   image={item.image}

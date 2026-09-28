@@ -13,11 +13,14 @@ const testimonialData: TestimonialSection = testimonialEntry.data;
     <section class="section relative">
       <div class="container">
         <div class="section-container">
-          <div class="section-intro centralize">
+          <div class="section-intro centralize" data-animate="fade-up">
             <h2 class="title hasHighlight  " set:html={testimonialData.title} />
           </div>
           <div class="section-content">
-            <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-7">
+            <div
+              class="grid md:grid-cols-2 xl:grid-cols-3 gap-7"
+              data-animate-stagger
+            >
               {testimonialData.testimonials.map((item) => (
                 <TestimonialCard
                   poster={item.poster}

@@ -29,7 +29,7 @@ const sectionContent = content ?? pricingData.page_header?.content ?? "";
     <div class="section-container">
       {
         isHome && (
-          <div class="section-intro centralize">
+          <div class="section-intro centralize" data-animate="fade-up">
             <h2 class="title hasHighlight  " set:html={sectionTitle} />
             {sectionContent && <p>{sectionContent}</p>}
           </div>
@@ -51,7 +51,10 @@ const sectionContent = content ?? pricingData.page_header?.content ?? "";
               >{pricingData.toggler?.yearly_label ?? "Yearly"}</label
             >
           </div>
-          <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-7 relative z-10">
+          <div
+            class="grid md:grid-cols-2 xl:grid-cols-3 gap-7 relative z-10"
+            data-animate-stagger
+          >
             {
               pricingData.plans.map((plan) => (
                 <PricingCard

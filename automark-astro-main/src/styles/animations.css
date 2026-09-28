@@ -169,3 +169,12 @@
     var(--color-primary) 100%
   );
 }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-animate],
+  [data-animate-stagger] > *,
+  [data-hero-item] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

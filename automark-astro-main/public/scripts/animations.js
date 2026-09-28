@@ -4,9 +4,64 @@ import { sporeCanvas } from "./particleCanvas.js";
 (function () {
   "use strict";
 
+  const REVEAL_START = "top 85%";
+
+  function initLenisScrollSync() {
+    if (typeof Lenis === "undefined") return null;
+    const lenis = new Lenis();
+
+    lenis.on("scroll", ScrollTrigger.update);
+
+    ScrollTrigger.scrollerProxy(document.documentElement, {
+      scrollTop(value) {
+        if (arguments.length) {
+          lenis.scrollTo(value, { immediate: true });
+        }
+        return lenis.scroll;
+      },
+      getBoundingClientRect() {
+        return {
+          top: 0,
+          left: 0,
+          width: window.innerWidth,
+          height: window.innerHeight,
+        };
+      },
+      pinType: document.documentElement.style.transform ? "transform" : "fixed",
+    });
+
+    gsap.ticker.add((time) => {
+      lenis.raf(time * 1000);
+    });
+    gsap.ticker.lagSmoothing(0);
+
+    return lenis;
+  }
+
+  /** @returns {boolean} */
+  function motionLibsReady() {
+    return typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined";
+  }
+
+  function homeHeroTimeline() {
+    const hero = document.querySelector("[data-home-hero]");
+    if (!hero) return;
+
+    const items = hero.querySelectorAll("[data-hero-item]");
+    if (!items.length) return;
+
+    gsap.set(items, { opacity: 0, y: 36, scale: 0.98 });
+    gsap.to(items, {
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      duration: 0.85,
+      stagger: 0.12,
+      ease: "power3.out",
+    });
+  }
+
   // Hero Video Showcase: GSAP 3D scroll tilt
-  // On XL: starts scaled 0.8, rotationX 10, top -250 → scrolls to normal
-  // On < XL: starts scaled 0.8, rotationX 15 → scrolls to normal
   function heroVideo() {
     const mm = gsap.matchMedia();
     const gsapVideoShowcase = document.querySelectorAll(
@@ -49,7 +104,6 @@ import { sporeCanvas } from "./particleCanvas.js";
     });
   }
 
-  // Trusted Partners: animated cycling brand logos
   function updateTrustedPartners() {
     const partners = document.querySelector("[data-trusted-brands-images]");
     if (!partners) return;
@@ -99,25 +153,20 @@ import { sporeCanvas } from "./particleCanvas.js";
     animate();
   }
 
-  // Particle spore canvas effect
   function sporesEffect() {
     if (window.matchMedia("(max-width: 768px)").matches) return;
     const targetElementClassName = ".heroSporeCanvas";
     sporeCanvas(
       targetElementClassName,
-      80, // particle count
-      0.2, // min size
-      1.6, // max size
-      0.0, // min speed
-      0.1, // max speed
-      800, // canvas size
+      80,
+      0.2,
+      1.6,
+      0.0,
+      0.1,
+      800,
     );
   }
 
-  // Pricing toggle: Monthly ↔ Yearly with animated transitions
-  // Uses a hidden checkbox input with data-pricing-toggle
-  // Labels with .price-toggler-btn get .active class
-  // Price spans with data-price-tag-monthly / data-price-tag-yearly get .active / .inactive
   function pricingToggle() {
     const toggle = document.querySelector("[data-pricing-toggle]");
     const labels = document.querySelectorAll(".price-toggler-btn");
@@ -126,7 +175,6 @@ import { sporeCanvas } from "./particleCanvas.js";
     toggle.addEventListener("change", (e) => {
       const isYearly = e.target.checked;
 
-      // Toggle label active states
       if (isYearly) {
         labels[0]?.classList.remove("active");
         labels[1]?.classList.add("active");
@@ -161,19 +209,56 @@ import { sporeCanvas } from "./particleCanvas.js";
   }
 
   function scrollReveals() {
-    const items = document.querySelectorAll('[data-animate="fade-up"]');
-    if (!items.length) return;
-    gsap.set(items, { opacity: 0, y: 28 });
-    items.forEach((el, i) => {
+    const fadeUp = document.querySelectorAll('[data-animate="fade-up"]');
+    fadeUp.forEach((el) => {
+      gsap.set(el, { opacity: 0, y: 40, scale: 0.98 });
       gsap.to(el, {
         opacity: 1,
         y: 0,
+        scale: 1,
+        duration: 0.7,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: el,
+          start: REVEAL_START,
+          once: true,
+        },
+      });
+    });
+
+    const fadeIn = document.querySelectorAll('[data-animate="fade-in"]');
+    fadeIn.forEach((el) => {
+      gsap.set(el, { opacity: 0, scale: 0.99 });
+      gsap.to(el, {
+        opacity: 1,
+        scale: 1,
         duration: 0.65,
-        delay: (i % 4) * 0.06,
         ease: "power2.out",
         scrollTrigger: {
           trigger: el,
-          start: "top 88%",
+          start: REVEAL_START,
+          once: true,
+        },
+      });
+    });
+
+    document.querySelectorAll("[data-animate-stagger]").forEach((container) => {
+      const children = container.children;
+      if (!children.length) return;
+
+      const stagger = parseFloat(container.dataset.stagger || "0.1") || 0.1;
+
+      gsap.set(children, { opacity: 0, y: 40, scale: 0.98 });
+      gsap.to(children, {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        duration: 0.7,
+        stagger,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: container,
+          start: REVEAL_START,
           once: true,
         },
       });
@@ -182,16 +267,21 @@ import { sporeCanvas } from "./particleCanvas.js";
 
   function initMotion() {
     gsap.registerPlugin(ScrollTrigger);
-    new Lenis({ autoRaf: true });
+    initLenisScrollSync();
+    homeHeroTimeline();
     heroVideo();
     updateTrustedPartners();
     sporesEffect();
     pricingToggle();
     scrollReveals();
+    ScrollTrigger.refresh();
   }
 
   function init() {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
+    if (!motionLibsReady()) {
       return;
     }
     initMotion();
@@ -207,7 +297,6 @@ import { sporeCanvas } from "./particleCanvas.js";
     init();
   }
 
-  // Refresh ScrollTrigger on resize (debounced)
   let resizeTimer;
   window.addEventListener("resize", () => {
     clearTimeout(resizeTimer);

@@ -11,7 +11,7 @@ if (!ourStoryData.enable) return;
 <section class="section overflow-hidden">
   <div class="container">
     <div class="section-container">
-      <div class="section-intro centralize">
+      <div class="section-intro centralize" data-animate="fade-up">
         <h2
           class="title hasHighlight lg:col-8 mx-auto"
           set:html={ourStoryData.title}
@@ -51,7 +51,10 @@ if (!ourStoryData.enable) return;
                         {ourStoryData.letter_points_title ??
                           "Here's how we do it:"}
                       </div>
-                      <div class="flex flex-col gap-y-7 relative vertical-bg-line ">
+                      <div
+                        class="flex flex-col gap-y-7 relative vertical-bg-line"
+                        data-animate-stagger
+                      >
                         {ourStoryData.letter_points.map((point) => (
                           <div class="bg-linear-to-tl from-border to-body border border-border px-8 w-full py-2.5 rounded-full flex items-center justify-center relative z-10 gap-x-2">
                             <span class="font-semibold text-white text-lg">
