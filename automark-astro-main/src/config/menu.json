@@ -10,16 +10,19 @@
   "footer_col_2_title": "Resources",
   "footer_col_3_title": "Company",
   "footer_primary": [
-    { "name": "Home", "url": "/" },
     { "name": "SEO consulting", "url": "/seo-consulting-services" },
     { "name": "Technical SEO", "url": "/technical-seo-consultant" },
     { "name": "Local SEO", "url": "/local-seo-consultant" },
-    { "name": "Hire in Pune", "url": "/hire-seo-consultant-pune" },
-    { "name": "Contact", "url": "/contact" }
+    { "name": "AI enablement", "url": "/ai-enablement" },
+    { "name": "Web development", "url": "/web-development" },
+    { "name": "Quick commerce", "url": "/quick-commerce-enablement" }
   ],
   "footer_resource": [
     { "name": "Blog", "url": "/blog" },
     { "name": "Case studies", "url": "/case-study" },
+    { "name": "All services", "url": "/features" },
+    { "name": "Services in Pune", "url": "/seo-consulting-pune" },
+    { "name": "Services in Baramati", "url": "/seo-consulting-baramati" },
     { "name": "Consultant vs agency", "url": "/seo-consultant-vs-agency" }
   ],
   "footer_legal": [

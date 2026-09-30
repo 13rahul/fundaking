@@ -32,7 +32,7 @@ const { checklist_form_action } = config.params;
 const homeMetaTitle =
   "SEO Consultant in Pune | Rahul Agarwal - Fundaking Media";
 const homeDescription =
-  "Top SEO consultant in Pune helping CEOs, startups & agencies grow organic pipeline. Technical SEO, content strategy, CRO & monthly advisory.";
+  "SEO consultant in Pune and Baramati: SEO consulting, technical and local SEO, web development, AI enablement and quick commerce for startups, SMEs and manufacturers.";
 
 const homeUrl = absoluteUrl("/");
 
@@ -65,6 +65,7 @@ const homeSchema = pageGraph({
       },
       areaServed: [
         { "@type": "City", name: "Pune" },
+        { "@type": "City", name: "Baramati" },
         { "@type": "City", name: "Mumbai" },
         { "@type": "City", name: "Bengaluru" },
         { "@type": "Country", name: "India" },
@@ -353,7 +354,7 @@ const homeSchema = pageGraph({
             </div>
             <div class="section-content">
               <div
-                class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 mb-9"
+                class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 mb-9"
                 data-animate-stagger
               >
                 {homepageData.value_props.items.map((item: any) => (
@@ -361,6 +362,7 @@ const homeSchema = pageGraph({
                     logo={item.logo}
                     title={item.title}
                     list={item.list}
+                    href={item.link}
                   />
                 ))}
               </div>

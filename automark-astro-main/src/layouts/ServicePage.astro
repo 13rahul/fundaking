@@ -1,0 +1,398 @@
+---
+import DynamicIcon from "@/helpers/DynamicIcon";
+import Base from "@/layouts/Base.astro";
+import Accordion from "@/layouts/components/Accordion.astro";
+import CallToAction from "@/layouts/components/CallToAction.astro";
+import GradientBlob from "@/layouts/components/GradientBlob.astro";
+import ImageMod from "@/layouts/components/ImageMod.astro";
+import ServiceLinkCard from "@/layouts/components/ServiceLinkCard.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { withBase } from "@/lib/paths";
+import {
+  absoluteUrl,
+  breadcrumbList,
+  faqPageNode,
+  pageGraph,
+  siteOrigin,
+} from "@/lib/schema";
+import {
+  CITY_LABEL,
+  SERVICE_META,
+  SERVICE_ORDER,
+  serviceUrl,
+} from "@/lib/services";
+import { markdownify, plainify } from "@/lib/utils/textConverter";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  page: CollectionEntry<"services">;
+}
+
+const { page } = Astro.props;
+const data = page.data;
+const meta = SERVICE_META[data.service];
+const cityLabel = data.city ? CITY_LABEL[data.city] : undefined;
+const pagePath = serviceUrl(data.service, data.city);
+const pageUrl = absoluteUrl(pagePath);
+const pageName = plainify(data.meta_title ?? data.title);
+const pageDescription = plainify(data.description ?? "");
+
+const allStudies = await getSinglePage("caseStudy");
+const studies = data.case_studies
+  .map((slug) => allStudies.find((study) => study.id === slug))
+  .filter((study): study is NonNullable<typeof study> => Boolean(study));
+
+const locationLinks = [
+  { label: `${meta.label} (India)`, href: serviceUrl(data.service) },
+  { label: `${meta.label} in Pune`, href: serviceUrl(data.service, "pune") },
+  {
+    label: `${meta.label} in Baramati`,
+    href: serviceUrl(data.service, "baramati"),
+  },
+];
+
+const otherServices = SERVICE_ORDER.filter((key) => key !== data.service).map(
+  (key) => ({
+    title: data.city
+      ? `${SERVICE_META[key].label} in ${cityLabel}`
+      : SERVICE_META[key].label,
+    description: SERVICE_META[key].summary,
+    href: serviceUrl(key, data.city),
+    icon: SERVICE_META[key].icon,
+  }),
+);
+
+const breadcrumbs = [
+  { name: "Home", url: absoluteUrl("/") },
+  { name: "Services", url: absoluteUrl("/features") },
+  ...(data.city
+    ? [{ name: meta.label, url: absoluteUrl(serviceUrl(data.service)) }]
+    : []),
+  { name: plainify(data.title), url: pageUrl },
+];
+
+const serviceNode = {
+  "@type": "Service",
+  "@id": `${pageUrl}#service`,
+  name: plainify(data.title),
+  serviceType: meta.label,
+  description: pageDescription,
+  url: pageUrl,
+  provider: { "@id": `${siteOrigin()}/#organization` },
+  areaServed: data.city
+    ? [
+        { "@type": "City", name: cityLabel },
+        { "@type": "State", name: "Maharashtra" },
+      ]
+    : [{ "@type": "Country", name: "India" }],
+};
+
+const schema = pageGraph({
+  name: pageName,
+  description: pageDescription,
+  url: pageUrl,
+  extra: [
+    breadcrumbList(breadcrumbs),
+    serviceNode,
+    ...(data.faqs.length ? [faqPageNode(data.faqs, pageUrl)] : []),
+  ],
+});
+---
+
+<Base {...data} canonical={pageUrl} jsonLd={schema}>
+  <!-- Hero -->
+  <section class="section-ph relative overflow-hidden pb-16">
+    <div class="container relative">
+      <div class="absolute top-0 left-0 w-full">
+        <div class="h-100 w-full overflow-hidden -translate-y-10">
+          <canvas class="heroSporeCanvas w-full"></canvas>
+        </div>
+      </div>
+      <div class="relative mx-auto max-w-4xl text-center" data-animate="fade-up">
+        <div
+          class="mx-auto mb-6 grid size-16 place-items-center rounded-2xl border border-border bg-white/6"
+        >
+          <ImageMod src={data.hero.icon} alt="" class="size-10 object-contain" />
+        </div>
+        <p class="badge mb-4">{data.hero.badge}</p>
+        <h1
+          class="hasHighlight mb-6 text-h3 lg:text-h1"
+          set:html={markdownify(data.hero.title)}
+        />
+        <p class="mx-auto mb-10 max-w-2xl text-lg">{data.hero.content}</p>
+        <div class="flex flex-wrap items-center justify-center gap-4">
+          <a class="btn btn-primary" href={withBase("/contact")}>
+            Book a free consultation
+          </a>
+          <a class="btn btn-outline" href={withBase("/case-study")}>
+            View case studies
+          </a>
+        </div>
+        <nav
+          aria-label="Service locations"
+          class="mt-10 flex flex-wrap justify-center gap-3"
+        >
+          {
+            locationLinks.map((link) => (
+              <a
+                href={withBase(link.href)}
+                aria-current={link.href === pagePath ? "page" : undefined}
+                class:list={[
+                  "rounded-full border px-4 py-2 text-sm transition-colors",
+                  link.href === pagePath
+                    ? "border-primary/60 bg-primary/15 text-white"
+                    : "border-border/60 bg-white/5 text-text hover:border-primary/50 hover:text-white",
+                ]}
+              >
+                {link.label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </div>
+    <div
+      class="absolute left-1/2 top-0 -z-20 size-160 -translate-x-1/2 -translate-y-1/2 blur-2xl xl:size-300"
+      style="background: radial-gradient(circle, var(--color-primary) 0%, color-mix(in srgb, var(--color-primary) 78%, transparent) 20%, transparent 70%);"
+    >
+    </div>
+  </section>
+  <hr
+    class="h-px border-0 bg-linear-to-r from-transparent from-10% via-white/50 to-90% to-transparent"
+  />
+
+  {
+    data.intro && (
+      <section class="section-sm">
+        <div class="container">
+          <div class="mx-auto max-w-3xl" data-animate="fade-up">
+            <h2
+              class="hasHighlight mb-6 text-h3-sm lg:text-h3"
+              set:html={markdownify(data.intro.title)}
+            />
+            <div
+              class="content text-text"
+              set:html={markdownify(data.intro.content, true)}
+            />
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Deliverables -->
+  <section class="section-sm relative isolate">
+    <div class="container">
+      <div class="section-intro centralize mb-10" data-animate="fade-up">
+        <h2
+          class="title hasHighlight"
+          set:html={markdownify(data.deliverables.title)}
+        />
+      </div>
+      <div
+        class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"
+        data-animate-stagger
+      >
+        {
+          data.deliverables.items.map((item) => (
+            <article class="rounded-2xl border border-border/50 bg-primary/5 p-6">
+              <div class="mb-4 grid size-10 place-items-center rounded-xl border border-border bg-white/6">
+                <DynamicIcon icon={item.icon} className="text-lg text-text-light" />
+              </div>
+              <h3 class="mb-2 text-h5-sm font-bold text-white">{item.title}</h3>
+              <p class="text-sm leading-relaxed text-text">{item.content}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+    <GradientBlob />
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="rounded-3xl bg-light/6 p-8 lg:p-12">
+        <h2
+          class="hasHighlight mb-10 text-h3-sm lg:text-h3"
+          set:html={markdownify(data.process.title)}
+        />
+        <ol class="grid gap-8 md:grid-cols-2 lg:grid-cols-4" data-animate-stagger>
+          {
+            data.process.items.map((step, index) => (
+              <li>
+                <span class="mb-3 block font-secondary text-h4 font-bold text-primary">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <h3 class="mb-2 text-h5-sm font-bold text-white">{step.title}</h3>
+                <p class="text-sm text-text">{step.content}</p>
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local -->
+  {
+    data.local && (
+      <section class="section-sm">
+        <div class="container">
+          <div class="grid gap-10 lg:grid-cols-2 lg:items-start">
+            <div data-animate="fade-up">
+              <h2
+                class="hasHighlight mb-6 text-h3-sm lg:text-h3"
+                set:html={markdownify(data.local.title)}
+              />
+              <div
+                class="content text-text"
+                set:html={markdownify(data.local.content, true)}
+              />
+            </div>
+            <div class="rounded-2xl border border-border/50 bg-white/4 p-6 lg:p-8">
+              {data.local.points.length > 0 && (
+                <ul class="stars-list mb-8 text-text-dark">
+                  {data.local.points.map((point) => (
+                    <li>{point}</li>
+                  ))}
+                </ul>
+              )}
+              <p class="mb-3 text-sm font-semibold uppercase tracking-wide text-white">
+                Areas we serve
+              </p>
+              <div class="flex flex-wrap gap-2">
+                {data.local.areas.map((area) => (
+                  <span class="rounded-full border border-border/60 px-3 py-1.5 text-sm text-text">
+                    {area}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Proof -->
+  {
+    (studies.length > 0 || data.proof_note) && (
+      <section class="section-sm">
+        <div class="container">
+          <div class="section-intro centralize mb-10" data-animate="fade-up">
+            <h2 class="title hasHighlight">
+              Related <strong>case studies</strong>
+            </h2>
+            {data.proof_note && (
+              <p class="mx-auto mt-4 max-w-2xl text-text">{data.proof_note}</p>
+            )}
+          </div>
+          <div class="grid gap-5 md:grid-cols-2" data-animate-stagger>
+            {studies.slice(0, 4).map((study) => (
+              <a
+                href={withBase(`/case-study/${study.id}`)}
+                class="group flex flex-col rounded-2xl border border-border bg-light p-7 transition-colors hover:border-primary/40"
+              >
+                <div class="mb-6 flex items-center justify-between gap-4">
+                  <span class="rounded-lg bg-white px-3 py-1 text-sm font-medium text-dark">
+                    {study.data.badge ?? "Case study"}
+                  </span>
+                  {study.data.logo && (
+                    <ImageMod
+                      src={study.data.logo}
+                      alt={study.data.company ?? study.data.title}
+                      class="h-9 max-w-[140px] rounded-md bg-white/95 object-contain px-2 py-1"
+                    />
+                  )}
+                </div>
+                <h3 class="mb-3 text-h5 font-bold text-white group-hover:text-primary">
+                  {study.data.title}
+                </h3>
+                <p class="mb-6 flex-1 text-text">{study.data.description}</p>
+                {study.data.stats && study.data.stats.length > 0 && (
+                  <div class="flex gap-8 border-t border-border pt-5">
+                    {study.data.stats.slice(0, 2).map((stat) => (
+                      <div>
+                        <div class="font-secondary text-h5 font-bold text-white">
+                          {stat.value}
+                        </div>
+                        <p class="text-sm text-text">{stat.label}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                <span class="mt-5 text-sm font-medium text-primary">
+                  Read case study →
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Related -->
+  <section class="section-sm relative isolate">
+    <div class="container">
+      <div class="section-intro centralize mb-10" data-animate="fade-up">
+        <h2 class="title hasHighlight">
+          {cityLabel ? `More services in ${cityLabel}` : "Other services"}
+        </h2>
+      </div>
+      <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3" data-animate-stagger>
+        {
+          otherServices.map((item) => (
+            <ServiceLinkCard
+              title={item.title}
+              description={item.description}
+              href={withBase(item.href)}
+              icon={item.icon}
+            />
+          ))
+        }
+        {
+          data.related.map((item) => (
+            <ServiceLinkCard
+              title={item.title}
+              description={item.description}
+              href={withBase(item.href)}
+            />
+          ))
+        }
+      </div>
+    </div>
+    <GradientBlob />
+  </section>
+
+  <!-- FAQs -->
+  {
+    data.faqs.length > 0 && (
+      <section class="section">
+        <div class="container">
+          <div class="section-container grid lg:grid-cols-2">
+            <div class="section-intro max-lg:text-center" data-animate="fade-up">
+              <h2 class="title lg:ml-0">
+                {cityLabel
+                  ? `${meta.label} in ${cityLabel}: FAQs`
+                  : `${meta.label}: FAQs`}
+              </h2>
+            </div>
+            <div class="section-content">
+              <div class="space-y-4" data-animate-stagger data-stagger="0.08">
+                {data.faqs.map((item) => (
+                  <div>
+                    <Accordion title={item.question} content={item.answer} />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <CallToAction />
+</Base>

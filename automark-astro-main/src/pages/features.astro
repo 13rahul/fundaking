@@ -177,14 +177,23 @@ const locationPages = featuresData.location_pages;
               <p class="mt-4 max-w-2xl text-text">{locationPages.content}</p>
             )}
           </div>
-          <div class="flex flex-wrap justify-center gap-3">
-            {locationPages.items.map((item) => (
-              <a
-                href={item.href}
-                class="rounded-full border border-border/60 bg-white/5 px-5 py-2.5 text-sm text-text transition-colors hover:border-primary/50 hover:text-white"
-              >
-                {item.title}
-              </a>
+          <div class="space-y-8">
+            {locationPages.groups.map((group) => (
+              <div class="text-center">
+                <p class="mb-4 text-sm font-semibold uppercase tracking-wide text-white">
+                  {group.label}
+                </p>
+                <div class="flex flex-wrap justify-center gap-3">
+                  {group.items.map((item) => (
+                    <a
+                      href={item.href}
+                      class="rounded-full border border-border/60 bg-white/5 px-5 py-2.5 text-sm text-text transition-colors hover:border-primary/50 hover:text-white"
+                    >
+                      {item.title}
+                    </a>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </div>

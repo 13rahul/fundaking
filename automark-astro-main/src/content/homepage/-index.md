@@ -1,8 +1,8 @@
 ---
 banner:
-  title: "SEO consultant in Pune for <strong>technical SEO, AI/LLM SEO & local lead gen</strong>"
-  content: "Rahul Agarwal — technical SEO and LLM visibility for SaaS, D2C, and B2B. Pipeline and CAC, not ranking PDFs."
-  trust_line: "8+ years · Pune & remote · Dev-ready SEO specs"
+  title: "SEO consultant in Pune & Baramati for <strong>SEO, web development & AI enablement</strong>"
+  content: "Rahul Agarwal — SEO consulting, technical and local SEO, websites, AI automation and quick commerce for SaaS, D2C, B2B and manufacturers. Pipeline and CAC, not ranking PDFs."
+  trust_line: "8+ years · Pune, Baramati & remote · Dev-ready specs"
   button_primary:
     enable: true
     label: "Book free SEO audit"
@@ -26,33 +26,51 @@ main_features:
 
 value_props:
   enable: true
-  title: "SEO services in Pune — <strong>strategy, technical depth, governance</strong>"
-  content: "Revenue-focused consulting your team or agency can execute — one senior strategist, not a ticket queue."
+  title: "Our services in <strong>Pune & Baramati</strong>"
+  content: "SEO, websites, AI and quick commerce from one accountable team — each service has its own page with scope, process and case studies."
   items:
-    - logo: "/images/value-proposition/values-icon-1.svg"
-      title: "SEO strategy & roadmap"
+    - logo: "/images/services/seo-consulting.svg"
+      title: "SEO consulting"
+      link: "/seo-consulting-services"
       list:
-        - "Keyword clusters & content pillars"
-        - "6–12 month milestones"
-        - "CEO-level prioritization"
-    - logo: "/images/value-proposition/values-icon-2.svg"
-      title: "Technical SEO & CWV"
+        - "Audits & 90-day roadmaps"
+        - "Content strategy & briefs"
+        - "Monthly SEO advisory"
+    - logo: "/images/services/technical-seo.svg"
+      title: "Technical SEO"
+      link: "/technical-seo-consultant"
       list:
         - "Crawl, index, rendering"
-        - "Schema & internal linking"
-        - "Core Web Vitals your devs ship"
-    - logo: "/images/value-proposition/values-icon-3.svg"
-      title: "Content & local SEO"
+        - "Core Web Vitals & schema"
+        - "Migration support"
+    - logo: "/images/services/local-seo.svg"
+      title: "Local SEO"
+      link: "/local-seo-consultant"
       list:
-        - "Intent-driven page architecture"
-        - "Google Maps / local pack strategy"
-        - "Ecommerce & Shopify growth"
-    - logo: "/images/value-proposition/values-icon-4.svg"
-      title: "Analytics, CRO & advisory"
+        - "Google Business Profile"
+        - "Maps pack & reviews"
+        - "Locality landing pages"
+    - logo: "/images/services/ai-enablement.svg"
+      title: "AI enablement"
+      link: "/ai-enablement"
       list:
-        - "GA4 funnels & attribution"
-        - "Conversion testing on key pages"
-        - "Monthly SEO governance"
+        - "AI agents & data pipelines"
+        - "WhatsApp & lead assistants"
+        - "Workflow automation"
+    - logo: "/images/services/web-development.svg"
+      title: "Web development"
+      link: "/web-development"
+      list:
+        - "SEO-ready business websites"
+        - "Custom CRM & portals"
+        - "Hosting & support"
+    - logo: "/images/services/quick-commerce.svg"
+      title: "Quick commerce enablement"
+      link: "/quick-commerce-enablement"
+      list:
+        - "Blinkit, Zepto, Instamart onboarding"
+        - "Keyword-rich catalogue listings"
+        - "In-app search visibility"
 
 our_features:
   enable: true

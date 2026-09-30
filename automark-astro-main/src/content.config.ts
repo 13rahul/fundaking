@@ -128,6 +128,7 @@ const homepageCollection = defineCollection({
         z.object({
           logo: z.string(),
           title: z.string(),
+          link: z.string().optional(),
           list: z.array(z.string()).optional(),
         }),
       ),
@@ -280,10 +281,15 @@ const featuresCollection = defineCollection({
         badge: z.string().optional(),
         title: z.string(),
         content: z.string().optional(),
-        items: z.array(
+        groups: z.array(
           z.object({
-            title: z.string(),
-            href: z.string(),
+            label: z.string(),
+            items: z.array(
+              z.object({
+                title: z.string(),
+                href: z.string(),
+              }),
+            ),
           }),
         ),
       })
@@ -513,6 +519,62 @@ const blogIndexCollection = defineCollection({
   }),
 });
 
+const servicesCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/services" }),
+  schema: z.object({
+    ...commonFields,
+    service: z.enum([
+      "seo-consulting",
+      "technical-seo",
+      "local-seo",
+      "ai-enablement",
+      "web-development",
+      "quick-commerce",
+    ]),
+    city: z.enum(["pune", "baramati"]).optional(),
+    keywords: z.array(z.string()).default([]),
+    hero: z.object({
+      badge: z.string(),
+      title: z.string(),
+      content: z.string(),
+      icon: z.string(),
+    }),
+    intro: z
+      .object({ title: z.string(), content: z.string() })
+      .optional(),
+    deliverables: z.object({
+      title: z.string(),
+      items: z.array(
+        z.object({
+          icon: z.string(),
+          title: z.string(),
+          content: z.string(),
+        }),
+      ),
+    }),
+    process: z.object({
+      title: z.string(),
+      items: z.array(z.object({ title: z.string(), content: z.string() })),
+    }),
+    local: z
+      .object({
+        title: z.string(),
+        content: z.string(),
+        areas: z.array(z.string()),
+        points: z.array(z.string()).default([]),
+      })
+      .optional(),
+    case_studies: z.array(z.string()).default([]),
+    proof_note: z.string().optional(),
+    related: z
+      .array(z.object({ title: z.string(), description: z.string(), href: z.string() }))
+      .default([]),
+    faqs: z
+      .array(z.object({ question: z.string(), answer: z.string() }))
+      .default([]),
+  }),
+});
+
 const ctaSectionCollection = defineCollection({
   loader: glob({
     pattern: "call-to-action.{md,mdx}",
@@ -653,6 +715,7 @@ export const collections = {
   contact: contactCollection,
   homepage: homepageCollection,
   features: featuresCollection,
+  services: servicesCollection,
   pricing: pricingCollection,
   caseStudy: caseStudyCollection,
   careers: careersCollection,
