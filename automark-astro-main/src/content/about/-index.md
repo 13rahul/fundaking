@@ -1,7 +1,7 @@
 ---
 title: "About"
 meta_title: "About Rahul Agarwal | SEO Consultant Pune | Fundaking Media"
-description: "Independent SEO consultant in Pune — 8+ years of technical SEO, content architecture, and revenue-focused advisory for SaaS, D2C, and B2B."
+description: "Independent SEO consultant in Pune — technical SEO, LLM visibility, and full-stack web builds (CollegeAstra, Shubhshrey, Real Group, UltraLooper) for SaaS, D2C, and B2B."
 image: "/images/og-image.png"
 draft: false
 

@@ -108,8 +108,8 @@ single_testimonial:
       label: "Organic pipeline (client avg.)"
     - value: "+115%"
       label: "Demo requests · B2B SaaS"
-    - value: "8y+"
-      label: "Technical SEO depth"
+    - value: "6,000+"
+      label: "Colleges catalogued · CollegeAstra"
   testimonial:
     quote: "Rahul found critical issues our agency missed for 18 months. Within 3 months we saw 42% more qualified leads from organic."
     avatar: "/images/og-image.png"

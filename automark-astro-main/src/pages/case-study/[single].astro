@@ -1,6 +1,6 @@
 ---
 import Base from "@/layouts/Base.astro";
-import PageEnd from "@/layouts/components/PageEnd.astro";
+import CallToAction from "@/layouts/components/CallToAction.astro";
 import ImageMod from "@/layouts/components/ImageMod.astro";
 import config from "@/config/config.json";
 import { getSinglePage } from "@/lib/contentParser.astro";
@@ -100,7 +100,7 @@ const studySchema = pageGraph({
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {
           studyData?.client_info?.map((item) => (
-            <div class="bg-light rounded-2xl p-6 py-12.5 text-center">
+            <div class="bg-light rounded-2xl p-6 py-8 text-center">
               <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <ImageMod
                   src={item.icon}
@@ -141,7 +141,7 @@ const studySchema = pageGraph({
     </div>
   </section>
 
-  <div class="space-y-30 section">
+  <div class="space-y-20 section">
     <!-- Challenges -->
     <section>
       <div class="container">
@@ -269,6 +269,5 @@ const studySchema = pageGraph({
     </div>
   </section>
 
-  <!-- Call to Action -->
-  <PageEnd />
+  <CallToAction />
 </Base>

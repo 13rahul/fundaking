@@ -4,7 +4,6 @@ import PageEnd from "@/layouts/components/PageEnd.astro";
 import CaseStudyCard from "@/layouts/components/CaseStudyCard.astro";
 import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
 import { markdownify } from "@/lib/utils/textConverter";
-import Testimonial from "@/partials/Testimonial.astro";
 import { withBase } from "@/lib/paths";
 import type { CaseStudy } from "@/types";
 
@@ -68,9 +67,5 @@ const caseStudies = await getSinglePage("caseStudy");
     </div>
   </section>
 
-  <!-- Testimonials -->
-  <Testimonial />
-
-  <!-- Call to Action -->
-  <PageEnd />
+  <PageEnd faqSlug="faq" />
 </Base>

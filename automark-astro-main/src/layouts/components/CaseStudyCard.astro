@@ -28,7 +28,11 @@ const { image, logo, company, badge, title, description, stats, href } =
     {
       logo ? (
         <div class="absolute bottom-0 left-0 p-8">
-          <ImageMod src={logo} alt={company} class="h-8 mb-4 brightness-0 invert" />
+          <ImageMod
+            src={logo}
+            alt={company}
+            class={`h-10 sm:h-11 mb-4 max-w-[180px] object-contain object-left ${logo.includes("/clients/") ? "rounded-md bg-white/95 px-3 py-2" : "brightness-0 invert"}`}
+          />
         </div>
       ) : (
         <div class="absolute bottom-0 left-0 p-8">

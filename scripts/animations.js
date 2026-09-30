@@ -38,6 +38,11 @@ import { sporeCanvas } from "./particleCanvas.js";
     return lenis;
   }
 
+  /** @returns {boolean} */
+  function motionLibsReady() {
+    return typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined";
+  }
+
   function homeHeroTimeline() {
     const hero = document.querySelector("[data-home-hero]");
     if (!hero) return;
@@ -276,7 +281,7 @@ import { sporeCanvas } from "./particleCanvas.js";
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       return;
     }
-    if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") {
+    if (!motionLibsReady()) {
       return;
     }
     initMotion();
