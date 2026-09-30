@@ -1,0 +1,51 @@
+---
+import DynamicIcon from "@/helpers/DynamicIcon";
+import ImageMod from "@/layouts/components/ImageMod.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  icon?: string;
+  iconName?: string;
+  classNames?: string;
+}
+
+const {
+  title,
+  description,
+  href,
+  icon,
+  iconName,
+  classNames = "",
+} = Astro.props;
+---
+
+<a
+  href={href}
+  class={`group flex h-full flex-col rounded-2xl border border-border/50 bg-primary/5 p-6 transition-colors hover:border-primary/40 hover:bg-primary/10 ${classNames}`}
+>
+  {
+    icon && (
+      <div class="mb-5 flex size-12 items-center justify-center rounded-xl border border-border bg-white/6">
+        <ImageMod src={icon} alt="" class="size-7 object-contain" />
+      </div>
+    )
+  }
+  {
+    iconName && !icon && (
+      <div class="mb-5 grid size-12 place-items-center rounded-xl border border-border bg-white/6">
+        <DynamicIcon icon={iconName} className="text-lg text-text-light" />
+      </div>
+    )
+  }
+  <h3 class="text-h5-sm mb-2 font-semibold text-white group-hover:text-primary">
+    {title}
+  </h3>
+  <p class="mb-4 flex-1 text-sm leading-relaxed text-text">{description}</p>
+  <span
+    class="text-sm font-medium text-primary opacity-90 transition-opacity group-hover:opacity-100"
+  >
+    View service →
+  </span>
+</a>

@@ -235,7 +235,7 @@ const featuresCollection = defineCollection({
         label: z.string(),
         link: z.string(),
       }),
-      image: z.string(),
+      image: z.string().optional(),
     }),
     partners: z.object({
       enable: z.boolean(),
@@ -252,22 +252,54 @@ const featuresCollection = defineCollection({
           title: z.string(),
           subtitle: z.string().optional(),
           logo: z.string().optional(),
+          icon: z.string().optional(),
+          href: z.string().optional(),
           image: z.string().optional(),
           classNames: z.string().optional(),
         }),
       ),
     }),
+    specialist_pages: z
+      .object({
+        enable: z.boolean(),
+        badge: z.string().optional(),
+        title: z.string(),
+        content: z.string().optional(),
+        items: z.array(
+          z.object({
+            title: z.string(),
+            description: z.string(),
+            href: z.string(),
+          }),
+        ),
+      })
+      .optional(),
+    location_pages: z
+      .object({
+        enable: z.boolean(),
+        badge: z.string().optional(),
+        title: z.string(),
+        content: z.string().optional(),
+        items: z.array(
+          z.object({
+            title: z.string(),
+            href: z.string(),
+          }),
+        ),
+      })
+      .optional(),
     service_features: z.object({
       enable: z.boolean(),
       items: z.array(
         z.object({
           title: z.string(),
-          image: z.string(),
+          image: z.string().optional(),
           items: z.array(
             z.object({
               icon: z.string(),
               title: z.string(),
               content: z.string(),
+              href: z.string().optional(),
             }),
           ),
           reverse: z.boolean(),
