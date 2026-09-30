@@ -4,10 +4,11 @@ meta_title: "CollegeAstra: AI-Powered College Data & Platform Build | Fundaking"
 description: "Full-stack college discovery for collegeastra.com — custom frontend and backend, plus an AI agent that ingested 6,000+ Maharashtra college records into the database."
 date: 2025-02-10
 draft: false
-image: "/images/case-study-hero-2.png"
-thumbnail: "/images/case-study-hero-2.png"
+image: "/images/case-studies/collegeastra.png"
+thumbnail: "/images/case-studies/collegeastra.png"
 badge: "Edtech"
 company: "CollegeAstra"
+logo: "/images/clients/collegeastra.png"
 stats:
   - value: "6,000+"
     label: "Maharashtra colleges in DB"
@@ -27,7 +28,7 @@ client_info:
     label: "Coverage"
     value: "Maharashtra catalogue"
 overview:
-  image: "/images/case-study-overview.png"
+  image: "/images/case-studies/collegeastra.png"
   title: "Overview"
   content: |
     [CollegeAstra.com](https://collegeastra.com) is a **college discovery platform** for students and parents comparing institutes across Maharashtra — by city, course, entrance exam, fees, specialisation, and college type.
@@ -52,7 +53,7 @@ challenges:
     designation: "CollegeAstra"
     avatar: "/images/avatar.png"
 solution:
-  image: "/images/case-study-solution.png"
+  image: "/images/case-studies/collegeastra.png"
   title: "Solution"
   content: "We delivered the discovery platform end to end, then an AI agent that collects college data and loads the database automatically."
   items:

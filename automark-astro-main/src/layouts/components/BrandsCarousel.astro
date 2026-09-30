@@ -1,5 +1,6 @@
 ---
 import { getListPage } from "@/lib/contentParser.astro";
+import { withBase } from "@/lib/paths";
 import type { BrandsSection } from "@/types";
 
 const brandsInfo = await getListPage("brandsSection", "brands");
@@ -36,21 +37,32 @@ const badges = brandsData.badges ?? [];
             data-animate-stagger
             data-stagger="0.12"
           >
-            {clientLogos.map((item) => (
-              <div
-                class="inline-flex items-center justify-center rounded-lg bg-white min-w-[200px] sm:min-w-[220px] min-h-[72px] sm:min-h-[80px] px-6 py-4 shadow-sm ring-1 ring-black/5"
-              >
-                <img
-                  src={item.src}
-                  alt={item.alt}
-                  width={200}
-                  height={80}
-                  loading="lazy"
-                  decoding="async"
-                  class="h-10 sm:h-11 lg:h-12 w-auto max-w-[160px] sm:max-w-[190px] object-contain"
-                />
-              </div>
-            ))}
+            {clientLogos.map((item) => {
+              const tile = (
+                <span class="inline-flex items-center justify-center rounded-lg bg-white min-w-[200px] sm:min-w-[220px] min-h-[72px] sm:min-h-[80px] px-6 py-4 shadow-sm ring-1 ring-black/5">
+                  <img
+                    src={withBase(item.src)}
+                    alt={item.alt}
+                    width={200}
+                    height={80}
+                    loading="lazy"
+                    decoding="async"
+                    class="h-10 sm:h-11 lg:h-12 w-auto max-w-[160px] sm:max-w-[190px] object-contain"
+                  />
+                </span>
+              );
+              return item.url ? (
+                <a
+                  href={withBase(item.url)}
+                  aria-label={`${item.alt} case study`}
+                  class="transition-transform hover:-translate-y-0.5"
+                >
+                  {tile}
+                </a>
+              ) : (
+                tile
+              );
+            })}
           </div>
         )}
       </div>
