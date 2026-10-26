@@ -18,7 +18,7 @@ intro:
   content: |
     Fundaking Media is Rahul Agarwal's independent practice. Client load is capped, so the person who diagnoses your site is the person who writes the roadmap and reviews the work.
 
-    Engagements start with a clear question — *where is organic search losing pipeline?* — and end with a prioritised plan your developers, writers or agency can ship. If you need a large production bench, we help you structure an agency hybrid instead of pretending to be one.
+    Engagements start with a clear question — *where is Google losing you enquiries?* — and end with a prioritised plan your developers, writers or agency can ship. If you need a large production bench, we help you structure an agency hybrid instead of pretending to be one.
 deliverables:
   title: "What SEO consulting <strong>includes</strong>"
   items:
@@ -27,26 +27,26 @@ deliverables:
       content: "Technical, content and competitor review ranked by business impact — not a 200-page PDF."
     - icon: FaRoute
       title: "90-day and 12-month roadmaps"
-      content: "Keyword clusters mapped to revenue pages, with owners, effort and expected outcomes."
+      content: "Search topics mapped to the pages that drive demos and sales, with owners and effort."
     - icon: FaFileLines
       title: "Content strategy and briefs"
-      content: "Pillar and cluster architecture plus briefs your writers can execute without guesswork."
+      content: "Clear page structure and briefs your writers can execute without guesswork."
     - icon: FaGaugeHigh
-      title: "Technical SEO governance"
-      content: "Dev-ready tickets for crawl, indexation, Core Web Vitals and schema, with QA before release."
+      title: "Technical SEO oversight"
+      content: "Clear tickets for how Google finds your pages, speed, and structured data — with QA before release."
     - icon: FaChartLine
       title: "Analytics and reporting"
-      content: "GA4 and Search Console dashboards that tie organic traffic to leads and sales."
+      content: "Dashboards that tie organic traffic to leads and sales — not just visits."
     - icon: FaUserTie
       title: "Monthly advisory"
-      content: "Fractional SEO leadership for in-house teams, or white-label depth for agencies."
+      content: "Senior SEO leadership for in-house teams, or white-label depth for agencies."
 process:
   title: "How an engagement <strong>runs</strong>"
   items:
     - title: "Discovery call"
       content: "30 minutes on goals, current traffic, and what has already been tried."
     - title: "Audit"
-      content: "Crawl, Search Console and competitor review, delivered as a ranked fix list."
+      content: "Site review, Search Console and competitor check — delivered as a ranked fix list."
     - title: "Roadmap"
       content: "A sequenced plan with tickets, briefs and a measurement setup."
     - title: "Advisory"

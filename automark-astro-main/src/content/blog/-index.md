@@ -1,13 +1,13 @@
 ---
 title: "Blog"
-meta_title: "AI SEO & LLM Search Insights | Research Blog"
-description: "Independent guides on AI search, LLM visibility, generative engine optimization (GEO), and how discovery is changing — written for strategists and practitioners."
+meta_title: "SEO & AI Search Blog | Fundaking Media"
+description: "Practical guides on SEO, Google visibility, and showing up in ChatGPT and AI answers — written by Rahul Agarwal for founders and marketing teams."
 image: ""
 draft: false
 
 page_header:
-  title: "AI SEO & <strong>LLM visibility</strong>"
-  subtitle: "40+ guides on AI search, LLM citations, and GEO—written in my voice as Rahul Agarwal (founder, Fundaking Media). Practical prompts, roadmaps, and fixes—not fluff."
+  title: "SEO & <strong>AI search</strong> insights"
+  subtitle: "40+ guides on Google, ChatGPT citations, and modern search — written by Rahul Agarwal (founder, Fundaking Media). Practical prompts, roadmaps, and fixes — not fluff."
   featured_post: "what-is-ai-seo-definition-2026"
 
 featured_post:

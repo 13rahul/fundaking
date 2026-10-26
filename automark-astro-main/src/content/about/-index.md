@@ -1,13 +1,13 @@
 ---
 title: "About"
 meta_title: "About Rahul Agarwal | SEO Consultant in Pune | Fundaking Media"
-description: "Meet Rahul Agarwal — independent SEO consultant in Pune & Baramati. Technical SEO, local SEO, content architecture, and organic pipeline for SaaS, D2C, and B2B founders."
+description: "Meet Rahul Agarwal — independent SEO consultant in Pune & Baramati. Helps SaaS, D2C, and B2B founders turn Google search into real enquiries and sales."
 image: "/images/og-image.png"
 draft: false
 
 page_header:
-  title: "SEO consultant in Pune who owns the <strong>whole organic system</strong>"
-  subtitle: "Fundaking Media is Rahul Agarwal — one senior strategist for technical SEO, content architecture, and pipeline you can measure. No junior account-manager layer."
+  title: "SEO consultant in Pune who makes <strong>Google work for your sales</strong>"
+  subtitle: "Fundaking Media is Rahul Agarwal — one senior consultant for search, website structure, and results you can measure. You work with him directly, not a junior account manager."
   image: "/images/author/rahul-agarwal.png"
   primary_cta:
     label: "Book free SEO audit on WhatsApp"
@@ -31,48 +31,48 @@ stats:
 who_i_help:
   enable: true
   title: "Who this is <strong>for</strong>"
-  subtitle: "Founders and growth leads who already spend on content or ads — and need organic to become a reliable pipeline channel."
+  subtitle: "Founders and growth leads who already spend on content or ads — and need Google to bring in steady, qualified enquiries."
   items:
     - title: "SaaS & B2B"
-      text: "Demo and SQL growth from BOFU pages, comparison content, and technical foundations that scale."
+      text: "More demos and sales conversations from comparison pages, pricing clarity, and a site Google can crawl cleanly."
     - title: "D2C & ecommerce"
-      text: "Category architecture, product discovery, and SEO that respects margin — not vanity traffic."
+      text: "Category and product pages that get found — traffic that can buy, not just browse."
     - title: "Local & multi-location"
-      text: "Maps pack, GBP, and locality pages for Pune businesses that need footfall and calls."
+      text: "Stronger Google Maps and local pages for Pune businesses that need footfall and phone calls."
     - title: "Agencies & in-house teams"
-      text: "White-label technical depth, audits, and mentorship when you need a senior second brain."
+      text: "Senior technical help, audits, and mentoring when your team needs a second brain — not another junior."
 
 process:
   enable: true
-  title: "How engagements <strong>work</strong>"
-  subtitle: "Clear steps from first call to compounding organic revenue — scoped to what your team can ship."
+  title: "How we <strong>work together</strong>"
+  subtitle: "Clear steps from first call to growth you can see — scoped to what your team can actually ship."
   steps:
     - num: "01"
       title: "Diagnose"
-      text: "Free strategy call, crawl/index signals, content gaps, and the revenue questions that matter."
+      text: "Free strategy call. We check how Google sees your site, what’s missing in content, and which gaps hurt revenue."
     - num: "02"
-      title: "Architect"
-      text: "90-day roadmap with priorities, IA, schema, and developer-ready specs — not a 80-page PDF."
+      title: "Plan"
+      text: "A 90-day plan with priorities and clear tasks for your developers — not an 80-page PDF nobody reads."
     - num: "03"
       title: "Ship & measure"
-      text: "Your team or agency executes; we govern quality and track Search Console, GA4, and pipeline."
+      text: "Your team or agency builds; we keep quality high and track what actually moves enquiries and demos."
 
 proof:
   enable: true
   title: "Proof over <strong>promises</strong>"
-  subtitle: "Named builds and organic programmes you can open — then talk through on WhatsApp."
+  subtitle: "Real projects you can open — then talk through on WhatsApp."
   items:
     - title: "CollegeAstra"
-      text: "6,000+ Maharashtra colleges catalogue and AI-assisted discovery."
+      text: "6,000+ Maharashtra colleges catalogued with AI-assisted discovery."
       link: "/case-study/collegeastra/"
     - title: "Fintech organic"
-      text: "+57% clicks after index prune and content silos."
+      text: "+57% clicks after cleaning thin pages and rebuilding topic structure."
       link: "/case-study/fintech-organic-growth/"
     - title: "SaaS demos"
-      text: "+115% demo requests from BOFU SEO in 4 months."
+      text: "+115% demo requests from high-intent SEO pages in 4 months."
       link: "/case-study/saas-demo-requests/"
     - title: "Shubhshrey"
-      text: "Manufacturing site + CRM for a Baramati industrial brand."
+      text: "Manufacturing website + CRM for a Baramati industrial brand."
       link: "/case-study/shubhshrey-industries/"
 
 services_links:
@@ -94,7 +94,7 @@ services_links:
 
 credentials:
   enable: true
-  title: "Entity & <strong>trust signals</strong>"
+  title: "Company <strong>details</strong>"
   items:
     - label: "Legal name"
       value: "Fundaking Media OPC Pvt Ltd"
@@ -123,33 +123,33 @@ our_team:
 
 core_values:
   enable: true
-  badge: "Operating principles"
-  title: "Business-first SEO with <strong>technical depth</strong>"
-  subtitle: "Every recommendation ties to revenue and pipeline — with specs your developers can ship."
-  content: "Every recommendation ties to revenue and pipeline — with specs your developers can ship."
+  badge: "How we work"
+  title: "Business-first SEO with <strong>real technical depth</strong>"
+  subtitle: "Every recommendation should help revenue — with clear tasks your developers can ship."
+  content: "Every recommendation should help revenue — with clear tasks your developers can ship."
   items:
     - logo: "/images/icons/innovation.svg"
-      title: "Diagnose before dashboards"
-      description: "We find crawl, index, and intent gaps before recommending more content spend."
+      title: "Diagnose before more spend"
+      description: "We find why Google and buyers struggle with your site before you pour money into more content."
       is_starred: false
     - logo: "/images/icons/security.svg"
-      title: "Dev-ready technical specs"
-      description: "Tickets and acceptance criteria your engineering team can implement without translation."
+      title: "Clear tasks for developers"
+      description: "Tickets and acceptance criteria your engineering team can implement without guessing."
       is_starred: true
     - logo: "/images/icons/collaboration.svg"
       title: "Direct founder access"
-      description: "You work with Rahul — not a rotating junior account manager reading a template."
+      description: "You work with Rahul — not a rotating junior reading from a template."
       is_starred: false
     - logo: "/images/icons/result-driven.svg"
-      title: "Pipeline over rankings"
-      description: "Success means demos, SQLs, and revenue influenced by organic — not vanity positions alone."
+      title: "Leads over vanity rankings"
+      description: "Success means demos, enquiries, and revenue from search — not just position screenshots."
       is_starred: true
     - logo: "/images/icons/creativity.svg"
-      title: "Content architecture"
-      description: "Clusters and BOFU pages mapped to how buyers actually search and decide."
+      title: "Content that matches how buyers decide"
+      description: "We map pages to how people actually search, compare, and buy — not keyword stuffing."
       is_starred: false
     - logo: "/images/features-menu-icon.svg"
-      title: "LLM / GEO readiness"
-      description: "Entity clarity, structured data, and answer-ready pages for AI search surfaces."
+      title: "Ready for AI search too"
+      description: "Clear brand facts and well-structured pages so ChatGPT, Perplexity, and Google AI can cite you correctly."
       is_starred: false
 ---

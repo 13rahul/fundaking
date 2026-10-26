@@ -61,7 +61,7 @@ function fundaking_cs_studies()
             'metaTitle' => 'SaaS SEO Case Study: +115% Demo Requests | Fundaking',
             'metaDesc' => 'Pain-point content and comparison pages grew demo requests 115% in 4 months for a B2B CRM startup. Organic SEO case study by Rahul Agarwal.',
             'metaKeywords' => 'saas seo case study, b2b seo results, crm seo consultant',
-            'summary' => 'Strong product, almost no organic pipeline. We targeted long-tail pain queries and built comparison pages that convert evaluators, not browsers.',
+            'summary' => 'Strong product, almost no organic enquiries. We targeted long-tail buyer searches and built comparison pages that convert evaluators, not browsers.',
             'outcome' => '+115% demo requests in 4 months',
             'resultLine' => 'Bottom-of-funnel pages and tighter on-page CTR work more than doubled demo requests in four months.',
             'tags' => ['seo', 'content-development'],

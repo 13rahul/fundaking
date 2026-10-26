@@ -19,7 +19,7 @@ intro:
   content: |
     Pune has hundreds of SEO agencies, and most follow the same monthly-report model: a junior executive, a keyword list and a PDF. Teams that have tried this usually come to us with the same problem — traffic moved, but leads did not.
 
-    We work directly with founders and marketing heads, tie every recommendation to pipeline, and hand work to your in-house team or existing agency. See how this compares in [consultant vs agency](/seo-consultant-vs-agency), or read the [SEO consultant in Pune founder's guide](/blog/seo-consultant-in-pune-founders-guide-2026).
+    We work directly with founders and marketing heads, tie every recommendation to enquiries and sales, and hand work to your in-house team or existing agency. See how this compares in [consultant vs agency](/seo-consultant-vs-agency), or read the [SEO consultant in Pune founder's guide](/blog/seo-consultant-in-pune-founders-guide-2026).
 deliverables:
   title: "SEO consulting for <strong>Pune businesses</strong>"
   items:
@@ -27,8 +27,8 @@ deliverables:
       title: "Audit and competitor review"
       content: "See how you compare with the Pune and national competitors ranking for your terms."
     - icon: FaRoute
-      title: "Pipeline-first roadmap"
-      content: "Keyword clusters mapped to demo, quote and enquiry pages."
+      title: "Roadmap tied to leads"
+      content: "Search topics mapped to demo, quote and enquiry pages."
     - icon: FaUserTie
       title: "Monthly advisory"
       content: "Strategy reviews with your team, in Pune or online."

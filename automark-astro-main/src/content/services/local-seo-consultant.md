@@ -1,7 +1,7 @@
 ---
 title: "Local SEO Consultant"
 meta_title: "Local SEO Consultant | Google Maps & Local Pack Expert - Fundaking"
-description: "Local SEO consultant for Google Business Profile, Maps pack rankings, reviews, citations and location pages. Serving businesses in Pune, Baramati and multi-location brands across India."
+description: "Local SEO consultant for Google Business Profile, Google Maps rankings, reviews, citations and location pages. Serving businesses in Pune, Baramati and multi-location brands across India."
 service: "local-seo"
 keywords:
   - "local seo consultant"
@@ -18,7 +18,7 @@ intro:
   content: |
     People searching "near me" or "in [city]" are usually ready to call or visit. If your profile is incomplete, your address is inconsistent across directories, or competitors have more reviews, they win that customer.
 
-    We fix the signals Google uses for local rankings — relevance, distance and prominence — and build location pages that rank in regular search as well as the Maps pack.
+    We fix what Google uses for local rankings — relevance, distance and prominence — and build location pages that rank in regular search as well as on Google Maps.
 deliverables:
   title: "Local SEO <strong>services</strong>"
   items:
@@ -26,8 +26,8 @@ deliverables:
       title: "Google Business Profile"
       content: "Categories, services, photos, posts, Q&A and attributes optimised for your area."
     - icon: FaListCheck
-      title: "Citations and NAP"
-      content: "Consistent name, address and phone across Justdial, IndiaMART, Sulekha and more."
+      title: "Consistent business listings"
+      content: "Same name, address and phone across Justdial, IndiaMART, Sulekha and more."
     - icon: FaStar
       title: "Review strategy"
       content: "A simple system to ask for, respond to and grow genuine reviews."
@@ -35,8 +35,8 @@ deliverables:
       title: "Location landing pages"
       content: "Service and locality pages that rank for 'service + city' searches."
     - icon: FaFileCode
-      title: "Local schema"
-      content: "LocalBusiness markup with hours, geo coordinates and service areas."
+      title: "Local business details for Google"
+      content: "Hours, map location and service areas marked up clearly for search."
     - icon: FaChartSimple
       title: "Call and lead tracking"
       content: "Measure calls, directions and form leads from Maps and local pages."
@@ -59,7 +59,7 @@ related:
     description: "City coverage for Mumbai, Bangalore, Delhi and more."
     href: "/seo-consultant-india"
 faqs:
-  - question: "How long does it take to rank in the Google Maps pack?"
+  - question: "How long does it take to rank on Google Maps?"
     answer: "Profile and citation fixes often show movement in four to eight weeks. Competitive categories take longer and depend on reviews and distance."
   - question: "Can you help a business with several locations?"
     answer: "Yes. We set up one profile per real location, consistent citations, and a landing page for each branch."

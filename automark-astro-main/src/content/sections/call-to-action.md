@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Ready for organic growth that shows up in <strong>pipeline?</strong>"
-description: "Message Rahul on WhatsApp for a free SEO audit — technical depth, clear priorities, no lock-in pitch."
+title: "Ready for search growth that shows up in <strong>enquiries?</strong>"
+description: "Message Rahul on WhatsApp for a free SEO audit — clear priorities, honest advice, no lock-in pitch."
 button:
   enable: true
   label: "Book free SEO audit on WhatsApp"

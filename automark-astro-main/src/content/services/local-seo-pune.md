@@ -1,7 +1,7 @@
 ---
 title: "Local SEO Services in Pune"
 meta_title: "Local SEO in Pune | Google Maps SEO Consultant Pune - Fundaking"
-description: "Local SEO services in Pune: Google Business Profile optimisation, Maps pack rankings, reviews and locality pages for clinics, restaurants, real estate and service businesses in Baner, Wakad, Kharadi and PCMC."
+description: "Local SEO services in Pune: Google Business Profile optimisation, Google Maps rankings, reviews and locality pages for clinics, restaurants, real estate and service businesses in Baner, Wakad, Kharadi and PCMC."
 service: "local-seo"
 city: "pune"
 keywords:
@@ -12,7 +12,7 @@ keywords:
 hero:
   badge: "Local SEO in Pune"
   title: "Local SEO in <strong>Pune</strong> for Maps and 'near me' searches"
-  content: "Rank in the Google Maps pack across Pune localities — Baner, Wakad, Kharadi, Kothrud, Hadapsar and PCMC — and turn searches into calls and visits."
+  content: "Rank on Google Maps across Pune localities — Baner, Wakad, Kharadi, Kothrud, Hadapsar and PCMC — and turn searches into calls and visits."
   icon: "/images/services/local-seo.svg"
 intro:
   title: "Pune local search is <strong>neighbourhood by neighbourhood</strong>"
@@ -36,8 +36,8 @@ deliverables:
       title: "Citations"
       content: "Consistent listings on Justdial, Sulekha, IndiaMART and local directories."
     - icon: FaFileCode
-      title: "Local schema"
-      content: "LocalBusiness markup with hours, geo and service areas."
+      title: "Local business details for Google"
+      content: "Hours, map location and service areas marked up clearly for search."
     - icon: FaChartSimple
       title: "Call tracking"
       content: "Know which calls and enquiries came from Maps."

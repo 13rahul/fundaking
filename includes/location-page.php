@@ -105,17 +105,17 @@ include __DIR__ . '/theme-header.php';
         <div class="grid-3 reveal">
             <div class="card">
                 <h4>Technical SEO</h4>
-                <p class="muted">Crawl, indexation, CWV, JS rendering, schema — the blockers agencies miss.
+                <p class="muted">How Google finds your pages, speed, JavaScript issues, and clear business details — the blockers agencies miss.
                     <a href="/technical-seo-consultant" style="color:var(--accent-2)">Technical SEO →</a></p>
             </div>
             <div class="card">
                 <h4>Local SEO</h4>
-                <p class="muted">Maps, Local Pack, citations and reviews for service businesses in <?php echo htmlspecialchars($cityName); ?>.
+                <p class="muted">Google Maps, listings, citations and reviews for service businesses in <?php echo htmlspecialchars($cityName); ?>.
                     <a href="/local-seo-consultant" style="color:var(--accent-2)">Local SEO →</a></p>
             </div>
             <div class="card">
                 <h4>Ecommerce & SaaS</h4>
-                <p class="muted">Product architecture, category clusters, B2B demand gen.
+                <p class="muted">Category structure, product pages, and content that brings demos and sales.
                     <a href="/ecommerce-seo-consultant" style="color:var(--accent-2)">Ecommerce</a> ·
                     <a href="/saas-seo-consultant" style="color:var(--accent-2)">SaaS</a></p>
             </div>

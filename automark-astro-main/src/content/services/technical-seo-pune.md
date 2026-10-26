@@ -45,7 +45,7 @@ process:
   title: "Sprint-friendly <strong>delivery</strong>"
   items:
     - title: "Technical audit"
-      content: "Crawl, logs, rendering and CWV field data."
+      content: "Full site crawl, logs, rendering checks and real-user speed data."
     - title: "Ticket backlog"
       content: "Prioritised Jira or Linear tickets with acceptance criteria."
     - title: "Dev pairing"

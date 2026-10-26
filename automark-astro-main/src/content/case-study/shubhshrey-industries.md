@@ -31,7 +31,7 @@ overview:
   image: "/images/case-study-overview.png"
   title: "Overview"
   content: |
-    **Shubhshrey Industries Private Limited** is a Baramati manufacturer. They needed a **credible public site** — products, location, trust signals — and an **internal system** where sales works enquiries instead of WhatsApp threads and spreadsheets.
+    **Shubhshrey Industries Private Limited** is a Baramati manufacturer. They needed a **credible public site** — products, location, and clear company details — and an **internal system** where sales works enquiries instead of WhatsApp threads and spreadsheets.
 
     Fundaking shipped **[shubhshrey.com](https://www.shubhshrey.com/)** and a **custom CRM** in one engagement: marketing frontend, lead capture, and a backend workspace for follow-up and orders.
 challenges:

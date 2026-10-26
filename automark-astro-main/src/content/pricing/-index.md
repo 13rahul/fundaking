@@ -23,11 +23,11 @@ plans:
       enable: true
       label: "Book audit call"
       link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
-    description: "Deep crawl, index, CWV, and content architecture review with dev-ready tickets."
+    description: "Deep review of how Google sees your site, page speed, and content structure — with clear tickets for your developers."
     features:
       - label: "Search Console & log analysis"
         included: true
-      - label: "Prioritized fix list for devs"
+      - label: "Prioritized fix list for developers"
         included: true
       - label: "Recorded walkthrough"
         included: true
@@ -42,11 +42,11 @@ plans:
       enable: true
       label: "Book free call"
       link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
-    description: "CEO-level governance, agency oversight, and roadmap updates for compounding growth."
+    description: "CEO-level guidance, agency oversight, and roadmap updates for steady growth."
     features:
       - label: "Direct access to Rahul"
         included: true
-      - label: "Pipeline-focused reporting"
+      - label: "Reporting tied to enquiries & demos"
         included: true
       - label: "Content & technical QA"
         included: true
@@ -61,13 +61,13 @@ plans:
       enable: true
       label: "Discuss scope"
       link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
-    description: "Technical + content + local/LLM SEO programme with execution governance."
+    description: "Technical, content, local, and AI-search work with hands-on follow-through."
     features:
       - label: "6–12 month roadmap"
         included: true
-      - label: "Cluster & BOFU architecture"
+      - label: "Site structure & high-intent pages"
         included: true
-      - label: "Local lead gen / Maps"
+      - label: "Local lead gen / Google Maps"
         included: true
       - label: "Team or agency enablement"
         included: true
