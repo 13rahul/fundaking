@@ -81,6 +81,8 @@ if (!ourStoryData.enable) return;
                       <a
                         href={ourStoryData.button.link}
                         class="btn btn-primary py-4"
+                        target={ourStoryData.button.link.startsWith("http") ? "_blank" : undefined}
+                        rel={ourStoryData.button.link.startsWith("http") ? "noopener noreferrer" : undefined}
                       >
                         {ourStoryData.button.label}
                       </a>

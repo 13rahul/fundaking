@@ -30,7 +30,12 @@ if (!faqData.enable) return;
           <p class="subtitle lg:ml-0">{faqData.description}</p>
           {
             faqData.button && faqData.button.enable && faqData.button.link && (
-              <a href={withBase(faqData.button.link)} class="btn btn-outline mt-9">
+              <a
+                href={withBase(faqData.button.link)}
+                class="btn btn-outline mt-9"
+                target={faqData.button.link.startsWith("http") ? "_blank" : undefined}
+                rel={faqData.button.link.startsWith("http") ? "noopener noreferrer" : undefined}
+              >
                 {faqData.button.label}
               </a>
             )

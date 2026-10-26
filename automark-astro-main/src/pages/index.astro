@@ -129,6 +129,7 @@ const homeSchema = pageGraph({
             <a
               class="btn btn-primary"
               rel="noopener noreferrer"
+              target={homepageData.banner.button_primary.link.startsWith("http") ? "_blank" : undefined}
               href={homepageData.banner.button_primary.link}
             >
               {homepageData.banner.button_primary.label}

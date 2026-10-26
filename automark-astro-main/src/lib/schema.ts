@@ -40,21 +40,47 @@ const founder = {
 export function organizationNode() {
   const orgId = `${siteOrigin()}/#organization`;
   return {
-    "@type": "Organization",
+    "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
     "@id": orgId,
     name: "Fundaking Media OPC Pvt Ltd",
     alternateName: "Fundaking Media",
     url: siteOrigin(),
     logo: absoluteUrl(config.site.logo),
+    image: absoluteUrl(config.site.logo),
     email: config.params.footer_email,
-    telephone: config.params.footer_phone,
+    telephone: "+918421053710",
+    priceRange: "₹₹",
     founder: { "@id": `${siteOrigin()}/#founder` },
     address: {
       "@type": "PostalAddress",
+      streetAddress: "H S No. 155, Near Bhairavnath Temple, Pandare",
       addressLocality: "Baramati",
       addressRegion: "Maharashtra",
+      postalCode: "413110",
       addressCountry: "IN",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "18.1517",
+      longitude: "74.5777",
+    },
+    areaServed: [
+      { "@type": "City", name: "Pune" },
+      { "@type": "City", name: "Baramati" },
+      { "@type": "Country", name: "India" },
+    ],
+    sameAs: [
+      "https://www.linkedin.com/in/rahul-agarwal-510a5b79/",
+      absoluteUrl("/about"),
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+918421053710",
+      contactType: "sales",
+      areaServed: "IN",
+      availableLanguage: ["English", "Hindi", "Marathi"],
+    },
+    hasMap: "https://www.google.com/maps?cid=2623935863145284685",
   };
 }
 

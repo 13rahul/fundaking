@@ -1,12 +1,20 @@
 ---
 import ImageMod from "@/layouts/components/ImageMod.astro";
 import { markdownify } from "@/lib/utils/textConverter";
+import config from "@/config/config.json";
 
 interface Props {
   lead_generation: any;
 }
 
 const { lead_generation } = Astro.props;
+const whatsappUrl =
+  lead_generation.button?.link?.startsWith("http")
+    ? lead_generation.button.link
+    : config.params.whatsapp_url ||
+      "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit";
+const buttonLabel =
+  lead_generation.button?.label || "Book free SEO audit on WhatsApp";
 ---
 
 <section class="section-box bg-transparent my-0 pb-0">
@@ -38,7 +46,7 @@ const { lead_generation } = Astro.props;
             </ul>
           </div>
           <div class="lg:w-6/12">
-            <div class="bg-light rounded-4xl corner-squircle p-10 xl:px-7.5 xl:py-10">
+            <div class="bg-light rounded-4xl corner-squircle p-10 xl:px-7.5 xl:py-10 text-center">
               <ImageMod
                 src={lead_generation.image}
                 width={307}
@@ -46,44 +54,19 @@ const { lead_generation } = Astro.props;
                 alt="ebook"
                 class="w-full max-w-76.75 mx-auto mb-12"
               />
-              <form id="lead-form" novalidate class="">
-                <div class="form-control">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    class="form-input w-full mb-5"
-                    required
-                  />
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email Address"
-                    class="form-input w-full mb-5"
-                    required
-                  />
-                  <button
-                    type="submit"
-                    id="lead-submit"
-                    class="btn btn-primary w-full disabled:opacity-60 disabled:cursor-not-allowed"
-                  >
-                    <span id="lead-submit-label">Get Free Checklist</span>
-                    <span id="lead-submit-loading" class="hidden">Submitting...</span>
-                  </button>
-                  <div
-                    id="lead-form-success"
-                    class="hidden mt-4 text-green-500 font-medium text-sm text-center"
-                  >
-                    ✅ Free Checklist requested successfully!
-                  </div>
-                  <div
-                    id="lead-form-error"
-                    class="hidden mt-4 text-red-500 font-medium text-sm text-center"
-                  >
-                    ⚠️ <span id="lead-form-error-text">Something went wrong.</span>
-                  </div>
-                </div>
-              </form>
+              <p class="text-text mb-6 text-left">
+                Message Rahul on WhatsApp at
+                <strong class="text-white"> +91 84210 53710</strong> — share your
+                site URL and goals for a free SEO audit.
+              </p>
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary w-full"
+              >
+                {buttonLabel}
+              </a>
             </div>
           </div>
         </div>
@@ -92,51 +75,3 @@ const { lead_generation } = Astro.props;
   </div>
   <hr class="h-px bg-linear-to-r from-transparent from-10% via-white/50 to-90% to-transparent border-0" />
 </section>
-
-<script>
-  const form = document.getElementById("lead-form") as HTMLFormElement | null;
-  const submitBtn = document.getElementById("lead-submit") as HTMLButtonElement | null;
-  const submitLabel = document.getElementById("lead-submit-label");
-  const submitLoading = document.getElementById("lead-submit-loading");
-  const successEl = document.getElementById("lead-form-success");
-  const errorEl = document.getElementById("lead-form-error");
-  const errorText = document.getElementById("lead-form-error-text");
-
-  function setLoading(loading: boolean) {
-    if (!submitBtn || !submitLabel || !submitLoading) return;
-    submitBtn.disabled = loading;
-    submitLabel.classList.toggle("hidden", loading);
-    submitLoading.classList.toggle("hidden", !loading);
-  }
-
-  function showSuccess() {
-    successEl?.classList.remove("hidden");
-    errorEl?.classList.add("hidden");
-    form?.reset();
-  }
-
-  function showError(msg?: string) {
-    errorEl?.classList.remove("hidden");
-    successEl?.classList.add("hidden");
-    if (errorText && msg) errorText.textContent = msg;
-  }
-
-  form?.addEventListener("submit", (e) => {
-    e.preventDefault();
-    successEl?.classList.add("hidden");
-    errorEl?.classList.add("hidden");
-
-    const formData = new FormData(form);
-    const name = String(formData.get("name") ?? "").trim();
-    const email = String(formData.get("email") ?? "").trim();
-    if (!name || !email) {
-      showError("Please enter your name and email.");
-      return;
-    }
-
-    const base =
-      document.documentElement.getAttribute("data-base-path") || "/";
-    const contactPath = `${base.replace(/\/?$/, "/")}contact`;
-    window.location.href = `${contactPath}?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}`;
-  });
-</script>

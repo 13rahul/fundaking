@@ -71,12 +71,13 @@ const {
 
   {
     button.enable && (
-      <PricingCheckout 
-        client:load 
+      <PricingCheckout
+        client:load
         planTitle={title}
         monthlyPrice={price}
         yearlyPrice={yearly_price}
         buttonLabel={button.label}
+        buttonLink={button.link}
         isFeatured={is_featured}
       />
     )

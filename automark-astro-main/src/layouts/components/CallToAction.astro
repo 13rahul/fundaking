@@ -20,7 +20,12 @@ if (!ctaData.enable) return;
         <p class="subtitle text-h6-sm lg:col-6">{ctaData.description}</p>
         {
           ctaData.button && ctaData.button.enable && ctaData.button.link && (
-            <a href={withBase(ctaData.button.link)} class="btn btn-primary mt-9">
+            <a
+              href={withBase(ctaData.button.link)}
+              class="btn btn-primary mt-9"
+              target={ctaData.button.link.startsWith("http") ? "_blank" : undefined}
+              rel={ctaData.button.link.startsWith("http") ? "noopener noreferrer" : undefined}
+            >
               {ctaData.button.label}
             </a>
           )

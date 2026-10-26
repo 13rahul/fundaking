@@ -1,6 +1,6 @@
 {
   "main": [
-    { "name": "Services", "url": "/features" },
+    { "name": "Services", "url": "/seo-consulting-services" },
     { "name": "Case Studies", "url": "/case-study" },
     { "name": "Blog", "url": "/blog" },
     { "name": "About", "url": "/about" },
@@ -20,12 +20,13 @@
   "footer_resource": [
     { "name": "Blog", "url": "/blog" },
     { "name": "Case studies", "url": "/case-study" },
-    { "name": "All services", "url": "/features" },
-    { "name": "Services in Pune", "url": "/seo-consulting-pune" },
+    { "name": "SEO consulting Pune", "url": "/seo-consulting-pune" },
     { "name": "Services in Baramati", "url": "/seo-consulting-baramati" },
+    { "name": "SEO pricing India", "url": "/blog/seo-consulting-pricing-india" },
     { "name": "Consultant vs agency", "url": "/seo-consultant-vs-agency" }
   ],
   "footer_legal": [
+    { "name": "About Rahul", "url": "/about" },
     { "name": "Privacy Policy", "url": "/privacy-policy" },
     { "name": "Terms and Conditions", "url": "/term-and-condition" }
   ]

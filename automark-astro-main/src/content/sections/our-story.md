@@ -15,6 +15,6 @@ letter_points:
 closing_content: "Whether you are in Hinjewadi, Baner, or scaling remotely from Mumbai and Bangalore — the goal is the same: organic search that pays for itself."
 button:
   enable: true
-  label: "Book free SEO audit"
-  link: "/contact"
+  label: "Book free SEO audit on WhatsApp"
+  link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
 ---

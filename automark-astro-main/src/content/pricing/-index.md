@@ -22,7 +22,7 @@ plans:
     button:
       enable: true
       label: "Book audit call"
-      link: "/contact"
+      link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
     description: "Deep crawl, index, CWV, and content architecture review with dev-ready tickets."
     features:
       - label: "Search Console & log analysis"
@@ -41,7 +41,7 @@ plans:
     button:
       enable: true
       label: "Book free call"
-      link: "/contact"
+      link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
     description: "CEO-level governance, agency oversight, and roadmap updates for compounding growth."
     features:
       - label: "Direct access to Rahul"
@@ -60,7 +60,7 @@ plans:
     button:
       enable: true
       label: "Discuss scope"
-      link: "/contact"
+      link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
     description: "Technical + content + local/LLM SEO programme with execution governance."
     features:
       - label: "6–12 month roadmap"

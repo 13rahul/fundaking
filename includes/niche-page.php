@@ -112,7 +112,10 @@ include __DIR__ . '/theme-header.php';
                 <h3>Quick Contact</h3>
                 <div style="margin-top:24px;display:flex;flex-direction:column;gap:16px">
                     <a class="cta-btn secondary" href="mailto:consult@fundaking.com"><i class="fas fa-envelope"></i> Email</a>
-                    <a class="cta-btn" style="background:#25D366;color:white" href="https://wa.me/918421053710"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a class="cta-btn" style="background:#25D366;color:white" href="https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20help%20with%20SEO"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a class="cta-btn secondary" href="/seo-consulting-pune/">SEO consulting Pune</a>
+                    <a class="cta-btn secondary" href="/case-study/">Case studies</a>
+                    <a class="cta-btn secondary" href="/blog/seo-consulting-pricing-india/">Pricing India</a>
                 </div>
             </aside>
         </div>

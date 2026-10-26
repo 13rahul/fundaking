@@ -6,7 +6,7 @@ banner:
   button_primary:
     enable: true
     label: "Book free SEO audit"
-    link: "/contact"
+    link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
   button_secondary:
     enable: true
     label: "View case studies"
@@ -150,7 +150,7 @@ growth_process:
   button:
     enable: true
     label: "Book free SEO audit"
-    link: "/contact"
+    link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
 
 integrations:
   enable: true
@@ -190,8 +190,8 @@ lead_generation:
   image: "/images/ebook.png"
   button:
     enable: true
-    label: "Book free SEO audit"
-    link: "/contact"
+    label: "Book free SEO audit on WhatsApp"
+    link: "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
 
 pricing:
   enable: false

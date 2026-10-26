@@ -2,8 +2,14 @@ User-agent: *
 Allow: /
 
 Disallow: /api/
+Disallow: /theme-preview/
+Disallow: /elements/
+Disallow: /integrations/
+Disallow: /data/
+Disallow: /legacy-php/
+Disallow: /automark-astro-main/
 
-# AI / LLM crawlers (same allow rules)
+# AI / LLM crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -23,3 +29,4 @@ User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://fundaking.com/sitemap-index.xml
+Sitemap: https://fundaking.com/sitemap.xml
