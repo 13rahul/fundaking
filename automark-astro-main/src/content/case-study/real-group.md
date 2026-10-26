@@ -6,7 +6,8 @@ date: 2025-03-20
 draft: false
 image: "/images/case-study-hero-2.png"
 thumbnail: "/images/case-study-hero-2.png"
-badge: "Corporate / FMCG"
+badge: "Web & Product"
+category: "Web & Product"
 company: "Real Group India"
 logo: "/images/clients/real-group.png"
 stats:

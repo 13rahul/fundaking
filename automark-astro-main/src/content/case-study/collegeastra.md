@@ -6,7 +6,8 @@ date: 2025-02-10
 draft: false
 image: "/images/case-studies/collegeastra.png"
 thumbnail: "/images/case-studies/collegeastra.png"
-badge: "Edtech"
+badge: "AI Integration"
+category: "AI Integration"
 company: "CollegeAstra"
 logo: "/images/clients/collegeastra.png"
 stats:

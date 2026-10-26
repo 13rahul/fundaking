@@ -195,7 +195,10 @@ const studySchema = pageGraph({
             <h2 class="text-h3 lg:text-h2 mb-6">
               {studyData?.solution?.title}
             </h2>
-            <p class="text-text mb-6">{studyData?.solution?.content}</p>
+            <div
+              class="text-text mb-6"
+              set:html={markdownify(studyData?.solution?.content ?? "", true)}
+            />
             <ul class="space-y-4">
               {
                 studyData?.solution?.items?.map((item) => (
@@ -216,7 +219,10 @@ const studySchema = pageGraph({
                         />
                       </svg>
                     </div>
-                    <span class="text-text">{item}</span>
+                    <span
+                      class="text-text"
+                      set:html={markdownify(item)}
+                    />
                   </li>
                 ))
               }

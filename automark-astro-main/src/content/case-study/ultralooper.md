@@ -6,7 +6,8 @@ date: 2025-01-18
 draft: false
 image: "/images/case-study-hero-2.png"
 thumbnail: "/images/case-study-hero-2.png"
-badge: "AI product"
+badge: "AI Integration"
+category: "AI Integration"
 company: "UltraLooper"
 stats:
   - value: "Product IA"

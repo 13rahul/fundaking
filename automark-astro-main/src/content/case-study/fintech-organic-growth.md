@@ -8,7 +8,8 @@ draft: false
 image: "/images/case-study-hero-2.png"
 thumbnail: "/images/case-study-hero-2.png"
 
-badge: "Finance"
+badge: "SEO & Organic Growth"
+category: "SEO & Organic Growth"
 company: "Fintech firm (confidential)"
 
 stats:

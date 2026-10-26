@@ -72,7 +72,7 @@ proof:
       text: "+115% demo requests from high-intent SEO pages in 4 months."
       link: "/case-study/saas-demo-requests/"
     - title: "Shubhshrey"
-      text: "Manufacturing website + CRM for a Baramati industrial brand."
+      text: "Custom CRM, AI lead agents, enrichment APIs, and outreach for a Baramati manufacturer."
       link: "/case-study/shubhshrey-industries/"
 
 services_links:

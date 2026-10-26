@@ -437,6 +437,8 @@ const caseStudyCollection = defineCollection({
     logo: z.string().optional(),
     company: z.string().optional(),
     badge: z.string().optional(),
+    /** Grouping key for case-study index (e.g. AI Integration, SEO). */
+    category: z.string().optional(),
     stats: z
       .array(z.object({ value: z.string(), label: z.string() }))
       .optional(),

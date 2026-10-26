@@ -10,8 +10,33 @@ import type { CaseStudy } from "@/types";
 const caseStudyList = await getListPage("caseStudy", "-index");
 const pageData: CaseStudy = caseStudyList.data;
 
-// Get all individual case study entries
 const caseStudies = await getSinglePage("caseStudy");
+
+const CATEGORY_ORDER = [
+  "AI Integration",
+  "SEO & Organic Growth",
+  "Web & Product",
+];
+
+function studyCategory(study: (typeof caseStudies)[number]): string {
+  return (
+    study.data.category ||
+    study.data.badge ||
+    "Web & Product"
+  );
+}
+
+const grouped = CATEGORY_ORDER.map((category) => ({
+  category,
+  studies: caseStudies.filter((s) => studyCategory(s) === category),
+})).filter((g) => g.studies.length > 0);
+
+const other = caseStudies.filter(
+  (s) => !CATEGORY_ORDER.includes(studyCategory(s)),
+);
+if (other.length) {
+  grouped.push({ category: "More work", studies: other });
+}
 ---
 
 <Base {...pageData} faqSlug="faq">
@@ -32,6 +57,23 @@ const caseStudies = await getSinglePage("caseStudy");
           <p class="mb-10 lg:col-6 mx-auto text-lg">
             {pageData.page_header!.content}
           </p>
+          {
+            grouped.length > 1 && (
+              <nav
+                class="flex flex-wrap justify-center gap-3"
+                aria-label="Case study categories"
+              >
+                {grouped.map((g) => (
+                  <a
+                    href={`#${g.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+                    class="rounded-full border border-white/15 bg-light/40 px-4 py-2 text-sm text-white hover:border-primary hover:bg-primary/20 transition-colors"
+                  >
+                    {g.category}
+                  </a>
+                ))}
+              </nav>
+            )
+          }
         </div>
       </div>
     </div>
@@ -45,27 +87,46 @@ const caseStudies = await getSinglePage("caseStudy");
     class="h-px bg-linear-to-r from-transparent from-10% via-white/50 to-90% to-transparent border-0"
   />
 
-  <!-- Case Study Cards -->
-  <section class="section relative">
-    <div class="container">
-      <div class="grid gap-7 lg:gap-14">
-        {
-          caseStudies.map((study) => (
-            <CaseStudyCard
-              href={withBase(`/case-study/${study.id}`)}
-              image={study.data.image ?? "/images/case-study-hero-2.png"}
-              logo={study.data.logo ?? ""}
-              company={study.data.company ?? study.data.title}
-              badge={study.data.badge ?? "Case study"}
-              title={study.data.title}
-              description={study.data.description}
-              stats={study.data.stats}
-            />
-          ))
-        }
-      </div>
-    </div>
-  </section>
+  {
+    grouped.map((group) => (
+      <section
+        class="section relative"
+        id={group.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}
+      >
+        <div class="container">
+          <div class="section-intro mb-10" data-animate="fade-up">
+            <h2 class="title hasHighlight">
+              {group.category}
+            </h2>
+            <p class="subtitle mt-3 max-w-2xl">
+              {group.category === "AI Integration" &&
+                "CRM systems, AI agents, data pipelines, and automation we built for operations and growth."}
+              {group.category === "SEO & Organic Growth" &&
+                "Search programmes with measurable organic outcomes for SaaS, fintech, and B2B teams."}
+              {group.category === "Web & Product" &&
+                "Sites and product marketing builds where structure, UX, and conversion matter."}
+              {group.category === "More work" &&
+                "Additional engagements across industries."}
+            </p>
+          </div>
+          <div class="grid gap-7 lg:gap-14">
+            {group.studies.map((study) => (
+              <CaseStudyCard
+                href={withBase(`/case-study/${study.id}`)}
+                image={study.data.image ?? "/images/case-study-hero-2.png"}
+                logo={study.data.logo ?? ""}
+                company={study.data.company ?? study.data.title}
+                badge={study.data.badge ?? group.category}
+                title={study.data.title}
+                description={study.data.description}
+                stats={study.data.stats}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    ))
+  }
 
   <PageEnd faqSlug="faq" />
 </Base>
