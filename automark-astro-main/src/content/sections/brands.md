@@ -24,4 +24,6 @@ images:
     url: "/case-study/collegeastra"
   - src: "/images/clients/13th-pencil.png"
     alt: "13th Pencil"
+  - src: "/images/clients/meribindiya.png"
+    alt: "Meribindiya International Academy"
 ---
