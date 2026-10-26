@@ -12,14 +12,19 @@ $faqs = $faqs ?? [];
 $services = $services ?? [];
 $relatedLinks = $relatedLinks ?? [];
 
+$origin = function_exists('fundaking_schema_origin')
+    ? fundaking_schema_origin()
+    : 'https://fundaking.com';
 $serviceSchema = [
     "@context" => "https://schema.org",
     "@type" => "Service",
     "serviceType" => $nicheName,
-    "provider" => ["@type" => "Person", "name" => "Rahul Agarwal", "url" => "https://fundaking.com/"],
+    "provider" => ["@id" => $origin . "/#organization"],
+    "creator" => ["@id" => $origin . "/#founder"],
+    "brand" => ["@id" => $origin . "/#organization"],
     "areaServed" => [["@type" => "Country", "name" => "India"]],
     "description" => $metaDesc,
-    "url" => $canonicalUrl
+    "url" => $canonicalUrl,
 ];
 $breadcrumbSchema = [
     "@context" => "https://schema.org",
@@ -77,6 +82,12 @@ include __DIR__ . '/theme-header.php';
     <?php if (!empty($nicheBodyHtml)): ?>
     <section class="section container article-body"><?php echo $nicheBodyHtml; ?></section>
     <?php endif; ?>
+
+    <?php
+    if (function_exists('fundaking_eeat_strip_html')) {
+        echo fundaking_eeat_strip_html();
+    }
+    ?>
 
     <?php if ($relatedLinks): ?>
     <section class="section container">

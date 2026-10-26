@@ -128,6 +128,12 @@ include __DIR__ . '/theme-header.php';
     </section>
     <?php endif; ?>
 
+    <?php
+    if (function_exists('fundaking_eeat_strip_html')) {
+        echo fundaking_eeat_strip_html();
+    }
+    ?>
+
     <?php if (!empty($faqs)): ?>
     <section class="section container">
         <h2 style="text-align:center;margin-bottom:40px">FAQs — SEO consultant in <?php echo htmlspecialchars($cityName); ?></h2>

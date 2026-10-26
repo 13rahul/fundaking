@@ -35,34 +35,6 @@ const aboutSchema = pageGraph({
   url: aboutUrl,
   pageType: "AboutPage",
   extra: [
-    {
-      "@type": "Person",
-      "@id": `${absoluteUrl("/")}/#founder-about`,
-      name: "Rahul Agarwal",
-      alternateName: "Rahul Vijay Agarwal",
-      jobTitle: "Founder & SEO Consultant",
-      worksFor: { "@id": `${absoluteUrl("/")}/#organization` },
-      url: aboutUrl,
-      image: absoluteUrl("/images/author/rahul-agarwal.png"),
-      sameAs: [
-        "https://www.linkedin.com/in/rahul-agarwal-510a5b79/",
-        aboutUrl,
-      ],
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Baramati",
-        addressRegion: "Maharashtra",
-        postalCode: "413110",
-        addressCountry: "IN",
-      },
-      knowsAbout: [
-        "Technical SEO",
-        "Local SEO",
-        "SEO consulting",
-        "Content architecture",
-        "LLM SEO",
-      ],
-    },
     ...(faqItems.length ? [faqPageNode(faqItems, aboutUrl)] : []),
   ],
 });

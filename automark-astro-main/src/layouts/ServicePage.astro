@@ -6,14 +6,15 @@ import CallToAction from "@/layouts/components/CallToAction.astro";
 import GradientBlob from "@/layouts/components/GradientBlob.astro";
 import ImageMod from "@/layouts/components/ImageMod.astro";
 import ServiceLinkCard from "@/layouts/components/ServiceLinkCard.astro";
-import { getSinglePage } from "@/lib/contentParser.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
 import { withBase } from "@/lib/paths";
 import {
   absoluteUrl,
   breadcrumbList,
   faqPageNode,
+  founderId,
+  organizationId,
   pageGraph,
-  siteOrigin,
 } from "@/lib/schema";
 import {
   CITY_LABEL,
@@ -22,6 +23,7 @@ import {
   serviceUrl,
 } from "@/lib/services";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
+import Testimonial from "@/partials/Testimonial.astro";
 import type { CollectionEntry } from "astro:content";
 
 interface Props {
@@ -71,6 +73,13 @@ const breadcrumbs = [
   { name: plainify(data.title), url: pageUrl },
 ];
 
+const reviewsSection = await getListPage("testimonialSection", "testimonial");
+const reviewCount = String(
+  reviewsSection.data.review_count ??
+    (reviewsSection.data.testimonials ?? []).length,
+);
+const ratingValue = String(reviewsSection.data.rating_value ?? "5.0");
+
 const serviceNode = {
   "@type": "Service",
   "@id": `${pageUrl}#service`,
@@ -78,7 +87,9 @@ const serviceNode = {
   serviceType: meta.label,
   description: pageDescription,
   url: pageUrl,
-  provider: { "@id": `${siteOrigin()}/#organization` },
+  provider: { "@id": organizationId() },
+  brand: { "@id": organizationId() },
+  creator: { "@id": founderId() },
   areaServed: data.city
     ? [
         { "@type": "City", name: cityLabel },
@@ -97,6 +108,9 @@ const schema = pageGraph({
     ...(data.faqs.length ? [faqPageNode(data.faqs, pageUrl)] : []),
   ],
 });
+
+const wa =
+  "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit";
 ---
 
 <Base {...data} canonical={pageUrl} jsonLd={schema}>
@@ -398,6 +412,52 @@ const schema = pageGraph({
       </section>
     )
   }
+
+  <!-- E-E-A-T: named expert -->
+  <section class="section-sm" aria-label="Who you work with">
+    <div class="container">
+      <div
+        class="flex flex-col gap-8 rounded-3xl border border-white/10 bg-light/50 p-8 lg:flex-row lg:items-center lg:gap-12 lg:p-10"
+        data-animate="fade-up"
+      >
+        <ImageMod
+          src="/images/author/rahul-agarwal.png"
+          alt="Rahul Agarwal — SEO consultant, Fundaking Media"
+          width={160}
+          height={160}
+          class="size-28 shrink-0 rounded-2xl object-cover lg:size-36"
+        />
+        <div class="min-w-0 flex-1">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-primary-light">
+            Who you work with
+          </p>
+          <h2 class="mb-3 text-h4 text-white lg:text-h3">Rahul Agarwal</h2>
+          <p class="mb-4 max-w-2xl text-text">
+            Founder &amp; SEO consultant at Fundaking Media OPC Pvt Ltd. 8+ years
+            helping SaaS, D2C, and B2B teams — direct access, no junior account
+            layer.
+          </p>
+          <p class="mb-6 text-sm text-text/90">
+            Google {ratingValue} · {reviewCount} reviews · based in Baramati,
+            serving Pune &amp; India
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a href={withBase("/about/")} class="btn btn-outline">About Rahul</a>
+            <a
+              href={wa}
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book free SEO audit
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Testimonial />
 
   <CallToAction />
 </Base>

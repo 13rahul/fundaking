@@ -37,20 +37,32 @@ const founder = {
   url: absoluteUrl("/about"),
 };
 
+const MAPS_PLACE_URL =
+  "https://www.google.com/maps/place/Fundaking+Media+-+Rahul+Agarwal/@21.0680074,82.7525294,5z/data=!3m1!4b1!4m6!3m5!1s0x3bc3a78b97137889:0x2464feeefb15a44d!8m2!3d21.0680074!4d82.7525294!16s%2Fg%2F11p4l9ptl4";
+const WRITE_REVIEW_URL = "https://g.page/r/CU2kFfvu_mQkEAE/review";
+
+export function organizationId() {
+  return `${siteOrigin()}/#organization`;
+}
+
+export function founderId() {
+  return `${siteOrigin()}/#founder`;
+}
+
 export function organizationNode() {
-  const orgId = `${siteOrigin()}/#organization`;
+  const orgId = organizationId();
   return {
     "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
     "@id": orgId,
     name: "Fundaking Media OPC Pvt Ltd",
     alternateName: "Fundaking Media",
     url: siteOrigin(),
-    logo: absoluteUrl(config.site.logo),
-    image: absoluteUrl(config.site.logo),
-    email: config.params.footer_email,
+    logo: absoluteUrl(config.site.logo || "/images/logo.png"),
+    image: absoluteUrl(config.site.logo || "/images/logo.png"),
+    email: config.params.footer_email || "consult@fundaking.com",
     telephone: "+918421053710",
     priceRange: "₹₹",
-    founder: { "@id": `${siteOrigin()}/#founder` },
+    founder: { "@id": founderId() },
     address: {
       "@type": "PostalAddress",
       streetAddress: "H S No. 155, Near Bhairavnath Temple, Pandare",
@@ -67,11 +79,15 @@ export function organizationNode() {
     areaServed: [
       { "@type": "City", name: "Pune" },
       { "@type": "City", name: "Baramati" },
+      { "@type": "City", name: "Mumbai" },
+      { "@type": "City", name: "Bengaluru" },
       { "@type": "Country", name: "India" },
     ],
     sameAs: [
       "https://www.linkedin.com/in/rahul-agarwal-510a5b79/",
       absoluteUrl("/about"),
+      MAPS_PLACE_URL,
+      WRITE_REVIEW_URL,
     ],
     contactPoint: {
       "@type": "ContactPoint",
@@ -87,17 +103,109 @@ export function organizationNode() {
 export function personFounderNode() {
   const sameAs = authorConfig.same_as?.length
     ? authorConfig.same_as
-    : undefined;
+    : [
+        "https://www.linkedin.com/in/rahul-agarwal-510a5b79/",
+        absoluteUrl("/about"),
+      ];
   return {
     "@type": "Person",
-    "@id": `${siteOrigin()}/#founder`,
-    name: founder.name,
-    jobTitle: founder.jobTitle,
+    "@id": founderId(),
+    name: founder.name || "Rahul Agarwal",
+    alternateName: "Rahul Vijay Agarwal",
+    jobTitle:
+      founder.jobTitle || "Founder & SEO Consultant, Fundaking Media",
     url: founder.url,
-    image: absoluteUrl(authorConfig.image ?? config.metadata.meta_image),
-    ...(sameAs ? { sameAs } : {}),
-    worksFor: { "@id": `${siteOrigin()}/#organization` },
+    image: absoluteUrl(
+      authorConfig.image || "/images/author/rahul-agarwal.png",
+    ),
+    sameAs,
+    worksFor: { "@id": organizationId() },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Baramati",
+      addressRegion: "Maharashtra",
+      postalCode: "413110",
+      addressCountry: "IN",
+    },
+    knowsAbout: [
+      "Technical SEO",
+      "Local SEO",
+      "SEO consulting",
+      "Content architecture",
+      "AI search visibility",
+    ],
   };
+}
+
+export type GoogleReviewInput = {
+  name: string;
+  content: string;
+  rating?: number;
+  date_published?: string;
+  google_url?: string;
+};
+
+export function googleReviewNodes(
+  reviews: GoogleReviewInput[],
+  itemReviewedId: string = organizationId(),
+) {
+  return reviews
+    .filter((r) => r.google_url && r.content)
+    .map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.name },
+      datePublished: r.date_published,
+      reviewBody: r.content,
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: String(r.rating ?? 5),
+        bestRating: "5",
+        worstRating: "1",
+      },
+      url: r.google_url,
+      itemReviewed: { "@id": itemReviewedId },
+    }));
+}
+
+/** Attach AggregateRating + review[] onto the Organization node in a page graph. */
+export function attachReviewsToOrganization(
+  payload: Record<string, unknown>,
+  options: {
+    reviews: GoogleReviewInput[];
+    ratingValue?: string | number;
+    reviewCount?: string | number;
+  },
+): Record<string, unknown> {
+  const reviewNodes = googleReviewNodes(options.reviews);
+  if (!reviewNodes.length) return payload;
+
+  const graph = Array.isArray(payload["@graph"])
+    ? [...(payload["@graph"] as Record<string, unknown>[])]
+    : [];
+  const orgId = organizationId();
+  const count = String(options.reviewCount ?? reviewNodes.length);
+  const ratingValue = String(options.ratingValue ?? "5.0");
+
+  const orgIndex = graph.findIndex((node) => {
+    if (!node || typeof node !== "object") return false;
+    const id = (node as Record<string, unknown>)["@id"];
+    return id === orgId;
+  });
+
+  if (orgIndex >= 0) {
+    const org = { ...(graph[orgIndex] as Record<string, unknown>) };
+    org.aggregateRating = {
+      "@type": "AggregateRating",
+      ratingValue,
+      reviewCount: count,
+      bestRating: "5",
+      worstRating: "1",
+    };
+    org.review = reviewNodes;
+    graph[orgIndex] = org;
+  }
+
+  return { ...payload, "@graph": graph };
 }
 
 export function webSiteNode() {

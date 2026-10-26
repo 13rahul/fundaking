@@ -27,11 +27,6 @@ const homeFaq = await getListPage("faqSection", "faq");
 const homeFaqItems =
   homeFaq.data.enable && homeFaq.data.items?.length ? homeFaq.data.items : [];
 
-const reviewsSection = await getListPage("testimonialSection", "testimonial");
-const googleReviews = (reviewsSection.data.testimonials ?? []).filter(
-  (r: { google_url?: string; content?: string }) => r.google_url && r.content,
-);
-
 const { checklist_form_action } = config.params;
 
 const homeMetaTitle =
@@ -40,90 +35,12 @@ const homeDescription =
   "SEO consultant in Pune and Baramati: SEO consulting, technical and local SEO, web development, AI enablement and quick commerce for startups, SMEs and manufacturers.";
 
 const homeUrl = absoluteUrl("/");
-const businessId = `${homeUrl}#local-business`;
-
-const reviewNodes = googleReviews.map(
-  (r: {
-    name: string;
-    content: string;
-    rating?: number;
-    date_published?: string;
-    google_url?: string;
-  }) => ({
-    "@type": "Review",
-    author: { "@type": "Person", name: r.name },
-    datePublished: r.date_published,
-    reviewBody: r.content,
-    reviewRating: {
-      "@type": "Rating",
-      ratingValue: String(r.rating ?? 5),
-      bestRating: "5",
-      worstRating: "1",
-    },
-    url: r.google_url,
-    itemReviewed: { "@id": businessId },
-  }),
-);
 
 const homeSchema = pageGraph({
   name: homeMetaTitle,
   description: homeDescription,
   url: homeUrl,
   extra: [
-    {
-      "@type": "ProfessionalService",
-      "@id": businessId,
-      name: "Fundaking Media — SEO Consulting",
-      image: absoluteUrl("/images/logo.png"),
-      logo: absoluteUrl("/images/logo.png"),
-      url: homeUrl,
-      telephone: "+918421053710",
-      email: "consult@fundaking.com",
-      priceRange: "₹₹",
-      sameAs: [
-        "https://www.google.com/maps/place/Fundaking+Media+-+Rahul+Agarwal/@21.0680074,82.7525294,5z/data=!3m1!4b1!4m6!3m5!1s0x3bc3a78b97137889:0x2464feeefb15a44d!8m2!3d21.0680074!4d82.7525294!16s%2Fg%2F11p4l9ptl4",
-        "https://g.page/r/CU2kFfvu_mQkEAE/review",
-        "https://www.linkedin.com/in/rahul-agarwal-510a5b79/",
-      ],
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "H S No. 155, Near Bhairavnath Temple, Pandare",
-        addressLocality: "Baramati",
-        addressRegion: "Maharashtra",
-        postalCode: "413110",
-        addressCountry: "IN",
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 18.1361785,
-        longitude: 74.4610843,
-      },
-      areaServed: [
-        { "@type": "City", name: "Pune" },
-        { "@type": "City", name: "Baramati" },
-        { "@type": "City", name: "Mumbai" },
-        { "@type": "City", name: "Bengaluru" },
-        { "@type": "Country", name: "India" },
-      ],
-      founder: {
-        "@type": "Person",
-        name: "Rahul Agarwal",
-        jobTitle: "Founder, Fundaking Media",
-        url: absoluteUrl("/about"),
-      },
-      description: homeDescription,
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: String(reviewsSection.data.rating_value ?? "5.0"),
-        reviewCount: String(
-          reviewsSection.data.review_count ?? googleReviews.length,
-        ),
-        bestRating: "5",
-        worstRating: "1",
-      },
-      review: reviewNodes,
-    },
-    ...reviewNodes,
     ...(homeFaqItems.length
       ? [faqPageNode(homeFaqItems, homeUrl)]
       : []),
