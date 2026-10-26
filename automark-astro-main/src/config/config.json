@@ -6,9 +6,9 @@
     "trailing_slash": false,
     "favicon": "/favicon.ico",
     "logo": "/images/logo.png",
-    "logo_width": "176",
+    "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Fundaking Media"
+    "logo_text": "फंडा King Media"
   },
   "settings": {
     "sticky_header": true
