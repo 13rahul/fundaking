@@ -39,15 +39,15 @@ const badges = brandsData.badges ?? [];
           >
             {clientLogos.map((item) => {
               const tile = (
-                <span class="inline-flex items-center justify-center rounded-lg bg-white min-w-[200px] sm:min-w-[220px] min-h-[72px] sm:min-h-[80px] px-6 py-4 shadow-sm ring-1 ring-black/5">
+                <span class="inline-flex items-center justify-center rounded-lg bg-white min-w-[200px] sm:min-w-[220px] h-[88px] sm:h-[96px] px-5 py-3 shadow-sm ring-1 ring-black/5">
                   <img
                     src={withBase(item.src)}
                     alt={item.alt}
                     width={200}
-                    height={80}
+                    height={64}
                     loading="lazy"
                     decoding="async"
-                    class="h-10 sm:h-11 lg:h-12 w-auto max-w-[160px] sm:max-w-[190px] object-contain"
+                    class="block h-12 sm:h-14 w-auto max-w-[180px] sm:max-w-[200px] object-contain object-center"
                   />
                 </span>
               );

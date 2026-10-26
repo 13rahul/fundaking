@@ -39,11 +39,69 @@ const aboutCollection = defineCollection({
       title: z.string(),
       subtitle: z.string(),
       image: z.string(),
+      primary_cta: z
+        .object({ label: z.string(), link: z.string() })
+        .optional(),
+      secondary_cta: z
+        .object({ label: z.string(), link: z.string() })
+        .optional(),
     }),
     stats: z.object({
       enable: z.boolean(),
       items: z.array(z.object({ value: z.string(), label: z.string() })),
     }),
+    who_i_help: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        subtitle: z.string().optional(),
+        items: z.array(z.object({ title: z.string(), text: z.string() })),
+      })
+      .optional(),
+    process: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        subtitle: z.string().optional(),
+        steps: z.array(
+          z.object({ num: z.string(), title: z.string(), text: z.string() }),
+        ),
+      })
+      .optional(),
+    proof: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        subtitle: z.string().optional(),
+        items: z.array(
+          z.object({
+            title: z.string(),
+            text: z.string(),
+            link: z.string(),
+          }),
+        ),
+      })
+      .optional(),
+    services_links: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        items: z.array(z.object({ label: z.string(), href: z.string() })),
+      })
+      .optional(),
+    credentials: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        items: z.array(
+          z.object({
+            label: z.string(),
+            value: z.string(),
+            link: z.string().optional(),
+          }),
+        ),
+      })
+      .optional(),
     our_team: z.object({
       enable: z.boolean(),
       badge: z.string().optional(),
@@ -57,10 +115,12 @@ const aboutCollection = defineCollection({
       badge: z.string().optional(),
       title: z.string(),
       subtitle: z.string(),
+      content: z.string().optional(),
       items: z.array(
         z.object({
           logo: z.string(),
           title: z.string(),
+          description: z.string().optional(),
           is_starred: z.boolean(),
         }),
       ),

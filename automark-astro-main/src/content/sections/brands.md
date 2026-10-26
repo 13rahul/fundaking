@@ -22,4 +22,6 @@ images:
   - src: "/images/clients/collegeastra.png"
     alt: "CollegeAstra"
     url: "/case-study/collegeastra"
+  - src: "/images/clients/13th-pencil.png"
+    alt: "13th Pencil"
 ---

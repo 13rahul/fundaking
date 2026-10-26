@@ -1,264 +1,358 @@
 ---
 import Base from "@/layouts/Base.astro";
-import Badge from "@/layouts/components/Badge.astro";
 import BrandsCarousel from "@/layouts/components/BrandsCarousel.astro";
 import PageEnd from "@/layouts/components/PageEnd.astro";
 import GradientBlob from "@/layouts/components/GradientBlob.astro";
 import ImageMod from "@/layouts/components/ImageMod.astro";
 import OurStory from "@/layouts/components/OurStory.astro";
-import TeamCard from "@/layouts/components/TeamCard.astro";
 import { getListPage } from "@/lib/contentParser.astro";
+import { withBase } from "@/lib/paths";
+import {
+  absoluteUrl,
+  faqPageNode,
+  pageGraph,
+} from "@/lib/schema";
 import { markdownify } from "@/lib/utils/textConverter";
 import Features from "@/partials/Features.astro";
 import Testimonial from "@/partials/Testimonial.astro";
+import config from "@/config/config.json";
 import type { About } from "@/types";
 
 const about = await getListPage("about", "-index");
 const aboutData: About = about.data;
+const wa =
+  config.params.whatsapp_url ||
+  "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit";
+
+const homeFaq = await getListPage("faqSection", "faq");
+const faqItems =
+  homeFaq.data.enable && homeFaq.data.items?.length ? homeFaq.data.items : [];
+
+const aboutUrl = absoluteUrl("/about");
+const aboutSchema = pageGraph({
+  name: aboutData.meta_title || "About Rahul Agarwal | Fundaking Media",
+  description: aboutData.description || "",
+  url: aboutUrl,
+  pageType: "AboutPage",
+  extra: [
+    {
+      "@type": "Person",
+      "@id": `${absoluteUrl("/")}/#founder-about`,
+      name: "Rahul Agarwal",
+      alternateName: "Rahul Vijay Agarwal",
+      jobTitle: "Founder & SEO Consultant",
+      worksFor: { "@id": `${absoluteUrl("/")}/#organization` },
+      url: aboutUrl,
+      image: absoluteUrl("/images/author/rahul-agarwal.png"),
+      sameAs: [
+        "https://www.linkedin.com/in/rahul-agarwal-510a5b79/",
+        aboutUrl,
+      ],
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Baramati",
+        addressRegion: "Maharashtra",
+        postalCode: "413110",
+        addressCountry: "IN",
+      },
+      knowsAbout: [
+        "Technical SEO",
+        "Local SEO",
+        "SEO consulting",
+        "Content architecture",
+        "LLM SEO",
+      ],
+    },
+    ...(faqItems.length ? [faqPageNode(faqItems, aboutUrl)] : []),
+  ],
+});
+
+const header = aboutData.page_header as typeof aboutData.page_header & {
+  primary_cta?: { label: string; link: string };
+  secondary_cta?: { label: string; link: string };
+};
+const who = (aboutData as any).who_i_help;
+const process = (aboutData as any).process;
+const proof = (aboutData as any).proof;
+const servicesLinks = (aboutData as any).services_links;
+const credentials = (aboutData as any).credentials;
 ---
 
-<Base {...aboutData} faqSlug="faq">
-  <!-- Page Header -->
-  <section class="section-ph pb-20 overflow-hidden">
-    <div class="container">
-      <div class="lg:max-w-4xl mx-auto text-center">
-        <h1
-          class="hasHighlight mb-6"
-          set:html={markdownify(aboutData.page_header.title)}
-        />
-        <p class="mb-5 text-lg text-text">{aboutData.page_header.subtitle}</p>
-        <ImageMod
-          src={aboutData.page_header.image}
-          alt="Team collaboration meeting"
-          class="w-full h-auto object-cover aspect-video lg:aspect-1000/520 rounded-3xl mt-20"
-        />
-      </div>
-      <div
-        class="absolute inset-0 h-full w-full max-h-113 overflow-hidden -z-10"
-      >
-        <canvas class="heroSporeCanvas w-full opacity-70"></canvas>
+<Base
+  {...aboutData}
+  faqSlug="faq"
+  canonical={aboutUrl}
+  jsonLd={aboutSchema}
+>
+  <!-- Hero: brand + conversion -->
+  <section class="section-ph section-ph--compact relative overflow-hidden">
+    <div class="container relative z-10">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+        <div class="lg:col-span-7" data-animate="fade-up">
+          <p class="text-primary-light font-semibold mb-4 tracking-wide">
+            About · Fundaking Media · Pune
+          </p>
+          <h1
+            class="hasHighlight mb-6 text-left"
+            set:html={markdownify(header.title)}
+          />
+          <p class="text-lg text-text max-w-2xl mb-8">{header.subtitle}</p>
+          <div class="flex flex-wrap gap-3">
+            <a
+              href={header.primary_cta?.link || wa}
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {header.primary_cta?.label || "Book free SEO audit on WhatsApp"}
+            </a>
+            <a
+              href={withBase(header.secondary_cta?.link || "/case-study/")}
+              class="btn btn-outline"
+            >
+              {header.secondary_cta?.label || "See case studies"}
+            </a>
+          </div>
+          <p class="mt-6 text-sm text-text/80">
+            Also explore{" "}
+            <a class="underline hover:text-white" href={withBase("/seo-consulting-pune/")}>SEO consulting Pune</a>
+            {" · "}
+            <a class="underline hover:text-white" href={withBase("/technical-seo-consultant/")}>Technical SEO</a>
+            {" · "}
+            <a class="underline hover:text-white" href={withBase("/blog/")}>Blog</a>
+          </p>
+        </div>
+        <div class="lg:col-span-5" data-animate="fade-up">
+          <div class="relative mx-auto max-w-md">
+            <div class="absolute -inset-4 rounded-[2rem] bg-primary/20 blur-2xl -z-10"></div>
+            <ImageMod
+              src={header.image}
+              alt="Rahul Agarwal — SEO consultant in Pune, Fundaking Media"
+              width={640}
+              height={800}
+              class="w-full rounded-[1.75rem] object-cover aspect-[4/5] border border-white/10"
+              loading="eager"
+            />
+            <div class="mt-4 rounded-2xl bg-light/80 border border-white/10 px-5 py-4">
+              <p class="text-white font-semibold">Rahul Agarwal</p>
+              <p class="text-sm text-text">
+                Founder · SEO consultant · Fundaking Media OPC Pvt Ltd
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div
-      class="absolute left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 size-160 xl:size-300 -z-20 blur-2xl"
-      style="background: radial-gradient(circle, var(--color-primary) 0%, color-mix(in srgb, var(--color-primary) 78%, transparent) 20%, transparent 70%);"
-    >
-    </div>
-    <div class="absolute top-0 left-0 flex flex-col gap-6 -z-10">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="567"
-        height="558"
-        fill="none"
-      >
-        <g opacity=".5">
-          <g filter="url(#a-about)" style="mix-blend-mode: plus-lighter"
-            ><path
-              fill="url(#b-about)"
-              d="M-20.527-7.51 10.182-43l259.774 233.148-13.283 15.352-277.2-213.01Z"
-            ></path></g
-          >
-          <g filter="url(#c-about)" style="mix-blend-mode: plus-lighter"
-            ><path
-              fill="url(#d-about)"
-              d="M-52 13.659-20.788-25l267.328 224.459-13.502 16.722-285.04-202.522Z"
-            ></path></g
-          >
-          <g filter="url(#e-about)" style="mix-blend-mode: plus-lighter"
-            ><path
-              fill="url(#f-about)"
-              d="M-108.079-4.9-66.125-46l290.011 307.352-18.147 17.779-313.818-284.03Z"
-            ></path></g
-          >
-          <g filter="url(#g-about)"
-            ><ellipse
-              cx="143"
-              cy="252.378"
-              fill="var(--color-primary-light)"
-              fill-opacity=".5"
-              rx="143"
-              ry="252.378"
-              transform="scale(-1 1) rotate(46.133 191.203 -117.756)"
-            ></ellipse></g
-          >
-        </g>
-        <defs>
-          <filter
-            id="a-about"
-            width="338.484"
-            height="296.5"
-            x="-44.527"
-            y="-67"
-            color-interpolation-filters="sRGB"
-            filterUnits="userSpaceOnUse"
-            ><feFlood flood-opacity="0" result="BackgroundImageFix"
-            ></feFlood><feBlend
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"></feBlend><feGaussianBlur
-              result="effect1_foregroundBlur"
-              stdDeviation="12"></feGaussianBlur></filter
-          >
-          <filter
-            id="c-about"
-            width="346.541"
-            height="289.181"
-            x="-76.001"
-            y="-49"
-            color-interpolation-filters="sRGB"
-            filterUnits="userSpaceOnUse"
-            ><feFlood flood-opacity="0" result="BackgroundImageFix"
-            ></feFlood><feBlend
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"></feBlend><feGaussianBlur
-              result="effect1_foregroundBlur"
-              stdDeviation="12"></feGaussianBlur></filter
-          >
-          <filter
-            id="e-about"
-            width="379.965"
-            height="373.131"
-            x="-132.079"
-            y="-70"
-            color-interpolation-filters="sRGB"
-            filterUnits="userSpaceOnUse"
-            ><feFlood flood-opacity="0" result="BackgroundImageFix"
-            ></feFlood><feBlend
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"></feBlend><feGaussianBlur
-              result="effect1_foregroundBlur"
-              stdDeviation="12"></feGaussianBlur></filter
-          >
-          <filter
-            id="g-about"
-            width="914.454"
-            height="906.103"
-            x="-348.178"
-            y="-349.061"
-            color-interpolation-filters="sRGB"
-            filterUnits="userSpaceOnUse"
-            ><feFlood flood-opacity="0" result="BackgroundImageFix"
-            ></feFlood><feBlend
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"></feBlend><feGaussianBlur
-              result="effect1_foregroundBlur"
-              stdDeviation="125"></feGaussianBlur></filter
-          >
-          <linearGradient
-            id="b-about"
-            x1="-5.173"
-            x2="258.744"
-            y1="-25.255"
-            y2="203.106"
-            gradientUnits="userSpaceOnUse"
-            ><stop stop-color="var(--color-primary)"></stop><stop
-              offset="1"
-              stop-color="var(--color-primary)"
-              stop-opacity="0"></stop></linearGradient
-          >
-          <linearGradient
-            id="d-about"
-            x1="-36.394"
-            x2="235.144"
-            y1="-5.671"
-            y2="213.574"
-            gradientUnits="userSpaceOnUse"
-            ><stop stop-color="var(--color-primary)"></stop><stop
-              offset="1"
-              stop-color="var(--color-primary)"
-              stop-opacity="0"></stop></linearGradient
-          >
-          <linearGradient
-            id="f-about"
-            x1="-87.102"
-            x2="208.568"
-            y1="-25.45"
-            y2="276.359"
-            gradientUnits="userSpaceOnUse"
-            ><stop stop-color="var(--color-primary)"></stop><stop
-              offset="1"
-              stop-color="var(--color-primary)"
-              stop-opacity="0"></stop></linearGradient
-          >
-        </defs>
-      </svg>
+    <div class="absolute inset-0 -z-10 overflow-hidden opacity-60">
+      <canvas class="heroSporeCanvas w-full"></canvas>
     </div>
   </section>
-  <hr
-    class="h-px bg-linear-to-r from-transparent from-10% via-white/50 to-90% to-transparent border-0"
-  />
 
-  <!-- Trusted By Section -->
   <BrandsCarousel />
 
-  <!-- Stats Section -->
   {
-    aboutData.stats.enable && (
-      <section class="section relative">
+    aboutData.stats?.enable && (
+      <section class="section pt-10 pb-6 relative" aria-label="Key stats">
         <div class="container">
-          <div class="grid grid-cols-2 lg:grid-cols-4 gap-2">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-3" data-animate-stagger>
             {aboutData.stats.items.map((stat: any) => (
-              <div class="text-center p-8 lg:p-10 lg:py-26 rounded-2xl bg-primary/10">
-                <div class="text-h2 lg:text-h1 leading-none font-bold font-secondary text-white mb-4">
+              <div class="text-center px-4 py-8 rounded-2xl bg-primary/10 border border-white/5">
+                <div class="text-h3 lg:text-h2 leading-none font-bold font-secondary text-white mb-2">
                   {stat.value}
                 </div>
-                <p class="text-text text-h6">{stat.label}</p>
+                <p class="text-text text-sm lg:text-base">{stat.label}</p>
               </div>
             ))}
           </div>
         </div>
-        <div class="-translate-y-140">
-          <GradientBlob />
-        </div>
       </section>
     )
   }
 
-  <!-- CEO Letter Section -->
-  <OurStory />
-
-  <!-- Meet Our Team Section -->
   {
-    aboutData.our_team.enable && (
-      <section class="section relative isolate overflow-hidden">
+    who?.enable && (
+      <section class="section relative" id="who-i-help">
         <div class="container">
-          <div class="section-container">
-            <div class="section-intro centralize">
-              <Badge title={aboutData.our_team.badge} />
-              <h2
-                class="title hasHighlight"
-                set:html={markdownify(aboutData.our_team.title)}
-              />
-            </div>
-            <div class="section-content">
-              <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-                {aboutData.our_team.members.map((member: any) => (
-                  <TeamCard
-                    image={member.image}
-                    name={member.name}
-                    role={member.role}
-                  />
-                ))}
+          <div class="section-intro centralize max-w-3xl mx-auto" data-animate="fade-up">
+            <h2 class="title hasHighlight" set:html={markdownify(who.title)} />
+            {who.subtitle && <p class="subtitle mt-4">{who.subtitle}</p>}
+          </div>
+          <div class="grid sm:grid-cols-2 gap-5 mt-12" data-animate-stagger>
+            {who.items.map((item: any) => (
+              <div class="rounded-2xl bg-light/60 border border-white/10 p-7 lg:p-8">
+                <h3 class="text-white text-xl font-semibold mb-3">{item.title}</h3>
+                <p class="text-text leading-relaxed">{item.text}</p>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
     )
   }
 
-  <!-- Core Values -->
+  <OurStory />
+
   {
-    aboutData.core_values.enable && (
-      <Features our_features={aboutData.core_values} />
+    process?.enable && (
+      <section class="section relative" id="process">
+        <div class="container">
+          <div class="section-intro centralize max-w-3xl mx-auto" data-animate="fade-up">
+            <h2 class="title hasHighlight" set:html={markdownify(process.title)} />
+            {process.subtitle && <p class="subtitle mt-4">{process.subtitle}</p>}
+          </div>
+          <div class="grid md:grid-cols-3 gap-5 mt-12" data-animate-stagger>
+            {process.steps.map((step: any) => (
+              <div class="rounded-2xl border border-white/10 bg-body p-7 relative overflow-hidden">
+                <span class="text-primary-light/40 font-secondary text-5xl font-bold absolute top-3 right-4">
+                  {step.num}
+                </span>
+                <h3 class="text-white text-xl font-semibold mb-3 relative z-10">
+                  {step.title}
+                </h3>
+                <p class="text-text relative z-10 leading-relaxed">{step.text}</p>
+              </div>
+            ))}
+          </div>
+          <div class="mt-10 text-center">
+            <a href={wa} class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              Start with a free strategy call
+            </a>
+          </div>
+        </div>
+        <GradientBlob />
+      </section>
     )
   }
 
-  <!-- Testimonials Section -->
+  {
+    proof?.enable && (
+      <section class="section relative" id="proof">
+        <div class="container">
+          <div class="section-intro centralize max-w-3xl mx-auto" data-animate="fade-up">
+            <h2 class="title hasHighlight" set:html={markdownify(proof.title)} />
+            {proof.subtitle && <p class="subtitle mt-4">{proof.subtitle}</p>}
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12" data-animate-stagger>
+            {proof.items.map((item: any) => (
+              <a
+                href={withBase(item.link)}
+                class="group rounded-2xl bg-light/70 border border-white/10 p-6 hover:border-primary/50 transition-colors block h-full"
+              >
+                <h3 class="text-white font-semibold text-lg mb-2 group-hover:text-primary-light">
+                  {item.title}
+                </h3>
+                <p class="text-text text-sm leading-relaxed mb-4">{item.text}</p>
+                <span class="text-sm text-primary-light">View case study →</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    aboutData.core_values?.enable && (
+      <Features
+        our_features={{
+          ...aboutData.core_values,
+          content:
+            (aboutData.core_values as any).content ||
+            aboutData.core_values.subtitle,
+        }}
+      />
+    )
+  }
+
+  {
+    servicesLinks?.enable && (
+      <section class="section relative" id="services">
+        <div class="container">
+          <div class="section-intro centralize" data-animate="fade-up">
+            <h2
+              class="title hasHighlight"
+              set:html={markdownify(servicesLinks.title)}
+            />
+          </div>
+          <div class="flex flex-wrap justify-center gap-3 mt-10" data-animate-stagger>
+            {servicesLinks.items.map((item: any) => (
+              <a
+                href={withBase(item.href)}
+                class="rounded-full border border-white/15 bg-light/40 px-5 py-2.5 text-white hover:border-primary hover:bg-primary/20 transition-colors"
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    credentials?.enable && (
+      <section class="section relative" id="credentials">
+        <div class="container max-w-4xl">
+          <div class="section-intro centralize" data-animate="fade-up">
+            <h2
+              class="title hasHighlight"
+              set:html={markdownify(credentials.title)}
+            />
+          </div>
+          <dl class="mt-10 rounded-2xl border border-white/10 bg-light/50 divide-y divide-white/10">
+            {credentials.items.map((row: any) => (
+              <div class="grid sm:grid-cols-3 gap-2 px-6 py-4">
+                <dt class="text-text text-sm uppercase tracking-wide">
+                  {row.label}
+                </dt>
+                <dd class="sm:col-span-2 text-white">
+                  {row.link ? (
+                    <a
+                      href={row.link}
+                      class="underline hover:text-primary-light"
+                      target={row.link.startsWith("http") ? "_blank" : undefined}
+                      rel={
+                        row.link.startsWith("http")
+                          ? "noopener noreferrer"
+                          : undefined
+                      }
+                    >
+                      {row.value}
+                    </a>
+                  ) : (
+                    row.value
+                  )}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+    )
+  }
+
   <Testimonial />
+
+  <!-- Mid conversion band -->
+  <section class="section pt-6">
+    <div class="container">
+      <div class="rounded-3xl border border-primary/30 bg-primary/15 px-8 py-12 lg:px-14 text-center">
+        <h2 class="text-h4 lg:text-h3 text-white mb-4">
+          Ready to make organic a pipeline channel?
+        </h2>
+        <p class="text-text max-w-2xl mx-auto mb-8">
+          Message Rahul on WhatsApp for a free SEO audit — technical priorities,
+          clear next steps, no lock-in pitch.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a href={wa} class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            WhatsApp +91 84210 53710
+          </a>
+          <a href={withBase("/contact/")} class="btn btn-outline">Contact page</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <PageEnd />
 </Base>
