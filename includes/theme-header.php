@@ -83,7 +83,7 @@ if (empty($skipFundakingBaseSchema)) {
     <nav class="navbar container relative z-30">
         <div class="order-0">
             <a href="<?php echo fk_url('/'); ?>" class="navbar-brand inline-block">
-                <img src="<?php echo fk_url('/images/logo.svg'); ?>" alt="Fundaking Media" width="160" height="48" style="height:45px;width:auto" />
+                <img src="<?php echo fk_url('/images/logo.png'); ?>" alt="Fundaking Media" width="176" height="48" style="height:45px;width:auto" loading="eager" decoding="async" />
             </a>
         </div>
         <input id="nav-toggle" type="checkbox" class="peer hidden" />

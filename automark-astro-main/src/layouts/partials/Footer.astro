@@ -3,7 +3,6 @@ import Social from "@/components/Social.astro";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import social from "@/config/social.json";
-import ImageMod from "@/layouts/components/ImageMod.astro";
 import { withBase } from "@/lib/paths";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { Menu, SocialType } from "@/types";
@@ -24,12 +23,13 @@ const { main: socialLinks } = social as SocialType;
     <div class="flex lg:justify-between flex-wrap gap-x-10 gap-y-10">
       <!-- Column 1 - Logo & Contact -->
       <div class="max-w-95 mb-20 text-lg text-text">
-        <ImageMod
-          src="/images/logo.svg"
-          width={156}
-          height={50}
-          class="h-12.5"
-          alt="logo"
+        <img
+          src={withBase("/images/logo.png")}
+          width={176}
+          height={48}
+          class="h-12 w-auto"
+          alt="Fundaking Media"
+          decoding="async"
         />
         <p class="mt-6">{config.params.footer_tagline}</p>
         <a
