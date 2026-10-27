@@ -1,0 +1,308 @@
+{
+  "pillars": {
+    "seo-consulting": {
+      "hub": "seo-consultant-in-pune-founders-guide-2026",
+      "category": "SEO Consulting",
+      "service": "/seo-consulting-services",
+      "serviceLabel": "SEO consulting services",
+      "proof": "/case-study/saas-demo-requests",
+      "proofLabel": "SaaS demo requests case study"
+    },
+    "technical-seo": {
+      "hub": "technical-seo-audit-checklist-2026",
+      "category": "Technical SEO",
+      "service": "/technical-seo-consultant",
+      "serviceLabel": "Technical SEO consulting",
+      "proof": "/case-study/fintech-organic-growth",
+      "proofLabel": "Fintech organic growth case study"
+    },
+    "local-seo": {
+      "hub": "local-seo-india-playbook",
+      "category": "Local SEO",
+      "service": "/local-seo-consultant",
+      "serviceLabel": "Local SEO consulting",
+      "proof": "/case-study/real-group",
+      "proofLabel": "Real Group case study"
+    },
+    "ai-answer-engine": {
+      "hub": "what-is-ai-seo-definition-2026",
+      "secondaryHub": "geo-generative-engine-optimization-basics",
+      "category": "AI / Answer Engine SEO",
+      "service": "/ai-enablement",
+      "serviceLabel": "AI enablement",
+      "proof": "/case-study/shubhshrey-industries",
+      "proofLabel": "Shubhshrey AI CRM case study"
+    }
+  },
+  "posts": {
+    "seo-consultant-in-pune-founders-guide-2026": {
+      "pillar": "seo-consulting",
+      "isHub": true,
+      "siblings": [
+        "seo-consultant-pune-vs-agency",
+        "how-to-rank-seo-consultant-pune",
+        "what-does-an-seo-consultant-do",
+        "seo-consulting-pricing-india",
+        "seo-consultant-vs-freelancer",
+        "organic-seo-vs-paid",
+        "how-to-choose-technical-seo-consultant",
+        "seo-advisory-vs-project-first-90-days"
+      ]
+    },
+    "seo-consultant-pune-vs-agency": {
+      "pillar": "seo-consulting",
+      "siblings": ["how-to-rank-seo-consultant-pune", "seo-consulting-pricing-india", "seo-consultant-vs-freelancer"]
+    },
+    "how-to-rank-seo-consultant-pune": {
+      "pillar": "seo-consulting",
+      "siblings": ["seo-consultant-pune-vs-agency", "what-does-an-seo-consultant-do"]
+    },
+    "what-does-an-seo-consultant-do": {
+      "pillar": "seo-consulting",
+      "siblings": ["seo-consultant-vs-freelancer", "seo-consulting-pricing-india"]
+    },
+    "seo-consultant-vs-freelancer": {
+      "pillar": "seo-consulting",
+      "category": "Pricing & Hiring",
+      "siblings": ["seo-consultant-pune-vs-agency", "what-does-an-seo-consultant-do"]
+    },
+    "seo-consulting-pricing-india": {
+      "pillar": "seo-consulting",
+      "category": "Pricing & Hiring",
+      "siblings": ["seo-consultant-pune-vs-agency", "seo-advisory-vs-project-first-90-days"]
+    },
+    "organic-seo-vs-paid": {
+      "pillar": "seo-consulting",
+      "siblings": ["what-does-an-seo-consultant-do", "seo-consulting-pricing-india"]
+    },
+    "how-to-choose-technical-seo-consultant": {
+      "pillar": "technical-seo",
+      "siblings": ["technical-seo-audit-checklist-2026", "technical-seo-for-ai-discovery", "core-web-vitals-indian-saas"]
+    },
+    "seo-advisory-vs-project-first-90-days": {
+      "pillar": "seo-consulting",
+      "siblings": ["seo-consulting-pricing-india", "seo-consultant-in-pune-founders-guide-2026"]
+    },
+    "technical-seo-audit-checklist-2026": {
+      "pillar": "technical-seo",
+      "isHub": true,
+      "siblings": [
+        "how-to-choose-technical-seo-consultant",
+        "technical-seo-for-ai-discovery",
+        "javascript-rendering-and-ai-crawlers",
+        "structured-data-for-llm-crawlers",
+        "prune-noindex-ai-era",
+        "ai-crawler-logs-user-agents",
+        "core-web-vitals-indian-saas",
+        "site-migration-seo-checklist"
+      ]
+    },
+    "technical-seo-for-ai-discovery": {
+      "pillar": "technical-seo",
+      "siblings": ["javascript-rendering-and-ai-crawlers", "structured-data-for-llm-crawlers", "ai-crawler-logs-user-agents"]
+    },
+    "javascript-rendering-and-ai-crawlers": {
+      "pillar": "technical-seo",
+      "siblings": ["technical-seo-for-ai-discovery", "core-web-vitals-indian-saas"]
+    },
+    "structured-data-for-llm-crawlers": {
+      "pillar": "technical-seo",
+      "siblings": ["technical-seo-for-ai-discovery", "entity-seo-for-ai-overviews"]
+    },
+    "prune-noindex-ai-era": {
+      "pillar": "technical-seo",
+      "siblings": ["technical-seo-audit-checklist-2026", "site-migration-seo-checklist"]
+    },
+    "ai-crawler-logs-user-agents": {
+      "pillar": "technical-seo",
+      "siblings": ["technical-seo-for-ai-discovery", "javascript-rendering-and-ai-crawlers"]
+    },
+    "core-web-vitals-indian-saas": {
+      "pillar": "technical-seo",
+      "siblings": ["technical-seo-audit-checklist-2026", "javascript-rendering-and-ai-crawlers"]
+    },
+    "site-migration-seo-checklist": {
+      "pillar": "technical-seo",
+      "siblings": ["technical-seo-audit-checklist-2026", "prune-noindex-ai-era"]
+    },
+    "local-seo-india-playbook": {
+      "pillar": "local-seo",
+      "isHub": true,
+      "siblings": [
+        "local-seo-consultant-checklist",
+        "pune-hinjewadi-baner-seo-consultant-local-search",
+        "local-seo-plus-ai-answers",
+        "google-business-profile-optimization-india",
+        "multi-location-local-seo-india"
+      ]
+    },
+    "local-seo-consultant-checklist": {
+      "pillar": "local-seo",
+      "siblings": ["local-seo-india-playbook", "google-business-profile-optimization-india"]
+    },
+    "pune-hinjewadi-baner-seo-consultant-local-search": {
+      "pillar": "local-seo",
+      "siblings": ["local-seo-india-playbook", "multi-location-local-seo-india"]
+    },
+    "local-seo-plus-ai-answers": {
+      "pillar": "local-seo",
+      "siblings": ["local-seo-india-playbook", "what-is-ai-seo-definition-2026"]
+    },
+    "google-business-profile-optimization-india": {
+      "pillar": "local-seo",
+      "siblings": ["local-seo-india-playbook", "local-seo-consultant-checklist"]
+    },
+    "multi-location-local-seo-india": {
+      "pillar": "local-seo",
+      "siblings": ["local-seo-india-playbook", "pune-hinjewadi-baner-seo-consultant-local-search"]
+    },
+    "what-is-ai-seo-definition-2026": {
+      "pillar": "ai-answer-engine",
+      "isHub": true,
+      "siblings": [
+        "geo-generative-engine-optimization-basics",
+        "google-ai-overviews-practical-guide",
+        "ai-seo-roadmap-90-days",
+        "llm-seo-vs-traditional-seo",
+        "measuring-visibility-in-ai-search",
+        "ai-seo-for-indian-b2b-founders"
+      ]
+    },
+    "geo-generative-engine-optimization-basics": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["what-is-ai-seo-definition-2026", "auditing-site-for-geo-readiness", "perplexity-citation-strategies"]
+    },
+    "google-ai-overviews-practical-guide": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["entity-seo-for-ai-overviews", "eeat-and-ai-generated-answers", "what-is-ai-seo-definition-2026"]
+    },
+    "entity-seo-for-ai-overviews": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["google-ai-overviews-practical-guide", "eeat-and-ai-generated-answers"]
+    },
+    "eeat-and-ai-generated-answers": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["author-bylines-and-expertise-for-ai-citations", "entity-seo-for-ai-overviews"]
+    },
+    "how-chatgpt-chooses-sources-to-cite": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["perplexity-citation-strategies", "competitor-citation-analysis", "brand-mentions-vs-backlinks-in-llm-era"]
+    },
+    "perplexity-citation-strategies": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["how-chatgpt-chooses-sources-to-cite", "competitor-citation-analysis"]
+    },
+    "competitor-citation-analysis": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["perplexity-citation-strategies", "brand-mentions-vs-backlinks-in-llm-era"]
+    },
+    "brand-mentions-vs-backlinks-in-llm-era": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["competitor-citation-analysis", "forums-reddit-and-llm-training-signals"]
+    },
+    "brand-sentiment-generated-answers": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["fix-wrong-brand-facts-ai-hallucinations", "eeat-and-ai-generated-answers"]
+    },
+    "fix-wrong-brand-facts-ai-hallucinations": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["brand-sentiment-generated-answers", "entity-seo-for-ai-overviews"]
+    },
+    "author-bylines-and-expertise-for-ai-citations": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["eeat-and-ai-generated-answers", "what-is-ai-seo-definition-2026"]
+    },
+    "forums-reddit-and-llm-training-signals": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["brand-mentions-vs-backlinks-in-llm-era", "youtube-podcast-ai-search-visibility"]
+    },
+    "ai-seo-roadmap-90-days": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["weekly-ai-seo-operating-cadence", "measuring-visibility-in-ai-search", "what-is-ai-seo-definition-2026"]
+    },
+    "weekly-ai-seo-operating-cadence": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["ai-seo-roadmap-90-days", "prompt-library-workshop-seo-teams"]
+    },
+    "measuring-visibility-in-ai-search": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["ai-seo-roadmap-90-days", "ai-search-zero-click-strategy"]
+    },
+    "ai-search-zero-click-strategy": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["measuring-visibility-in-ai-search", "google-ai-overviews-practical-guide"]
+    },
+    "prompt-library-workshop-seo-teams": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["weekly-ai-seo-operating-cadence", "conversational-query-mapping-for-llm-seo"]
+    },
+    "conversational-query-mapping-for-llm-seo": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["prompt-library-workshop-seo-teams", "llm-seo-for-b2b-saas"]
+    },
+    "auditing-site-for-geo-readiness": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["geo-generative-engine-optimization-basics", "content-clarity-signals-for-rag-systems"]
+    },
+    "content-clarity-signals-for-rag-systems": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["auditing-site-for-geo-readiness", "help-center-docs-llm-seo"]
+    },
+    "llm-seo-vs-traditional-seo": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["what-is-ai-seo-definition-2026", "geo-generative-engine-optimization-basics"]
+    },
+    "llm-seo-for-b2b-saas": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["help-center-docs-llm-seo", "comparison-pages-ai-citation", "pricing-pages-ai-summaries"]
+    },
+    "help-center-docs-llm-seo": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["llm-seo-for-b2b-saas", "internal-wiki-vs-public-content-llm"]
+    },
+    "internal-wiki-vs-public-content-llm": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["help-center-docs-llm-seo", "enterprise-rag-publisher-seo"]
+    },
+    "enterprise-rag-publisher-seo": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["internal-wiki-vs-public-content-llm", "content-clarity-signals-for-rag-systems"]
+    },
+    "ecommerce-llm-seo-beyond-feeds": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["product-data-feeds-and-ai-shopping", "pricing-pages-ai-summaries"]
+    },
+    "product-data-feeds-and-ai-shopping": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["ecommerce-llm-seo-beyond-feeds", "comparison-pages-ai-citation"]
+    },
+    "pricing-pages-ai-summaries": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["comparison-pages-ai-citation", "llm-seo-for-b2b-saas"]
+    },
+    "comparison-pages-ai-citation": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["pricing-pages-ai-summaries", "llm-seo-for-b2b-saas"]
+    },
+    "youtube-podcast-ai-search-visibility": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["forums-reddit-and-llm-training-signals", "brand-mentions-vs-backlinks-in-llm-era"]
+    },
+    "future-search-agents-and-seo": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["what-is-ai-seo-definition-2026", "ai-search-zero-click-strategy"]
+    },
+    "ai-search-trust-india-founders": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["ai-seo-for-indian-b2b-founders", "what-is-ai-seo-definition-2026"]
+    },
+    "multilingual-llm-seo-strategy": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["llm-seo-vs-traditional-seo", "geo-generative-engine-optimization-basics"]
+    },
+    "ai-seo-for-indian-b2b-founders": {
+      "pillar": "ai-answer-engine",
+      "siblings": ["ai-search-trust-india-founders", "ai-seo-roadmap-90-days", "what-is-ai-seo-definition-2026"]
+    }
+  }
+}

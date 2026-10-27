@@ -15,19 +15,19 @@
   <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">If fetchers cannot render or index a page, no amount of thought leadership will appear …</text>
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · AI SEO</text>
+    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · Technical SEO</text>
     <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Allow reputable AI/search bots where policy permits</text>
     <text x="104" y="322" fill="#A8C0D0" font-size="15">Server-side render critical copy or use dynamic rendering for bots</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · AI SEO</text>
+    <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · Technical SEO</text>
     <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Server-side render critical copy or use dynamic rendering for bots</text>
     <text x="104" y="410" fill="#A8C0D0" font-size="15">Canonicalize duplicate tag pages</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · AI SEO</text>
+    <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · Technical SEO</text>
     <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Canonicalize duplicate tag pages</text>
     <text x="104" y="498" fill="#A8C0D0" font-size="15">Publish a clean sitemap of evergreen explainer URLs</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · AI SEO</text>
+    <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · Technical SEO</text>
     <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Publish a clean sitemap of evergreen explainer URLs</text>
     <text x="104" y="586" fill="#A8C0D0" font-size="15">Action item from this guide — see the post for execution detail.</text>
   </g>

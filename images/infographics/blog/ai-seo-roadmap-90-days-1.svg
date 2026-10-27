@@ -15,15 +15,15 @@
   <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">No infinite backlog—just phases: fix facts, win prompts, compound BOFU. My default road…</text>
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · AI SEO</text>
+    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · AI / Answer Engine SEO</text>
     <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Days 1–30: Truth layer</text>
     <text x="104" y="322" fill="#A8C0D0" font-size="15">Entity audit, pricing/integration alignment, prompt baseline, fix top three wrong AI claims, technical blockers on top 10 URLs.</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · AI SEO</text>
+    <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · AI / Answer Engine SEO</text>
     <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Days 31–60: Quotable BOFU</text>
     <text x="104" y="410" fill="#A8C0D0" font-size="15">Ship or refresh 4–6 pages: two comparisons, one pricing clarity pass, one implementation guide, one ‘what is’ category page.     …</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · AI SEO</text>
+    <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · AI / Answer Engine SEO</text>
     <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Days 61–90: Measure and iterate</text>
     <text x="104" y="498" fill="#A8C0D0" font-size="15">Re-run prompt library, track citation share, double down on winning formats, prune pages that confuse entities.</text>
   </g>

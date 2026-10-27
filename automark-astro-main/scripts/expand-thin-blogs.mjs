@@ -1,5 +1,6 @@
 /**
- * Expands published blog posts under min word count with consultant-depth sections.
+ * Expands published blog posts under min word count with consultant-depth
+ * sections and cluster-aware related links from cluster-map.json.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -7,9 +8,28 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const blogDir = path.join(__dirname, "../src/content/blog");
-const MIN_WORDS = 750;
+const MIN_WORDS = 1400;
 const MARKER = "<!-- fk-expanded -->";
 const MARKER2 = "<!-- fk-expanded-2 -->";
+const CLUSTER_MARKER = "<!-- fk-cluster-links -->";
+
+const map = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "cluster-map.json"), "utf8"),
+);
+
+const TITLE_CACHE = new Map();
+function titleFor(slug) {
+  if (TITLE_CACHE.has(slug)) return TITLE_CACHE.get(slug);
+  const p = path.join(blogDir, `${slug}.md`);
+  if (!fs.existsSync(p)) {
+    TITLE_CACHE.set(slug, slug);
+    return slug;
+  }
+  const raw = fs.readFileSync(p, "utf8");
+  const t = raw.match(/^title:\s*"(.*)"/m)?.[1] ?? slug;
+  TITLE_CACHE.set(slug, t);
+  return t;
+}
 
 function wordCount(body) {
   const clean = body
@@ -20,7 +40,10 @@ function wordCount(body) {
 }
 
 function stripMd(s) {
-  return s.replace(/\*\*/g, "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").trim();
+  return s
+    .replace(/\*\*/g, "")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .trim();
 }
 
 function parsePost(raw) {
@@ -30,7 +53,9 @@ function parsePost(raw) {
   const draft = /^draft:\s*true/m.test(fm);
   const titleM = fm.match(/^title:\s*"(.*)"/m);
   const descM = fm.match(/^description:\s*"(.*)"/m);
-  const catM = fm.match(/categories:\s*\n\s*-\s*"(.*)"/) || fm.match(/categories:\s*\["(.*)"\]/);
+  const catM =
+    fm.match(/categories:\s*\n\s*-\s*"(.*)"/) ||
+    fm.match(/categories:\s*\["(.*)"\]/);
   return {
     fm,
     body: m[2],
@@ -41,7 +66,45 @@ function parsePost(raw) {
   };
 }
 
-function expansionBlock(title, description, category) {
+function relatedBlock(slug) {
+  const post = map.posts[slug];
+  if (!post) {
+    return `
+${CLUSTER_MARKER}
+
+## Related reading on Fundaking
+
+- [What is AI SEO (2026 definition)](/blog/what-is-ai-seo-definition-2026)
+- [SEO consultant in Pune — founder’s guide](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [Technical SEO audit checklist](/blog/technical-seo-audit-checklist-2026)
+- [Local SEO India playbook](/blog/local-seo-india-playbook)
+`;
+  }
+  const pillar = map.pillars[post.pillar];
+  const lines = [];
+  if (!post.isHub && pillar?.hub) {
+    lines.push(`- [${titleFor(pillar.hub)}](/blog/${pillar.hub})`);
+  }
+  for (const sib of (post.siblings || []).slice(0, 2)) {
+    if (sib === slug) continue;
+    lines.push(`- [${titleFor(sib)}](/blog/${sib})`);
+  }
+  if (pillar?.service) {
+    lines.push(`- [${pillar.serviceLabel}](${pillar.service})`);
+  }
+  if (pillar?.proof) {
+    lines.push(`- [${pillar.proofLabel}](${pillar.proof})`);
+  }
+  return `
+${CLUSTER_MARKER}
+
+## Related reading on Fundaking
+
+${lines.join("\n")}
+`;
+}
+
+function expansionBlock(title, description, category, slug) {
   const topic = stripMd(title);
   const angle = stripMd(description);
   return `
@@ -74,12 +137,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-## Related reading on Fundaking
-
-- [What is AI SEO (2026 definition)](/blog/what-is-ai-seo-definition-2026)
-- [GEO basics without hype](/blog/geo-generative-engine-optimization-basics)
-- [SEO consultant in Pune — founder’s guide](/blog/seo-consultant-in-pune-founders-guide-2026)
-
 *Category focus for this article: ${category}.*
 `;
 }
@@ -108,10 +165,51 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 
 ### Measurement
 
-Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if ${category.includes("LLM") || category.includes("AI") ? "you care about LLM visibility" : "you publish thought leadership"}. Rankings alone are a lagging indicator; pipeline is the decision metric.
+Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if ${
+    category.includes("LLM") || category.includes("AI")
+      ? "you care about LLM visibility"
+      : "you publish thought leadership"
+  }. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
 `;
+}
+
+/** Strip old generic Related reading triples so we can re-inject cluster links. */
+function stripGenericRelated(body) {
+  // Remove old CLUSTER_MARKER blocks
+  let out = body.replace(
+    /\n?<!-- fk-cluster-links -->[\s\S]*?(?=\n## |\n---\n|\n\*Category|\n$)/g,
+    "\n",
+  );
+  // Replace hardcoded triple that expand script used to inject
+  out = out.replace(
+    /## Related reading on Fundaking\n\n- \[What is AI SEO[^\]]+\]\([^)]+\)\n- \[GEO basics[^\]]+\]\([^)]+\)\n- \[SEO consultant in Pune[^\]]+\]\([^)]+\)\n?/g,
+    "",
+  );
+  return out;
+}
+
+function ensureClusterLinks(body, slug) {
+  if (body.includes(CLUSTER_MARKER)) {
+    // Refresh existing cluster block
+    return body.replace(
+      /<!-- fk-cluster-links -->[\s\S]*?(?=\n## |\n---\n|\n\*Category|\n$)/,
+      relatedBlock(slug).trim() + "\n\n",
+    );
+  }
+  // Insert before signature or at end (after expansion markers content)
+  const block = relatedBlock(slug);
+  const sig = body.lastIndexOf("\n---\n\n*");
+  if (sig > 0) return body.slice(0, sig) + "\n" + block + body.slice(sig);
+  // After *Category focus* line if present
+  if (/\*Category focus for this article:/.test(body)) {
+    return body.replace(
+      /(\*Category focus for this article:[^*]*\*\n?)/,
+      `$1\n${block}\n`,
+    );
+  }
+  return body.trim() + "\n" + block + "\n";
 }
 
 function insertExpansion(body, block) {
@@ -127,23 +225,47 @@ function insertExpansion(body, block) {
   return body.trim() + block + "\n";
 }
 
-const files = fs.readdirSync(blogDir).filter((f) => f.endsWith(".md") && f !== "-index.md");
+const files = fs
+  .readdirSync(blogDir)
+  .filter((f) => f.endsWith(".md") && f !== "-index.md");
 let expanded = 0;
+let relinked = 0;
 for (const file of files) {
+  const slug = file.replace(/\.md$/, "");
   const raw = fs.readFileSync(path.join(blogDir, file), "utf8");
   const post = parsePost(raw);
   if (!post || post.draft) continue;
-  if (wordCount(post.body) >= MIN_WORDS) continue;
 
-  let newBody = post.body;
-  if (!newBody.includes(MARKER)) {
-    newBody = insertExpansion(newBody, expansionBlock(post.title, post.description, post.category));
+  let newBody = stripGenericRelated(post.body);
+  const beforeLinks = newBody;
+
+  // Always refresh cluster-aware related reading
+  newBody = ensureClusterLinks(newBody, slug);
+  if (newBody !== beforeLinks) relinked++;
+
+  if (wordCount(newBody) < MIN_WORDS) {
+    if (!newBody.includes(MARKER)) {
+      newBody = insertExpansion(
+        newBody,
+        expansionBlock(post.title, post.description, post.category, slug),
+      );
+    }
+    if (wordCount(newBody) < MIN_WORDS && !newBody.includes(MARKER2)) {
+      newBody = insertExpansion(
+        newBody,
+        expansionBlock2(post.title, post.category),
+      );
+    }
+    if (newBody !== post.body) expanded++;
   }
-  if (wordCount(newBody) < MIN_WORDS && !newBody.includes(MARKER2)) {
-    newBody = insertExpansion(newBody, expansionBlock2(post.title, post.category));
-  }
+
   if (newBody === post.body) continue;
-  fs.writeFileSync(path.join(blogDir, file), `---\n${post.fm}\n---\n${newBody.trim()}\n`, "utf8");
-  expanded++;
+  fs.writeFileSync(
+    path.join(blogDir, file),
+    `---\n${post.fm}\n---\n${newBody.trim()}\n`,
+    "utf8",
+  );
 }
-console.log(`[expand-thin-blogs] Expanded ${expanded} posts toward ${MIN_WORDS}+ words`);
+console.log(
+  `[expand-thin-blogs] Expanded ${expanded} posts toward ${MIN_WORDS}+ words; refreshed cluster links on ${relinked}`,
+);

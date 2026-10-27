@@ -15,15 +15,15 @@
   <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Transcripts and show notes feed models. I treat audio SEO as entity reinforcement—not v…</text>
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · AI SEO</text>
+    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · AI / Answer Engine SEO</text>
     <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Own the transcript</text>
     <text x="104" y="322" fill="#A8C0D0" font-size="15">Publish full text on site with episode title, guest credentials, summary bullets, and internal links to product pages—not only on…</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · AI SEO</text>
+    <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · AI / Answer Engine SEO</text>
     <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Entity reinforcement</text>
     <text x="104" y="410" fill="#A8C0D0" font-size="15">Repeat canonical product name, spell founder name consistently, mention city/market when relevant.       Figure 1. At-a-glance su…</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · AI SEO</text>
+    <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · AI / Answer Engine SEO</text>
     <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Clip strategy</text>
     <text x="104" y="498" fill="#A8C0D0" font-size="15">Short clips are fine for social; long-form transcript is what models train and retrieve on.</text>
   </g>

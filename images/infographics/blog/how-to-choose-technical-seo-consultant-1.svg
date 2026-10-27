@@ -15,19 +15,19 @@
   <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Questions that separate real technical work from report generators — for founders hirin…</text>
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · SEO Consulting</text>
+    <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · Technical SEO</text>
     <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Ask for examples of shipped fixes</text>
     <text x="104" y="322" fill="#A8C0D0" font-size="15">Look for log-file analysis, JavaScript rendering decisions, indexation prunes, and schema that changed rich results — not generic…</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · SEO Consulting</text>
+    <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · Technical SEO</text>
     <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Ask who implements</text>
     <text x="104" y="410" fill="#A8C0D0" font-size="15">The best consultants write tickets your developers can ship. If everything stays in slides, nothing compounds.       Figure 1. At…</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · SEO Consulting</text>
+    <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · Technical SEO</text>
     <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Ask how they measure success</text>
     <text x="104" y="498" fill="#A8C0D0" font-size="15">Pipeline, demos, and revenue segments beat vanity rankings. Search Console and GA4 should connect to business outcomes.</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
-    <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · SEO Consulting</text>
+    <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · Technical SEO</text>
     <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Pune context</text>
     <text x="104" y="586" fill="#A8C0D0" font-size="15">Local competition is real, but technical depth matters whether you serve Pune or global markets. Technical SEO consulting should …</text>
   </g>

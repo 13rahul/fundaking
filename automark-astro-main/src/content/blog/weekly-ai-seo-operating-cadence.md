@@ -9,7 +9,7 @@ author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
 tag: "Operations"
 read_time: "12 min read"
-categories: ["LLM SEO"]
+categories: ["AI / Answer Engine SEO"]
 tags: ["llm-seo","geo","deep-dive"]
 draft: false
 ---
@@ -74,11 +74,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-## Related reading on Fundaking
-
-- [What is AI SEO (2026 definition)](/blog/what-is-ai-seo-definition-2026)
-- [GEO basics without hype](/blog/geo-generative-engine-optimization-basics)
-- [SEO consultant in Pune — founder’s guide](/blog/seo-consultant-in-pune-founders-guide-2026)
 
 *Category focus for this article: LLM SEO.*
 
@@ -107,6 +102,100 @@ Track **branded search lift**, **assisted conversions** from blog landing pages,
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
 
+
+
+
+
+
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
 ---
 
 *I am Rahul Agarwal, founder of Fundaking Media. I work with founders on technical SEO, LLM visibility, and local lead gen—usually from Pune, often remotely across India and abroad. If this helped, share it with whoever owns search at your company.*
+<!-- fk-expanded-3 -->
+
+## Practitioner notes on “My Weekly AI SEO Operating Cadence”
+
+I treat this topic as a **decision asset** for founders — not a glossary entry. When a CEO asks whether to invest here this quarter, I want a page that answers: what breaks if we ignore it, what we ship in 30 days, and how we know it worked.
+
+### What usually breaks first
+
+On Indian SaaS and service sites, the failure mode is rarely “we need more blog posts.” It is usually one of: money URLs that are hard to crawl, facts that disagree across pages, thin location or comparison pages, or no internal path from educational content to a demo or consult CTA. “My Weekly AI SEO Operating Cadence” sits in the **AI / Answer Engine SEO** cluster, so the fixes should reinforce the hub [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026) rather than spawning orphan URLs.
+
+### Implementation sequence I use with clients
+
+1. **Baseline in one working session** — Search Console landing pages, top five buyer prompts or queries, screenshot of current SERP/AI answers, list of P0 technical defects on revenue templates.
+2. **One money-page rewrite** — pricing, comparison, service, or location page with a clear lede, proof, FAQ, and schema that matches the visible copy.
+3. **Cluster wiring** — from this article to the hub, two siblings, AI enablement, and one case study. Anchors should name the destination topic.
+4. **Measurement that founders trust** — qualified enquiries, demo requests, or calls — plus a simple citation or rank log if AI/answer surfaces matter.
+
+### Checklists you can copy
+
+**Content**
+- First screen states who it is for and what changes after reading
+- Claims that mention numbers are dated or scoped (India, SaaS, local, etc.)
+- At least one table, checklist, or numbered process assistants can quote
+- Author/entity consistency with [About](/about) and Organization schema
+
+**Technical**
+- Canonical 200 on the money URL; in XML sitemap; no accidental noindex
+- Critical definitions present in initial HTML (not only after hydration)
+- Internal links from this URL to hub + service; hub lists this spoke
+
+**Commercial**
+- CTA matches intent (audit call vs Maps setup vs AI enablement)
+- Proof link to a real [case study](/case-study/) when claims get specific
+
+### Sibling reading in this cluster
+
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
+
+### How this ties to Fundaking services
+
+If your team can execute tickets, start with a scoped audit and roadmap. If priorities thrash weekly, use monthly advisory. Either way, the strategist who diagnoses should stay in the loop — that is how [AI enablement](/ai-enablement) is scoped from Pune / Baramati for India and remote teams.
+
+For AI-heavy workstreams, pair visibility work with operational automation via [AI enablement](/ai-enablement) when lead handling or enrichment is the bottleneck — as in the [Shubhshrey Industries](/case-study/shubhshrey-industries) engagement.
+
+### 14-day mini sprint
+
+**Days 1–3:** Export data; pick one prompt/query this article supports; note competitors who currently win.  
+**Days 4–7:** Ship the P0 fix on the money URL (indexation, copy, or schema).  
+**Days 8–11:** Add internal links from three existing posts to this URL and back to the hub.  
+**Days 12–14:** Re-check Search Console and AI/SERP screenshots; log what changed.
+
+If you want a second opinion on whether this topic is P0 for your stage, [book a free strategy call](/contact).
+
+<!-- fk-expanded-4 -->
+
+## FAQ — My Weekly AI SEO Operating Cadence
+
+**Is this relevant if we already have an agency?** Yes — use it as a scorecard. Agencies that cannot speak to the checks in this article are optimizing for activity reports.
+
+**Should we publish more content first?** Only after money URLs are crawlable, factual, and linked from this cluster. Volume without architecture dilutes topical authority.
+
+**How does Pune/Baramati context matter?** Local proof and meeting access help for services businesses; national/category SEO still dominates for most SaaS. Be honest which game you are playing — see the [SEO consultant in Pune guide](/blog/seo-consultant-in-pune-founders-guide-2026).
+
+**What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
+
+**Where do I start on the site?** Open the cluster hub, then [My Weekly AI SEO Operating Cadence](/blog/weekly-ai-seo-operating-cadence) as the working spoke, then the matching service page CTA.
