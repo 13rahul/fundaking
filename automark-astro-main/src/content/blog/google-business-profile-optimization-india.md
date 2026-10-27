@@ -34,7 +34,6 @@ Spell the city and PIN the same way as your site footer and invoices. Dual-langu
 </figure>
 
 
-
 ## Photos and posts
 
 Weekly posts beat abandoned profiles. Show real premises, team, and delivery proof. Geotagged spam photos are not a strategy.
@@ -112,13 +111,6 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
 
 <!-- fk-expanded -->
 
@@ -150,6 +142,19 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: Local SEO.*
+
+
+
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 <!-- fk-cluster-links -->

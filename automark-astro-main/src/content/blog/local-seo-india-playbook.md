@@ -23,6 +23,16 @@ Local SEO in India is not “add city name to title tags.” It is **Maps visibi
 - [Local SEO when answers come from AI](/blog/local-seo-plus-ai-answers)
 - [Google Business Profile optimization India](/blog/google-business-profile-optimization-india)
 - [Multi-location local SEO India](/blog/multi-location-local-seo-india)
+- [Google Maps ranking factors India 2026](/blog/google-maps-ranking-factors-india-2026)
+- [NAP consistency India directories](/blog/nap-consistency-india-directories)
+- [Local landing page template](/blog/local-landing-page-template-india)
+- [Service-area business SEO](/blog/service-area-business-seo-india)
+- [Local SEO for clinics](/blog/local-seo-for-clinics-india) · [Manufacturers Baramati](/blog/local-seo-for-manufacturers-baramati) · [Real estate Pune](/blog/local-seo-for-real-estate-pune)
+- [Citation building without spam](/blog/citation-building-without-spam-india)
+- [GBP posts strategy](/blog/google-business-profile-posts-strategy)
+- [Local vs national SEO](/blog/local-seo-vs-national-seo-decision)
+- [Multi-city agency local SEO](/blog/multi-city-agency-local-seo)
+- [WhatsApp leads from Google Maps](/blog/whatsapp-leads-from-google-maps-india)
 
 Services: [Local SEO consultant](/local-seo-consultant) · [Local SEO Pune](/local-seo-pune) · [Local SEO Baramati](/local-seo-baramati).
 
@@ -42,7 +52,6 @@ SaaS selling pan-India demos often needs **less** Maps and more category SEO —
   <img src="/images/infographics/blog/local-seo-india-playbook-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 
 ## Layer 1 — Google Business Profile (GBP)
@@ -169,12 +178,6 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
-## Related reading on Fundaking
-
-- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
-- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
 
 <!-- fk-expanded -->
 
@@ -206,6 +209,18 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: Local SEO.*
+
+
+
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
+- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 <!-- fk-cluster-links -->

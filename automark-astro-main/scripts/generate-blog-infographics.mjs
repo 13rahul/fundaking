@@ -534,12 +534,26 @@ function processBlog(file) {
     category,
   );
 
-  fs.writeFileSync(path.join(outDir, `${slug}-1.svg`), svg1, "utf8");
-  fs.writeFileSync(path.join(outDir, `${slug}-2.svg`), svg2, "utf8");
+  const writeRetry = (p, data) => {
+    for (let attempt = 0; attempt < 8; attempt++) {
+      try {
+        fs.writeFileSync(p, data, "utf8");
+        return;
+      } catch (err) {
+        if (attempt === 7) throw err;
+        const end = Date.now() + 300 * (attempt + 1);
+        while (Date.now() < end) {
+          /* Windows file lock backoff */
+        }
+      }
+    }
+  };
+  writeRetry(path.join(outDir, `${slug}-1.svg`), svg1);
+  writeRetry(path.join(outDir, `${slug}-2.svg`), svg2);
 
   const newBody = injectFigures(body, slug, title, table);
   const rebuilt = `${fmText}\n${newBody.trim()}\n`;
-  fs.writeFileSync(path.join(blogDir, file), rebuilt, "utf8");
+  writeRetry(path.join(blogDir, file), rebuilt);
 
   return { slug, ok: true, draft: isDraft };
 }

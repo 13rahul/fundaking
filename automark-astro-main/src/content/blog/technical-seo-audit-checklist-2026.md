@@ -26,6 +26,18 @@ A technical SEO audit is not a 100-page PDF of tool screenshots. It is a **prior
 - [AI crawlers in your logs](/blog/ai-crawler-logs-user-agents)
 - [Core Web Vitals for Indian SaaS](/blog/core-web-vitals-indian-saas)
 - [Site migration SEO checklist](/blog/site-migration-seo-checklist)
+- [Log file analysis for SEO](/blog/log-file-analysis-seo-guide)
+- [Faceted navigation SEO](/blog/faceted-navigation-seo-ecommerce)
+- [Internal linking architecture](/blog/internal-linking-architecture-seo)
+- [Canonical tag mistakes](/blog/canonical-tags-common-mistakes)
+- [XML sitemap best practices](/blog/xml-sitemap-best-practices-2026)
+- [Hreflang for India](/blog/hreflang-seo-india-multilingual)
+- [Shopify technical SEO](/blog/shopify-technical-seo-checklist) · [CWV Shopify India](/blog/core-web-vitals-shopify-india)
+- [Next.js SEO rendering](/blog/nextjs-seo-rendering-guide)
+- [WordPress SEO hardening](/blog/wordpress-technical-seo-hardening)
+- [HTTPS redirect chains](/blog/https-redirect-chains-seo-fix)
+- [Index bloat cleanup](/blog/index-bloat-cleanup-playbook)
+- [Organization / LocalBusiness schema India](/blog/structured-data-organization-localbusiness-india)
 
 Service: [Technical SEO consulting](/technical-seo-consultant) · [Technical SEO Pune](/technical-seo-pune).
 
@@ -46,7 +58,6 @@ Without that scope, audits become encyclopedia tours.
   <img src="/images/infographics/blog/technical-seo-audit-checklist-2026-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 
 ## 1. Crawl and discovery
@@ -183,6 +194,12 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you publish thought leadership. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
+
+
+
+
+
+
 
 
 

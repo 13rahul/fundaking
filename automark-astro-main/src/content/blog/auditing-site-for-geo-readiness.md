@@ -91,6 +91,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics)
+- [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
 <!-- fk-expanded-2 -->
 
 ## Deep dive: applying “Auditing Your Site for GEO Readiness” on a real site

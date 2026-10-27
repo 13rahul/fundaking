@@ -40,7 +40,6 @@ Pricing context: [SEO consulting pricing in India](/blog/seo-consulting-pricing-
 </figure>
 
 
-
 ## First 90 days — non-negotiable outcomes
 
 | Phase | Outcome |
@@ -118,13 +117,6 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
-## Related reading on Fundaking
-
-- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
-- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO consulting services](/seo-consulting-services)
-- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 <!-- fk-expanded -->
 
@@ -156,6 +148,19 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: SEO Consulting.*
+
+
+
+
+
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 <!-- fk-cluster-links -->

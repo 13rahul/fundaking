@@ -28,6 +28,8 @@ AI SEO, the way I practice it, is the work of making your company **easy to fetc
 | Operations | [90-day AI SEO roadmap](/blog/ai-seo-roadmap-90-days) · [Weekly cadence](/blog/weekly-ai-seo-operating-cadence) · [Measuring AI visibility](/blog/measuring-visibility-in-ai-search) |
 | Technical gates | [Technical SEO for AI discovery](/blog/technical-seo-for-ai-discovery) · [JS + AI crawlers](/blog/javascript-rendering-and-ai-crawlers) · [Structured data](/blog/structured-data-for-llm-crawlers) |
 | India B2B | [AI SEO for Indian B2B founders](/blog/ai-seo-for-indian-b2b-founders) · [AI search trust](/blog/ai-search-trust-india-founders) |
+| Checklists & ops | [AI Overview optimization checklist](/blog/ai-overview-optimization-checklist) · [Prompt research from sales calls](/blog/prompt-research-from-sales-calls) · [Measuring citations without vanity tools](/blog/measuring-ai-citations-without-vanity-tools) |
+| Entity + stack | [Brand Knowledge Panel cleanup](/blog/brand-knowledge-panel-entity-cleanup) · [AI enablement + AI SEO](/blog/ai-enablement-plus-ai-seo-same-stack) |
 
 Service path: [AI enablement](/ai-enablement). Proof: [Shubhshrey AI CRM](/case-study/shubhshrey-industries), [CollegeAstra](/case-study/collegeastra).
 
@@ -45,7 +47,6 @@ What changes is the **ceiling**: you are optimizing for passages and entities, n
   <img src="/images/infographics/blog/what-is-ai-seo-definition-2026-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 
 ## The three layers I actually ship
@@ -149,6 +150,12 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 *Category focus for this article: AI / Answer Engine SEO.*
+
+
+
+
+
+
 
 
 

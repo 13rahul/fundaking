@@ -34,7 +34,6 @@ Each page needs unique proof: team, parking/landmarks, local FAQs, local case sn
 </figure>
 
 
-
 ## Citation consistency
 
 Syndicate the same NAP to major India directories; fix duplicates before building more. Track with a simple sheet: source, NAP string, URL, last verified.
@@ -112,13 +111,6 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
 
 <!-- fk-expanded -->
 
@@ -150,6 +142,19 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: Local SEO.*
+
+
+
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 <!-- fk-cluster-links -->

@@ -30,6 +30,14 @@ This guide is not a listicle of names. It is how to **evaluate** anyone who clai
 | Channel mix | [Organic SEO vs paid ads](/blog/organic-seo-vs-paid) |
 | Technical hire | [How to choose a technical SEO consultant](/blog/how-to-choose-technical-seo-consultant) |
 | Engagement shape | [Advisory vs project: first 90 days](/blog/seo-advisory-vs-project-first-90-days) |
+| Baramati vs Pune | [SEO consultant Baramati vs Pune](/blog/seo-consultant-baramati-vs-pune) |
+| SaaS roadmap | [SEO roadmap for SaaS founders](/blog/seo-roadmap-for-saas-founders-india) |
+| KPIs | [SEO KPI dashboard for founders](/blog/seo-kpi-dashboard-for-founders) |
+| Clusters | [Content cluster strategy B2B India](/blog/content-cluster-strategy-b2b-india) |
+| D2C / manufacturing | [SEO for D2C](/blog/seo-for-d2c-brands-india) · [Manufacturing SEO](/blog/seo-for-b2b-manufacturing-india) |
+| Hiring decisions | [When to fire your agency](/blog/when-to-fire-your-seo-agency) · [RFP template](/blog/seo-rfp-template-india) · [In-house vs consultant vs agency](/blog/in-house-seo-vs-consultant-vs-agency) |
+| Startups / Baramati | [Funded startups SEO](/blog/seo-for-funded-startups-india) · [Baramati guide](/blog/baramati-seo-consultant-guide) |
+| Reporting | [Monthly SEO reporting CEOs read](/blog/monthly-seo-reporting-that-ceos-read) |
 
 Money pages for buyers: [SEO consulting services](/seo-consulting-services), [SEO consulting in Pune](/seo-consulting-pune), [hire SEO consultant Pune](/hire-seo-consultant-pune).
 
@@ -51,7 +59,6 @@ When founders ask me, “Can you rank for *SEO consultant in Pune*?” I answer 
   <img src="/images/infographics/blog/seo-consultant-in-pune-founders-guide-2026-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 
 ## What an SEO consultant in Pune should actually do
@@ -160,6 +167,12 @@ Proof lives in [case studies](/case-study/) such as [SaaS demo requests](/case-s
 **How does AI search change hiring?** Ask how they measure citations and whether technical SEO still gates AI discovery. Start from [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 **What budget band is realistic?** Read [SEO consulting pricing in India](/blog/seo-consulting-pricing-india) — senior independent rates beat cheap retainers that never touch engineering.
+
+
+
+
+
+
 
 
 

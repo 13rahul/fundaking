@@ -91,6 +91,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [How to Measure Visibility in AI Search](/blog/measuring-visibility-in-ai-search)
+- [Google AI Overviews: What Actually Moves the Needle](/blog/google-ai-overviews-practical-guide)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
 <!-- fk-expanded-2 -->
 
 ## Deep dive: applying “Zero-Click AI Search: Strategy When Clicks Drop” on a real site

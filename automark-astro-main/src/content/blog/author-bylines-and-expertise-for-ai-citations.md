@@ -91,6 +91,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
 <!-- fk-expanded-2 -->
 
 ## Deep dive: applying “Author Bylines and Expertise for AI Citations” on a real site

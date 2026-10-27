@@ -43,7 +43,6 @@ Ops detail: [90-day AI SEO roadmap](/blog/ai-seo-roadmap-90-days).
 </figure>
 
 
-
 ## Tie AI SEO to product and ops
 
 Fundaking’s [AI enablement](/ai-enablement) work — CRM, agents, enrichment — pairs with public AI visibility. Example: [Shubhshrey Industries AI CRM case study](/case-study/shubhshrey-industries) and [CollegeAstra](/case-study/collegeastra).
@@ -119,13 +118,6 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders)
-- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 <!-- fk-expanded -->
 
@@ -157,6 +149,29 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: AI / Answer Engine SEO.*
+
+
+
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 <!-- fk-cluster-links -->

@@ -260,11 +260,20 @@ for (const file of files) {
   }
 
   if (newBody === post.body) continue;
-  fs.writeFileSync(
-    path.join(blogDir, file),
-    `---\n${post.fm}\n---\n${newBody.trim()}\n`,
-    "utf8",
-  );
+  const outPath = path.join(blogDir, file);
+  const payload = `---\n${post.fm}\n---\n${newBody.trim()}\n`;
+  for (let attempt = 0; attempt < 8; attempt++) {
+    try {
+      fs.writeFileSync(outPath, payload, "utf8");
+      break;
+    } catch (err) {
+      if (attempt === 7) throw err;
+      const end = Date.now() + 300 * (attempt + 1);
+      while (Date.now() < end) {
+        /* retry backoff for Windows file locks */
+      }
+    }
+  }
 }
 console.log(
   `[expand-thin-blogs] Expanded ${expanded} posts toward ${MIN_WORDS}+ words; refreshed cluster links on ${relinked}`,

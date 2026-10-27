@@ -90,6 +90,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
+- [Forums, Reddit, and LLM Training Signals](/blog/forums-reddit-and-llm-training-signals)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
 <!-- fk-expanded-2 -->
 
 ## Deep dive: applying “Brand Mentions vs Backlinks in the LLM Era” on a real site

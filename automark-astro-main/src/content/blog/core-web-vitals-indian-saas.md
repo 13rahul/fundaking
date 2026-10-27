@@ -38,7 +38,6 @@ Usual culprits: uncompressed hero WebPs still too large, late-discovered CSS, ch
 </figure>
 
 
-
 ## INP — interaction to next paint
 
 Heavy main-thread work from analytics bundles, A/B tools, and React hydration on public pages. Split marketing site from app when possible; hydrate less above the fold.
@@ -118,13 +117,6 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
-## Related reading on Fundaking
-
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 <!-- fk-expanded -->
 
@@ -156,6 +148,19 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: Technical SEO.*
+
+
+
+
+
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 <!-- fk-cluster-links -->
