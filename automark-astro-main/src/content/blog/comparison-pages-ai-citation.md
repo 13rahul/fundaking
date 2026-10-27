@@ -3,7 +3,7 @@ title: "Comparison Pages Models Love to Quote"
 meta_title: "Comparison Pages for AI Citations"
 description: "‘X vs Y’ prompts need tables, fairness, and updates. I share the comparison template I use with SaaS and agency clients."
 date: 2026-02-19T09:00:00Z
-image: "/images/blog/post-5.png"
+image: "/images/blog/featured/comparison-pages-ai-citation.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -109,6 +109,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Pricing Pages That Survive AI Summaries](/blog/pricing-pages-ai-summaries)
+- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

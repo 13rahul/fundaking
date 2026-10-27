@@ -3,7 +3,7 @@ title: "Brand Sentiment When Answers Are Generated"
 meta_title: "Brand Sentiment in AI-Generated Answers"
 description: "Neutral is not always bad; inaccurate is. I track tone in AI answers the way I track review sentiment."
 date: 2026-03-19T09:00:00Z
-image: "/images/blog/post-3.png"
+image: "/images/blog/featured/brand-sentiment-generated-answers.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -105,6 +105,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [When AI Gets Your Brand Wrong: A Fix Playbook](/blog/fix-wrong-brand-facts-ai-hallucinations)
+- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

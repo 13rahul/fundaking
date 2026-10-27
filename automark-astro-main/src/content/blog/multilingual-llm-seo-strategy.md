@@ -3,7 +3,7 @@ title: "Multilingual LLM SEO Strategy"
 meta_title: "Multilingual LLM SEO"
 description: "Models cross languages in one session. Hreflang alone is not enough — localize entities, units, and regulatory context."
 date: 2025-12-12T08:00:00Z
-image: "/images/blog/post-3.png"
+image: "/images/blog/featured/multilingual-llm-seo-strategy.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [LLM SEO vs Traditional SEO: Same Goal, Different Surfaces](/blog/llm-seo-vs-traditional-seo)
+- [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

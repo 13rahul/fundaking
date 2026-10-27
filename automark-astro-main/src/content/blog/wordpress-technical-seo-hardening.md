@@ -3,7 +3,7 @@ title: "WordPress Technical SEO Hardening"
 meta_title: "WordPress Technical SEO Hardening | Fundaking"
 description: "Harden WordPress for SEO: crawl waste, plugin bloat, schema, and security that affects indexation."
 date: 2026-05-21T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/wordpress-technical-seo-hardening.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -40,7 +40,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -69,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Index Bloat Cleanup Playbook](/blog/index-bloat-cleanup-playbook)
+- [Pruning and Noindex in the AI Era](/blog/prune-noindex-ai-era)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 

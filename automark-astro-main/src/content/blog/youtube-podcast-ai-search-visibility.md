@@ -3,7 +3,7 @@ title: "YouTube, Podcasts, and Showing Up in AI Answers"
 meta_title: "YouTube & Podcast SEO for AI Search"
 description: "Transcripts and show notes feed models. I treat audio SEO as entity reinforcement—not vanity reach."
 date: 2026-02-26T09:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/youtube-podcast-ai-search-visibility.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -109,6 +109,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Forums, Reddit, and LLM Training Signals](/blog/forums-reddit-and-llm-training-signals)
+- [Brand Mentions vs Backlinks in the LLM Era](/blog/brand-mentions-vs-backlinks-in-llm-era)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

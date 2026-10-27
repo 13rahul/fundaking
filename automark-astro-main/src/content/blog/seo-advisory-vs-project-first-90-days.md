@@ -3,7 +3,7 @@ title: "SEO Advisory vs Project: What the First 90 Days Should Deliver"
 meta_title: "SEO Advisory vs Project | First 90 Days | Fundaking"
 description: "Choose monthly SEO advisory or a fixed project — and what a serious first 90 days must deliver for Pune and India founders."
 date: 2026-04-18T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/seo-advisory-vs-project-first-90-days.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -151,6 +151,16 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 

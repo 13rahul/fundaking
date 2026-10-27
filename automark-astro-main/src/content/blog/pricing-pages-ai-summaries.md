@@ -3,7 +3,7 @@ title: "Pricing Pages That Survive AI Summaries"
 meta_title: "Pricing Pages for AI Search Summaries"
 description: "Models quote pricing wrong when your page is vague. I make pricing explicit, scoped, and hard to misread."
 date: 2026-02-21T09:00:00Z
-image: "/images/blog/post-6.png"
+image: "/images/blog/featured/pricing-pages-ai-summaries.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -109,6 +109,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Comparison Pages Models Love to Quote](/blog/comparison-pages-ai-citation)
+- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

@@ -3,7 +3,7 @@ title: "AI SEO for Indian B2B Founders"
 meta_title: "AI SEO for Indian B2B Founders | Fundaking"
 description: "A practical AI SEO plan for Indian B2B and SaaS founders: prompt libraries, BOFU pages, entity trust, and how it ties to AI enablement."
 date: 2026-04-19T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/ai-seo-for-indian-b2b-founders.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -152,6 +152,16 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

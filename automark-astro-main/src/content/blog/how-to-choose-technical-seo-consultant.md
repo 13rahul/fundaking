@@ -3,7 +3,7 @@ title: "How to Choose a Technical SEO Consultant"
 meta_title: "How to Choose a Technical SEO Consultant | Fundaking"
 description: "Questions that separate real technical work from report generators — for founders hiring in Pune and India."
 date: 2025-04-02T05:00:00Z
-image: "/images/blog/post-3.png"
+image: "/images/blog/featured/how-to-choose-technical-seo-consultant.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -78,6 +78,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
+
+
+
 
 ## Related reading on Fundaking
 

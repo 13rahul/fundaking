@@ -3,7 +3,7 @@ title: "Multi-City Agency Local SEO in India"
 meta_title: "Multi-City Agency Local SEO | Fundaking"
 description: "How agencies with multiple city offices structure GBP, pages, and governance without duplicate thin content."
 date: 2026-06-05T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/multi-city-agency-local-seo.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -40,7 +40,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -69,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Multi-Location Local SEO in India](/blog/multi-location-local-seo-india)
+- [Local Landing Page Template for India](/blog/local-landing-page-template-india)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 

@@ -3,7 +3,7 @@ title: "Perplexity and Answer Engines: How I Earn Citations"
 meta_title: "Perplexity SEO & Citation Strategies"
 description: "Answer engines reward fetchable, quotable passages. This is my checklist for becoming a source—not just another indexed URL."
 date: 2026-02-12T09:00:00Z
-image: "/images/blog/post-2.png"
+image: "/images/blog/featured/perplexity-citation-strategies.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -115,6 +115,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
+- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

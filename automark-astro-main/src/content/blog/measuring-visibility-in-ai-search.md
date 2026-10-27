@@ -3,7 +3,7 @@ title: "How to Measure Visibility in AI Search"
 meta_title: "Measure AI Search Visibility"
 description: "Impressions in Search Console will not tell the whole story. Combine prompt tracking, brand mention monitoring, and referral anomalies."
 date: 2026-01-13T08:00:00Z
-image: "/images/blog/featured-cover.png"
+image: "/images/blog/featured/measuring-visibility-in-ai-search.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -69,6 +69,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [Zero-Click AI Search: Strategy When Clicks Drop](/blog/ai-search-zero-click-strategy)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

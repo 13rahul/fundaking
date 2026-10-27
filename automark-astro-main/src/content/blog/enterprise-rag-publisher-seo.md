@@ -3,7 +3,7 @@ title: "Enterprise Publishers and RAG-Scale SEO"
 meta_title: "Enterprise RAG Publisher SEO"
 description: "Large catalogues need chunk-friendly templates. I help publishers avoid duplicate embeddings drowning good articles."
 date: 2026-03-21T09:00:00Z
-image: "/images/blog/post-4.png"
+image: "/images/blog/featured/enterprise-rag-publisher-seo.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -105,6 +105,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
+- [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

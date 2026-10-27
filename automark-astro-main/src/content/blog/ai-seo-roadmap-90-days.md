@@ -3,7 +3,7 @@ title: "A 90-Day AI SEO Roadmap I Actually Hand to Founders"
 meta_title: "90-Day AI SEO Roadmap"
 description: "No infinite backlog—just phases: fix facts, win prompts, compound BOFU. My default roadmap for teams new to GEO."
 date: 2026-03-03T09:00:00Z
-image: "/images/blog/post-3.png"
+image: "/images/blog/featured/ai-seo-roadmap-90-days.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -112,6 +112,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [My Weekly AI SEO Operating Cadence](/blog/weekly-ai-seo-operating-cadence)
+- [How to Measure Visibility in AI Search](/blog/measuring-visibility-in-ai-search)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

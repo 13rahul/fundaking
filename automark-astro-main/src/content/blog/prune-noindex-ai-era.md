@@ -3,7 +3,7 @@ title: "Pruning and Noindex in the AI Era"
 meta_title: "Prune & Noindex Strategy for AI Search"
 description: "Index bloat hurt classic SEO; it confuses entities in AI answers too. I prune with the same discipline I use for GSC performance."
 date: 2026-03-14T09:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/prune-noindex-ai-era.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -109,6 +109,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Site Migration SEO Checklist](/blog/site-migration-seo-checklist)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 

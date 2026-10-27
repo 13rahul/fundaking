@@ -3,7 +3,7 @@ title: "Internal Wiki vs Public Site: What LLMs Should See"
 meta_title: "Internal Wiki vs Public Content for LLMs"
 description: "Not everything belongs in public SEO. I draw a line between internal playbooks and customer-facing truth pages."
 date: 2026-03-17T09:00:00Z
-image: "/images/blog/post-2.png"
+image: "/images/blog/featured/internal-wiki-vs-public-content-llm.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -109,6 +109,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo)
+- [Enterprise Publishers and RAG-Scale SEO](/blog/enterprise-rag-publisher-seo)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

@@ -3,7 +3,7 @@ title: "Auditing Your Site for GEO Readiness"
 meta_title: "GEO Readiness Audit Checklist"
 description: "A 90-minute audit covering fetch access, entity pages, evidence, and prompt-based citation tests."
 date: 2025-12-06T08:00:00Z
-image: "/images/blog/post-5.png"
+image: "/images/blog/featured/auditing-site-for-geo-readiness.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics)
+- [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

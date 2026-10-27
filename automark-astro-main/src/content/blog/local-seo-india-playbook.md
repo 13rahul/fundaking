@@ -3,7 +3,7 @@ title: "Local SEO India Playbook: Maps, GBP, and Organic"
 meta_title: "Local SEO India Playbook 2026 | GBP, Maps, Organic | Fundaking"
 description: "A practical local SEO playbook for India: Google Business Profile, NAP consistency, reviews, service-area pages, Maps vs organic, and AI answers."
 date: 2026-04-12T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/local-seo-india-playbook.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -212,6 +212,15 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
+- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 

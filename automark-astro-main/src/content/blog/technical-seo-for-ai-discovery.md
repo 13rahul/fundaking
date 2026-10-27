@@ -3,7 +3,7 @@ title: "Technical SEO Still Gates AI Discovery"
 meta_title: "Technical SEO for AI Discovery"
 description: "If fetchers cannot render or index a page, no amount of thought leadership will appear in synthesized answers."
 date: 2025-12-30T08:00:00Z
-image: "/images/blog/post-4.png"
+image: "/images/blog/featured/technical-seo-for-ai-discovery.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
+- [Structured Data That Helps LLM Crawlers](/blog/structured-data-for-llm-crawlers)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
+
+
+
 
 ## Related reading on Fundaking
 

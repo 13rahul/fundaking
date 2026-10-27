@@ -3,7 +3,7 @@ title: "Log File Analysis for SEO: A Practical Guide"
 meta_title: "Log File Analysis SEO Guide | Fundaking"
 description: "Use server logs to see how Googlebot crawls your site — wasted budget, blocked money pages, and priority fixes."
 date: 2026-05-13T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/log-file-analysis-seo-guide.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -40,7 +40,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -69,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [AI Crawlers in Your Logs: What to Look For](/blog/ai-crawler-logs-user-agents)
+- [Index Bloat Cleanup Playbook](/blog/index-bloat-cleanup-playbook)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 

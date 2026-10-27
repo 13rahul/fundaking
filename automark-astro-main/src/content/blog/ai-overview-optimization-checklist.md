@@ -3,7 +3,7 @@ title: "AI Overview Optimization Checklist"
 meta_title: "AI Overview Optimization Checklist | Fundaking"
 description: "A practical checklist to earn and survive Google AI Overviews — entities, passages, and technical gates."
 date: 2026-06-07T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/ai-overview-optimization-checklist.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -68,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Google AI Overviews: What Actually Moves the Needle](/blog/google-ai-overviews-practical-guide)
+- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

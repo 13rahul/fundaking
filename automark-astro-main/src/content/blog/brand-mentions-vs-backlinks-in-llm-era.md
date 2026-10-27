@@ -3,7 +3,7 @@ title: "Brand Mentions vs Backlinks in the LLM Era"
 meta_title: "Brand Mentions vs Backlinks for LLM SEO"
 description: "Links still move classic rankings, but unlinked mentions train entity association for models that read the whole web."
 date: 2026-01-10T08:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/brand-mentions-vs-backlinks-in-llm-era.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -70,6 +70,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
+- [Forums, Reddit, and LLM Training Signals](/blog/forums-reddit-and-llm-training-signals)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

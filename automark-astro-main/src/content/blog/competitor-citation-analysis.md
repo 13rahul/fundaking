@@ -3,7 +3,7 @@ title: "Competitor Citation Analysis in AI Search"
 meta_title: "Competitor Citation Analysis for AI SEO"
 description: "I score who wins AI answers for our prompt library—and steal structure, not sentences."
 date: 2026-02-28T09:00:00Z
-image: "/images/blog/post-2.png"
+image: "/images/blog/featured/competitor-citation-analysis.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -111,6 +111,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Perplexity and Answer Engines: How I Earn Citations](/blog/perplexity-citation-strategies)
+- [Brand Mentions vs Backlinks in the LLM Era](/blog/brand-mentions-vs-backlinks-in-llm-era)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

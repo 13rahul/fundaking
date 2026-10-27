@@ -3,7 +3,7 @@ title: "LLM SEO vs Traditional SEO: Same Goal, Different Surfaces"
 meta_title: "LLM SEO vs Traditional SEO | Comparison"
 description: "Ranking in classic search and being cited in LLM answers overlap — but success metrics and page formats diverge. Here is how to plan for both."
 date: 2026-01-28T08:00:00Z
-image: "/images/blog/post-2.png"
+image: "/images/blog/featured/llm-seo-vs-traditional-seo.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -73,6 +73,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

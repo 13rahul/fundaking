@@ -3,7 +3,7 @@ title: "SEO Roadmap for SaaS Founders in India (6 Months)"
 meta_title: "SEO Roadmap for SaaS Founders India | Fundaking"
 description: "A six-month organic SEO roadmap for Indian SaaS: technical floor, BOFU pages, clusters, and demo KPIs."
 date: 2026-05-02T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/seo-roadmap-for-saas-founders-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -30,7 +30,6 @@ Comparison, integration, and “vs” pages; internal links from blog → produc
   <img src="/images/infographics/blog/seo-roadmap-for-saas-founders-india-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 
 ## Months 5–6 — Clusters
@@ -78,6 +77,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO KPI Dashboard for Founders (Not Vanity Ranks)](/blog/seo-kpi-dashboard-for-founders)
+- [Content Cluster Strategy for B2B in India](/blog/content-cluster-strategy-b2b-india)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 

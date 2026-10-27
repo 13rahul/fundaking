@@ -3,7 +3,7 @@ title: "Index Bloat Cleanup Playbook"
 meta_title: "Index Bloat Cleanup Playbook | Fundaking"
 description: "Find and remove index bloat — thin tags, parameters, and soft 404s — without deleting valuable URLs."
 date: 2026-05-23T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/index-bloat-cleanup-playbook.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -40,7 +40,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -69,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Pruning and Noindex in the AI Era](/blog/prune-noindex-ai-era)
+- [Faceted Navigation SEO for Ecommerce](/blog/faceted-navigation-seo-ecommerce)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 

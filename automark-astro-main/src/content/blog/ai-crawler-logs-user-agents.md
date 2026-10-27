@@ -3,7 +3,7 @@ title: "AI Crawlers in Your Logs: What to Look For"
 meta_title: "AI Crawler User Agents & Log Analysis"
 description: "If bots cannot fetch, you cannot be cited. I review server logs for AI and extended search crawlers the same way I review Googlebot."
 date: 2026-03-05T09:00:00Z
-image: "/images/blog/post-4.png"
+image: "/images/blog/featured/ai-crawler-logs-user-agents.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -112,6 +112,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
+- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 

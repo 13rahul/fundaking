@@ -3,7 +3,7 @@ title: "Search Agents and the Next SEO Inflection"
 meta_title: "Search Agents & the Future of SEO"
 description: "Autonomous agents will query APIs, compare vendors, and execute tasks. Structured APIs and trust signals become the new ranking factors."
 date: 2025-12-03T08:00:00Z
-image: "/images/blog/post-6.png"
+image: "/images/blog/featured/future-search-agents-and-seo.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Zero-Click AI Search: Strategy When Clicks Drop](/blog/ai-search-zero-click-strategy)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

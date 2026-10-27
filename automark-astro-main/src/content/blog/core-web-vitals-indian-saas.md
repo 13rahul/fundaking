@@ -3,7 +3,7 @@ title: "Core Web Vitals for Indian SaaS Sites"
 meta_title: "Core Web Vitals for Indian SaaS | Technical SEO | Fundaking"
 description: "How to fix LCP, INP, and CLS on Indian SaaS marketing sites — real network conditions, third-party scripts, and revenue-page priorities."
 date: 2026-04-14T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/core-web-vitals-indian-saas.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -151,6 +151,16 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 

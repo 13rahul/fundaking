@@ -3,7 +3,7 @@ title: "Entity SEO for AI Overviews and Knowledge Panels"
 meta_title: "Entity SEO for AI Overviews"
 description: "Models resolve brands and people as entities. Structured identity data and consistent naming improve odds of accurate AI summaries."
 date: 2026-01-22T08:00:00Z
-image: "/images/blog/post-4.png"
+image: "/images/blog/featured/entity-seo-for-ai-overviews.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Google AI Overviews: What Actually Moves the Needle](/blog/google-ai-overviews-practical-guide)
+- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

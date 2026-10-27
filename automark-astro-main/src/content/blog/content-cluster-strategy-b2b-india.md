@@ -3,7 +3,7 @@ title: "Content Cluster Strategy for B2B in India"
 meta_title: "Content Cluster Strategy B2B India | Fundaking"
 description: "How to build topical authority with hubs and spokes for Indian B2B — the same model Fundaking uses on this blog."
 date: 2026-05-04T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/content-cluster-strategy-b2b-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -74,6 +74,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO Roadmap for SaaS Founders in India (6 Months)](/blog/seo-roadmap-for-saas-founders-india)
+- [Internal Linking Architecture for SEO](/blog/internal-linking-architecture-seo)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 

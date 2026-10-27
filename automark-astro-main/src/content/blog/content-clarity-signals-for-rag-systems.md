@@ -3,7 +3,7 @@ title: "Content Clarity Signals That Help RAG Systems"
 meta_title: "Content Clarity for RAG & AI Search"
 description: "Retrieval-augmented generation pulls chunks, not whole sites. Write passages that stand alone and declare context up front."
 date: 2026-01-07T08:00:00Z
-image: "/images/blog/post-2.png"
+image: "/images/blog/featured/content-clarity-signals-for-rag-systems.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Auditing Your Site for GEO Readiness](/blog/auditing-site-for-geo-readiness)
+- [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

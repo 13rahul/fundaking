@@ -3,7 +3,7 @@ title: "Multi-Location Local SEO in India"
 meta_title: "Multi-Location Local SEO India | Fundaking"
 description: "How to structure GBP, location pages, and citations for multi-city and multi-branch brands in India without duplicate thin content."
 date: 2026-04-17T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/multi-location-local-seo-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -145,6 +145,16 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 

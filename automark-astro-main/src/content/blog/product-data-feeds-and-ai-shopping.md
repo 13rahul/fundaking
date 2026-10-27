@@ -3,7 +3,7 @@ title: "Product Data Feeds and AI Shopping Surfaces"
 meta_title: "Product Feeds for AI Shopping"
 description: "Merchant feeds power classic Shopping tabs; the same structured product truth feeds conversational commerce and agent checkout experiments."
 date: 2025-12-24T08:00:00Z
-image: "/images/blog/post-6.png"
+image: "/images/blog/featured/product-data-feeds-and-ai-shopping.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Ecommerce LLM SEO Beyond Product Feeds](/blog/ecommerce-llm-seo-beyond-feeds)
+- [Comparison Pages Models Love to Quote](/blog/comparison-pages-ai-citation)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

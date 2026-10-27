@@ -3,7 +3,7 @@ title: "Help Centers and Docs as LLM SEO Assets"
 meta_title: "Help Center SEO for LLM Visibility"
 description: "Support articles are underrated acquisition. I wire docs into IA so crawlers and models treat them as authoritative product truth."
 date: 2026-02-24T09:00:00Z
-image: "/images/blog/featured-cover.png"
+image: "/images/blog/featured/help-center-docs-llm-seo.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -111,6 +111,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
+- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

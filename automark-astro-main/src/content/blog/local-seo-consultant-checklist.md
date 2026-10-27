@@ -3,7 +3,7 @@ title: "Local SEO Consultant Checklist"
 meta_title: "Local SEO Consultant Checklist | Maps & Near-Me Ranking Tasks"
 description: "What a local SEO consultant should cover: GBP, NAP, reviews, location pages and local schema."
 date: 2025-08-25T05:00:00Z
-image: "/images/blog/post-6.png"
+image: "/images/blog/featured/local-seo-consultant-checklist.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -75,6 +75,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Google Business Profile Optimization for India](/blog/google-business-profile-optimization-india)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
+
+
+
 
 ## Related reading on Fundaking
 

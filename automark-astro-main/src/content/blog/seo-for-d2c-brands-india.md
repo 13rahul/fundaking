@@ -3,7 +3,7 @@ title: "SEO for D2C Brands in India (Shopify & Beyond)"
 meta_title: "SEO for D2C Brands India | Fundaking"
 description: "Organic SEO for Indian D2C: collection architecture, CWV, content that sells, and when paid should stay on."
 date: 2026-05-05T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/seo-for-d2c-brands-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -42,7 +42,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -71,6 +70,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [Shopify Technical SEO Checklist](/blog/shopify-technical-seo-checklist)
+- [Core Web Vitals for Shopify Stores in India](/blog/core-web-vitals-shopify-india)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 

@@ -3,7 +3,7 @@ title: "Google Business Profile Optimization for India"
 meta_title: "GBP Optimization India | Local SEO | Fundaking"
 description: "Optimize Google Business Profile for Indian businesses: categories, NAP, services, photos, reviews, and service-area settings that win Maps."
 date: 2026-04-16T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/google-business-profile-optimization-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -145,6 +145,16 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 

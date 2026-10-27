@@ -3,7 +3,7 @@ title: "GEO Basics: Generative Engine Optimization Without the Hype"
 meta_title: "Generative Engine Optimization (GEO) Basics"
 description: "GEO is measured work: prompts, citations, facts, and BOFU pages—not a rebranded SEO retainer with new buzzwords."
 date: 2026-01-16T08:00:00Z
-image: "/images/blog/post-6.png"
+image: "/images/blog/featured/geo-generative-engine-optimization-basics.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -134,6 +134,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Auditing Your Site for GEO Readiness](/blog/auditing-site-for-geo-readiness)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

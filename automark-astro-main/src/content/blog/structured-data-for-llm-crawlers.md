@@ -3,7 +3,7 @@ title: "Structured Data That Helps LLM Crawlers"
 meta_title: "Structured Data for LLM Crawlers"
 description: "JSON-LD will not guarantee AI citations, but it reduces ambiguity for products, FAQs, and how-to content machines must parse quickly."
 date: 2026-01-19T08:00:00Z
-image: "/images/blog/post-5.png"
+image: "/images/blog/featured/structured-data-for-llm-crawlers.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
+- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
+
+
+
 
 ## Related reading on Fundaking
 

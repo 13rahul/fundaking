@@ -3,7 +3,7 @@ title: "How Answer Engines Choose Sources to Cite"
 meta_title: "How LLMs Choose Sources to Cite"
 description: "Citation is not random. Retrieval, recency, authority heuristics, and text clarity all influence which URLs appear in AI-generated answers."
 date: 2026-01-25T08:00:00Z
-image: "/images/blog/post-3.png"
+image: "/images/blog/featured/how-chatgpt-chooses-sources-to-cite.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Perplexity and Answer Engines: How I Earn Citations](/blog/perplexity-citation-strategies)
+- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

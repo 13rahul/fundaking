@@ -3,7 +3,7 @@ title: "Conversational Query Mapping for LLM SEO"
 meta_title: "Conversational Query Mapping for LLM SEO"
 description: "Map how buyers actually talk to assistants, then align URLs and passages to those phrasings — not just Keyword Planner exports."
 date: 2025-12-27T08:00:00Z
-image: "/images/blog/post-5.png"
+image: "/images/blog/featured/conversational-query-mapping-for-llm-seo.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -69,6 +69,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
+- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

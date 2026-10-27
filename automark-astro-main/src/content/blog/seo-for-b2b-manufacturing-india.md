@@ -3,7 +3,7 @@ title: "SEO for B2B Manufacturing Companies in India"
 meta_title: "SEO for B2B Manufacturing India | Fundaking"
 description: "Organic and local SEO for Indian manufacturers — catalogues, dealer intent, and CRM-ready enquiries."
 date: 2026-05-06T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/seo-for-b2b-manufacturing-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -40,7 +40,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -69,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [Local SEO for Manufacturers in Baramati](/blog/local-seo-for-manufacturers-baramati)
+- [SEO Consultant Baramati vs Pune: When Local Presence Matters](/blog/seo-consultant-baramati-vs-pune)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 

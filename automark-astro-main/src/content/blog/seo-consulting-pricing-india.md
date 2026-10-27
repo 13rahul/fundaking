@@ -3,7 +3,7 @@ title: "SEO Consulting Pricing in India (2026)"
 meta_title: "SEO Consulting Pricing in India | What to Budget in 2026"
 description: "Realistic SEO consulting pricing in India: audits, monthly advisory and project work — and how to avoid cheap retainers."
 date: 2025-08-25T05:00:00Z
-image: "/images/blog/post-5.png"
+image: "/images/blog/featured/seo-consulting-pricing-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -76,6 +76,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
+- [SEO Advisory vs Project: What the First 90 Days Should Deliver](/blog/seo-advisory-vs-project-first-90-days)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
+
+
+
 
 ## Related reading on Fundaking
 

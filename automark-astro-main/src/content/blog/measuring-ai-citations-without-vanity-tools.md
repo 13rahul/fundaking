@@ -3,7 +3,7 @@ title: "Measuring AI Citations Without Vanity Tools"
 meta_title: "Measuring AI Citations | Fundaking"
 description: "A lightweight citation log founders can run weekly — screenshots, prompts, and assisted pipeline."
 date: 2026-06-11T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/measuring-ai-citations-without-vanity-tools.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -40,7 +40,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -69,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [How to Measure Visibility in AI Search](/blog/measuring-visibility-in-ai-search)
+- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

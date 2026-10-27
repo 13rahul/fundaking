@@ -3,7 +3,7 @@ title: "JavaScript Rendering and AI Crawlers"
 meta_title: "JavaScript Rendering & AI Crawlers"
 description: "SPAs that hide copy behind client bundles remain risky. Test what fetchers actually receive in raw HTML."
 date: 2025-12-15T08:00:00Z
-image: "/images/blog/post-2.png"
+image: "/images/blog/featured/javascript-rendering-and-ai-crawlers.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
+- [Core Web Vitals for Indian SaaS Sites](/blog/core-web-vitals-indian-saas)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
+
+
+
 
 ## Related reading on Fundaking
 

@@ -3,7 +3,7 @@ title: "Monthly SEO Reporting That CEOs Actually Read"
 meta_title: "Monthly SEO Reporting for CEOs | Fundaking"
 description: "Build SEO reports executives finish — narrative, KPIs, risks, and next decisions — not 40 keyword charts."
 date: 2026-05-12T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/monthly-seo-reporting-that-ceos-read.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -40,7 +40,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -69,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO KPI Dashboard for Founders (Not Vanity Ranks)](/blog/seo-kpi-dashboard-for-founders)
+- [SEO Advisory vs Project: What the First 90 Days Should Deliver](/blog/seo-advisory-vs-project-first-90-days)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 

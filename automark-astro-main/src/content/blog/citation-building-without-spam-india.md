@@ -3,7 +3,7 @@ title: "Citation Building Without Spam in India"
 meta_title: "Citation Building Without Spam India | Fundaking"
 description: "Earn and clean citations on quality Indian directories — avoid PBNs and fake listings."
 date: 2026-06-02T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/citation-building-without-spam-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -68,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [NAP Consistency Across India Directories](/blog/nap-consistency-india-directories)
+- [Google Maps Ranking Factors in India (2026)](/blog/google-maps-ranking-factors-india-2026)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 

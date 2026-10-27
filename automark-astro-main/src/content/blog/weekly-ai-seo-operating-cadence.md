@@ -3,7 +3,7 @@ title: "My Weekly AI SEO Operating Cadence"
 meta_title: "Weekly AI SEO Operating Cadence"
 description: "What I do every week for clients: prompts, patches, and proof—not another dashboard."
 date: 2026-03-26T09:00:00Z
-image: "/images/blog/post-6.png"
+image: "/images/blog/featured/weekly-ai-seo-operating-cadence.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -113,6 +113,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

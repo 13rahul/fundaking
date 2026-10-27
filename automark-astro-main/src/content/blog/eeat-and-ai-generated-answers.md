@@ -3,7 +3,7 @@ title: "E-E-A-T When Answers Are Generated for You"
 meta_title: "E-E-A-T and AI-Generated Answers"
 description: "Experience, expertise, authority, and trust matter more when an algorithm paraphrases your site — or a competitor’s."
 date: 2026-01-04T08:00:00Z
-image: "/images/blog/post-3.png"
+image: "/images/blog/featured/eeat-and-ai-generated-answers.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Author Bylines and Expertise for AI Citations](/blog/author-bylines-and-expertise-for-ai-citations)
+- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

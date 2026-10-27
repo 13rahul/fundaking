@@ -3,7 +3,7 @@ title: "Author Bylines and Expertise for AI Citations"
 meta_title: "Author Bylines for AI Citations"
 description: "Named experts with verifiable credentials increase the odds your article is chosen over anonymous content farms."
 date: 2025-12-18T08:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/author-bylines-and-expertise-for-ai-citations.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

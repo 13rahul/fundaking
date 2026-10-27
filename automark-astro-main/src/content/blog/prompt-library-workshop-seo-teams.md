@@ -3,7 +3,7 @@ title: "Running a Prompt Library Workshop with Your SEO Team"
 meta_title: "Prompt Library Workshop for SEO Teams"
 description: "I facilite a half-day workshop that replaces keyword-only planning with prompts sales and support already hear."
 date: 2026-03-12T09:00:00Z
-image: "/images/blog/featured-cover.png"
+image: "/images/blog/featured/prompt-library-workshop-seo-teams.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -109,6 +109,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [My Weekly AI SEO Operating Cadence](/blog/weekly-ai-seo-operating-cadence)
+- [Conversational Query Mapping for LLM SEO](/blog/conversational-query-mapping-for-llm-seo)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

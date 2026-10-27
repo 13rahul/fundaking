@@ -3,7 +3,7 @@ title: "SEO RFP Template for Indian Companies"
 meta_title: "SEO RFP Template India | Fundaking"
 description: "A practical SEO RFP template for Indian founders — scope, access, KPIs, and red-flag answers."
 date: 2026-05-08T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/seo-rfp-template-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -31,7 +31,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
   <img src="/images/infographics/blog/seo-rfp-template-india-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 
 ## Mistakes I see on live sites
@@ -70,6 +69,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [When to Fire Your SEO Agency (And What to Do Next)](/blog/when-to-fire-your-seo-agency)
+- [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 

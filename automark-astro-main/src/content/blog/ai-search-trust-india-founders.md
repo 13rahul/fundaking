@@ -3,7 +3,7 @@ title: "AI Search and Trust: Notes for India Founders"
 meta_title: "AI Search Trust for India Founders"
 description: "Buyers in India ask AI the same trust questions they ask on WhatsApp. I adapt GEO for price sensitivity and proof expectations here."
 date: 2026-03-10T09:00:00Z
-image: "/images/blog/post-6.png"
+image: "/images/blog/featured/ai-search-trust-india-founders.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -112,6 +112,16 @@ If you want help prioritizing, [contact Fundaking](/contact) for a free strategy
 
 
 
+
+
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI SEO for Indian B2B Founders](/blog/ai-seo-for-indian-b2b-founders)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 

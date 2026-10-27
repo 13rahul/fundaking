@@ -3,7 +3,7 @@ title: "NAP Consistency Across India Directories"
 meta_title: "NAP Consistency India Directories | Fundaking"
 description: "Keep name, address, and phone identical across Justdial, IndiaMART, Sulekha, and Google Business Profile."
 date: 2026-05-27T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/nap-consistency-india-directories.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -40,7 +40,6 @@ Ask whether this topic touches **money pages** (pricing, product, location, demo
 </figure>
 
 
-
 ## A 30-day workflow
 
 **Week 1 — Baseline:** Export top landing pages, list five buyer queries or prompts, screenshot SERP/AI answers.  
@@ -69,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Citation Building Without Spam in India](/blog/citation-building-without-spam-india)
+- [Google Business Profile Optimization for India](/blog/google-business-profile-optimization-india)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
 
 
 

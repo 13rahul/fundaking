@@ -3,7 +3,7 @@ title: "What Does an SEO Consultant Do?"
 meta_title: "What Does an SEO Consultant Do? | Fundaking Media"
 description: "The job is architecture, diagnosis, and revenue — not a monthly checklist. How Rahul Agarwal works with Pune founders."
 date: 2025-03-10T05:00:00Z
-image: "/images/blog/post-2.png"
+image: "/images/blog/featured/what-does-an-seo-consultant-do.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -79,6 +79,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO Consultant vs Freelancer](/blog/seo-consultant-vs-freelancer)
+- [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
+- [SEO consulting services](/seo-consulting-services)
+- [SaaS demo requests case study](/case-study/saas-demo-requests)
+
+
+
 
 ## Related reading on Fundaking
 

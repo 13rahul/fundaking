@@ -3,7 +3,7 @@ title: "Forums, Reddit, and LLM Training Signals"
 meta_title: "Forums & Reddit in LLM Visibility"
 description: "Community threads surface in answers for software, finance, and health queries. Participate ethically; do not astroturf."
 date: 2025-12-21T08:00:00Z
-image: "/images/blog/featured-cover.png"
+image: "/images/blog/featured/forums-reddit-and-llm-training-signals.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -71,6 +71,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 
 <!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Brand Mentions vs Backlinks in the LLM Era](/blog/brand-mentions-vs-backlinks-in-llm-era)
+- [YouTube, Podcasts, and Showing Up in AI Answers](/blog/youtube-podcast-ai-search-visibility)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+
+
 
 ## Related reading on Fundaking
 

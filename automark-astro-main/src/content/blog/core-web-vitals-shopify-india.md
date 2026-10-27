@@ -3,7 +3,7 @@ title: "Core Web Vitals for Shopify Stores in India"
 meta_title: "Core Web Vitals Shopify India | Fundaking"
 description: "Improve LCP, INP, and CLS on Shopify for Indian mobile networks — apps, images, and theme tips."
 date: 2026-05-25T06:00:00Z
-image: "/images/blog/post-1.png"
+image: "/images/blog/featured/core-web-vitals-shopify-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
 author_image: "/images/og-image.png"
@@ -68,6 +68,16 @@ Bring senior help when engineering bandwidth exists but **prioritization** is mi
 **How does AI search change this?** Classic technical + entity clarity still gates citations — see [What is AI SEO?](/blog/what-is-ai-seo-definition-2026).
 
 
+
+
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Shopify Technical SEO Checklist](/blog/shopify-technical-seo-checklist)
+- [Core Web Vitals for Indian SaaS Sites](/blog/core-web-vitals-indian-saas)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 
