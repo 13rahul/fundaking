@@ -16,9 +16,6 @@ draft: false
 
 If you hire a [local SEO consultant](/local-seo-consultant), demand a system — not random citation blasts.
 
-
-
-
 ## Checklist
 
 - GBP fully built: categories, services, products, photos, posts
@@ -70,41 +67,7 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: Local SEO.*
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Google Business Profile Optimization for India](/blog/google-business-profile-optimization-india)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
-
-
-
-
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Google Business Profile Optimization for India](/blog/google-business-profile-optimization-india)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
-
-
-
-
-## Related reading on Fundaking
-
-- [local-seo-india-playbook](/blog/local-seo-india-playbook)
-- [local-seo-india-playbook](/blog/local-seo-india-playbook)
-- [google-business-profile-optimization-india](/blog/google-business-profile-optimization-india)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
 
 <!-- fk-expanded-2 -->
 
@@ -206,3 +169,18 @@ When I review this topic with a founding team, I ask three questions before tact
 I also check whether the page is discoverable from the cluster hub and whether the service CTA matches intent. Educational posts that never mention [SEO consulting](/seo-consulting-services), [technical SEO](/technical-seo-consultant), [local SEO](/local-seo-consultant), or [AI enablement](/ai-enablement) leave traffic stranded. Conversely, stuffing every CTA on every page dilutes trust — one primary CTA is enough.
 
 Finally, keep entity facts boring and consistent: company name, founder name, locations (Pune / Baramati), and offers. Assistants and search engines punish contradiction faster than they reward clever metaphors. Update this article when the product or service changes; stale BOFU claims are worse than thin TOFU posts.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Google Business Profile Optimization for India](/blog/google-business-profile-optimization-india)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

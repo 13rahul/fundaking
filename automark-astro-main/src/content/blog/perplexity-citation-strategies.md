@@ -16,9 +16,6 @@ draft: false
 
 I run the same 25 prompts in Perplexity monthly for B2B clients. You learn quickly: **citations go to pages that look like primary sources**, not pages that look like ads.
 
-
-
-
 ## Build a prompt library from sales calls
 
 Export themes from Gong/CRM notes: objections, ‘how does X compare to Y,’ implementation fears. Turn each into a natural-language prompt.
@@ -76,7 +73,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: LLM SEO.*
 
 <!-- fk-expanded-2 -->
@@ -103,49 +99,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you care about LLM visibility. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
-- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
-- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
-- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 ---
 
@@ -217,3 +170,18 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Perplexity and Answer Engines: How I Earn Citations](/blog/perplexity-citation-strategies) as the working spoke, then the matching service page CTA.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
+- [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

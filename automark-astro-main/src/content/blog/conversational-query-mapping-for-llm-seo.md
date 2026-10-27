@@ -23,8 +23,6 @@ Voice and chat queries are longer, messier, and context-dependent. Build a **con
 
 Each node becomes a page section or FAQ. Use exact question strings as H2s where it reads naturally — retrieval systems match embedding similarity to user prompts.
 
-
-
 <!-- fk-expanded -->
 
 ## Why founders should care now
@@ -64,52 +62,7 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: LLM SEO.*
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
-- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
-- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
-- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
-- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 <!-- fk-expanded-2 -->
 
@@ -202,3 +155,18 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Conversational Query Mapping for LLM SEO](/blog/conversational-query-mapping-for-llm-seo) as the working spoke, then the matching service page CTA.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
+- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

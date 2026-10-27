@@ -16,20 +16,20 @@
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · AI / Answer Engine SEO</text>
-    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Start with queries where an overview already appears</text>
-    <text x="104" y="322" fill="#A8C0D0" font-size="15">I pull 90 days of Search Console and flag queries with high impressions, soft CTR, and visible overview in manual checks. Those a…</text>
+    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">What an Overview actually changes for founders</text>
+    <text x="104" y="322" fill="#A8C0D0" font-size="15">Answer the query well enough that fewer people click (zero-click pressure) · Still send traffic when the summary is incomplete, c…</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · AI / Answer Engine SEO</text>
-    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Page patterns I see cited</text>
-    <text x="104" y="410" fill="#A8C0D0" font-size="15">Definitions in the first 120 words with the product/category name repeated plainly.</text>
+    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Start with queries where an overview already appears</text>
+    <text x="104" y="410" fill="#A8C0D0" font-size="15">I pull 90 days of Search Console and flag queries with high impressions, soft CTR, and a visible overview in manual checks. Those…</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · AI / Answer Engine SEO</text>
-    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Technical mistakes that keep you out</text>
-    <text x="104" y="498" fill="#A8C0D0" font-size="15">Blocked resources, lazy-loaded body copy, and faceted URLs that split signals.</text>
+    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Page patterns I see cited</text>
+    <text x="104" y="498" fill="#A8C0D0" font-size="15">Expanded in the article — examples and steps below.</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · AI / Answer Engine SEO</text>
-    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">What I do in week one</text>
-    <text x="104" y="586" fill="#A8C0D0" font-size="15">Pick five overview queries, one URL each, rewrite lede + one H2 block per page, add a comparison table if missing, resubmit in GS…</text>
+    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Technical mistakes that keep you out</text>
+    <text x="104" y="586" fill="#A8C0D0" font-size="15">Body copy that only exists after client-side hydration (common on Next.js marketing sites) · Redirect chains and soft-404s on the…</text>
   </g>
   <text x="576" y="828" text-anchor="middle" fill="#7FA3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Infographic 1 — key sections from this post · fundaking.com/blog/google-ai-overviews-practical-guide</text>
 </svg>

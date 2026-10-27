@@ -134,10 +134,6 @@ Founders get a one-pager, not a guilt trip. Implementation can be in-house or vi
 
 **What about local businesses?** Add GBP and NAP consistency after crawl/index; start from the [local SEO India playbook](/blog/local-seo-india-playbook).
 
-
-
-
-
 ## Why founders should care now
 
 A founder-ready technical SEO audit checklist: crawl, index, Core Web Vitals, JavaScript, schema, migrations, and internal links — mapped to AI discovery. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.
@@ -165,9 +161,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
-
-
 *Category focus for this article: Technical SEO.*
 
 <!-- fk-expanded-2 -->
@@ -194,30 +187,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you publish thought leadership. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [How to Choose a Technical SEO Consultant](/blog/how-to-choose-technical-seo-consultant)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
-
-
-
-## Related reading on Fundaking
-
-- [How to Choose a Technical SEO Consultant](/blog/how-to-choose-technical-seo-consultant)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 
 <!-- fk-cluster-links -->

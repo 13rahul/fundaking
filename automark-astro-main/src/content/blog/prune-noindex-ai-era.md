@@ -16,9 +16,6 @@ draft: false
 
 More indexed URLs is not more visibility. **Models pick the clearest source**—often one strong page, not twelve thin variants.
 
-
-
-
 ## Candidates to prune
 
 Tag pages with no clicks, duplicate intents, old campaign LPs, parameterized faceted URLs.
@@ -70,7 +67,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: AI SEO.*
 
 <!-- fk-expanded-2 -->
@@ -97,49 +93,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you care about LLM visibility. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Site Migration SEO Checklist](/blog/site-migration-seo-checklist)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
-
-
-
-## Related reading on Fundaking
-
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Site Migration SEO Checklist](/blog/site-migration-seo-checklist)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Site Migration SEO Checklist](/blog/site-migration-seo-checklist)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 ---
 
@@ -211,3 +164,18 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Pruning and Noindex in the AI Era](/blog/prune-noindex-ai-era) as the working spoke, then the matching service page CTA.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Site Migration SEO Checklist](/blog/site-migration-seo-checklist)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

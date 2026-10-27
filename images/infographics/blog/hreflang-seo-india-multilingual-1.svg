@@ -16,20 +16,20 @@
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · Technical SEO</text>
-    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Why this matters for Indian founders</text>
-    <text x="104" y="322" fill="#A8C0D0" font-size="15">“Hreflang SEO for India” shows up on discovery calls when organic pipeline stalls, agency reports look green, and demos still do …</text>
+    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">What “Hreflang SEO for India (English, Hindi &amp; More)” means in practice</text>
+    <text x="104" y="322" fill="#A8C0D0" font-size="15">Implement hreflang correctly for Indian multilingual sites — EN/HI and regional languages without duplicate chaos. In client work…</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · Technical SEO</text>
-    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Mistakes I see on live sites</text>
-    <text x="104" y="410" fill="#A8C0D0" font-size="15">Chasing tactics without a Search Console baseline · Publishing more blogs while money URLs are uncrawlable or contradictory</text>
+    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Diagnostic: how I audit this in one working session</text>
+    <text x="104" y="410" fill="#A8C0D0" font-size="15">| Step | What I collect | Pass signal | | --- | --- | --- | | Baseline | Search Console landing pages + top queries/prompts (90 d…</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · Technical SEO</text>
-    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">A 30-day workflow</text>
+    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Priority order (do not skip ahead)</text>
     <text x="104" y="498" fill="#A8C0D0" font-size="15">Expanded in the article — examples and steps below.</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · Technical SEO</text>
-    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Practitioner checklist</text>
-    <text x="104" y="586" fill="#A8C0D0" font-size="15">| Area | Pass looks like | | --- | --- | | Intent | Page answers who it is for and what changes after reading | | Proof | Named o…</text>
+    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Operating notes for “Hreflang SEO for India (English, Hindi &amp; More)”</text>
+    <text x="104" y="586" fill="#A8C0D0" font-size="15">Ship one URL well, measure pipeline, then expand. Prefer a living checklist your team reuses over a one-off article nobody opens …</text>
   </g>
   <text x="576" y="828" text-anchor="middle" fill="#7FA3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Infographic 1 — key sections from this post · fundaking.com/blog/hreflang-seo-india-multilingual</text>
 </svg>

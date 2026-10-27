@@ -48,10 +48,6 @@ Assign one owner for GBP across branches. Shared login chaos causes suspended li
 
 Need help structuring locations? [Local SEO consulting](/local-seo-consultant).
 
-
-
-
-
 ## Why founders should care now
 
 How to structure GBP, location pages, and citations for multi-city and multi-branch brands in India without duplicate thin content. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.
@@ -79,9 +75,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
-
-
 *Category focus for this article: Local SEO.*
 
 <!-- fk-expanded-2 -->
@@ -108,9 +101,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you publish thought leadership. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
 
 <!-- fk-expanded -->
 
@@ -142,29 +132,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: Local SEO.*
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
-
-
-
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
 
 
 <!-- fk-cluster-links -->

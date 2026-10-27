@@ -16,9 +16,6 @@ draft: false
 
 I still fix GBP categories and NAP. **But I also ask:** when someone prompts ‘best X in Pune,’ does the answer match what Maps shows?
 
-
-
-
 ## Consistency
 
 Same services list on site, GBP, and top directories; location pages with unique proof, not copy-paste suburbs.
@@ -70,7 +67,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: AI SEO.*
 
 <!-- fk-expanded-2 -->
@@ -97,49 +93,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you care about LLM visibility. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
-
-
-
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Local SEO consulting](/local-seo-consultant)
-- [Real Group case study](/case-study/real-group)
 
 ---
 
@@ -211,3 +164,18 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Local SEO When Answers Come From AI, Not Just Maps](/blog/local-seo-plus-ai-answers) as the working spoke, then the matching service page CTA.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

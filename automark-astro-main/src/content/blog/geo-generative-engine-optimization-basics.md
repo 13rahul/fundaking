@@ -18,9 +18,6 @@ When “GEO” started trending, my inbox filled with the same question: “Is t
 
 I do not sell GEO as magic. I sell a **repeatable operating system**—because one audit deck does nothing if sales still hears wrong pricing from ChatGPT three months later.
 
-
-
-
 ## The five parts of a sober GEO program
 
 **1. Prompt library** — I pull 30–50 questions from CRM notes, support tickets, and discovery calls. If the prompt did not come from a human who pays you, it is low priority.
@@ -95,11 +92,7 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: LLM SEO.*
-
-
-
 
 <!-- fk-expanded-2 -->
 
@@ -125,35 +118,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you care about LLM visibility. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
-
-
-
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Auditing Your Site for GEO Readiness](/blog/auditing-site-for-geo-readiness)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Auditing Your Site for GEO Readiness](/blog/auditing-site-for-geo-readiness)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 <!-- fk-cluster-links -->
@@ -223,3 +187,7 @@ For AI-heavy workstreams, pair visibility work with operational automation via [
 **Days 12–14:** Re-check Search Console and AI/SERP screenshots; log what changed.
 
 If you want a second opinion on whether this topic is P0 for your stage, [book a free strategy call](/contact).
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

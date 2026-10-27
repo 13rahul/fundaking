@@ -25,8 +25,6 @@ Program elements:
 
 When an answer engine quotes “According to [Name], [Role] at [Org]…”, you want that name to be yours.
 
-
-
 <!-- fk-expanded -->
 
 ## Why founders should care now
@@ -66,52 +64,7 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: LLM SEO.*
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 <!-- fk-expanded-2 -->
 
@@ -204,3 +157,18 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Author Bylines and Expertise for AI Citations](/blog/author-bylines-and-expertise-for-ai-citations) as the working spoke, then the matching service page CTA.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

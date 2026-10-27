@@ -16,9 +16,6 @@ draft: false
 
 News and edtech clients have thousands of URLs. **Template discipline** matters more than another AI writing tool.
 
-
-
-
 ## Template rules
 
 Stable H1/H2 patterns, synopsis box at top, byline + date, related links manual not infinite auto-tags.
@@ -66,7 +63,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: LLM SEO.*
 
 <!-- fk-expanded-2 -->
@@ -93,49 +89,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you care about LLM visibility. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
-- [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
-- [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
-- [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 ---
 
@@ -207,3 +160,18 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Enterprise Publishers and RAG-Scale SEO](/blog/enterprise-rag-publisher-seo) as the working spoke, then the matching service page CTA.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
+- [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

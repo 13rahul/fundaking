@@ -14,23 +14,23 @@
   <text x="576" y="150" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800">WordPress Technical SEO Hardening</text>
   <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Harden WordPress for SEO: crawl waste, plugin bloat, schema, and security that affects …</text>
   <rect x="72" y="214" width="488" height="520" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
-  <text x="316" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Area</text>
+  <text x="316" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Step</text>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#FFFFFF">
-    <text x="104" y="310" font-size="20" font-weight="700">Intent</text>
+    <text x="104" y="310" font-size="20" font-weight="700">Baseline</text>
     <text x="104" y="342" font-size="16" fill="#A8C0D0">SERP snippets, rankings, crawl budget</text>
-    <text x="104" y="394" font-size="20" font-weight="700">Proof</text>
+    <text x="104" y="394" font-size="20" font-weight="700">SERP / answer check</text>
     <text x="104" y="426" font-size="16" fill="#A8C0D0">Intent-mapped headings &amp; internal links</text>
-    <text x="104" y="478" font-size="20" font-weight="700">Technical</text>
+    <text x="104" y="478" font-size="20" font-weight="700">Crawl / index</text>
     <text x="104" y="510" font-size="16" fill="#A8C0D0">Authority signals search engines trust</text>
   </g>
   <rect x="592" y="214" width="488" height="520" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
-  <text x="836" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Pass looks like</text>
+  <text x="836" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">What I collect</text>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#FFFFFF">
-    <text x="624" y="310" font-size="20" font-weight="700">Page answers who it is for and what chang…</text>
+    <text x="624" y="310" font-size="20" font-weight="700">Search Console landing pages + top querie…</text>
     <text x="624" y="342" font-size="16" fill="#937AFF">Definitional lede AI can quote cleanly</text>
-    <text x="624" y="394" font-size="20" font-weight="700">Named outcomes, reviews, or process — not…</text>
+    <text x="624" y="394" font-size="20" font-weight="700">Screenshots of classic results and any AI…</text>
     <text x="624" y="426" font-size="16" fill="#937AFF">Headings that match real buyer questions</text>
-    <text x="624" y="478" font-size="20" font-weight="700">200 status, in sitemap, facts in HTML</text>
+    <text x="624" y="478" font-size="20" font-weight="700">Status codes, canonicals, sitemap inclusi…</text>
     <text x="624" y="510" font-size="16" fill="#937AFF">Brand mentions &amp; entity consistency</text>
   </g>
   <text x="576" y="774" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Match intent first — then scale content and technical depth.</text>

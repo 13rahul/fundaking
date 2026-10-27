@@ -25,8 +25,6 @@ High-value types for B2B and publishers:
 
 Keep JSON-LD aligned with visible content. Mismatch is both a quality violation and a trust hit when models cross-check passages.
 
-
-
 <!-- fk-expanded -->
 
 ## Why founders should care now
@@ -66,41 +64,7 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: AI SEO.*
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
-- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
-
-
-
-
-## Related reading on Fundaking
-
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
-- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
-
-
-
-
-## Related reading on Fundaking
-
-- [technical-seo-audit-checklist-2026](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
-- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 <!-- fk-expanded-2 -->
 
@@ -193,3 +157,18 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Structured Data That Helps LLM Crawlers](/blog/structured-data-for-llm-crawlers) as the working spoke, then the matching service page CTA.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
+- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

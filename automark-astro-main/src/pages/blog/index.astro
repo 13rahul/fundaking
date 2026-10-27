@@ -110,15 +110,17 @@ const blogSchema = pageGraph({
             Featured guide
           </p>
           <div class="grid gap-4 lg:grid-cols-[1fr_1.03fr]">
-            <div class="overflow-hidden rounded-2xl border border-white/10">
+            <div
+              class="overflow-hidden rounded-2xl border border-white/10 bg-[#03010E] aspect-[1200/630] lg:aspect-auto lg:min-h-[22rem]"
+            >
               <ImageMod
                 src={
                   featuredPost.data.image ?? "/images/blog/featured-cover.png"
                 }
                 alt={featuredPost.data.title}
-                width={700}
-                height={500}
-                class="h-full w-full object-cover"
+                width={1200}
+                height={630}
+                class="h-full w-full object-contain object-left"
               />
             </div>
             <FeaturedPostCard

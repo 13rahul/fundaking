@@ -25,8 +25,6 @@ Priority fixes:
 
 Run log analysis specifically for AI-related user agents and compare crawl depth to your top explainer pages.
 
-
-
 <!-- fk-expanded -->
 
 ## Why founders should care now
@@ -66,41 +64,7 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: AI SEO.*
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
-- [Structured Data That Helps LLM Crawlers](/blog/structured-data-for-llm-crawlers)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
-
-
-
-
-## Related reading on Fundaking
-
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
-- [Structured Data That Helps LLM Crawlers](/blog/structured-data-for-llm-crawlers)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
-
-
-
-
-## Related reading on Fundaking
-
-- [technical-seo-audit-checklist-2026](/blog/technical-seo-audit-checklist-2026)
-- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
-- [Structured Data That Helps LLM Crawlers](/blog/structured-data-for-llm-crawlers)
-- [Technical SEO consulting](/technical-seo-consultant)
-- [Fintech organic growth case study](/case-study/fintech-organic-growth)
 
 <!-- fk-expanded-2 -->
 
@@ -203,3 +167,18 @@ When I review this topic with a founding team, I ask three questions before tact
 I also check whether the page is discoverable from the cluster hub and whether the service CTA matches intent. Educational posts that never mention [SEO consulting](/seo-consulting-services), [technical SEO](/technical-seo-consultant), [local SEO](/local-seo-consultant), or [AI enablement](/ai-enablement) leave traffic stranded. Conversely, stuffing every CTA on every page dilutes trust — one primary CTA is enough.
 
 Finally, keep entity facts boring and consistent: company name, founder name, locations (Pune / Baramati), and offers. Assistants and search engines punish contradiction faster than they reward clever metaphors. Update this article when the product or service changes; stale BOFU claims are worse than thin TOFU posts.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
+- [Structured Data That Helps LLM Crawlers](/blog/structured-data-for-llm-crawlers)
+- [Technical SEO consulting](/technical-seo-consultant)
+- [Fintech organic growth case study](/case-study/fintech-organic-growth)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

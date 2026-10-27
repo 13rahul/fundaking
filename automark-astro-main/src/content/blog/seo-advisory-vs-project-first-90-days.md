@@ -54,10 +54,6 @@ If a retainer cannot describe this cadence, you are renting activity.
 
 Audit project → optional advisory. Direct access to the strategist. Cap active clients. Book via [contact](/contact).
 
-
-
-
-
 ## Why founders should care now
 
 Choose monthly SEO advisory or a fixed project — and what a serious first 90 days must deliver for Pune and India founders. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.
@@ -85,9 +81,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
-
-
 *Category focus for this article: SEO Consulting.*
 
 <!-- fk-expanded-2 -->
@@ -114,9 +107,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you publish thought leadership. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
 
 <!-- fk-expanded -->
 
@@ -148,29 +138,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: SEO Consulting.*
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
-- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO consulting services](/seo-consulting-services)
-- [SaaS demo requests case study](/case-study/saas-demo-requests)
-
-
-
-## Related reading on Fundaking
-
-- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
-- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO consulting services](/seo-consulting-services)
-- [SaaS demo requests case study](/case-study/saas-demo-requests)
 
 
 <!-- fk-cluster-links -->

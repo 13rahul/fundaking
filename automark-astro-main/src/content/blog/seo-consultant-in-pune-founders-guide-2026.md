@@ -169,35 +169,6 @@ Proof lives in [case studies](/case-study/) such as [SaaS demo requests](/case-s
 **What budget band is realistic?** Read [SEO consulting pricing in India](/blog/seo-consulting-pricing-india) — senior independent rates beat cheap retainers that never touch engineering.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
-- [How to Rank for \"SEO Consultant in Pune\" (What Actually Moves the Needle)](/blog/how-to-rank-seo-consultant-pune)
-- [SEO consulting services](/seo-consulting-services)
-- [SaaS demo requests case study](/case-study/saas-demo-requests)
-
-
-
-## Related reading on Fundaking
-
-- [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
-- [How to Rank for \"SEO Consultant in Pune\" (What Actually Moves the Needle)](/blog/how-to-rank-seo-consultant-pune)
-- [SEO consulting services](/seo-consulting-services)
-- [SaaS demo requests case study](/case-study/saas-demo-requests)
-
-
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
@@ -278,3 +249,7 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026) as the working spoke, then the matching service page CTA.
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

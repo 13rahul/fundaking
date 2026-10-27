@@ -16,9 +16,6 @@ draft: false
 
 When a developer asks an assistant how to integrate your API, the answer should come from **your** docs—not a random forum thread from 2019.
 
-
-
-
 ## IA rules
 
 One topic per article, title = the error or task, first paragraph = prerequisites and outcome.
@@ -72,7 +69,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
 *Category focus for this article: LLM SEO.*
 
 <!-- fk-expanded-2 -->
@@ -99,49 +95,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you care about LLM visibility. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
-- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
-- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-<!-- fk-cluster-links -->
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
-- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 ---
 
@@ -213,3 +166,18 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo) as the working spoke, then the matching service page CTA.
+
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
+- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
+- [AI enablement](/ai-enablement)
+- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
+
+---
+
+*Rahul Agarwal — Fundaking Media. SEO consultant based in Pune / Baramati, serving founders across India.*

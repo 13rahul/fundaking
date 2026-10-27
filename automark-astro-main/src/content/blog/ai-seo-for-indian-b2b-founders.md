@@ -55,10 +55,6 @@ If your Next.js marketing site hides copy from fetchers, citations fail. Start f
 
 Citation log + assisted demo requests beats vanity traffic. See [measuring visibility in AI search](/blog/measuring-visibility-in-ai-search).
 
-
-
-
-
 ## Why founders should care now
 
 A practical AI SEO plan for Indian B2B and SaaS founders: prompt libraries, BOFU pages, entity trust, and how it ties to AI enablement. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.
@@ -86,9 +82,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
-
-
-
 *Category focus for this article: AI / Answer Engine SEO.*
 
 <!-- fk-expanded-2 -->
@@ -115,9 +108,6 @@ When I audit a site for this topic, I start with **crawl stats** and **Search Co
 Track **branded search lift**, **assisted conversions** from blog landing pages, and a simple **prompt/citation log** if you care about LLM visibility. Rankings alone are a lagging indicator; pipeline is the decision metric.
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
-
-
-
 
 <!-- fk-expanded -->
 
@@ -149,39 +139,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
 Bring in senior help when engineering bandwidth exists but **prioritization** is missing — or when migrations, JavaScript rendering, or international structure block progress. I cap Fundaking engagements so strategy stays founder-led; [book a call](/contact) if you want a second opinion on scope.
 
 *Category focus for this article: AI / Answer Engine SEO.*
-
-
-
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders)
-- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders)
-- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
-
-
-
-## Related reading on Fundaking
-
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders)
-- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
-- [AI enablement](/ai-enablement)
-- [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 
 
 <!-- fk-cluster-links -->

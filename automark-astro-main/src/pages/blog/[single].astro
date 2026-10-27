@@ -105,19 +105,21 @@ const articleAuthorUrl = absoluteUrl(authorConfig.profile_url);
   <!-- Blog Single Hero -->
   <section class="section-ph relative pb-10 lg:pb-14">
     <div class="container">
-      <div class="mx-auto max-w-246.25 text-center">
+      <div class="mx-auto max-w-322.5 text-center">
         <h1
           class="hasHighlight mb-8 text-h4-sm md:text-h1 leading-[1.1]"
           set:html={markdownify(postData.title)}
         />
 
-        <div class="overflow-hidden rounded-2xl border border-white/10">
+        <div
+          class="overflow-hidden rounded-2xl border border-white/10 bg-[#03010E] aspect-[1200/630]"
+        >
           <ImageMod
             src={postData.image ?? "/images/blog/featured-cover.png"}
             alt={postData.title}
             width={1200}
-            height={600}
-            class="h-full w-full object-cover"
+            height={630}
+            class="h-full w-full object-cover object-left"
           />
         </div>
 
