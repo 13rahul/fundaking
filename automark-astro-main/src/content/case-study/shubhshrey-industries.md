@@ -4,8 +4,8 @@ meta_title: "Shubhshrey Industries AI CRM Case Study | Lead Gen Automation | Fun
 description: "Custom CRM, AI lead-finding agents, enrichment APIs, and outreach automation for Shubhshrey Industries — name, LinkedIn, email, company address matched to buyer personas."
 date: 2025-04-15
 draft: false
-image: "/images/case-study-hero-2.png"
-thumbnail: "/images/case-study-hero-2.png"
+image: "/images/case-studies/shubhshrey-crm.png"
+thumbnail: "/images/case-studies/shubhshrey-crm.png"
 badge: "AI Integration"
 category: "AI Integration"
 company: "Shubhshrey Industries"
@@ -29,7 +29,7 @@ client_info:
     label: "Location"
     value: "Baramati, Maharashtra"
 overview:
-  image: "/images/case-study-overview.png"
+  image: "/images/case-studies/shubhshrey-logo.png"
   title: "Overview"
   content: |
     **Shubhshrey Industries Private Limited** needed more than a brochure site. Sales depended on WhatsApp, spreadsheets, and manual research — slow, incomplete, and impossible to scale.
@@ -53,7 +53,7 @@ challenges:
     designation: "Shubhshrey Industries"
     avatar: "/images/avatar.png"
 solution:
-  image: "/images/case-study-solution.png"
+  image: "/images/case-studies/shubhshrey-crm.png"
   title: "Solution"
   content: |
     We designed one stack: a **custom CRM backend**, **AI agents** that hunt and score leads against buyer personas, **enrichment APIs** that fill contact fields, and **outreach automation** wired back into the same records.
