@@ -113,7 +113,11 @@ if (other.length) {
             {group.studies.map((study) => (
               <CaseStudyCard
                 href={withBase(`/case-study/${study.id}`)}
-                image={study.data.image ?? "/images/case-study-hero-2.png"}
+                image={
+                  study.data.thumbnail ??
+                  study.data.image ??
+                  "/images/case-study-hero-2.png"
+                }
                 logo={study.data.logo ?? ""}
                 company={study.data.company ?? study.data.title}
                 badge={study.data.badge ?? group.category}
