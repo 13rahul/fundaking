@@ -48,7 +48,6 @@ Do not optimize every URL. Pick **five queries** where an overview already appea
 </figure>
 
 
-
 ## 1. Query and SERP selection
 
 | Check | Pass looks like | Fail looks like |

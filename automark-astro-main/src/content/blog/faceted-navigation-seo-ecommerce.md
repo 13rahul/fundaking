@@ -53,7 +53,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
 </figure>
 
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.

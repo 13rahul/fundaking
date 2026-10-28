@@ -16,20 +16,20 @@
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · SEO Consulting</text>
-    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">What “When to Fire Your SEO Agency (And What to Do Next)” means in prac…</text>
-    <text x="104" y="322" fill="#A8C0D0" font-size="15">Clear signals it is time to exit an SEO retainer — and how to transition to a consultant or hybrid model. In client work from Pun…</text>
+    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Hard fire signals (any two = serious conversation)</text>
+    <text x="104" y="322" fill="#A8C0D0" font-size="15">1. No access to the strategist who makes decisions — only account managers reading slides   2. Cannot produce a five-query battle…</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · SEO Consulting</text>
-    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Diagnostic: how I audit this in one working session</text>
-    <text x="104" y="410" fill="#A8C0D0" font-size="15">| Step | What I collect | Pass signal | | --- | --- | --- | | Baseline | Search Console landing pages + top queries/prompts (90 d…</text>
+    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Soft fire signals (coach first, then fire)</text>
+    <text x="104" y="410" fill="#A8C0D0" font-size="15">Slow ticket turnaround but honest communication · Good technical work, weak commercial prioritisation</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · SEO Consulting</text>
-    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Priority order (do not skip ahead)</text>
+    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">The 30-day exit / transition plan</text>
     <text x="104" y="498" fill="#A8C0D0" font-size="15">Expanded in the article — examples and steps below.</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · SEO Consulting</text>
-    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Hiring and operating notes for “When to Fire Your SEO Agency (And What …</text>
-    <text x="104" y="586" fill="#A8C0D0" font-size="15">Founders usually need a scorecard for agencies and consultants: access to the strategist, a 90-day roadmap tied to revenue URLs, …</text>
+    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">What “good” looks like after the switch</text>
+    <text x="104" y="586" fill="#A8C0D0" font-size="15">A 90-day roadmap tied to revenue URLs, weekly KPI tiles founders read, and a strategist who stays after the audit. That is how SE…</text>
   </g>
   <text x="576" y="828" text-anchor="middle" fill="#7FA3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Infographic 1 — key sections from this post · fundaking.com/blog/when-to-fire-your-seo-agency</text>
 </svg>

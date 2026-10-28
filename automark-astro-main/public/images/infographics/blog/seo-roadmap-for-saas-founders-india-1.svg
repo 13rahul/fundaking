@@ -16,20 +16,20 @@
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · SEO Consulting</text>
-    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">What “SEO Roadmap for SaaS Founders in India (6 Months)” means in pract…</text>
-    <text x="104" y="322" fill="#A8C0D0" font-size="15">A six-month organic SEO roadmap for Indian SaaS: technical floor, BOFU pages, clusters, and demo KPIs. In client work from Pune /…</text>
+    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Month 0: freeze vanity, pick money URLs</text>
+    <text x="104" y="322" fill="#A8C0D0" font-size="15">List pricing, comparison, integration, and alternative pages. Confirm each returns 200, is indexable, and appears in the sitemap.…</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · SEO Consulting</text>
-    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Diagnostic: how I audit this in one working session</text>
-    <text x="104" y="410" fill="#A8C0D0" font-size="15">| Step | What I collect | Pass signal | | --- | --- | --- | | Baseline | Search Console landing pages + top queries/prompts (90 d…</text>
+    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Months 1–2: technical + entity foundation</text>
+    <text x="104" y="410" fill="#A8C0D0" font-size="15">Crawl money templates (especially JS-rendered marketing sites) · Align product names, pricing bands, founder bio across site and …</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · SEO Consulting</text>
-    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Priority order (do not skip ahead)</text>
-    <text x="104" y="498" fill="#A8C0D0" font-size="15">Expanded in the article — examples and steps below.</text>
+    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Months 3–4: BOFU depth, not blog volume</text>
+    <text x="104" y="498" fill="#A8C0D0" font-size="15">Rewrite or build:</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · SEO Consulting</text>
-    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Hiring and operating notes for “SEO Roadmap for SaaS Founders in India …</text>
-    <text x="104" y="586" fill="#A8C0D0" font-size="15">Founders usually need a scorecard for agencies and consultants: access to the strategist, a 90-day roadmap tied to revenue URLs, …</text>
+    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Months 5–6: cluster expansion + measurement</text>
+    <text x="104" y="586" fill="#A8C0D0" font-size="15">Expand only after BOFU pages convert. Add TOFU spokes that feed the hub. Review demos from organic monthly; cut anything that doe…</text>
   </g>
   <text x="576" y="828" text-anchor="middle" fill="#7FA3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Infographic 1 — key sections from this post · fundaking.com/blog/seo-roadmap-for-saas-founders-india</text>
 </svg>

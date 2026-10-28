@@ -16,20 +16,20 @@
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · AI / Answer Engine SEO</text>
-    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">What “Measuring AI Citations Without Vanity Tools” means in practice</text>
-    <text x="104" y="322" fill="#A8C0D0" font-size="15">A lightweight citation log founders can run weekly — screenshots, prompts, and assisted pipeline. In client work from Pune / Bara…</text>
+    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">What “citation” means in practice</text>
+    <text x="104" y="322" fill="#A8C0D0" font-size="15">I track three states for each battleground prompt:</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · AI / Answer Engine SEO</text>
-    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Diagnostic: how I audit this in one working session</text>
-    <text x="104" y="410" fill="#A8C0D0" font-size="15">| Step | What I collect | Pass signal | | --- | --- | --- | | Baseline | Search Console landing pages + top queries/prompts (90 d…</text>
+    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">The five-query sheet (minimum viable)</text>
+    <text x="104" y="410" fill="#A8C0D0" font-size="15">Columns: prompt, date, Overview present (Y/N), our state (named/linked/absent), competitor named, GSC landing URL, impressions, C…</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · AI / Answer Engine SEO</text>
-    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Priority order (do not skip ahead)</text>
-    <text x="104" y="498" fill="#A8C0D0" font-size="15">Expanded in the article — examples and steps below.</text>
+    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Sources of truth (and what to ignore)</text>
+    <text x="104" y="498" fill="#A8C0D0" font-size="15">| Source | Use for | Ignore for | | --- | --- | --- | | Manual screenshots (India locale) | Overview presence + citations | Daily…</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · AI / Answer Engine SEO</text>
-    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Local / Maps-specific notes for “Measuring AI Citations Without Vanity …</text>
-    <text x="104" y="586" fill="#A8C0D0" font-size="15">For India service businesses, Google Business Profile categories, services, photos, and review velocity often move calls faster t…</text>
+    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Cadence that founders accept</text>
+    <text x="104" y="586" fill="#A8C0D0" font-size="15">Expanded in the article — examples and steps below.</text>
   </g>
   <text x="576" y="828" text-anchor="middle" fill="#7FA3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Infographic 1 — key sections from this post · fundaking.com/blog/measuring-ai-citations-without-vanity-tools</text>
 </svg>

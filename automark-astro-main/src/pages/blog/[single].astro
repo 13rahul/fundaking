@@ -15,6 +15,8 @@ import {
   absoluteUrl,
   blogPostingNode,
   breadcrumbList,
+  extractFaqFromMarkdown,
+  faqPageNode,
   pageGraph,
 } from "@/lib/schema";
 import dateFormat from "@/lib/utils/dateFormat";
@@ -32,6 +34,18 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const postData = post.data;
 const { Content } = await render(post);
+
+// Raw markdown body for FAQ JSON-LD + word count
+const rawBody =
+  typeof (post as { body?: string }).body === "string"
+    ? ((post as { body: string }).body ?? "")
+    : "";
+const faqItems = extractFaqFromMarkdown(rawBody);
+const wordCount = rawBody
+  .replace(/<figure[\s\S]*?<\/figure>/g, " ")
+  .replace(/[#*`_|>\-\[\]\(\)!]/g, " ")
+  .split(/\s+/)
+  .filter(Boolean).length;
 
 // Related posts
 const allPosts = (await getSinglePage("blog")).filter((p) => !p.data.draft);
@@ -60,6 +74,9 @@ const showUpdated =
   modifiedDate.getTime() > publishedDate.getTime();
 const headline = plainify(postData.title);
 const postDescription = plainify(postData.description ?? "");
+const postTags = Array.isArray(postData.tags)
+  ? postData.tags.map((t) => plainify(String(t)))
+  : [];
 const postSchema = pageGraph({
   name: headline,
   description: postDescription,
@@ -78,7 +95,11 @@ const postSchema = pageGraph({
       dateModified: modified,
       image: absoluteUrl(postData.image ?? config.metadata.meta_image),
       authorName: postData.author,
+      articleSection: postCategory ? plainify(postCategory) : undefined,
+      keywords: postTags,
+      wordCount: wordCount || undefined,
     }),
+    ...(faqItems.length >= 2 ? [faqPageNode(faqItems, postUrl)] : []),
   ],
 });
 const authorTitle =

@@ -14,23 +14,23 @@
   <text x="576" y="150" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800">Prompt Research from Sales Calls (AI SEO)</text>
   <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Build an AI SEO prompt library from real sales and support calls — not Keyword Planner …</text>
   <rect x="72" y="214" width="488" height="520" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
-  <text x="316" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Step</text>
+  <text x="316" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Field</text>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#FFFFFF">
-    <text x="104" y="310" font-size="20" font-weight="700">Baseline</text>
+    <text x="104" y="310" font-size="20" font-weight="700">Exact phrases</text>
     <text x="104" y="342" font-size="16" fill="#A8C0D0">SERP snippets, rankings, crawl budget</text>
-    <text x="104" y="394" font-size="20" font-weight="700">SERP / answer check</text>
+    <text x="104" y="394" font-size="20" font-weight="700">Competitors named</text>
     <text x="104" y="426" font-size="16" fill="#A8C0D0">Intent-mapped headings &amp; internal links</text>
-    <text x="104" y="478" font-size="20" font-weight="700">Crawl / index</text>
+    <text x="104" y="478" font-size="20" font-weight="700">Objections</text>
     <text x="104" y="510" font-size="16" fill="#A8C0D0">Authority signals search engines trust</text>
   </g>
   <rect x="592" y="214" width="488" height="520" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
-  <text x="836" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">What I collect</text>
+  <text x="836" y="258" text-anchor="middle" fill="#3EC6D4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Example</text>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#FFFFFF">
-    <text x="624" y="310" font-size="20" font-weight="700">Search Console landing pages + top querie…</text>
+    <text x="624" y="310" font-size="20" font-weight="700">“We need SEO that gets demos, not traffic”</text>
     <text x="624" y="342" font-size="16" fill="#937AFF">Definitional lede AI can quote cleanly</text>
-    <text x="624" y="394" font-size="20" font-weight="700">Screenshots of classic results and any AI…</text>
+    <text x="624" y="394" font-size="20" font-weight="700">Agency X, tool Y</text>
     <text x="624" y="426" font-size="16" fill="#937AFF">Headings that match real buyer questions</text>
-    <text x="624" y="478" font-size="20" font-weight="700">Status codes, canonicals, sitemap inclusi…</text>
+    <text x="624" y="478" font-size="20" font-weight="700">“AI Overviews killed our CTR”</text>
     <text x="624" y="510" font-size="16" fill="#937AFF">Brand mentions &amp; entity consistency</text>
   </g>
   <text x="576" y="774" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Match intent first — then scale content and technical depth.</text>

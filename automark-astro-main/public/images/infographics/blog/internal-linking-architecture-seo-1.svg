@@ -16,20 +16,20 @@
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · Technical SEO</text>
-    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">What “Internal Linking Architecture for SEO” means in practice</text>
-    <text x="104" y="322" fill="#A8C0D0" font-size="15">Design hub-and-spoke internal links that pass equity to money pages and reinforce topical clusters. In client work from Pune / Ba…</text>
+    <text x="104" y="296" fill="#FFFFFF" font-size="22" font-weight="700">Hub-and-spoke rules</text>
+    <text x="104" y="322" fill="#A8C0D0" font-size="15">1. One hub per commercial topic (definition + links to all spokes)   2. Each spoke links up to the hub with a descriptive anchor …</text>
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · Technical SEO</text>
-    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Diagnostic: how I audit this in one working session</text>
-    <text x="104" y="410" fill="#A8C0D0" font-size="15">| Step | What I collect | Pass signal | | --- | --- | --- | | Baseline | Search Console landing pages + top queries/prompts (90 d…</text>
+    <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Anchor text that helps humans and models</text>
+    <text x="104" y="410" fill="#A8C0D0" font-size="15">Use destination meaning: “technical SEO audit checklist”, not “click here”. Vary lightly; do not exact-match spam. In-body links …</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · Technical SEO</text>
-    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Priority order (do not skip ahead)</text>
-    <text x="104" y="498" fill="#A8C0D0" font-size="15">Expanded in the article — examples and steps below.</text>
+    <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Audit process (half day)</text>
+    <text x="104" y="498" fill="#A8C0D0" font-size="15">Crawl internal outlinks from hubs and money URLs. Flag: orphan spokes, hubs with &lt;3 children, educational pages with zero BOFU li…</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · Technical SEO</text>
-    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Operating notes for “Internal Linking Architecture for SEO”</text>
-    <text x="104" y="586" fill="#A8C0D0" font-size="15">Ship one URL well, measure pipeline, then expand. Prefer a living checklist your team reuses over a one-off article nobody opens …</text>
+    <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Linking for AI citations</text>
+    <text x="104" y="586" fill="#A8C0D0" font-size="15">Assistants follow clear entity paths. A cited guide that never links to pricing/demo wastes the click. Conversely, stuffing five …</text>
   </g>
   <text x="576" y="828" text-anchor="middle" fill="#7FA3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Infographic 1 — key sections from this post · fundaking.com/blog/internal-linking-architecture-seo</text>
 </svg>

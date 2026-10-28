@@ -304,12 +304,32 @@ export function graphHasType(
 ): boolean {
   const graph = payload["@graph"];
   if (!Array.isArray(graph)) return false;
-  return graph.some(
-    (node) =>
-      node &&
-      typeof node === "object" &&
-      (node as Record<string, unknown>)["@type"] === type,
+  return graph.some((node) => {
+    if (!node || typeof node !== "object") return false;
+    const nodeType = (node as Record<string, unknown>)["@type"];
+    if (Array.isArray(nodeType)) return nodeType.includes(type);
+    return nodeType === type;
+  });
+}
+
+/** Parse FAQ Q&As from markdown (`## FAQ` + `**Question?**` / answer paragraphs). */
+export function extractFaqFromMarkdown(body: string): FaqSchemaItem[] {
+  if (!body) return [];
+  const faqMatch = body.match(
+    /(?:^|\n)##\s+FAQ[^\n]*\n([\s\S]*?)(?=\n##\s+(?!FAQ)|(?:\n---\n)|(?:\n\*Rahul Agarwal)|$)/i,
   );
+  if (!faqMatch) return [];
+
+  const section = faqMatch[1];
+  const items: FaqSchemaItem[] = [];
+  const qRe = /\*\*([^*?]+\?)\*\*\s*\n+([\s\S]*?)(?=\n\*\*[^*?]+\?\*\*|\n##\s+|$)/g;
+  let m: RegExpExecArray | null;
+  while ((m = qRe.exec(section)) !== null) {
+    const question = plainify(m[1]).trim();
+    const answer = plainify(m[2].replace(/\n+/g, " ")).trim();
+    if (question && answer) items.push({ question, answer });
+  }
+  return items;
 }
 
 export function mergeGraph(
@@ -351,15 +371,20 @@ export function blogPostingNode(options: {
   dateModified?: string;
   image?: string;
   authorName?: string;
+  articleSection?: string;
+  keywords?: string[];
+  wordCount?: number;
 }) {
-  const authorName = options.authorName ?? founder.name;
-  return {
+  const node: Record<string, unknown> = {
     "@type": "BlogPosting",
     "@id": `${options.url}#article`,
     headline: options.headline,
     description: options.description,
     url: options.url,
+    inLanguage: "en-IN",
     mainEntityOfPage: { "@id": `${options.url}#webpage` },
+    isPartOf: { "@id": `${siteOrigin()}/#website` },
+    about: { "@id": organizationId() },
     datePublished: options.datePublished,
     dateModified: options.dateModified ?? options.datePublished,
     author: {
@@ -376,6 +401,14 @@ export function blogPostingNode(options: {
     },
     image: options.image ? [options.image] : [founder.image],
   };
+  if (options.articleSection) node.articleSection = options.articleSection;
+  if (options.keywords?.length) node.keywords = options.keywords.join(", ");
+  if (typeof options.wordCount === "number" && options.wordCount > 0) {
+    node.wordCount = options.wordCount;
+  }
+  // Keep authorName available for callers; graph resolves via founder @id
+  void options.authorName;
+  return node;
 }
 
 export function collectionPageNode(options: {
