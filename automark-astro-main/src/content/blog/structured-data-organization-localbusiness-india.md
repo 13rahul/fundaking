@@ -2,8 +2,8 @@
 title: "Organization & LocalBusiness Schema for India"
 meta_title: "Organization LocalBusiness Schema India | Fundaking"
 description: "Implement Organization and LocalBusiness schema that matches visible NAP and GST entity names in India."
-date: 2026-05-24T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-10T06:00:00Z
+date_modified: 2026-10-10T06:00:00Z
 image: "/images/blog/featured/structured-data-organization-localbusiness-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

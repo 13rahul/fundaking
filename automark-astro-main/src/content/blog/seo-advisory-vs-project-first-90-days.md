@@ -2,7 +2,7 @@
 title: "SEO Advisory vs Project: What the First 90 Days Should Deliver"
 meta_title: "SEO Advisory vs Project | First 90 Days | Fundaking"
 description: "Choose monthly SEO advisory or a fixed project — and what a serious first 90 days must deliver for Pune and India founders."
-date: 2026-04-18T06:00:00Z
+\ndate_modified: 2026-09-15T06:00:00Z
 image: "/images/blog/featured/seo-advisory-vs-project-first-90-days.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

@@ -2,8 +2,8 @@
 title: "Local SEO for Clinics in India"
 meta_title: "Local SEO for Clinics India | Fundaking"
 description: "Maps, reviews, and doctor/specialty pages that bring appointment calls for Indian clinics."
-date: 2026-05-30T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-16T06:00:00Z
+date_modified: 2026-10-16T06:00:00Z
 image: "/images/blog/featured/local-seo-for-clinics-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

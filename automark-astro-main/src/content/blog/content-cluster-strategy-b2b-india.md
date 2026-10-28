@@ -2,8 +2,8 @@
 title: "Content Cluster Strategy for B2B in India"
 meta_title: "Content Cluster Strategy B2B India | Fundaking"
 description: "How to build topical authority with hubs and spokes for Indian B2B — the same model Fundaking uses on this blog."
-date: 2026-05-04T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-09-20T06:00:00Z
+date_modified: 2026-09-20T06:00:00Z
 image: "/images/blog/featured/content-cluster-strategy-b2b-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

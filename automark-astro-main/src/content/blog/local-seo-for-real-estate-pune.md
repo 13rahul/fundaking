@@ -2,8 +2,8 @@
 title: "Local SEO for Real Estate in Pune"
 meta_title: "Local SEO Real Estate Pune | Fundaking"
 description: "Project and locality pages, Maps strategy, and compliance-aware SEO for Pune real estate brands."
-date: 2026-06-01T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-18T06:00:00Z
+date_modified: 2026-10-18T06:00:00Z
 image: "/images/blog/featured/local-seo-for-real-estate-pune.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

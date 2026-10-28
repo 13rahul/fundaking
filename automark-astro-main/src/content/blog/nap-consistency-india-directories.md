@@ -2,8 +2,8 @@
 title: "NAP Consistency Across India Directories"
 meta_title: "NAP Consistency India Directories | Fundaking"
 description: "Keep name, address, and phone identical across Justdial, IndiaMART, Sulekha, and Google Business Profile."
-date: 2026-05-27T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-13T06:00:00Z
+date_modified: 2026-10-13T06:00:00Z
 image: "/images/blog/featured/nap-consistency-india-directories.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

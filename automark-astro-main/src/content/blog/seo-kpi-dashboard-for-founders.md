@@ -2,8 +2,8 @@
 title: "SEO KPI Dashboard for Founders (Not Vanity Ranks)"
 meta_title: "SEO KPI Dashboard for Founders | Fundaking"
 description: "Which SEO metrics founders should track — impressions, landing-page conversions, assisted demos — vs vanity rankings."
-date: 2026-05-03T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-09-19T06:00:00Z
+date_modified: 2026-09-19T06:00:00Z
 image: "/images/blog/featured/seo-kpi-dashboard-for-founders.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

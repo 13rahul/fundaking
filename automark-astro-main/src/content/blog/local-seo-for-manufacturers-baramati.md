@@ -2,8 +2,8 @@
 title: "Local SEO for Manufacturers in Baramati"
 meta_title: "Local SEO Manufacturers Baramati | Fundaking"
 description: "GBP, industrial intent, and website enquiries for Baramati manufacturers — not vanity city keywords."
-date: 2026-05-31T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-17T06:00:00Z
+date_modified: 2026-10-17T06:00:00Z
 image: "/images/blog/featured/local-seo-for-manufacturers-baramati.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

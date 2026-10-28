@@ -2,8 +2,8 @@
 title: "SEO RFP Template for Indian Companies"
 meta_title: "SEO RFP Template India | Fundaking"
 description: "A practical SEO RFP template for Indian founders — scope, access, KPIs, and red-flag answers."
-date: 2026-05-08T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-09-24T06:00:00Z
+date_modified: 2026-09-24T06:00:00Z
 image: "/images/blog/featured/seo-rfp-template-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

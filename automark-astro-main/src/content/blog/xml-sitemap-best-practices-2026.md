@@ -2,8 +2,8 @@
 title: "XML Sitemap Best Practices (2026)"
 meta_title: "XML Sitemap Best Practices 2026 | Fundaking"
 description: "Build sitemaps that list money URLs, exclude junk, and stay in sync after migrations."
-date: 2026-05-17T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-03T06:00:00Z
+date_modified: 2026-10-03T06:00:00Z
 image: "/images/blog/featured/xml-sitemap-best-practices-2026.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

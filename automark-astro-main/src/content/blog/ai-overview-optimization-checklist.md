@@ -2,8 +2,8 @@
 title: "AI Overview Optimization Checklist"
 meta_title: "AI Overview Optimization Checklist | Fundaking"
 description: "A practical checklist to earn and survive Google AI Overviews — entities, passages, technical gates, and measurement for Indian SaaS and service sites."
-date: 2026-06-07T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-24T06:00:00Z
+date_modified: 2026-10-24T06:00:00Z
 image: "/images/blog/featured/ai-overview-optimization-checklist.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

@@ -2,8 +2,8 @@
 title: "SEO for Funded Startups in India (Post-PMF)"
 meta_title: "SEO for Funded Startups India | Fundaking"
 description: "Post-PMF SEO for funded Indian startups — technical debt, category pages, and investor-friendly KPIs."
-date: 2026-05-10T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-09-26T06:00:00Z
+date_modified: 2026-09-26T06:00:00Z
 image: "/images/blog/featured/seo-for-funded-startups-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

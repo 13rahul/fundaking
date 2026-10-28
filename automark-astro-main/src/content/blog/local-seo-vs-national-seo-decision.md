@@ -2,8 +2,8 @@
 title: "Local SEO vs National SEO: How to Decide"
 meta_title: "Local SEO vs National SEO Decision | Fundaking"
 description: "A decision framework for when Indian businesses should invest in Maps versus national/category SEO."
-date: 2026-06-04T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-21T06:00:00Z
+date_modified: 2026-10-21T06:00:00Z
 image: "/images/blog/featured/local-seo-vs-national-seo-decision.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

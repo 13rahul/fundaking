@@ -2,7 +2,7 @@
 title: "AI SEO for Indian B2B Founders"
 meta_title: "AI SEO for Indian B2B Founders | Fundaking"
 description: "A practical AI SEO plan for Indian B2B and SaaS founders: prompt libraries, BOFU pages, entity trust, and how it ties to AI enablement."
-date: 2026-04-19T06:00:00Z
+\ndate_modified: 2026-09-16T06:00:00Z
 image: "/images/blog/featured/ai-seo-for-indian-b2b-founders.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

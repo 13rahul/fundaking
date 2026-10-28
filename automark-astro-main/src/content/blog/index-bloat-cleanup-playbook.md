@@ -2,8 +2,8 @@
 title: "Index Bloat Cleanup Playbook"
 meta_title: "Index Bloat Cleanup Playbook | Fundaking"
 description: "Find and remove index bloat — thin tags, parameters, and soft 404s — without deleting valuable URLs."
-date: 2026-05-23T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-09T06:00:00Z
+date_modified: 2026-10-09T06:00:00Z
 image: "/images/blog/featured/index-bloat-cleanup-playbook.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

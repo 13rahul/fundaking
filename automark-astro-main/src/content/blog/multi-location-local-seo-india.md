@@ -2,7 +2,7 @@
 title: "Multi-Location Local SEO in India"
 meta_title: "Multi-Location Local SEO India | Fundaking"
 description: "How to structure GBP, location pages, and citations for multi-city and multi-branch brands in India without duplicate thin content."
-date: 2026-04-17T06:00:00Z
+\ndate_modified: 2026-09-14T06:00:00Z
 image: "/images/blog/featured/multi-location-local-seo-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

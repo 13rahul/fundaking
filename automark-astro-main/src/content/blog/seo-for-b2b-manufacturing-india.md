@@ -2,8 +2,8 @@
 title: "SEO for B2B Manufacturing Companies in India"
 meta_title: "SEO for B2B Manufacturing India | Fundaking"
 description: "Organic and local SEO for Indian manufacturers — catalogues, dealer intent, and CRM-ready enquiries."
-date: 2026-05-06T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-09-22T06:00:00Z
+date_modified: 2026-09-22T06:00:00Z
 image: "/images/blog/featured/seo-for-b2b-manufacturing-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

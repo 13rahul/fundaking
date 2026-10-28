@@ -2,8 +2,8 @@
 title: "AI Enablement + AI SEO: Same Stack, Two Outcomes"
 meta_title: "AI Enablement and AI SEO | Fundaking"
 description: "How operational AI agents and public AI visibility reinforce each other — with Fundaking case context."
-date: 2026-06-10T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-27T06:00:00Z
+date_modified: 2026-10-27T06:00:00Z
 image: "/images/blog/featured/ai-enablement-plus-ai-seo-same-stack.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

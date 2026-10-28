@@ -2,8 +2,8 @@
 title: "Internal Linking Architecture for SEO"
 meta_title: "Internal Linking Architecture SEO | Fundaking"
 description: "Design hub-and-spoke internal links that pass equity to money pages and reinforce topical clusters."
-date: 2026-05-15T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-01T06:00:00Z
+date_modified: 2026-10-01T06:00:00Z
 image: "/images/blog/featured/internal-linking-architecture-seo.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

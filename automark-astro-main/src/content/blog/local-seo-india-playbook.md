@@ -2,7 +2,7 @@
 title: "Local SEO India Playbook: Maps, GBP, and Organic"
 meta_title: "Local SEO India Playbook 2026 | GBP, Maps, Organic | Fundaking"
 description: "A practical local SEO playbook for India: Google Business Profile, NAP consistency, reviews, service-area pages, Maps vs organic, and AI answers."
-date: 2026-04-12T06:00:00Z
+\ndate_modified: 2026-09-10T06:00:00Z
 image: "/images/blog/featured/local-seo-india-playbook.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

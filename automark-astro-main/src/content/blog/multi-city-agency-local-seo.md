@@ -2,8 +2,8 @@
 title: "Multi-City Agency Local SEO in India"
 meta_title: "Multi-City Agency Local SEO | Fundaking"
 description: "How agencies with multiple city offices structure GBP, pages, and governance without duplicate thin content."
-date: 2026-06-05T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-22T06:00:00Z
+date_modified: 2026-10-22T06:00:00Z
 image: "/images/blog/featured/multi-city-agency-local-seo.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

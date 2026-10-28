@@ -2,8 +2,8 @@
 title: "In-House SEO vs Consultant vs Agency: Decision Matrix"
 meta_title: "In-House SEO vs Consultant vs Agency | Fundaking"
 description: "Choose in-house SEO, an independent consultant, or an agency with a clear decision matrix for Indian teams."
-date: 2026-05-09T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-09-25T06:00:00Z
+date_modified: 2026-09-25T06:00:00Z
 image: "/images/blog/featured/in-house-seo-vs-consultant-vs-agency.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

@@ -2,7 +2,7 @@
 title: "Measuring AI Citations Without Vanity Tools"
 meta_title: "Measuring AI Citations | Fundaking"
 description: "A lightweight citation log founders can run weekly — screenshots, prompts, and assisted pipeline."
-date: 2026-06-11T06:00:00Z
+date: 2026-10-28T06:00:00Z
 date_modified: 2026-10-28T06:00:00Z
 image: "/images/blog/featured/measuring-ai-citations-without-vanity-tools.svg"
 author: "Rahul Agarwal"

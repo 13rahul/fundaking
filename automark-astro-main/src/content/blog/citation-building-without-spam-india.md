@@ -2,8 +2,8 @@
 title: "Citation Building Without Spam in India"
 meta_title: "Citation Building Without Spam India | Fundaking"
 description: "Earn and clean citations on quality Indian directories — avoid PBNs and fake listings."
-date: 2026-06-02T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-19T06:00:00Z
+date_modified: 2026-10-19T06:00:00Z
 image: "/images/blog/featured/citation-building-without-spam-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

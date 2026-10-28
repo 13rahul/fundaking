@@ -2,8 +2,8 @@
 title: "SEO for D2C Brands in India (Shopify & Beyond)"
 meta_title: "SEO for D2C Brands India | Fundaking"
 description: "Organic SEO for Indian D2C: collection architecture, CWV, content that sells, and when paid should stay on."
-date: 2026-05-05T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-09-21T06:00:00Z
+date_modified: 2026-09-21T06:00:00Z
 image: "/images/blog/featured/seo-for-d2c-brands-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

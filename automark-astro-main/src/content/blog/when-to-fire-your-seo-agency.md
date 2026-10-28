@@ -2,8 +2,8 @@
 title: "When to Fire Your SEO Agency (And What to Do Next)"
 meta_title: "When to Fire Your SEO Agency | Fundaking"
 description: "Clear signals it is time to exit an SEO retainer — and how to transition to a consultant or hybrid model."
-date: 2026-05-07T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-09-23T06:00:00Z
+date_modified: 2026-09-23T06:00:00Z
 image: "/images/blog/featured/when-to-fire-your-seo-agency.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

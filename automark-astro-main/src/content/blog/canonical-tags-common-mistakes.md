@@ -2,8 +2,8 @@
 title: "Canonical Tags: Common Mistakes That Kill Rankings"
 meta_title: "Canonical Tags Mistakes | Technical SEO | Fundaking"
 description: "Fix self-referencing canonicals, cross-domain errors, and parameter canonical chaos on Indian sites."
-date: 2026-05-16T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-02T06:00:00Z
+date_modified: 2026-10-02T06:00:00Z
 image: "/images/blog/featured/canonical-tags-common-mistakes.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

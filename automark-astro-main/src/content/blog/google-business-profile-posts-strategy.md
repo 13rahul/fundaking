@@ -2,8 +2,8 @@
 title: "Google Business Profile Posts Strategy"
 meta_title: "GBP Posts Strategy | Local SEO | Fundaking"
 description: "A practical cadence for GBP posts, offers, and updates that support Maps engagement in India."
-date: 2026-06-03T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-20T06:00:00Z
+date_modified: 2026-10-20T06:00:00Z
 image: "/images/blog/featured/google-business-profile-posts-strategy.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

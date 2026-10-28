@@ -2,8 +2,8 @@
 title: "Log File Analysis for SEO: A Practical Guide"
 meta_title: "Log File Analysis SEO Guide | Fundaking"
 description: "Use server logs to see how Googlebot crawls your site — wasted budget, blocked money pages, and priority fixes."
-date: 2026-05-13T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-09-29T06:00:00Z
+date_modified: 2026-09-29T06:00:00Z
 image: "/images/blog/featured/log-file-analysis-seo-guide.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

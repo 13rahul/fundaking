@@ -2,8 +2,8 @@
 title: "Google Maps Ranking Factors in India (2026)"
 meta_title: "Google Maps Ranking Factors India 2026 | Fundaking"
 description: "Relevance, distance, and prominence for Indian map pack — practical levers you can control."
-date: 2026-05-26T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-12T06:00:00Z
+date_modified: 2026-10-12T06:00:00Z
 image: "/images/blog/featured/google-maps-ranking-factors-india-2026.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

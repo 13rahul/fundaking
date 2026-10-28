@@ -2,8 +2,8 @@
 title: "Brand Knowledge Panel & Entity Cleanup"
 meta_title: "Brand Knowledge Panel Entity Cleanup | Fundaking"
 description: "Clean Organization entity data so Knowledge Panels and AI answers stop misstating your brand."
-date: 2026-06-08T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-25T06:00:00Z
+date_modified: 2026-10-25T06:00:00Z
 image: "/images/blog/featured/brand-knowledge-panel-entity-cleanup.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

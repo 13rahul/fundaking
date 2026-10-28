@@ -2,8 +2,8 @@
 title: "Core Web Vitals for Shopify Stores in India"
 meta_title: "Core Web Vitals Shopify India | Fundaking"
 description: "Improve LCP, INP, and CLS on Shopify for Indian mobile networks — apps, images, and theme tips."
-date: 2026-05-25T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-11T06:00:00Z
+date_modified: 2026-10-11T06:00:00Z
 image: "/images/blog/featured/core-web-vitals-shopify-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

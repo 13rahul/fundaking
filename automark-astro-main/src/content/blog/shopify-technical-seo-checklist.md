@@ -2,8 +2,8 @@
 title: "Shopify Technical SEO Checklist"
 meta_title: "Shopify Technical SEO Checklist | Fundaking"
 description: "A technical SEO checklist for Shopify stores in India — themes, apps, collections, and speed."
-date: 2026-05-19T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-05T06:00:00Z
+date_modified: 2026-10-05T06:00:00Z
 image: "/images/blog/featured/shopify-technical-seo-checklist.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

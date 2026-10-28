@@ -2,8 +2,8 @@
 title: "Monthly SEO Reporting That CEOs Actually Read"
 meta_title: "Monthly SEO Reporting for CEOs | Fundaking"
 description: "Build SEO reports executives finish — narrative, KPIs, risks, and next decisions — not 40 keyword charts."
-date: 2026-05-12T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-09-28T06:00:00Z
+date_modified: 2026-09-28T06:00:00Z
 image: "/images/blog/featured/monthly-seo-reporting-that-ceos-read.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

@@ -2,8 +2,8 @@
 title: "SEO Roadmap for SaaS Founders in India (6 Months)"
 meta_title: "SEO Roadmap for SaaS Founders India | Fundaking"
 description: "A six-month organic SEO roadmap for Indian SaaS: technical floor, BOFU pages, clusters, and demo KPIs."
-date: 2026-05-02T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-09-18T06:00:00Z
+date_modified: 2026-09-18T06:00:00Z
 image: "/images/blog/featured/seo-roadmap-for-saas-founders-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

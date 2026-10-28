@@ -2,8 +2,8 @@
 title: "HTTPS and Redirect Chains: SEO Fix Guide"
 meta_title: "HTTPS Redirect Chains SEO Fix | Fundaking"
 description: "Eliminate http→https→www chains and soft loops that leak PageRank and confuse crawlers."
-date: 2026-05-22T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-08T06:00:00Z
+date_modified: 2026-10-08T06:00:00Z
 image: "/images/blog/featured/https-redirect-chains-seo-fix.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

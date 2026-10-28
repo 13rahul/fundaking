@@ -2,8 +2,8 @@
 title: "Service-Area Business SEO in India"
 meta_title: "Service Area Business SEO India | Fundaking"
 description: "Rank without a storefront — GBP service areas, landing pages, and honest coverage for Indian SABs."
-date: 2026-05-29T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-15T06:00:00Z
+date_modified: 2026-10-15T06:00:00Z
 image: "/images/blog/featured/service-area-business-seo-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

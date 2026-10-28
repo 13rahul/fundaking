@@ -2,8 +2,8 @@
 title: "WhatsApp Leads from Google Maps in India"
 meta_title: "WhatsApp Leads from Google Maps India | Fundaking"
 description: "Turn Maps views into WhatsApp conversations — GBP CTAs, tracking, and follow-up that sales will use."
-date: 2026-06-06T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-23T06:00:00Z
+date_modified: 2026-10-23T06:00:00Z
 image: "/images/blog/featured/whatsapp-leads-from-google-maps-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

@@ -2,8 +2,8 @@
 title: "WordPress Technical SEO Hardening"
 meta_title: "WordPress Technical SEO Hardening | Fundaking"
 description: "Harden WordPress for SEO: crawl waste, plugin bloat, schema, and security that affects indexation."
-date: 2026-05-21T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-07T06:00:00Z
+date_modified: 2026-10-07T06:00:00Z
 image: "/images/blog/featured/wordpress-technical-seo-hardening.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

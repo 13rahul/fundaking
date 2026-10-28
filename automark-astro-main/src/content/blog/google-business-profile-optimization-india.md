@@ -2,7 +2,7 @@
 title: "Google Business Profile Optimization for India"
 meta_title: "GBP Optimization India | Local SEO | Fundaking"
 description: "Optimize Google Business Profile for Indian businesses: categories, NAP, services, photos, reviews, and service-area settings that win Maps."
-date: 2026-04-16T06:00:00Z
+\ndate_modified: 2026-09-13T06:00:00Z
 image: "/images/blog/featured/google-business-profile-optimization-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

@@ -2,8 +2,8 @@
 title: "Next.js SEO: Rendering Guide for Marketing Sites"
 meta_title: "Next.js SEO Rendering Guide | Fundaking"
 description: "SSR, SSG, and ISR choices so Next.js marketing pages stay crawlable for Google and AI fetchers."
-date: 2026-05-20T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-06T06:00:00Z
+date_modified: 2026-10-06T06:00:00Z
 image: "/images/blog/featured/nextjs-seo-rendering-guide.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

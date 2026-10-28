@@ -2,8 +2,8 @@
 title: "Prompt Research from Sales Calls (AI SEO)"
 meta_title: "Prompt Research from Sales Calls | Fundaking"
 description: "Build an AI SEO prompt library from real sales and support calls — not Keyword Planner alone."
-date: 2026-06-09T06:00:00Z
-date_modified: 2026-10-28T06:00:00Z
+date: 2026-10-26T06:00:00Z
+date_modified: 2026-10-26T06:00:00Z
 image: "/images/blog/featured/prompt-research-from-sales-calls.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

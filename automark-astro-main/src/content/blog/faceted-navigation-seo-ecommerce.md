@@ -2,8 +2,8 @@
 title: "Faceted Navigation SEO for Ecommerce"
 meta_title: "Faceted Navigation SEO Ecommerce | Fundaking"
 description: "Control filters and parameters so ecommerce facets do not explode the index or waste crawl budget."
-date: 2026-05-14T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-09-30T06:00:00Z
+date_modified: 2026-09-30T06:00:00Z
 image: "/images/blog/featured/faceted-navigation-seo-ecommerce.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

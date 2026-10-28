@@ -2,7 +2,7 @@
 title: "Core Web Vitals for Indian SaaS Sites"
 meta_title: "Core Web Vitals for Indian SaaS | Technical SEO | Fundaking"
 description: "How to fix LCP, INP, and CLS on Indian SaaS marketing sites — real network conditions, third-party scripts, and revenue-page priorities."
-date: 2026-04-14T06:00:00Z
+\ndate_modified: 2026-09-11T06:00:00Z
 image: "/images/blog/featured/core-web-vitals-indian-saas.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

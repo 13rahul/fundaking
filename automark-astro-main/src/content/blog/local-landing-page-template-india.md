@@ -2,8 +2,8 @@
 title: "Local Landing Page Template for India"
 meta_title: "Local Landing Page Template India | Fundaking"
 description: "A reusable local landing page template: proof, FAQs, NAP, map embed, and conversion for Indian cities."
-date: 2026-05-28T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-14T06:00:00Z
+date_modified: 2026-10-14T06:00:00Z
 image: "/images/blog/featured/local-landing-page-template-india.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

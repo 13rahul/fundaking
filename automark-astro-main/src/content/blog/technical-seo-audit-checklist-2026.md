@@ -2,7 +2,7 @@
 title: "Technical SEO Audit Checklist (2026)"
 meta_title: "Technical SEO Audit Checklist 2026 | Fundaking"
 description: "A founder-ready technical SEO audit checklist: crawl, index, Core Web Vitals, JavaScript, schema, migrations, and internal links — mapped to AI discovery."
-date: 2026-04-10T06:00:00Z
+\ndate_modified: 2026-09-09T06:00:00Z
 image: "/images/blog/featured/technical-seo-audit-checklist-2026.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"

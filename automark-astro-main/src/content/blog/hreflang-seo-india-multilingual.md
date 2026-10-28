@@ -2,8 +2,8 @@
 title: "Hreflang SEO for India (English, Hindi & More)"
 meta_title: "Hreflang SEO India Multilingual | Fundaking"
 description: "Implement hreflang correctly for Indian multilingual sites — EN/HI and regional languages without duplicate chaos."
-date: 2026-05-18T06:00:00Z
-date_modified: 2026-10-27T06:00:00Z
+date: 2026-10-04T06:00:00Z
+date_modified: 2026-10-04T06:00:00Z
 image: "/images/blog/featured/hreflang-seo-india-multilingual.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
