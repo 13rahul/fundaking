@@ -10,6 +10,10 @@ automark-astro-main/.output/
 .env
 .env.*
 !.env.example
+api/mail-config.local.php
+data/contact-rate.json
+data/contact-leads.csv
+data/leads.csv
 
 # OS / IDE
 .DS_Store

@@ -34,11 +34,20 @@ if (isset($_POST['action']) && $_POST['action'] === 'save_lead') {
         // Set lead cookie for 30 days
         setcookie('fu_lead_captured', '1', time() + (86400 * 30), "/");
 
-        // Notify
-        $to = "consult@fundaking.com";
-        $subject = "🔥 New SEO Lead [" . $score . "/100]: $leadEmail";
+        // Notify via shared SMTP/mail helper when present
+        $subject = "New SEO Lead [" . $score . "/100]: $leadEmail";
         $message = "New SEO Lead Captured!\nEmail: $leadEmail\nSite: $auditedUrl\nScore: $score/100\nIssues Found: $issues";
-        @mail($to, $subject, $message, "From: leads@fundaking.com");
+        $mailHelper = __DIR__ . '/api/fk-mail.php';
+        if (is_file($mailHelper)) {
+            require_once $mailHelper;
+            fk_send_mail([
+                'subject' => $subject,
+                'body' => $message,
+                'reply_to' => $leadEmail,
+            ]);
+        } else {
+            @mail('13rahulagarwal@gmail.com', $subject, $message, "From: consult@fundaking.com\r\nReply-To: {$leadEmail}");
+        }
 
         echo json_encode(['status' => 'success']);
         exit;

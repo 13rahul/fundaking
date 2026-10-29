@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64" fill="none" role="img" aria-label="फंडा King">
+  <rect width="64" height="64" rx="16" fill="#937AFF"/>
+  <path fill="#FFFFFF" d="M13 33V25h5.5V14.5L26 28.5 32 12l6 16.5 7.5-14V25H51v8H13z"/>
+  <rect x="13" y="36" width="38" height="11" rx="1.5" fill="#FFFFFF"/>
+  <circle cx="22.5" cy="41.5" r="1.8" fill="#937AFF"/>
+  <circle cx="32" cy="41.5" r="1.8" fill="#937AFF"/>
+  <circle cx="41.5" cy="41.5" r="1.8" fill="#937AFF"/>
+</svg>

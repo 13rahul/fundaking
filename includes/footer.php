@@ -64,9 +64,9 @@
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:consult@fundaking.com">
+                            <a href="mailto:13rahulagarwal@gmail.com">
                                 <i class="fas fa-envelope" aria-hidden="true"></i>
-                                consult@fundaking.com
+                                13rahulagarwal@gmail.com
                             </a>
                         </li>
                         <li class="footer-king__address">

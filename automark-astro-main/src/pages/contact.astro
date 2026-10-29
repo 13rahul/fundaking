@@ -12,6 +12,11 @@ const contactData: Contact = contact.data;
 const whatsappUrl =
   config.params.whatsapp_url ||
   "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit";
+const formAction = config.params.contact_form_action || "/api/contact.php";
+const notifyEmail =
+  config.params.lead_notify_email ||
+  config.params.footer_email ||
+  "13rahulagarwal@gmail.com";
 ---
 
 <Base {...contactData} faqSlug="faq">
@@ -65,39 +70,112 @@ const whatsappUrl =
           </div>
         </div>
 
-        <!-- Right Column - WhatsApp CTA (replaces broken form) -->
+        <!-- Right Column - Contact form -->
         <div class="col-12 lg:col-7">
-          <div class="p-8 md:p-10 bg-white/5 rounded-2xl ring-1 ring-white/10 h-full flex flex-col justify-center gap-8">
-            <div>
-              <p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary">
-                Fastest response
-              </p>
-              <h2 class="font-secondary font-bold text-3xl text-white mb-4">
-                Book your free SEO audit on WhatsApp
-              </h2>
-              <p class="text-text text-lg mb-2">
-                Tap below to message <strong class="text-white">+91 84210 53710</strong>.
-                Share your website URL and goals — Rahul replies personally, usually
-                within one business day.
-              </p>
-            </div>
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn-primary w-full py-4 text-lg font-medium text-center"
-            >
-              WhatsApp +91 84210 53710
-            </a>
-            <p class="text-text text-base">
-              Prefer email?
+          <div class="p-8 md:p-10 bg-white/5 rounded-2xl ring-1 ring-white/10 h-full">
+            <p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary">
+              Send a message
+            </p>
+            <h2 class="font-secondary font-bold text-3xl text-white mb-4">
+              Book your free SEO audit
+            </h2>
+            <p class="text-text text-lg mb-8">
+              Submissions go to <strong class="text-white">{notifyEmail}</strong>.
+              Prefer WhatsApp?
               <a
-                href="mailto:consult@fundaking.com"
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 class="text-primary underline underline-offset-4"
               >
-                consult@fundaking.com
+                +91 84210 53710
               </a>
             </p>
+
+            <form
+              id="fk-contact-form"
+              class="space-y-5"
+              action={formAction}
+              method="POST"
+              novalidate
+            >
+              <input type="hidden" name="source" value="contact" />
+              <!-- Honeypot -->
+              <input
+                type="text"
+                name="website"
+                tabindex="-1"
+                autocomplete="off"
+                class="hidden"
+                aria-hidden="true"
+              />
+              <div>
+                <label class="sr-only" for="fk-name">Name</label>
+                <input
+                  id="fk-name"
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  class="form-input w-full"
+                  required
+                />
+              </div>
+              <div>
+                <label class="sr-only" for="fk-email">Email</label>
+                <input
+                  id="fk-email"
+                  type="email"
+                  name="email"
+                  placeholder="Work email"
+                  class="form-input w-full"
+                  required
+                />
+              </div>
+              <div class="grid gap-5 sm:grid-cols-2">
+                <div>
+                  <label class="sr-only" for="fk-phone">Phone</label>
+                  <input
+                    id="fk-phone"
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone / WhatsApp"
+                    class="form-input w-full"
+                  />
+                </div>
+                <div>
+                  <label class="sr-only" for="fk-site">Website</label>
+                  <input
+                    id="fk-site"
+                    type="url"
+                    name="site"
+                    placeholder="Website URL"
+                    class="form-input w-full"
+                  />
+                </div>
+              </div>
+              <div>
+                <label class="sr-only" for="fk-message">Message</label>
+                <textarea
+                  id="fk-message"
+                  name="message"
+                  rows="4"
+                  placeholder="Goals, timeline, or what you want audited"
+                  class="form-input rounded-4xl! w-full resize-none"
+                  required></textarea>
+              </div>
+              <button
+                type="submit"
+                id="fk-contact-submit"
+                class="btn btn-primary w-full py-4 text-lg font-medium"
+              >
+                Send enquiry
+              </button>
+              <p
+                id="fk-contact-status"
+                class="text-sm text-text min-h-5"
+                role="status"
+                aria-live="polite"></p>
+            </form>
           </div>
         </div>
       </div>
@@ -156,3 +234,41 @@ const whatsappUrl =
 
   <PageEnd />
 </Base>
+
+<script>
+  const form = document.getElementById("fk-contact-form") as HTMLFormElement | null;
+  if (form) {
+    const status = document.getElementById("fk-contact-status");
+    const btn = document.getElementById("fk-contact-submit") as HTMLButtonElement | null;
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      if (!status || !btn) return;
+      status.textContent = "Sending…";
+      status.className = "text-sm text-text min-h-5";
+      btn.disabled = true;
+      try {
+        const data = Object.fromEntries(new FormData(form).entries());
+        const res = await fetch(form.action, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify(data),
+        });
+        const json = await res.json().catch(() => ({}));
+        if (!res.ok || !json.ok) {
+          throw new Error(json.error || "Send failed");
+        }
+        status.textContent = "Sent — Rahul will reply soon.";
+        status.className = "text-sm text-primary min-h-5";
+        form.reset();
+      } catch (err) {
+        status.textContent =
+          err instanceof Error
+            ? err.message
+            : "Could not send. WhatsApp +91 84210 53710 instead.";
+        status.className = "text-sm text-red-400 min-h-5";
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  }
+</script>

@@ -14,12 +14,13 @@
     "sticky_header": true
   },
   "params": {
-    "contact_form_action": "mailto:consult@fundaking.com",
-    "checklist_form_action": "mailto:consult@fundaking.com",
-    "apply_form_action": "mailto:consult@fundaking.com",
+    "contact_form_action": "/api/contact.php",
+    "checklist_form_action": "/api/contact.php",
+    "apply_form_action": "/api/contact.php",
+    "lead_notify_email": "13rahulagarwal@gmail.com",
     "copyright": "Copyright &copy; 2026 <strong>Fundaking Media OPC Pvt Ltd</strong>. All rights reserved.",
     "footer_tagline": "SEO consultant in Pune & Baramati — technical SEO, local SEO, and revenue-focused organic growth.",
-    "footer_email": "consult@fundaking.com",
+    "footer_email": "13rahulagarwal@gmail.com",
     "footer_phone": "+91 84210 53710",
     "footer_address": "H S No. 155, Near Bhairavnath Temple, Pandare, Baramati, Pune — 413110, Maharashtra, India",
     "whatsapp_url": "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"

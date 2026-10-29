@@ -5,7 +5,7 @@
             <div class="max-w-95 mb-20 text-lg text-text">
                 <img src="<?php echo fk_url('/images/logo.png'); ?>" alt="Fundaking Media" class="h-12" width="156" height="48" decoding="async" />
                 <p class="mt-6">SEO consultant in Pune &amp; Baramati — technical SEO, local SEO, and revenue-focused organic growth.</p>
-                <a class="link mt-6 inline-block underline" href="mailto:consult@fundaking.com">consult@fundaking.com</a>
+                <a class="link mt-6 inline-block underline" href="mailto:13rahulagarwal@gmail.com">13rahulagarwal@gmail.com</a>
                 <a class="link mt-4 block" href="tel:+918421053710">+91 84210 53710</a>
                 <a class="link mt-4 block" href="https://wa.me/918421053710" rel="noopener noreferrer">WhatsApp</a>
                 <p class="mt-4 text-sm text-text/80">H S No. 155, Near Bhairavnath Temple, Pandare, Baramati, Pune — 413110, Maharashtra, India</p>

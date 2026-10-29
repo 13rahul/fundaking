@@ -60,7 +60,7 @@ include __DIR__ . '/theme-header.php';
                 <p class="muted" style="margin:0 0 12px;font-size:0.9rem">Founder, Fundaking Media · SEO consultant in Pune</p>
                 <p style="margin:0 0 16px;line-height:1.6"><?php echo htmlspecialchars($authorBio); ?></p>
                 <a href="<?php echo htmlspecialchars($authorLinkedIn); ?>" target="_blank" rel="noopener noreferrer" style="color:var(--accent-2);font-weight:600">LinkedIn</a>
-                · <a href="mailto:consult@fundaking.com" style="color:var(--accent-2)">Email</a>
+                · <a href="mailto:13rahulagarwal@gmail.com" style="color:var(--accent-2)">Email</a>
             </div>
         </aside>
         <div style="margin-top:32px;padding:24px;border-radius:24px;border:1px solid rgba(124,58,237,0.35);background:rgba(124,58,237,0.12)">

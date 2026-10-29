@@ -161,7 +161,7 @@ include __DIR__ . '/theme-header.php';
                 <div style="margin-top:24px;display:flex;flex-direction:column;gap:16px">
                     <a class="cta-btn" style="background:#25D366;color:white" href="https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20SEO%20help%20for%20<?php echo rawurlencode($cityName); ?>"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                     <a class="cta-btn secondary" href="tel:+918421053710"><i class="fas fa-phone"></i> +91 84210 53710</a>
-                    <a class="cta-btn secondary" href="mailto:consult@fundaking.com"><i class="fas fa-envelope"></i> Email</a>
+                    <a class="cta-btn secondary" href="mailto:13rahulagarwal@gmail.com"><i class="fas fa-envelope"></i> Email</a>
                     <a class="cta-btn secondary" href="/seo-consulting-pune/">SEO consulting in Pune</a>
                     <a class="cta-btn secondary" href="/technical-seo-consultant/">Technical SEO</a>
                     <a class="cta-btn secondary" href="/local-seo-consultant/">Local SEO</a>
