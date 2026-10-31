@@ -24,7 +24,7 @@
 
 ## Machine-readable index
 - Full URL list: https://fundaking.com/llms-full.txt
-- Sitemap: https://fundaking.com/sitemap-index.xml
+- Sitemap: https://fundaking.com/sitemap.xml
 - robots: https://fundaking.com/robots.txt
 
 ## Blog articles (107)

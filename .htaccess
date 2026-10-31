@@ -38,6 +38,10 @@ DirectoryIndex index.html index.php
     # Broken demo blog leftover → AI SEO hub
     RewriteRule ^blog/human-touch-ai-marketing/?$ /blog/what-is-ai-seo-definition-2026/ [R=301,L]
 
+    # Single sitemap only — collapse Astro index/chunk aliases
+    RewriteRule ^sitemap-index\.xml$ /sitemap.xml [R=301,L]
+    RewriteRule ^sitemap-0\.xml$ /sitemap.xml [R=301,L]
+
     # Force trailing slash on extensionless URLs (skip files/assets)
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_URI} !\.[a-z0-9]{1,5}$ [NC]
