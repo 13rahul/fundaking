@@ -2,7 +2,7 @@
 $metaTitle = "LLM SEO Consultant in Pune | GEO & AI Search Optimization - Rahul Agarwal";
 $metaDesc = "Expert LLM SEO Consultant in Pune helping brands rank in ChatGPT, Perplexity, Gemini, and AI Overviews (SGE). Future-proof your SEO with Generative Engine Optimization (GEO) strategies.";
 $metaKeywords = "llm seo consultant, geo expert pune, generative engine optimization, chatgpt seo, ai search optimization, perplexity ranking, google sge consultant, ai overview optimization";
-$canonicalUrl = "https://fundaking.com/llm-seo-consultant";
+$canonicalUrl = "https://fundaking.com/llm-seo-consultant/";
 $ogTitle = $metaTitle;
 $ogDesc = $metaDesc;
 $ogImage = "https://fundaking.com/og-image.png";

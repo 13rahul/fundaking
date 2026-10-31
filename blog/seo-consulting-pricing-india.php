@@ -2,7 +2,7 @@
 $postTitle = 'SEO Consulting Pricing in India (2026)';
 $metaTitle = 'SEO Consulting Pricing in India | What to Budget in 2026';
 $metaDesc = 'Realistic SEO consulting pricing in India: audits, monthly advisory and project work — plus how to avoid cheap retainers that waste a year.';
-$canonicalUrl = 'https://fundaking.com/blog/seo-consulting-pricing-india';
+$canonicalUrl = 'https://fundaking.com/blog/seo-consulting-pricing-india/';
 $postHtml = <<<'HTML'
         <p class="muted">Founders ask “how much does an SEO consultant in India cost?” The honest answer: it depends on
             seniority and scope — not a fixed package from a WhatsApp broadcast.</p>

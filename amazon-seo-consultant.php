@@ -2,7 +2,7 @@
 $metaTitle = "Amazon SEO Consultant | Marketplace SEO Consulting - Rahul Agarwal";
 $metaDesc = "Amazon SEO consultant for listing optimization, keyword indexing, A+ content strategy and conversion — paired with ecommerce site SEO when you sell DTC too.";
 $metaKeywords = "amazon seo consultant, amazon seo india, marketplace seo consultant";
-$canonicalUrl = "https://fundaking.com/amazon-seo-consultant";
+$canonicalUrl = "https://fundaking.com/amazon-seo-consultant/";
 $nicheName = 'Amazon SEO Consultant';
 $activePage = 'amazon';
 $heroEyebrow = 'Amazon SEO Consultant';

@@ -2,7 +2,7 @@
 $postTitle = 'Organic SEO vs Paid Ads: How Consultants Think About Both';
 $metaTitle = 'Organic SEO vs Paid | When to Invest in SEO Consulting';
 $metaDesc = 'Organic SEO consultant work compounds; paid ads buy speed. Here’s how to balance both without starving growth.';
-$canonicalUrl = 'https://fundaking.com/blog/organic-seo-vs-paid';
+$canonicalUrl = 'https://fundaking.com/blog/organic-seo-vs-paid/';
 $postHtml = <<<'HTML'
         <p class="muted">“Organic seo consultant” searches usually mean: stop renting 100% of demand from ads. Organic is
             not free — it is an investment with delayed payoff.</p>

@@ -5,7 +5,7 @@ ini_set('display_errors', 0);
 
 $metaTitle = "Advanced SEO & E-E-A-T Audit Tool | Fundaking Media";
 $metaDesc = "The ultimate one-stop SEO audit tool. Analyze E-E-A-T credentials, technical health, content depth, and performance signals in one click.";
-$canonicalUrl = "https://fundaking.com/eeat-grader";
+$canonicalUrl = "https://fundaking.com/eeat-grader/";
 $navCtaText = "Get Full Audit";
 $activePage = 'tools';
 
@@ -57,6 +57,10 @@ if (isset($_POST['action']) && $_POST['action'] === 'save_lead') {
 }
 
 include 'includes/header.php';
+require_once __DIR__ . '/includes/schema-fundaking.php';
+fundaking_schema_print(
+    fundaking_schema_graph($metaTitle, $metaDesc, $canonicalUrl)
+);
 
 // Google PageSpeed Insights API Key
 $GOOGLE_PSI_API_KEY = 'AIzaSyBtF7odhguzW5z6iBC8dpxW92WT2OO15Tc';

@@ -15,7 +15,7 @@ if (!$study) {
 $metaTitle = $study['metaTitle'];
 $metaDesc = $study['metaDesc'];
 $metaKeywords = $study['metaKeywords'] ?? 'case study, fundaking media';
-$canonicalUrl = 'https://fundaking.com/case-studies/' . $study['slug'];
+$canonicalUrl = 'https://fundaking.com/case-study/' . $study['slug'] . '/';
 $ogTitle = $metaTitle;
 $ogDesc = $metaDesc;
 $activePage = 'case-studies';

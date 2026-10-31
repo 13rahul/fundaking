@@ -35,6 +35,9 @@ DirectoryIndex index.html index.php
     RewriteRule ^integrations/?$ /contact/ [R=301,L]
     RewriteRule ^elements/?$ / [R=301,L]
 
+    # Broken demo blog leftover → AI SEO hub
+    RewriteRule ^blog/human-touch-ai-marketing/?$ /blog/what-is-ai-seo-definition-2026/ [R=301,L]
+
     # Force trailing slash on extensionless URLs (skip files/assets)
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_URI} !\.[a-z0-9]{1,5}$ [NC]

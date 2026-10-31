@@ -2,7 +2,7 @@
 $metaTitle = "Ecommerce SEO Consultant in Pune | D2C & Shopify SEO Expert - Rahul Agarwal";
 $metaDesc = "Top Ecommerce SEO Consultant in Pune helping D2C, Shopify & Magento stores rank #1 and scale organic revenue. Product page optimization, category clustering, schema, site speed & conversion-focused SEO.";
 $metaKeywords = "ecommerce seo consultant, ecommerce seo consultant pune, shopify seo expert pune, d2c seo consultant, magento seo expert, ecommerce seo agency pune, product page seo, category page seo, woocommerce seo consulting";
-$canonicalUrl = "https://fundaking.com/ecommerce-seo-consultant";
+$canonicalUrl = "https://fundaking.com/ecommerce-seo-consultant/";
 $ogTitle = $metaTitle;
 $ogDesc = $metaDesc;
 $ogImage = "https://fundaking.com/og-image.png";

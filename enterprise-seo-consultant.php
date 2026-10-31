@@ -2,7 +2,7 @@
 $metaTitle = "Enterprise SEO Consultant | SEO Strategy Consulting - Rahul Agarwal";
 $metaDesc = "Enterprise SEO consultant for complex sites: multi-brand architecture, governance, technical debt and SEO strategy consulting for large Indian and global teams.";
 $metaKeywords = "enterprise seo consultant, seo strategy consulting, enterprise seo india, large site seo";
-$canonicalUrl = "https://fundaking.com/enterprise-seo-consultant";
+$canonicalUrl = "https://fundaking.com/enterprise-seo-consultant/";
 $nicheName = 'Enterprise SEO Consultant';
 $activePage = 'enterprise';
 $heroEyebrow = 'Enterprise SEO Consultant';

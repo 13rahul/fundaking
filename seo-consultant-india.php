@@ -2,7 +2,7 @@
 $metaTitle = "SEO Consultant India | Independent SEO Consulting Across India - Rahul Agarwal";
 $metaDesc = "Hire a professional SEO consultant in India for technical SEO, local SEO, ecommerce & SaaS growth. Pune-based Rahul Agarwal serves Mumbai, Kolkata, Delhi, Bangalore & remote India.";
 $metaKeywords = "seo consultant india, seo consulting services india, best seo consultant in india, seo india consultant, professional seo consulting services";
-$canonicalUrl = "https://fundaking.com/seo-consultant-india";
+$canonicalUrl = "https://fundaking.com/seo-consultant-india/";
 $ogTitle = $metaTitle;
 $ogDesc = $metaDesc;
 $activePage = 'india';

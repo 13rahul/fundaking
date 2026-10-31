@@ -38,6 +38,9 @@ $schemaExtra = $schemaExtra ?? [];
     <meta property="og:image" content="<?php echo htmlspecialchars($ogImage); ?>" />
     <meta property="og:url" content="<?php echo htmlspecialchars($ogUrl); ?>" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($ogTitle); ?>" />
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($ogDesc); ?>" />
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($ogImage); ?>" />
     <link rel="icon" href="<?php echo fk_url('/images/favicon.svg'); ?>" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="<?php echo fk_url('/images/og-image.png'); ?>" />
     <meta name="theme-color" content="#03010E" />

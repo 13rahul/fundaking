@@ -2,7 +2,7 @@
 $metaTitle = "SaaS SEO Consultant | SEO Consulting for SaaS - Rahul Agarwal";
 $metaDesc = "SaaS SEO consultant for B2B product companies: technical SEO, bottom-funnel content, demo pipeline growth. Independent SEO consulting for SaaS across India.";
 $metaKeywords = "saas seo consultant, seo consulting for saas, b2b saas seo, saas seo expert india";
-$canonicalUrl = "https://fundaking.com/saas-seo-consultant";
+$canonicalUrl = "https://fundaking.com/saas-seo-consultant/";
 $nicheName = 'SaaS SEO Consultant';
 $activePage = 'saas';
 $heroEyebrow = 'SaaS SEO Consultant';

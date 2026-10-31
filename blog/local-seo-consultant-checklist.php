@@ -2,7 +2,7 @@
 $postTitle = 'Local SEO Consultant Checklist';
 $metaTitle = 'Local SEO Consultant Checklist | Maps & Near-Me Ranking Tasks';
 $metaDesc = 'What a local SEO consultant should cover: GBP, NAP, reviews, location pages and local schema — checklist for Pune, Mumbai and India.';
-$canonicalUrl = 'https://fundaking.com/blog/local-seo-consultant-checklist';
+$canonicalUrl = 'https://fundaking.com/blog/local-seo-consultant-checklist/';
 $postHtml = <<<'HTML'
         <p class="muted">If you hire a
             <a href="/local-seo-consultant" style="color:var(--accent-2)">local SEO consultant</a>, demand a system — not

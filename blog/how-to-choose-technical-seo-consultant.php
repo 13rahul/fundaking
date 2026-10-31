@@ -2,7 +2,7 @@
 $postTitle = 'How to Choose a Technical SEO Consultant';
 $metaTitle = 'How to Choose a Technical SEO Consultant | Vetting Checklist';
 $metaDesc = 'Hire a technical SEO consultant who can prove crawl, rendering and indexation skill — not just Core Web Vitals screenshots.';
-$canonicalUrl = 'https://fundaking.com/blog/how-to-choose-technical-seo-consultant';
+$canonicalUrl = 'https://fundaking.com/blog/how-to-choose-technical-seo-consultant/';
 $postHtml = <<<'HTML'
         <p class="muted">Anyone can paste PageSpeed scores. A real
             <a href="/technical-seo-consultant" style="color:var(--accent-2)">technical SEO consultant</a> explains crawl

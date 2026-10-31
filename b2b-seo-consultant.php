@@ -2,7 +2,7 @@
 $metaTitle = "B2B SEO Consultant | B2B Demand Generation SEO - Rahul Agarwal";
 $metaDesc = "B2B SEO consultant for demand gen: high-intent content, technical SEO and pipeline attribution for Indian and global B2B brands.";
 $metaKeywords = "b2b seo consultant, b2b seo india, b2b demand generation seo";
-$canonicalUrl = "https://fundaking.com/b2b-seo-consultant";
+$canonicalUrl = "https://fundaking.com/b2b-seo-consultant/";
 $nicheName = 'B2B SEO Consultant';
 $activePage = 'b2b';
 $heroEyebrow = 'B2B SEO Consultant';

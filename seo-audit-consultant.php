@@ -2,7 +2,7 @@
 $metaTitle = "SEO Audit Consultant | Free SEO Consultation & Audits - Rahul Agarwal";
 $metaDesc = "SEO audit consultant for technical, content and E-E-A-T reviews. Start with a free SEO consultation or run the EEAT grader — then get a prioritized roadmap.";
 $metaKeywords = "seo audit consultant, free seo consultation, seo audit india, technical seo audit";
-$canonicalUrl = "https://fundaking.com/seo-audit-consultant";
+$canonicalUrl = "https://fundaking.com/seo-audit-consultant/";
 $nicheName = 'SEO Audit Consultant';
 $activePage = 'audit';
 $heroEyebrow = 'SEO Audit Consultant';

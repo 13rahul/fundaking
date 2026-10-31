@@ -2,7 +2,7 @@
 $postTitle = 'What Does an SEO Consultant Do?';
 $metaTitle = 'What Does an SEO Consultant Do? | Role, Deliverables & Outcomes';
 $metaDesc = 'An SEO consultant diagnoses growth blockers, builds a revenue roadmap, and guides technical + content execution. Here’s what good consulting actually includes.';
-$canonicalUrl = 'https://fundaking.com/blog/what-does-an-seo-consultant-do';
+$canonicalUrl = 'https://fundaking.com/blog/what-does-an-seo-consultant-do/';
 $postHtml = <<<'HTML'
         <p class="muted">People search “seo consultant” when they want a human who can explain why organic is stuck —
             and what to do next. Here is the job, without the buzzwords.</p>

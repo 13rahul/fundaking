@@ -44,7 +44,7 @@ $breadcrumbSchema = [
     "@type" => "BreadcrumbList",
     "itemListElement" => [
         ["@type" => "ListItem", "position" => 1, "name" => "Home", "item" => "https://fundaking.com/"],
-        ["@type" => "ListItem", "position" => 2, "name" => "SEO Consultant India", "item" => "https://fundaking.com/seo-consultant-india"],
+        ["@type" => "ListItem", "position" => 2, "name" => "SEO Consultant India", "item" => "https://fundaking.com/seo-consultant-india/"],
         ["@type" => "ListItem", "position" => 3, "name" => $breadcrumbName, "item" => $canonicalUrl]
     ]
 ];

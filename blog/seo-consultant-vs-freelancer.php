@@ -2,7 +2,7 @@
 $postTitle = 'SEO Consultant vs Freelancer: Which Should You Hire?';
 $metaTitle = 'SEO Consultant vs Freelancer India | Who to Hire and When';
 $metaDesc = 'Freelance SEO consultant India searches are common — but freelancers and independent consultants are not the same. Here’s how to choose.';
-$canonicalUrl = 'https://fundaking.com/blog/seo-consultant-vs-freelancer';
+$canonicalUrl = 'https://fundaking.com/blog/seo-consultant-vs-freelancer/';
 $postHtml = <<<'HTML'
         <p class="muted">“Freelance seo consultant” often means a flexible individual. In practice, freelancers vary from
             junior executors to senior strategists. Labels matter less than seniority and accountability.</p>

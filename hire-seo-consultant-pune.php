@@ -2,7 +2,7 @@
 $metaTitle = "How to Hire an SEO Consultant in Pune (2026 Checklist) | Rahul Agarwal";
 $metaDesc = "Practical checklist to hire an SEO consultant in Pune: what to ask, red flags, pricing signals, agency vs consultant, and how to evaluate technical depth before you sign.";
 $metaKeywords = "hire seo consultant pune, how to choose seo consultant, seo consultant checklist pune, seo expert pune";
-$canonicalUrl = "https://fundaking.com/hire-seo-consultant-pune";
+$canonicalUrl = "https://fundaking.com/hire-seo-consultant-pune/";
 $activePage = 'hire-guide';
 $navCtaText = "Book Free SEO Audit";
 

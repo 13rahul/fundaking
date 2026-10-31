@@ -2,7 +2,7 @@
 $metaTitle = "Healthcare SEO Consultant | Medical & Clinic SEO - Rahul Agarwal";
 $metaDesc = "Healthcare SEO consultant for clinics, hospitals and health brands in India — local SEO, E-E-A-T compliant content and technical foundations.";
 $metaKeywords = "healthcare seo consultant, healthcare seo consultants, medical seo india, clinic seo";
-$canonicalUrl = "https://fundaking.com/healthcare-seo-consultant";
+$canonicalUrl = "https://fundaking.com/healthcare-seo-consultant/";
 $nicheName = 'Healthcare SEO Consultant';
 $activePage = 'healthcare';
 $heroEyebrow = 'Healthcare SEO Consultant';

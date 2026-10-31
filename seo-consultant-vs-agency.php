@@ -2,7 +2,7 @@
 $metaTitle = "SEO Consultant vs Agency in Pune: Which Should You Hire? | Rahul Agarwal";
 $metaDesc = "Clear comparison of hiring an independent SEO consultant vs an SEO agency in Pune — cost, speed, technical depth, communication, and when each model wins.";
 $metaKeywords = "seo consultant vs agency, seo agency pune, independent seo consultant pune, hire seo agency or consultant";
-$canonicalUrl = "https://fundaking.com/seo-consultant-vs-agency";
+$canonicalUrl = "https://fundaking.com/seo-consultant-vs-agency/";
 $activePage = 'vs-agency';
 $navCtaText = "Book Free SEO Audit";
 
