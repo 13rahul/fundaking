@@ -33,7 +33,6 @@ Write for clear Indian English; add city pages where service is local; do not ma
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## WhatsApp-ready facts
 
 Short FAQ answers founders can paste into chats should match site copy—models and humans both copy from the same source.
@@ -164,6 +163,8 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders) as the working spoke, then the matching service page CTA.
+
+For the full local SEO India checklist, use [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook).
 
 
 <!-- fk-cluster-links -->

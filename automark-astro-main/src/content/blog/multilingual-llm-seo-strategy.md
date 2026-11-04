@@ -49,7 +49,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -167,14 +166,17 @@ I also check whether the page is discoverable from the cluster hub and whether t
 
 Finally, keep entity facts boring and consistent: company name, founder name, locations (Pune / Baramati), and offers. Assistants and search engines punish contradiction faster than they reward clever metaphors. Update this article when the product or service changes; stale BOFU claims are worse than thin TOFU posts.
 
+Related reading in this cluster: [Hreflang SEO for India (English, Hindi & More)](/blog/hreflang-seo-india-multilingual).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [LLM SEO vs Traditional SEO: Same Goal, Different Surfaces](/blog/llm-seo-vs-traditional-seo)
 - [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics)
+- [Hreflang SEO for India (English, Hindi & More)](/blog/hreflang-seo-india-multilingual)
+- [LLM SEO vs Traditional SEO: Same Goal, Different Surfaces](/blog/llm-seo-vs-traditional-seo)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

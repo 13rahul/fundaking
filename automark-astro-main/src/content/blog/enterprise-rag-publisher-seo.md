@@ -35,7 +35,6 @@ Syndication with canonical back; avoid same article on five paths.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Why founders should care now
 
 Large catalogues need chunk-friendly templates. I help publishers avoid duplicate embeddings drowning good articles. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.
@@ -167,8 +166,8 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
 - [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
+- [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

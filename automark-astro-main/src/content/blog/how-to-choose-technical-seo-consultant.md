@@ -33,7 +33,6 @@ The best consultants write tickets your developers can ship. If everything stays
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Ask how they measure success
 
 Pipeline, demos, and revenue segments beat vanity rankings. Search Console and GA4 should connect to business outcomes.
@@ -171,8 +170,9 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Core Web Vitals for Indian SaaS Sites](/blog/core-web-vitals-indian-saas)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

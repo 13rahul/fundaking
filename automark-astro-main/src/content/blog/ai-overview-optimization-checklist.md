@@ -47,7 +47,6 @@ Do not optimize every URL. Pick **five queries** where an overview already appea
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## 1. Query and SERP selection
 
 | Check | Pass looks like | Fail looks like |
@@ -185,8 +184,9 @@ Fix contradictory facts, put the answer in initial HTML, add one comparison tabl
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Google AI Overviews: What Actually Moves the Needle](/blog/google-ai-overviews-practical-guide)
 - [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
+- [Google AI Overviews: What Actually Moves the Needle](/blog/google-ai-overviews-practical-guide)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

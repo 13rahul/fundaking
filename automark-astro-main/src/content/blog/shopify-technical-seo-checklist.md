@@ -37,7 +37,6 @@ Filters that create infinite `?sort` / attribute URLs split equity. Decide which
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Speed and Core Web Vitals (India)
 
 - Audit app scripts; remove unused apps  
@@ -172,6 +171,8 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “Shopify Technical SEO Checklist” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [SEO for D2C Brands in India (Shopify & Beyond)](/blog/seo-for-d2c-brands-india).
+
 
 <!-- fk-cluster-links -->
 
@@ -180,6 +181,7 @@ When crawl/index on revenue templates is broken, or when ops cannot handle leads
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
 - [Core Web Vitals for Shopify Stores in India](/blog/core-web-vitals-shopify-india)
 - [Faceted Navigation SEO for Ecommerce](/blog/faceted-navigation-seo-ecommerce)
+- [Quick Commerce Catalogue Content Ops](/blog/quick-commerce-catalogue-content-ops)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

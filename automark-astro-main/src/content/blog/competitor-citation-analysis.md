@@ -35,7 +35,6 @@ If a competitor doc wins on ‘implementation timeline,’ outline their heading
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Avoid plagiarism
 
 Structure is fair game; copy is not. Add first-party data they do not have.
@@ -167,14 +166,19 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite).
+
+Related reading in this cluster: [Measuring AI Citations Without Vanity Tools](/blog/measuring-ai-citations-without-vanity-tools).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Perplexity and Answer Engines: How I Earn Citations](/blog/perplexity-citation-strategies)
+- [Building an AI Citation-Share Tracker (Spreadsheet Method)](/blog/ai-citation-share-tracker-spreadsheet)
 - [Brand Mentions vs Backlinks in the LLM Era](/blog/brand-mentions-vs-backlinks-in-llm-era)
+- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

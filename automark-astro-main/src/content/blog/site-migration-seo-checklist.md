@@ -40,7 +40,6 @@ Migrations destroy organic pipeline when teams redesign first and “SEO later.�
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Post-launch (30 days)
 
 - Monitor Coverage and 404 spikes daily for two weeks
@@ -139,13 +138,18 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 *Category focus for this article: Technical SEO.*
 
+Related reading in this cluster: [HTTPS and Redirect Chains: SEO Fix Guide](/blog/https-redirect-chains-seo-fix).
+
+Related reading in this cluster: [XML Sitemap Best Practices (2026)](/blog/xml-sitemap-best-practices-2026).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [HTTPS and Redirect Chains: SEO Fix Guide](/blog/https-redirect-chains-seo-fix)
+- [Migrating to a New Site Without Traffic Loss](/blog/migrating-to-a-new-site-without-traffic-loss)
 - [Pruning and Noindex in the AI Era](/blog/prune-noindex-ai-era)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)

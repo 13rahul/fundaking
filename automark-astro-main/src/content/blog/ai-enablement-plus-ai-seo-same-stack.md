@@ -39,7 +39,6 @@ Marketing buys “AI content.” Ops buys a chatbot. Neither owns the money URL 
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## The joint 30-day sequence
 
 **Days 1–7:** Baseline GSC + five buyer prompts; map CRM lead stages; list contradictory facts (pricing, NAP, founder bio).  
@@ -184,6 +183,8 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “AI Enablement + AI SEO: Same Stack, Two Outcomes” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days).
+
 
 <!-- fk-cluster-links -->
 
@@ -191,6 +192,7 @@ When crawl/index on revenue templates is broken, or when ops cannot handle leads
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [AI SEO for Indian B2B Founders](/blog/ai-seo-for-indian-b2b-founders)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)

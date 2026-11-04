@@ -38,6 +38,8 @@ A technical SEO audit is not a 100-page PDF of tool screenshots. It is a **prior
 - [HTTPS redirect chains](/blog/https-redirect-chains-seo-fix)
 - [Index bloat cleanup](/blog/index-bloat-cleanup-playbook)
 - [Organization / LocalBusiness schema India](/blog/structured-data-organization-localbusiness-india)
+- [Crawl budget & robots.txt for large catalogues](/blog/crawl-budget-robots-txt-india-catalogs)
+- [SEO-ready website builds (Web Dev hub)](/blog/seo-ready-website-builds-indian-b2b) · [Launch SEO checklist](/blog/website-launch-seo-checklist-india)
 
 Service: [Technical SEO consulting](/technical-seo-consultant) · [Technical SEO Pune](/technical-seo-pune).
 
@@ -58,7 +60,6 @@ Without that scope, audits become encyclopedia tours.
   <img src="/images/infographics/blog/technical-seo-audit-checklist-2026-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 ## 1. Crawl and discovery
 
@@ -188,13 +189,18 @@ Track **branded search lift**, **assisted conversions** from blog landing pages,
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
 
+Related reading in this cluster: [Crawl Budget and robots.txt for Large Indian Catalogues](/blog/crawl-budget-robots-txt-india-catalogs).
+
+Related reading in this cluster: [SEO-Ready Website Builds for Indian B2B](/blog/seo-ready-website-builds-indian-b2b).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
-- [How to Choose a Technical SEO Consultant](/blog/how-to-choose-technical-seo-consultant)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
+- [AI Crawlers in Your Logs: What to Look For](/blog/ai-crawler-logs-user-agents)
+- [Canonical Tags: Common Mistakes That Kill Rankings](/blog/canonical-tags-common-mistakes)
+- [Core Web Vitals for Indian SaaS Sites](/blog/core-web-vitals-indian-saas)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

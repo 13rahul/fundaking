@@ -39,7 +39,6 @@ Host charts as HTML tables when possible; they survive extraction better than PN
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Off-site without spam
 
 Expert quotes in trade press, podcast show notes with transcripts, and GitHub readmes for dev tools—all reinforce the same entity facts as your site.
@@ -171,14 +170,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Perplexity and Answer Engines: How I Earn Citations](/blog/perplexity-citation-strategies) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
 - [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
+- [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics)
+- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

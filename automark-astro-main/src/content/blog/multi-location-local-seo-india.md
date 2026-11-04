@@ -33,7 +33,6 @@ Each page needs unique proof: team, parking/landmarks, local FAQs, local case sn
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Citation consistency
 
 Syndicate the same NAP to major India directories; fix duplicates before building more. Track with a simple sheet: source, NAP string, URL, last verified.
@@ -133,14 +132,21 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 *Category focus for this article: Local SEO.*
 
+Related reading in this cluster: [Local SEO for Real Estate in Pune](/blog/local-seo-for-real-estate-pune).
+
+Related reading in this cluster: [Multi-City Agency Local SEO in India](/blog/multi-city-agency-local-seo).
+
+Related reading in this cluster: [Service-Area Business SEO in India](/blog/service-area-business-seo-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO for Real Estate in Pune](/blog/local-seo-for-real-estate-pune)
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
+- [Multi-City Agency Local SEO in India](/blog/multi-city-agency-local-seo)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

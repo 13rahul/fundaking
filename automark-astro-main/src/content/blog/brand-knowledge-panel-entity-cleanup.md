@@ -14,7 +14,6 @@ categories: ["AI / Answer Engine SEO"]
 tags: ["entity","knowledge-panel","eeat"]
 draft: false
 ---
-
 A messy brand SERP and Knowledge Panel quietly poison AI answers and classic trust. This is the cleanup playbook I run before scaling content for Indian brands — especially when Google shows the wrong industry, old address, or a namesake conflict.
 
 ## Symptoms that mean entity work is P0
@@ -38,7 +37,6 @@ List every public fact Google might merge: legal name, trade name, founder, logo
   <img src="/images/infographics/blog/brand-knowledge-panel-entity-cleanup-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
-
 
 ## Cleanup sequence that usually works
 
@@ -185,12 +183,15 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “Brand Knowledge Panel & Entity Cleanup” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
 - [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
 - [When AI Gets Your Brand Wrong: A Fix Playbook](/blog/fix-wrong-brand-facts-ai-hallucinations)
 - [AI enablement](/ai-enablement)

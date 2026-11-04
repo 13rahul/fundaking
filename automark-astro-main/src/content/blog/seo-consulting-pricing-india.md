@@ -35,7 +35,6 @@ Junior execution, generic reports, and keywords nobody converts on. If the pitch
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## How I scope
 
 Free discovery call → clear scope → proposal. No 12-month lock-in required to start. Based in Pune, serving [India-wide](/seo-consultant-india) clients remotely. See [engagement models](/pricing) for how projects are structured.
@@ -162,13 +161,22 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [What Does an SEO Consultant Do?](/blog/what-does-an-seo-consultant-do).
+
+Related reading in this cluster: [Baramati SEO Consultant Guide for Local Businesses](/blog/baramati-seo-consultant-guide).
+
+Related reading in this cluster: [Organic SEO vs Paid Ads](/blog/organic-seo-vs-paid).
+
+Related reading in this cluster: [SEO RFP Template for Indian Companies](/blog/seo-rfp-template-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
+- [Baramati SEO Consultant Guide for Local Businesses](/blog/baramati-seo-consultant-guide)
+- [Organic SEO vs Paid Ads](/blog/organic-seo-vs-paid)
 - [SEO Advisory vs Project: What the First 90 Days Should Deliver](/blog/seo-advisory-vs-project-first-90-days)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)

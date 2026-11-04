@@ -22,13 +22,18 @@ AI SEO, the way I practice it, is the work of making your company **easy to fetc
 
 | Sub-cluster | Start here |
 | --- | --- |
-| Foundations | [GEO basics](/blog/geo-generative-engine-optimization-basics) · [LLM SEO vs traditional SEO](/blog/llm-seo-vs-traditional-seo) |
+| Foundations | [GEO basics](/blog/geo-generative-engine-optimization-basics) · [LLM SEO vs traditional SEO](/blog/llm-seo-vs-traditional-seo) · [Multilingual LLM SEO](/blog/multilingual-llm-seo-strategy) · [Search agents next inflection](/blog/future-search-agents-and-seo) |
 | Google AI | [AI Overviews practical guide](/blog/google-ai-overviews-practical-guide) · [Entity SEO](/blog/entity-seo-for-ai-overviews) · [E-E-A-T](/blog/eeat-and-ai-generated-answers) |
 | Citations | [How answer engines choose sources](/blog/how-chatgpt-chooses-sources-to-cite) · [Perplexity citations](/blog/perplexity-citation-strategies) · [Competitor citation analysis](/blog/competitor-citation-analysis) |
+| Hallucination & narrative | [When AI gets your brand wrong](/blog/fix-wrong-brand-facts-ai-hallucinations) · [Brand sentiment in generated answers](/blog/brand-sentiment-generated-answers) · [Author bylines for citations](/blog/author-bylines-and-expertise-for-ai-citations) |
+| Community & media | [Forums, Reddit, LLM signals](/blog/forums-reddit-and-llm-training-signals) · [YouTube & podcasts in AI answers](/blog/youtube-podcast-ai-search-visibility) |
+| Research ops | [Prompt library workshop](/blog/prompt-library-workshop-seo-teams) · [Conversational query mapping](/blog/conversational-query-mapping-for-llm-seo) |
+| GEO / RAG / docs | [GEO readiness audit](/blog/auditing-site-for-geo-readiness) · [RAG clarity signals](/blog/content-clarity-signals-for-rag-systems) · [Help centers as LLM assets](/blog/help-center-docs-llm-seo) · [Wiki vs public content](/blog/internal-wiki-vs-public-content-llm) · [Enterprise RAG SEO](/blog/enterprise-rag-publisher-seo) |
+| B2B & ecommerce pages | [LLM SEO for B2B SaaS](/blog/llm-seo-for-b2b-saas) · [Comparison pages](/blog/comparison-pages-ai-citation) · [Pricing pages](/blog/pricing-pages-ai-summaries) · [Ecommerce beyond feeds](/blog/ecommerce-llm-seo-beyond-feeds) · [Product data feeds](/blog/product-data-feeds-and-ai-shopping) |
 | Operations | [90-day AI SEO roadmap](/blog/ai-seo-roadmap-90-days) · [Weekly cadence](/blog/weekly-ai-seo-operating-cadence) · [Measuring AI visibility](/blog/measuring-visibility-in-ai-search) |
 | Technical gates | [Technical SEO for AI discovery](/blog/technical-seo-for-ai-discovery) · [JS + AI crawlers](/blog/javascript-rendering-and-ai-crawlers) · [Structured data](/blog/structured-data-for-llm-crawlers) |
 | India B2B | [AI SEO for Indian B2B founders](/blog/ai-seo-for-indian-b2b-founders) · [AI search trust](/blog/ai-search-trust-india-founders) |
-| Checklists & ops | [AI Overview optimization checklist](/blog/ai-overview-optimization-checklist) · [Prompt research from sales calls](/blog/prompt-research-from-sales-calls) · [Measuring citations without vanity tools](/blog/measuring-ai-citations-without-vanity-tools) |
+| Checklists & ops | [AI Overview optimization checklist](/blog/ai-overview-optimization-checklist) · [Prompt research from sales calls](/blog/prompt-research-from-sales-calls) · [Measuring citations without vanity tools](/blog/measuring-ai-citations-without-vanity-tools) · [Citation-share tracker spreadsheet](/blog/ai-citation-share-tracker-spreadsheet) |
 | Entity + stack | [Brand Knowledge Panel cleanup](/blog/brand-knowledge-panel-entity-cleanup) · [AI enablement + AI SEO](/blog/ai-enablement-plus-ai-seo-same-stack) |
 
 Service path: [AI enablement](/ai-enablement). Proof: [Shubhshrey AI CRM](/case-study/shubhshrey-industries), [CollegeAstra](/case-study/collegeastra).
@@ -47,7 +52,6 @@ What changes is the **ceiling**: you are optimizing for passages and entities, n
   <img src="/images/infographics/blog/what-is-ai-seo-definition-2026-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 ## The three layers I actually ship
 
@@ -225,13 +229,20 @@ I also check whether the page is discoverable from the cluster hub and whether t
 
 Finally, keep entity facts boring and consistent: company name, founder name, locations (Pune / Baramati), and offers. Assistants and search engines punish contradiction faster than they reward clever metaphors. Update this article when the product or service changes; stale BOFU claims are worse than thin TOFU posts.
 
+Related reading in this cluster: [Local SEO When Answers Come From AI, Not Just Maps](/blog/local-seo-plus-ai-answers).
+
+For the full local SEO India checklist, use [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook).
+
+Related reading in this cluster: [Quick Commerce and AI Shopping Answers](/blog/quick-commerce-and-ai-shopping-answers).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
-- [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics)
-- [Google AI Overviews: What Actually Moves the Needle](/blog/google-ai-overviews-practical-guide)
+- [Building an AI Citation-Share Tracker (Spreadsheet Method)](/blog/ai-citation-share-tracker-spreadsheet)
+- [AI Enablement + AI SEO: Same Stack, Two Outcomes](/blog/ai-enablement-plus-ai-seo-same-stack)
+- [AI Overview Optimization Checklist](/blog/ai-overview-optimization-checklist)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

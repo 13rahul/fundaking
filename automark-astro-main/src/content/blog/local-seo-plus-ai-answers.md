@@ -33,7 +33,6 @@ Reviews that mention specific services help models associate you with intents—
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Local content
 
 One page per priority area with local projects, photos, and FAQs—feeds both classic local pack and conversational search.

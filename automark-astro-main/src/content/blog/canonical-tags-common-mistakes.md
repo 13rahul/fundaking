@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -138,14 +137,21 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 **What is the fastest win?**  
 Fix contradictory facts, improve one BOFU page tied to “Canonical Tags: Common Mistakes That Kill Rankings”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
+Related reading in this cluster: [Internal Linking Architecture for SEO](/blog/internal-linking-architecture-seo).
+
+Related reading in this cluster: [Hreflang SEO for India (English, Hindi & More)](/blog/hreflang-seo-india-multilingual).
+
+Related reading in this cluster: [XML Sitemap Best Practices (2026)](/blog/xml-sitemap-best-practices-2026).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [XML Sitemap Best Practices (2026)](/blog/xml-sitemap-best-practices-2026)
+- [Hreflang SEO for India (English, Hindi & More)](/blog/hreflang-seo-india-multilingual)
 - [HTTPS and Redirect Chains: SEO Fix Guide](/blog/https-redirect-chains-seo-fix)
+- [Internal Linking Architecture for SEO](/blog/internal-linking-architecture-seo)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

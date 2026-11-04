@@ -37,7 +37,6 @@ Usual culprits: uncompressed hero WebPs still too large, late-discovered CSS, ch
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## INP — interaction to next paint
 
 Heavy main-thread work from analytics bundles, A/B tools, and React hydration on public pages. Split marketing site from app when possible; hydrate less above the fold.
@@ -139,13 +138,22 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 *Category focus for this article: Technical SEO.*
 
+Related reading in this cluster: [How to Choose a Technical SEO Consultant](/blog/how-to-choose-technical-seo-consultant).
+
+Related reading in this cluster: [Core Web Vitals for Shopify Stores in India](/blog/core-web-vitals-shopify-india).
+
+Related reading in this cluster: [Next.js SEO: Rendering Guide for Marketing Sites](/blog/nextjs-seo-rendering-guide).
+
+Related reading in this cluster: [Website Launch SEO Checklist (India)](/blog/website-launch-seo-checklist-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Core Web Vitals for Shopify Stores in India](/blog/core-web-vitals-shopify-india)
+- [How to Choose a Technical SEO Consultant](/blog/how-to-choose-technical-seo-consultant)
 - [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)

@@ -33,7 +33,6 @@ Export 30 days, filter known AI/search bots, chart status codes and top paths, c
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Policy
 
 Decide allow/deny per bot based on business policy—document it, do not wing it per environment.
@@ -165,14 +164,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [AI Crawlers in Your Logs: What to Look For](/blog/ai-crawler-logs-user-agents) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Log File Analysis for SEO: A Practical Guide](/blog/log-file-analysis-seo-guide).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
 - [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
+- [Log File Analysis for SEO: A Practical Guide](/blog/log-file-analysis-seo-guide)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

@@ -35,7 +35,6 @@ Inaccurate → fact layer. Unfair negative → proof content + third-party valid
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Why founders should care now
 
 Neutral is not always bad; inaccurate is. I track tone in AI answers the way I track review sentiment. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.
@@ -167,8 +166,8 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [When AI Gets Your Brand Wrong: A Fix Playbook](/blog/fix-wrong-brand-facts-ai-hallucinations)
 - [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
+- [When AI Gets Your Brand Wrong: A Fix Playbook](/blog/fix-wrong-brand-facts-ai-hallucinations)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

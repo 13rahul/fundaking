@@ -40,7 +40,6 @@ Skip: automated submission blasts, keyword-stuffed titles, duplicate spawns.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Maintenance cadence
 
 Quarterly NAP audit across the active list. After any move or phone change, update GBP and site the same day, directories within a week. Remove duplicates rather than “claiming everything.”
@@ -162,14 +161,17 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “Citation Building Without Spam in India” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [NAP Consistency Across India Directories](/blog/nap-consistency-india-directories)
 - [Google Maps Ranking Factors in India (2026)](/blog/google-maps-ranking-factors-india-2026)
+- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

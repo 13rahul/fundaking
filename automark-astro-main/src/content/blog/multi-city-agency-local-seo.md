@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -140,14 +139,17 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 **What is the fastest win?**  
 Fix contradictory facts, improve one BOFU page tied to “Multi-City Agency Local SEO in India”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
+Related reading in this cluster: [NAP Consistency Across India Directories](/blog/nap-consistency-india-directories).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Multi-Location Local SEO in India](/blog/multi-location-local-seo-india)
 - [Local Landing Page Template for India](/blog/local-landing-page-template-india)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Multi-Location Local SEO in India](/blog/multi-location-local-seo-india)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

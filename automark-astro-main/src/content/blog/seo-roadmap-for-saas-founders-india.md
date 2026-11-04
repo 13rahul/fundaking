@@ -37,7 +37,6 @@ List pricing, comparison, integration, and alternative pages. Confirm each retur
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Months 3–4: BOFU depth, not blog volume
 
 Rewrite or build:
@@ -170,14 +169,23 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “SEO Roadmap for SaaS Founders in India (6 Months)” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [Monthly SEO Reporting That CEOs Actually Read](/blog/monthly-seo-reporting-that-ceos-read).
+
+Related reading in this cluster: [SEO for Funded Startups in India (Post-PMF)](/blog/seo-for-funded-startups-india).
+
+For the full technical SEO checklist, use [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026).
+
+Related reading in this cluster: [SEO for Edtech and Coaching Institutes in India](/blog/seo-for-edtech-coaching-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO KPI Dashboard for Founders (Not Vanity Ranks)](/blog/seo-kpi-dashboard-for-founders)
 - [Content Cluster Strategy for B2B in India](/blog/content-cluster-strategy-b2b-india)
+- [Monthly SEO Reporting That CEOs Actually Read](/blog/monthly-seo-reporting-that-ceos-read)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 

@@ -42,7 +42,6 @@ Pick **five** prompts only — the ones sales actually hears. Expand after those
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Sources of truth (and what to ignore)
 
 | Source | Use for | Ignore for |
@@ -191,13 +190,18 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “Measuring AI Citations Without Vanity Tools” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days).
+
+Related reading in this cluster: [How to Measure Visibility in AI Search](/blog/measuring-visibility-in-ai-search).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [How to Measure Visibility in AI Search](/blog/measuring-visibility-in-ai-search)
+- [Building an AI Citation-Share Tracker (Spreadsheet Method)](/blog/ai-citation-share-tracker-spreadsheet)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
 - [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)

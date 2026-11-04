@@ -68,7 +68,6 @@ These are patterns from client work — not rules about every company on a road.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Should your money page say “SEO consultant in Pune”?
 
 For **Type B** companies buying consulting, yes — on hiring-intent pages and founder-facing content. It matches how you search for vendors.
@@ -154,14 +153,19 @@ Track **branded search lift**, **assisted conversions** from blog landing pages,
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
 
+Related reading in this cluster: [Local Landing Page Template for India](/blog/local-landing-page-template-india).
+
+Related reading in this cluster: [Local SEO for Real Estate in Pune](/blog/local-seo-for-real-estate-pune).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local Landing Page Template for India](/blog/local-landing-page-template-india)
+- [Local SEO for Real Estate in Pune](/blog/local-seo-for-real-estate-pune)
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Multi-Location Local SEO in India](/blog/multi-location-local-seo-india)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -138,14 +137,25 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 **What is the fastest win?**  
 Fix contradictory facts, improve one BOFU page tied to “SEO for D2C Brands in India (Shopify & Beyond)”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
+Related reading in this cluster: [Organic SEO vs Paid Ads](/blog/organic-seo-vs-paid).
+
+Related reading in this cluster: [SEO for B2B Manufacturing Companies in India](/blog/seo-for-b2b-manufacturing-india).
+
+Related reading in this cluster: [SEO for Funded Startups in India (Post-PMF)](/blog/seo-for-funded-startups-india).
+
+Related reading in this cluster: [Shopify Technical SEO Checklist](/blog/shopify-technical-seo-checklist).
+
+Related reading in this cluster: [Quick Commerce SEO & Visibility Playbook (India)](/blog/quick-commerce-seo-visibility-playbook-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [Shopify Technical SEO Checklist](/blog/shopify-technical-seo-checklist)
+- [Blinkit, Zepto & Instamart Listing Keywords](/blog/blinkit-zepto-instamart-listing-keywords)
 - [Core Web Vitals for Shopify Stores in India](/blog/core-web-vitals-shopify-india)
+- [Organic SEO vs Paid Ads](/blog/organic-seo-vs-paid)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 

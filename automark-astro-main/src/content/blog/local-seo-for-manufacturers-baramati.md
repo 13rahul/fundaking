@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -146,8 +145,9 @@ Fix contradictory facts, improve one BOFU page tied to “Local SEO for Manufact
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [SEO for B2B Manufacturing Companies in India](/blog/seo-for-b2b-manufacturing-india)
 - [Baramati SEO Consultant Guide for Local Businesses](/blog/baramati-seo-consultant-guide)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [SEO for B2B Manufacturing Companies in India](/blog/seo-for-b2b-manufacturing-india)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

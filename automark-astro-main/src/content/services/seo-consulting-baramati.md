@@ -73,6 +73,19 @@ local:
 case_studies:
   - "shubhshrey-industries"
   - "fintech-organic-growth"
+related:
+  - title: "SEO consultant in Pune — founder’s guide"
+    description: "Hub guide for hiring and scoping SEO consulting."
+    href: "/blog/seo-consultant-in-pune-founders-guide-2026"
+  - title: "Baramati SEO consultant guide"
+    description: "How local manufacturers and service firms should buy SEO."
+    href: "/blog/baramati-seo-consultant-guide"
+  - title: "Baramati vs Pune SEO consultant"
+    description: "When local presence matters vs national category SEO."
+    href: "/blog/seo-consultant-baramati-vs-pune"
+  - title: "SEO for B2B manufacturing India"
+    description: "Organic demand for capability and product pages."
+    href: "/blog/seo-for-b2b-manufacturing-india"
 faqs:
   - question: "Is SEO useful for a small business in Baramati?"
     answer: "Yes. Most customers now check Google before calling or visiting. Even a small business benefits from showing up for its main products and services."

@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -138,6 +137,8 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 **What is the fastest win?**  
 Fix contradictory facts, improve one BOFU page tied to “XML Sitemap Best Practices (2026)”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
+Related reading in this cluster: [Website Launch SEO Checklist (India)](/blog/website-launch-seo-checklist-india).
+
 
 <!-- fk-cluster-links -->
 
@@ -145,6 +146,7 @@ Fix contradictory facts, improve one BOFU page tied to “XML Sitemap Best Pract
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
 - [Canonical Tags: Common Mistakes That Kill Rankings](/blog/canonical-tags-common-mistakes)
+- [Crawl Budget and robots.txt for Large Indian Catalogues](/blog/crawl-budget-robots-txt-india-catalogs)
 - [Site Migration SEO Checklist](/blog/site-migration-seo-checklist)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)

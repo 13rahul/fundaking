@@ -49,7 +49,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -165,8 +164,9 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Perplexity and Answer Engines: How I Earn Citations](/blog/perplexity-citation-strategies)
+- [Brand Mentions vs Backlinks in the LLM Era](/blog/brand-mentions-vs-backlinks-in-llm-era)
 - [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
+- [Perplexity and Answer Engines: How I Earn Citations](/blog/perplexity-citation-strategies)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

@@ -71,6 +71,16 @@ local:
 case_studies:
   - "collegeastra"
   - "shubhshrey-industries"
+related:
+  - title: "What is AI SEO? (2026 definition)"
+    description: "Hub for AI / answer-engine SEO."
+    href: "/blog/what-is-ai-seo-definition-2026"
+  - title: "AI enablement + AI SEO same stack"
+    description: "Ops automation and public AI visibility together."
+    href: "/blog/ai-enablement-plus-ai-seo-same-stack"
+  - title: "AI SEO for Indian B2B founders"
+    description: "Practical AI search work for India B2B teams."
+    href: "/blog/ai-seo-for-indian-b2b-founders"
 faqs:
   - question: "Is AI expensive for a small Baramati business?"
     answer: "No. Many useful automations run on low monthly API costs. We start with one task so you see value before spending more."

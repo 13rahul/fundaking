@@ -49,7 +49,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -158,6 +157,8 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Enterprise Publishers and RAG-Scale SEO](/blog/enterprise-rag-publisher-seo).
+
 
 <!-- fk-cluster-links -->
 
@@ -165,6 +166,7 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [Auditing Your Site for GEO Readiness](/blog/auditing-site-for-geo-readiness)
+- [Enterprise Publishers and RAG-Scale SEO](/blog/enterprise-rag-publisher-seo)
 - [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)

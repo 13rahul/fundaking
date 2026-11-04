@@ -33,7 +33,6 @@ Ship or refresh 4–6 pages: two comparisons, one pricing clarity pass, one impl
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Days 61–90: Measure and iterate
 
 Re-run prompt library, track citation share, double down on winning formats, prune pages that confuse entities.
@@ -166,14 +165,25 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [AI Enablement + AI SEO: Same Stack, Two Outcomes](/blog/ai-enablement-plus-ai-seo-same-stack).
+
+Related reading in this cluster: [AI SEO for Indian B2B Founders](/blog/ai-seo-for-indian-b2b-founders).
+
+Related reading in this cluster: [Measuring AI Citations Without Vanity Tools](/blog/measuring-ai-citations-without-vanity-tools).
+
+Related reading in this cluster: [Prompt Research from Sales Calls (AI SEO)](/blog/prompt-research-from-sales-calls).
+
+For the full technical SEO checklist, use [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [My Weekly AI SEO Operating Cadence](/blog/weekly-ai-seo-operating-cadence)
-- [How to Measure Visibility in AI Search](/blog/measuring-visibility-in-ai-search)
+- [Building an AI Citation-Share Tracker (Spreadsheet Method)](/blog/ai-citation-share-tracker-spreadsheet)
+- [AI Enablement + AI SEO: Same Stack, Two Outcomes](/blog/ai-enablement-plus-ai-seo-same-stack)
+- [AI SEO for Indian B2B Founders](/blog/ai-seo-for-indian-b2b-founders)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

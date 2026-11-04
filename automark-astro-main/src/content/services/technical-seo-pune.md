@@ -73,9 +73,18 @@ case_studies:
   - "fintech-organic-growth"
   - "collegeastra"
 related:
+  - title: "Technical SEO audit checklist (2026)"
+    description: "Crawl, index, CWV, JS, schema, migrations — the hub."
+    href: "/blog/technical-seo-audit-checklist-2026"
   - title: "Technical SEO for AI discovery"
     description: "How AI crawlers read your site, and what to fix first."
     href: "/blog/technical-seo-for-ai-discovery"
+  - title: "Core Web Vitals for Indian SaaS"
+    description: "Speed work that moves rankings and demo conversion."
+    href: "/blog/core-web-vitals-indian-saas"
+  - title: "Site migration SEO checklist"
+    description: "URL maps and 301s when Pune teams relaunch."
+    href: "/blog/site-migration-seo-checklist"
 faqs:
   - question: "Do you work with our in-house Pune developers?"
     answer: "Yes. We write tickets for your team and can run pairing sessions online or at your Pune office."

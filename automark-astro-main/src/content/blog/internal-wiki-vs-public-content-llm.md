@@ -33,7 +33,6 @@ Margins, roadmap debates, draft positioning—leaking them hurts trust if indexe
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Sync process
 
 When internal wiki updates, ticket a public doc update within 48 hours for customer-visible changes.
@@ -171,8 +170,8 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo)
 - [Enterprise Publishers and RAG-Scale SEO](/blog/enterprise-rag-publisher-seo)
+- [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

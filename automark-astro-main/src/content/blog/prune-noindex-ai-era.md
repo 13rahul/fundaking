@@ -33,7 +33,6 @@ If it does not serve a human or a citation-worthy fact, merge or noindex. Redire
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## After prune
 
 Re-test top prompts—wrong competitor citations sometimes drop when noise leaves the index.
@@ -165,14 +164,19 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Pruning and Noindex in the AI Era](/blog/prune-noindex-ai-era) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Index Bloat Cleanup Playbook](/blog/index-bloat-cleanup-playbook).
+
+Related reading in this cluster: [WordPress Technical SEO Hardening](/blog/wordpress-technical-seo-hardening).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Index Bloat Cleanup Playbook](/blog/index-bloat-cleanup-playbook)
 - [Site Migration SEO Checklist](/blog/site-migration-seo-checklist)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

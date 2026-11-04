@@ -41,7 +41,6 @@ Firing an SEO agency is a business decision, not a tantrum about rankings. Use t
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## The 30-day exit / transition plan
 
 **Week 1:** Export all logins, GSC, analytics, content inventory, backlink exports.  
@@ -168,14 +167,17 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “When to Fire Your SEO Agency (And What to Do Next)” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
 - [In-House SEO vs Consultant vs Agency: Decision Matrix](/blog/in-house-seo-vs-consultant-vs-agency)
+- [Link Building in India 2026 Without Penalties](/blog/link-building-india-2026-without-penalties)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 

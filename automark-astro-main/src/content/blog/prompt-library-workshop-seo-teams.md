@@ -33,7 +33,6 @@ Spreadsheet: prompt, owner, target URL, citation baseline, refresh cadence.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Anti-patterns
 
 Do not let the team invent fantasy prompts—ground in tickets and calls.
@@ -165,14 +164,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Prompt Research from Sales Calls (AI SEO)](/blog/prompt-research-from-sales-calls).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [My Weekly AI SEO Operating Cadence](/blog/weekly-ai-seo-operating-cadence)
 - [Conversational Query Mapping for LLM SEO](/blog/conversational-query-mapping-for-llm-seo)
+- [Prompt Research from Sales Calls (AI SEO)](/blog/prompt-research-from-sales-calls)
+- [My Weekly AI SEO Operating Cadence](/blog/weekly-ai-seo-operating-cadence)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

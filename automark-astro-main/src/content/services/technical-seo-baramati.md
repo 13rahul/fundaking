@@ -73,6 +73,16 @@ local:
 case_studies:
   - "shubhshrey-industries"
   - "fintech-organic-growth"
+related:
+  - title: "Technical SEO audit checklist (2026)"
+    description: "Crawl, index, speed, schema — the technical hub."
+    href: "/blog/technical-seo-audit-checklist-2026"
+  - title: "WordPress technical SEO hardening"
+    description: "Common stack for Baramati business sites."
+    href: "/blog/wordpress-technical-seo-hardening"
+  - title: "Site migration SEO checklist"
+    description: "Protect rankings when you rebuild."
+    href: "/blog/site-migration-seo-checklist"
 faqs:
   - question: "Why is my Baramati business website not showing on Google?"
     answer: "Common causes are pages blocked from indexing, missing Search Console setup, very slow pages, or thin content. A technical audit finds the exact reason."

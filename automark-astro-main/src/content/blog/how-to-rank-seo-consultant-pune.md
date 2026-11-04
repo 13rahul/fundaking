@@ -57,7 +57,6 @@ If NAP (name, address, phone) drifts between footer, contact, and GBP, you leak 
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Step 3: Content that earns citations (including AI)
 
 Ranking for SEO consultant Pune in 2026 is partly classic SEO, partly **GEO**: when someone asks ChatGPT or Perplexity “who is a good SEO consultant in Pune,” the model pulls from pages with clear definitions, lists, and third-party mentions.
@@ -184,11 +183,14 @@ Track **branded search lift**, **assisted conversions** from blog landing pages,
 
 If you want help prioritizing, [contact Fundaking](/contact) for a free strategy call — I will tell you if this topic needs a consultant, better execution in-house, or both.
 
+For the full local SEO India checklist, use [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
 - [What Does an SEO Consultant Do?](/blog/what-does-an-seo-consultant-do)

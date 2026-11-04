@@ -14,7 +14,6 @@ categories: ["AI / Answer Engine SEO"]
 tags: ["prompts","research","sales"]
 draft: false
 ---
-
 Sales calls are the highest-signal “keyword research” most Indian SaaS and service teams ignore. Prospects already tell you the comparisons, objections, and phrasing they type into Google or paste into ChatGPT. This guide shows how I turn call notes into a prompt/query library that feeds AI SEO and classic content — without buying another research tool.
 
 ## The sales-call capture system
@@ -47,7 +46,6 @@ Every phrase must map to **one primary URL**. If three blogs fight the same obje
   <img src="/images/infographics/blog/prompt-research-from-sales-calls-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 ## Building the prompt library for AI surfaces
 
@@ -213,14 +211,17 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “Prompt Research from Sales Calls (AI SEO)” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
 - [Conversational Query Mapping for LLM SEO](/blog/conversational-query-mapping-for-llm-seo)
+- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

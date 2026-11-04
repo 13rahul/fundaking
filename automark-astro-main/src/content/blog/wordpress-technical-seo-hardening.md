@@ -37,7 +37,6 @@ List every plugin; remove abandoned ones. Page builders that ship empty HTML she
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Performance and hosting
 
 - Object/page cache appropriate to host (not three conflicting caches)  
@@ -168,6 +167,8 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “WordPress Technical SEO Hardening” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Start with [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026) for the cluster context on this topic.
+
 
 <!-- fk-cluster-links -->
 
@@ -176,6 +177,7 @@ When crawl/index on revenue templates is broken, or when ops cannot handle leads
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
 - [Index Bloat Cleanup Playbook](/blog/index-bloat-cleanup-playbook)
 - [Pruning and Noindex in the AI Era](/blog/prune-noindex-ai-era)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

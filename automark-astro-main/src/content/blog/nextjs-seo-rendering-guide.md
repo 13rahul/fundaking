@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -138,14 +137,17 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 **What is the fastest win?**  
 Fix contradictory facts, improve one BOFU page tied to “Next.js SEO: Rendering Guide for Marketing Sites”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
+Related reading in this cluster: [SEO-Ready Website Builds for Indian B2B](/blog/seo-ready-website-builds-indian-b2b).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
 - [Core Web Vitals for Indian SaaS Sites](/blog/core-web-vitals-indian-saas)
+- [CRM and Portal SEO Implications](/blog/crm-portal-seo-implications)
+- [JavaScript Rendering and AI Crawlers](/blog/javascript-rendering-and-ai-crawlers)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

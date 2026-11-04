@@ -42,7 +42,7 @@ function relatedBlock(slug) {
     if (!post.isHub && pillar?.hub) {
       lines.push(`- [${titleFor(pillar.hub)}](/blog/${pillar.hub})`);
     }
-    for (const sib of (post.siblings || []).slice(0, 2)) {
+    for (const sib of (post.siblings || []).slice(0, 3)) {
       if (sib === slug) continue;
       lines.push(`- [${titleFor(sib)}](/blog/${sib})`);
     }

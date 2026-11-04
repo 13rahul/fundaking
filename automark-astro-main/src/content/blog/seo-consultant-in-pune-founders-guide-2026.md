@@ -38,6 +38,8 @@ This guide is not a listicle of names. It is how to **evaluate** anyone who clai
 | Hiring decisions | [When to fire your agency](/blog/when-to-fire-your-seo-agency) · [RFP template](/blog/seo-rfp-template-india) · [In-house vs consultant vs agency](/blog/in-house-seo-vs-consultant-vs-agency) |
 | Startups / Baramati | [Funded startups SEO](/blog/seo-for-funded-startups-india) · [Baramati guide](/blog/baramati-seo-consultant-guide) |
 | Reporting | [Monthly SEO reporting CEOs read](/blog/monthly-seo-reporting-that-ceos-read) |
+| Edtech / coaching | [SEO for edtech and coaching institutes](/blog/seo-for-edtech-coaching-india) |
+| Off-page risk | [Link building India 2026 without penalties](/blog/link-building-india-2026-without-penalties) |
 
 Money pages for buyers: [SEO consulting services](/seo-consulting-services), [SEO consulting in Pune](/seo-consulting-pune), [hire SEO consultant Pune](/hire-seo-consultant-pune).
 
@@ -59,7 +61,6 @@ When founders ask me, “Can you rank for *SEO consultant in Pune*?” I answer 
   <img src="/images/infographics/blog/seo-consultant-in-pune-founders-guide-2026-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 ## What an SEO consultant in Pune should actually do
 
@@ -168,13 +169,22 @@ Proof lives in [case studies](/case-study/) such as [SaaS demo requests](/case-s
 
 **What budget band is realistic?** Read [SEO consulting pricing in India](/blog/seo-consulting-pricing-india) — senior independent rates beat cheap retainers that never touch engineering.
 
+Related reading in this cluster: [Local SEO vs National SEO: How to Decide](/blog/local-seo-vs-national-seo-decision).
+
+For the full technical SEO checklist, use [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026).
+
+Related reading in this cluster: [Link Building in India 2026 Without Penalties](/blog/link-building-india-2026-without-penalties).
+
+Related reading in this cluster: [SEO for Edtech and Coaching Institutes in India](/blog/seo-for-edtech-coaching-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
-- [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
-- [How to Rank for \"SEO Consultant in Pune\" (What Actually Moves the Needle)](/blog/how-to-rank-seo-consultant-pune)
+- [Baramati SEO Consultant Guide for Local Businesses](/blog/baramati-seo-consultant-guide)
+- [Content Cluster Strategy for B2B in India](/blog/content-cluster-strategy-b2b-india)
+- [How to Choose a Technical SEO Consultant](/blog/how-to-choose-technical-seo-consultant)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 

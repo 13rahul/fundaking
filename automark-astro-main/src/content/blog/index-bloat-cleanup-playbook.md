@@ -50,7 +50,6 @@ Document every rule in a Sheet: pattern, action, owner, date.
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## 21-day cleanup programme
 
 Week 1: Segment + sample. Week 2: Ship rules on staging; validate. Week 3: Production + monitor coverage/impressions on money URLs daily.
@@ -170,14 +169,19 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “Index Bloat Cleanup Playbook” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [Log File Analysis for SEO: A Practical Guide](/blog/log-file-analysis-seo-guide).
+
+Related reading in this cluster: [WordPress Technical SEO Hardening](/blog/wordpress-technical-seo-hardening).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Pruning and Noindex in the AI Era](/blog/prune-noindex-ai-era)
+- [Crawl Budget and robots.txt for Large Indian Catalogues](/blog/crawl-budget-robots-txt-india-catalogs)
 - [Faceted Navigation SEO for Ecommerce](/blog/faceted-navigation-seo-ecommerce)
+- [Log File Analysis for SEO: A Practical Guide](/blog/log-file-analysis-seo-guide)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

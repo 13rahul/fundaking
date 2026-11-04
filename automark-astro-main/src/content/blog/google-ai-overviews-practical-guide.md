@@ -58,7 +58,6 @@ If it fully satisfies the intent, I stop chasing “position 1 fantasies” and 
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Page patterns I see cited
 
 **Definitions in the first 120 words** with the product or category name stated plainly — not a metaphor opening.
@@ -147,13 +146,16 @@ Ask for the five-query sheet, screenshots, and pipeline impact. Ranking PDFs alo
 **Is this relevant outside Pune?**  
 Yes. Fundaking operates from Pune / Baramati and works remote across India. Local tactics apply when Maps intent is real.
 
+Related reading in this cluster: [Zero-Click AI Search: Strategy When Clicks Drop](/blog/ai-search-zero-click-strategy).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
+- [AI Overview Optimization Checklist](/blog/ai-overview-optimization-checklist)
+- [Zero-Click AI Search: Strategy When Clicks Drop](/blog/ai-search-zero-click-strategy)
 - [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)

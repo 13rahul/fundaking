@@ -46,7 +46,6 @@ Everything else (DA, average position across thousands of keywords) is optional 
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Agency reporting that fails the founder test
 
 If the deck leads with “keywords in top 10” and buries demos on slide 18, the operating system is wrong. Replace it with the [monthly SEO reporting CEOs read](/blog/monthly-seo-reporting-that-ceos-read) format.
@@ -171,6 +170,12 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “SEO KPI Dashboard for Founders (Not Vanity Ranks)” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [SEO Advisory vs Project: What the First 90 Days Should Deliver](/blog/seo-advisory-vs-project-first-90-days).
+
+Related reading in this cluster: [SEO for Funded Startups in India (Post-PMF)](/blog/seo-for-funded-startups-india).
+
+Related reading in this cluster: [SEO Roadmap for SaaS Founders in India (6 Months)](/blog/seo-roadmap-for-saas-founders-india).
+
 
 <!-- fk-cluster-links -->
 
@@ -178,7 +183,8 @@ When crawl/index on revenue templates is broken, or when ops cannot handle leads
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [Monthly SEO Reporting That CEOs Actually Read](/blog/monthly-seo-reporting-that-ceos-read)
-- [SEO Roadmap for SaaS Founders in India (6 Months)](/blog/seo-roadmap-for-saas-founders-india)
+- [SEO Advisory vs Project: What the First 90 Days Should Deliver](/blog/seo-advisory-vs-project-first-90-days)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 

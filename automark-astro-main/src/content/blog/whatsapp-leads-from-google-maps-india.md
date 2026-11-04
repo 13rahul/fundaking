@@ -37,7 +37,6 @@ Buyers message after hours. Sales already lives in WhatsApp. Your job is to make
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## On-site and landing-page pattern
 
 City/service pages should show: click-to-call, WhatsApp deep link with pre-filled text, and one short form. Do not hide WhatsApp in the footer only. Example structure in [local landing page template](/blog/local-landing-page-template-india).
@@ -163,14 +162,21 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “WhatsApp Leads from Google Maps in India” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [Google Business Profile Posts Strategy](/blog/google-business-profile-posts-strategy).
+
+Related reading in this cluster: [Local SEO for Clinics in India](/blog/local-seo-for-clinics-india).
+
+Related reading in this cluster: [Google Review Generation System for India Businesses](/blog/google-review-generation-system-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [GBP Q&A and Messaging That Converts](/blog/gbp-qa-messaging-that-converts)
 - [Google Business Profile Optimization for India](/blog/google-business-profile-optimization-india)
-- [Local SEO for Clinics in India](/blog/local-seo-for-clinics-india)
+- [Google Business Profile Posts Strategy](/blog/google-business-profile-posts-strategy)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

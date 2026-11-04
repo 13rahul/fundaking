@@ -39,7 +39,6 @@ Most healthy teams run both. I help reduce ad dependency without flipping paid o
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Why founders should care now
 
 Organic SEO consultant work compounds; paid ads buy speed. How to balance both without starving growth. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.
@@ -161,14 +160,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Organic SEO vs Paid Ads](/blog/organic-seo-vs-paid) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [SEO for D2C Brands in India (Shopify & Beyond)](/blog/seo-for-d2c-brands-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [What Does an SEO Consultant Do?](/blog/what-does-an-seo-consultant-do)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
+- [SEO for D2C Brands in India (Shopify & Beyond)](/blog/seo-for-d2c-brands-india)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 

@@ -39,7 +39,6 @@ Pricing context: [SEO consulting pricing in India](/blog/seo-consulting-pricing-
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## First 90 days — non-negotiable outcomes
 
 | Phase | Outcome |
@@ -139,13 +138,20 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 *Category focus for this article: SEO Consulting.*
 
+Related reading in this cluster: [In-House SEO vs Consultant vs Agency: Decision Matrix](/blog/in-house-seo-vs-consultant-vs-agency).
+
+Related reading in this cluster: [Monthly SEO Reporting That CEOs Actually Read](/blog/monthly-seo-reporting-that-ceos-read).
+
+Related reading in this cluster: [SEO KPI Dashboard for Founders (Not Vanity Ranks)](/blog/seo-kpi-dashboard-for-founders).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO Consulting Pricing in India (2026)](/blog/seo-consulting-pricing-india)
+- [In-House SEO vs Consultant vs Agency: Decision Matrix](/blog/in-house-seo-vs-consultant-vs-agency)
+- [Monthly SEO Reporting That CEOs Actually Read](/blog/monthly-seo-reporting-that-ceos-read)
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)

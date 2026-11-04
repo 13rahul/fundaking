@@ -33,7 +33,6 @@ Offer or Product schema with priceCurrency and description matching visible numb
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## FAQ under pricing
 
 ‘Do you charge per seat?’ ‘Is there a free trial?’—exact Q&A blocks reduce support burden and give models clean chunks.
@@ -165,6 +164,8 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Pricing Pages That Survive AI Summaries](/blog/pricing-pages-ai-summaries) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Ecommerce LLM SEO Beyond Product Feeds](/blog/ecommerce-llm-seo-beyond-feeds).
+
 
 <!-- fk-cluster-links -->
 
@@ -172,6 +173,7 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [Comparison Pages Models Love to Quote](/blog/comparison-pages-ai-citation)
+- [Ecommerce LLM SEO Beyond Product Feeds](/blog/ecommerce-llm-seo-beyond-feeds)
 - [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)

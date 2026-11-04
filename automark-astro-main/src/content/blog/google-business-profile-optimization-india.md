@@ -33,7 +33,6 @@ Spell the city and PIN the same way as your site footer and invoices. Dual-langu
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Photos and posts
 
 Weekly posts beat abandoned profiles. Show real premises, team, and delivery proof. Geotagged spam photos are not a strategy.
@@ -133,14 +132,27 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 *Category focus for this article: Local SEO.*
 
+Related reading in this cluster: [Google Business Profile Posts Strategy](/blog/google-business-profile-posts-strategy).
+
+Related reading in this cluster: [Google Maps Ranking Factors in India (2026)](/blog/google-maps-ranking-factors-india-2026).
+
+Related reading in this cluster: [NAP Consistency Across India Directories](/blog/nap-consistency-india-directories).
+
+Related reading in this cluster: [Service-Area Business SEO in India](/blog/service-area-business-seo-india).
+
+Related reading in this cluster: [WhatsApp Leads from Google Maps in India](/blog/whatsapp-leads-from-google-maps-india).
+
+Related reading in this cluster: [Google Review Generation System for India Businesses](/blog/google-review-generation-system-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
+- [GBP Q&A and Messaging That Converts](/blog/gbp-qa-messaging-that-converts)
+- [Google Business Profile Posts Strategy](/blog/google-business-profile-posts-strategy)
+- [Google Maps Ranking Factors in India (2026)](/blog/google-maps-ranking-factors-india-2026)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -138,14 +137,21 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 **What is the fastest win?**  
 Fix contradictory facts, improve one BOFU page tied to “SEO for Funded Startups in India (Post-PMF)”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
+Related reading in this cluster: [SEO for D2C Brands in India (Shopify & Beyond)](/blog/seo-for-d2c-brands-india).
+
+Related reading in this cluster: [SEO Roadmap for SaaS Founders in India (6 Months)](/blog/seo-roadmap-for-saas-founders-india).
+
+Related reading in this cluster: [SEO KPI Dashboard for Founders (Not Vanity Ranks)](/blog/seo-kpi-dashboard-for-founders).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
-- [SEO Roadmap for SaaS Founders in India (6 Months)](/blog/seo-roadmap-for-saas-founders-india)
-- [SEO KPI Dashboard for Founders (Not Vanity Ranks)](/blog/seo-kpi-dashboard-for-founders)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO for D2C Brands in India (Shopify & Beyond)](/blog/seo-for-d2c-brands-india)
+- [SEO for Edtech and Coaching Institutes in India](/blog/seo-for-edtech-coaching-india)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 

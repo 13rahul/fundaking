@@ -33,7 +33,6 @@ Repeat canonical product name, spell founder name consistently, mention city/mar
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Clip strategy
 
 Short clips are fine for social; long-form transcript is what models train and retrieve on.
@@ -171,8 +170,8 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Forums, Reddit, and LLM Training Signals](/blog/forums-reddit-and-llm-training-signals)
 - [Brand Mentions vs Backlinks in the LLM Era](/blog/brand-mentions-vs-backlinks-in-llm-era)
+- [Forums, Reddit, and LLM Training Signals](/blog/forums-reddit-and-llm-training-signals)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

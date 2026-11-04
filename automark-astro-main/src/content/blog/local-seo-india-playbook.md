@@ -33,6 +33,8 @@ Local SEO in India is not “add city name to title tags.” It is **Maps visibi
 - [Local vs national SEO](/blog/local-seo-vs-national-seo-decision)
 - [Multi-city agency local SEO](/blog/multi-city-agency-local-seo)
 - [WhatsApp leads from Google Maps](/blog/whatsapp-leads-from-google-maps-india)
+- [Google review generation system India](/blog/google-review-generation-system-india)
+- [GBP Q&A and messaging that converts](/blog/gbp-qa-messaging-that-converts)
 
 Services: [Local SEO consultant](/local-seo-consultant) · [Local SEO Pune](/local-seo-pune) · [Local SEO Baramati](/local-seo-baramati).
 
@@ -52,7 +54,6 @@ SaaS selling pan-India demos often needs **less** Maps and more category SEO —
   <img src="/images/infographics/blog/local-seo-india-playbook-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
-
 
 ## Layer 1 — Google Business Profile (GBP)
 
@@ -200,13 +201,20 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 *Category focus for this article: Local SEO.*
 
+Related reading in this cluster: [Baramati SEO Consultant Guide for Local Businesses](/blog/baramati-seo-consultant-guide).
+
+Related reading in this cluster: [Organization & LocalBusiness Schema for India](/blog/structured-data-organization-localbusiness-india).
+
+Related reading in this cluster: [Google Review Generation System for India Businesses](/blog/google-review-generation-system-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
-- [Local SEO Consultant Checklist](/blog/local-seo-consultant-checklist)
-- [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search)
+- [Baramati SEO Consultant Guide for Local Businesses](/blog/baramati-seo-consultant-guide)
+- [Citation Building Without Spam in India](/blog/citation-building-without-spam-india)
+- [GBP Q&A and Messaging That Converts](/blog/gbp-qa-messaging-that-converts)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

@@ -27,6 +27,8 @@ const PILLAR_ACCENT = {
   "Technical SEO": "#6B8CFF",
   "Local SEO": "#5EC8C0",
   "AI / Answer Engine SEO": "#C4A0FF",
+  "Quick Commerce": "#E8A838",
+  "Web Development": "#5B9BD5",
   Marketing: "#937AFF",
   Sales: "#937AFF",
   Technology: "#6B8CFF",

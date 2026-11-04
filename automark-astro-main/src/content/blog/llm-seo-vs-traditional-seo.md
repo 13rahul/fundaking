@@ -51,7 +51,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -160,14 +159,19 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [LLM SEO vs Traditional SEO: Same Goal, Different Surfaces](/blog/llm-seo-vs-traditional-seo) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Multilingual LLM SEO Strategy](/blog/multilingual-llm-seo-strategy).
+
+For the full technical SEO checklist, use [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [GEO Basics: Generative Engine Optimization Without the Hype](/blog/geo-generative-engine-optimization-basics)
+- [Multilingual LLM SEO Strategy](/blog/multilingual-llm-seo-strategy)
+- [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

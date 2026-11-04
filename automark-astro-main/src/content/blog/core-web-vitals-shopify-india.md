@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -140,14 +139,17 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 **What is the fastest win?**  
 Fix contradictory facts, improve one BOFU page tied to “Core Web Vitals for Shopify Stores in India”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
+Related reading in this cluster: [SEO for D2C Brands in India (Shopify & Beyond)](/blog/seo-for-d2c-brands-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Shopify Technical SEO Checklist](/blog/shopify-technical-seo-checklist)
 - [Core Web Vitals for Indian SaaS Sites](/blog/core-web-vitals-indian-saas)
+- [SEO for D2C Brands in India (Shopify & Beyond)](/blog/seo-for-d2c-brands-india)
+- [Shopify Technical SEO Checklist](/blog/shopify-technical-seo-checklist)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

@@ -37,7 +37,6 @@ Public docs with stable anchors beat blog fluff for ‘how to configure…’ pr
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Measure beyond MQLs
 
 Branded search lift, direct traffic, and ‘heard about you from ChatGPT’ fields on demo forms—messy but directional.
@@ -170,14 +169,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Conversational Query Mapping for LLM SEO](/blog/conversational-query-mapping-for-llm-seo).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo)
 - [Comparison Pages Models Love to Quote](/blog/comparison-pages-ai-citation)
+- [Conversational Query Mapping for LLM SEO](/blog/conversational-query-mapping-for-llm-seo)
+- [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

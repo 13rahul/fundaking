@@ -49,7 +49,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -158,14 +157,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Structured Data That Helps LLM Crawlers](/blog/structured-data-for-llm-crawlers) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Organization & LocalBusiness Schema for India](/blog/structured-data-organization-localbusiness-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Technical SEO Still Gates AI Discovery](/blog/technical-seo-for-ai-discovery)
 - [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
+- [Organization & LocalBusiness Schema for India](/blog/structured-data-organization-localbusiness-india)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

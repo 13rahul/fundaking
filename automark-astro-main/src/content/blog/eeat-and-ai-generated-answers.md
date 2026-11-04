@@ -49,7 +49,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -158,6 +157,12 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Google AI Overviews: What Actually Moves the Needle](/blog/google-ai-overviews-practical-guide).
+
+Related reading in this cluster: [Brand Knowledge Panel & Entity Cleanup](/blog/brand-knowledge-panel-entity-cleanup).
+
+Related reading in this cluster: [Brand Sentiment When Answers Are Generated](/blog/brand-sentiment-generated-answers).
+
 
 <!-- fk-cluster-links -->
 
@@ -165,7 +170,8 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [Author Bylines and Expertise for AI Citations](/blog/author-bylines-and-expertise-for-ai-citations)
-- [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
+- [Brand Knowledge Panel & Entity Cleanup](/blog/brand-knowledge-panel-entity-cleanup)
+- [Brand Sentiment When Answers Are Generated](/blog/brand-sentiment-generated-answers)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

@@ -49,7 +49,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -158,13 +157,22 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Structured Data That Helps LLM Crawlers](/blog/structured-data-for-llm-crawlers).
+
+Related reading in this cluster: [AI Overview Optimization Checklist](/blog/ai-overview-optimization-checklist).
+
+Related reading in this cluster: [Brand Knowledge Panel & Entity Cleanup](/blog/brand-knowledge-panel-entity-cleanup).
+
+Related reading in this cluster: [When AI Gets Your Brand Wrong: A Fix Playbook](/blog/fix-wrong-brand-facts-ai-hallucinations).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Google AI Overviews: What Actually Moves the Needle](/blog/google-ai-overviews-practical-guide)
+- [AI Overview Optimization Checklist](/blog/ai-overview-optimization-checklist)
+- [Brand Knowledge Panel & Entity Cleanup](/blog/brand-knowledge-panel-entity-cleanup)
 - [E-E-A-T When Answers Are Generated for You](/blog/eeat-and-ai-generated-answers)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)

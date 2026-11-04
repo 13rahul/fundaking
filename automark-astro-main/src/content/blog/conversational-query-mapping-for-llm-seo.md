@@ -47,7 +47,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -156,14 +155,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Conversational Query Mapping for LLM SEO](/blog/conversational-query-mapping-for-llm-seo) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Prompt Research from Sales Calls (AI SEO)](/blog/prompt-research-from-sales-calls).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
 - [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
+- [Running a Prompt Library Workshop with Your SEO Team](/blog/prompt-library-workshop-seo-teams)
+- [Prompt Research from Sales Calls (AI SEO)](/blog/prompt-research-from-sales-calls)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

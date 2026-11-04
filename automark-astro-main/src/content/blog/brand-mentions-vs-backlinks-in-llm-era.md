@@ -48,7 +48,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -157,6 +156,12 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Brand Mentions vs Backlinks in the LLM Era](/blog/brand-mentions-vs-backlinks-in-llm-era) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite).
+
+Related reading in this cluster: [YouTube, Podcasts, and Showing Up in AI Answers](/blog/youtube-podcast-ai-search-visibility).
+
+Related reading in this cluster: [Link Building in India 2026 Without Penalties](/blog/link-building-india-2026-without-penalties).
+
 
 <!-- fk-cluster-links -->
 
@@ -165,6 +170,7 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
 - [Competitor Citation Analysis in AI Search](/blog/competitor-citation-analysis)
 - [Forums, Reddit, and LLM Training Signals](/blog/forums-reddit-and-llm-training-signals)
+- [How Answer Engines Choose Sources to Cite](/blog/how-chatgpt-chooses-sources-to-cite)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

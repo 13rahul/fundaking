@@ -35,7 +35,6 @@ Allow indexing of public docs, canonicalize versioned URLs, expose sitemap for /
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Feedback loop
 
 Top support tickets → new doc → link from in-app → watch citation prompts in AI tools monthly.
@@ -167,14 +166,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [Help Centers and Docs as LLM SEO Assets](/blog/help-center-docs-llm-seo) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
+- [Content Clarity Signals That Help RAG Systems](/blog/content-clarity-signals-for-rag-systems)
 - [Internal Wiki vs Public Site: What LLMs Should See](/blog/internal-wiki-vs-public-content-llm)
+- [LLM SEO for B2B SaaS: Demos, Docs, and BOFU Pages](/blog/llm-seo-for-b2b-saas)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

@@ -44,7 +44,6 @@ Google Maps ranking in India still hinges on relevance, distance, and prominence
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## On-site pages that support Maps
 
 City pages need unique proof: service area description, FAQs, photos, embedded map, and click-to-call/WhatsApp. Template: [local landing page India](/blog/local-landing-page-template-india). Decision frame: [local vs national SEO](/blog/local-seo-vs-national-seo-decision).
@@ -168,14 +167,21 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “Google Maps Ranking Factors in India (2026)” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [Citation Building Without Spam in India](/blog/citation-building-without-spam-india).
+
+Related reading in this cluster: [Local SEO for Clinics in India](/blog/local-seo-for-clinics-india).
+
+Related reading in this cluster: [NAP Consistency Across India Directories](/blog/nap-consistency-india-directories).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Citation Building Without Spam in India](/blog/citation-building-without-spam-india)
 - [Google Business Profile Optimization for India](/blog/google-business-profile-optimization-india)
-- [NAP Consistency Across India Directories](/blog/nap-consistency-india-directories)
+- [Local SEO for Clinics in India](/blog/local-seo-for-clinics-india)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

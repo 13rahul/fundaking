@@ -47,7 +47,6 @@ If you are evaluating priorities, ask whether this topic touches **revenue pages
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## A 30-day workflow you can run in-house
 
 **Week 1 — Baseline:** Export top landing pages by impressions, list five prompts or queries buyers actually use, screenshot current AI/search results for your brand.
@@ -156,14 +155,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [How to Measure Visibility in AI Search](/blog/measuring-visibility-in-ai-search) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Measuring AI Citations Without Vanity Tools](/blog/measuring-ai-citations-without-vanity-tools).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
-- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
+- [Building an AI Citation-Share Tracker (Spreadsheet Method)](/blog/ai-citation-share-tracker-spreadsheet)
 - [Zero-Click AI Search: Strategy When Clicks Drop](/blog/ai-search-zero-click-strategy)
+- [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
 - [AI enablement](/ai-enablement)
 - [Shubhshrey AI CRM case study](/case-study/shubhshrey-industries)
 

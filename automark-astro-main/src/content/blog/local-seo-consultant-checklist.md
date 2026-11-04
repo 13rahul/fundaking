@@ -39,7 +39,6 @@ Maps competition differs by market; process does not. Apply the same checklist i
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Why founders should care now
 
 What a local SEO consultant should cover: GBP, NAP, reviews, location pages and local schema. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.
@@ -170,14 +169,19 @@ I also check whether the page is discoverable from the cluster hub and whether t
 
 Finally, keep entity facts boring and consistent: company name, founder name, locations (Pune / Baramati), and offers. Assistants and search engines punish contradiction faster than they reward clever metaphors. Update this article when the product or service changes; stale BOFU claims are worse than thin TOFU posts.
 
+Related reading in this cluster: [Citation Building Without Spam in India](/blog/citation-building-without-spam-india).
+
+Related reading in this cluster: [NAP Consistency Across India Directories](/blog/nap-consistency-india-directories).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Citation Building Without Spam in India](/blog/citation-building-without-spam-india)
 - [Google Business Profile Optimization for India](/blog/google-business-profile-optimization-india)
+- [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

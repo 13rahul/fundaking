@@ -1,0 +1,55 @@
+﻿{
+  "published": 114,
+  "mapped": 114,
+  "unmapped": [],
+  "byPillar": {
+    "seo-consulting": 22,
+    "technical-seo": 23,
+    "local-seo": 20,
+    "ai-answer-engine": 41,
+    "quick-commerce": 4,
+    "web-development-seo": 4
+  },
+  "hubCoverage": {
+    "seo-consulting": {
+      "hub": "seo-consultant-in-pune-founders-guide-2026",
+      "spokeCount": 21,
+      "linked": 21,
+      "missing": []
+    },
+    "technical-seo": {
+      "hub": "technical-seo-audit-checklist-2026",
+      "spokeCount": 22,
+      "linked": 22,
+      "missing": []
+    },
+    "local-seo": {
+      "hub": "local-seo-india-playbook",
+      "spokeCount": 19,
+      "linked": 19,
+      "missing": []
+    },
+    "ai-answer-engine": {
+      "hub": "what-is-ai-seo-definition-2026",
+      "spokeCount": 40,
+      "linked": 40,
+      "missing": []
+    },
+    "quick-commerce": {
+      "hub": "quick-commerce-seo-visibility-playbook-india",
+      "spokeCount": 3,
+      "linked": 3,
+      "missing": []
+    },
+    "web-development-seo": {
+      "hub": "seo-ready-website-builds-indian-b2b",
+      "spokeCount": 3,
+      "linked": 3,
+      "missing": []
+    }
+  },
+  "siblingNeither": 0,
+  "siblingOneWay": 0,
+  "neitherSample": [],
+  "oneWaySample": []
+}

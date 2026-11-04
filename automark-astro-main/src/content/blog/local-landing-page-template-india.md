@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -140,14 +139,23 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 **What is the fastest win?**  
 Fix contradictory facts, improve one BOFU page tied to “Local Landing Page Template for India”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
+Related reading in this cluster: [Hinjewadi, Baner & Pune Tech Corridors: Local SEO vs Organic for B2B](/blog/pune-hinjewadi-baner-seo-consultant-local-search).
+
+Related reading in this cluster: [Local SEO for Real Estate in Pune](/blog/local-seo-for-real-estate-pune).
+
+Related reading in this cluster: [Multi-City Agency Local SEO in India](/blog/multi-city-agency-local-seo).
+
+Related reading in this cluster: [Service-Area Business SEO in India](/blog/service-area-business-seo-india).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
+- [Local SEO for Real Estate in Pune](/blog/local-seo-for-real-estate-pune)
 - [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook)
-- [Service-Area Business SEO in India](/blog/service-area-business-seo-india)
+- [Multi-City Agency Local SEO in India](/blog/multi-city-agency-local-seo)
 - [Local SEO consulting](/local-seo-consultant)
 - [Real Group case study](/case-study/real-group)
 

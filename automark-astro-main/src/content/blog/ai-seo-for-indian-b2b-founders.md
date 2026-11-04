@@ -42,7 +42,6 @@ Ops detail: [90-day AI SEO roadmap](/blog/ai-seo-roadmap-90-days).
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Tie AI SEO to product and ops
 
 Fundaking’s [AI enablement](/ai-enablement) work — CRM, agents, enrichment — pairs with public AI visibility. Example: [Shubhshrey Industries AI CRM case study](/case-study/shubhshrey-industries) and [CollegeAstra](/case-study/collegeastra).
@@ -140,12 +139,17 @@ Bring in senior help when engineering bandwidth exists but **prioritization** is
 
 *Category focus for this article: AI / Answer Engine SEO.*
 
+Related reading in this cluster: [AI Enablement + AI SEO: Same Stack, Two Outcomes](/blog/ai-enablement-plus-ai-seo-same-stack).
+
+For the full local SEO India checklist, use [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [AI Enablement + AI SEO: Same Stack, Two Outcomes](/blog/ai-enablement-plus-ai-seo-same-stack)
 - [AI Search and Trust: Notes for India Founders](/blog/ai-search-trust-india-founders)
 - [A 90-Day AI SEO Roadmap I Actually Hand to Founders](/blog/ai-seo-roadmap-90-days)
 - [AI enablement](/ai-enablement)

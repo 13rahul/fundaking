@@ -40,7 +40,6 @@ Use destination meaning: “technical SEO audit checklist”, not “click here�
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Audit process (half day)
 
 Crawl internal outlinks from hubs and money URLs. Flag: orphan spokes, hubs with <3 children, educational pages with zero BOFU link, over-optimised repeated anchors. Fix in batches of 20 links — measurable and reversible.
@@ -162,14 +161,17 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “Internal Linking Architecture for SEO” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Start with [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026) for the cluster context on this topic.
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
-- [Content Cluster Strategy for B2B in India](/blog/content-cluster-strategy-b2b-india)
 - [Canonical Tags: Common Mistakes That Kill Rankings](/blog/canonical-tags-common-mistakes)
+- [Content Cluster Strategy for B2B in India](/blog/content-cluster-strategy-b2b-india)
+- [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
 - [Technical SEO consulting](/technical-seo-consultant)
 - [Fintech organic growth case study](/case-study/fintech-organic-growth)
 

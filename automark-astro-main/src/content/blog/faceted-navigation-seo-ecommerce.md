@@ -52,7 +52,6 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -146,6 +145,7 @@ Fix contradictory facts, improve one BOFU page tied to “Faceted Navigation SEO
 ## Related reading on Fundaking
 
 - [Technical SEO Audit Checklist (2026)](/blog/technical-seo-audit-checklist-2026)
+- [Crawl Budget and robots.txt for Large Indian Catalogues](/blog/crawl-budget-robots-txt-india-catalogs)
 - [Index Bloat Cleanup Playbook](/blog/index-bloat-cleanup-playbook)
 - [Shopify Technical SEO Checklist](/blog/shopify-technical-seo-checklist)
 - [Technical SEO consulting](/technical-seo-consultant)

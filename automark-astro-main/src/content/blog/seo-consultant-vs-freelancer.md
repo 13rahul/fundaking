@@ -37,7 +37,6 @@ draft: false
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## India hiring tip
 
 Cheap freelance retainers flood the market. Pay for judgment. Use the [Pune hiring checklist](/hire-seo-consultant-pune) and compare [consultant vs agency](/seo-consultant-vs-agency).
@@ -164,14 +163,17 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [SEO Consultant vs Freelancer](/blog/seo-consultant-vs-freelancer) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [In-House SEO vs Consultant vs Agency: Decision Matrix](/blog/in-house-seo-vs-consultant-vs-agency).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [In-House SEO vs Consultant vs Agency: Decision Matrix](/blog/in-house-seo-vs-consultant-vs-agency)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
-- [What Does an SEO Consultant Do?](/blog/what-does-an-seo-consultant-do)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 

@@ -74,6 +74,19 @@ local:
 case_studies:
   - "shubhshrey-industries"
   - "real-group"
+related:
+  - title: "Local SEO India playbook"
+    description: "Maps, GBP, NAP, and location pages — the hub."
+    href: "/blog/local-seo-india-playbook"
+  - title: "Local SEO for manufacturers in Baramati"
+    description: "Maps + website pages for industrial and B2B local demand."
+    href: "/blog/local-seo-for-manufacturers-baramati"
+  - title: "Baramati SEO consultant guide"
+    description: "Hiring and scoping SEO from Baramati."
+    href: "/blog/baramati-seo-consultant-guide"
+  - title: "NAP consistency India directories"
+    description: "Keep name, address, phone aligned across listings."
+    href: "/blog/nap-consistency-india-directories"
 faqs:
   - question: "How do I list my Baramati business on Google Maps?"
     answer: "Create a Google Business Profile, choose the right category, place the pin correctly, and complete verification. We can do this with you in one visit."

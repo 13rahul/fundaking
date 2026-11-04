@@ -37,7 +37,6 @@ Use Organization + Product schema that mirrors visible copy exactly.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
-
 ## Create correcting content
 
 If models confuse you with a similarly named company, publish a short ‘Not to be confused with…’ section on About—carefully, without sounding petty.
@@ -171,12 +170,15 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 
 **Where do I start on the site?** Open the cluster hub, then [When AI Gets Your Brand Wrong: A Fix Playbook](/blog/fix-wrong-brand-facts-ai-hallucinations) as the working spoke, then the matching service page CTA.
 
+Related reading in this cluster: [Brand Knowledge Panel & Entity Cleanup](/blog/brand-knowledge-panel-entity-cleanup).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [What Is AI SEO? A Practical Definition for 2026](/blog/what-is-ai-seo-definition-2026)
+- [Brand Knowledge Panel & Entity Cleanup](/blog/brand-knowledge-panel-entity-cleanup)
 - [Brand Sentiment When Answers Are Generated](/blog/brand-sentiment-generated-answers)
 - [Entity SEO for AI Overviews and Knowledge Panels](/blog/entity-seo-for-ai-overviews)
 - [AI enablement](/ai-enablement)

@@ -44,7 +44,6 @@ Ask every option for: who diagnoses, who writes tickets, who QA’s, and which K
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
-
 ## Hybrid patterns that work in India
 
 1. Consultant sets 90-day roadmap; in-house marketer executes content; eng owns technical PRs  
@@ -169,14 +168,23 @@ No. Match intent: Maps/WhatsApp for local, demo for SaaS, audit call for consult
 **When is “In-House SEO vs Consultant vs Agency: Decision Matrix” not P0?**  
 When crawl/index on revenue templates is broken, or when ops cannot handle leads. Fix those constraints first.
 
+Related reading in this cluster: [SEO Advisory vs Project: What the First 90 Days Should Deliver](/blog/seo-advisory-vs-project-first-90-days).
+
+Related reading in this cluster: [When to Fire Your SEO Agency (And What to Do Next)](/blog/when-to-fire-your-seo-agency).
+
+Related reading in this cluster: [SEO RFP Template for Indian Companies](/blog/seo-rfp-template-india).
+
+Related reading in this cluster: [SEO Consultant vs Freelancer](/blog/seo-consultant-vs-freelancer).
+
 
 <!-- fk-cluster-links -->
 
 ## Related reading on Fundaking
 
 - [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
+- [SEO Advisory vs Project: What the First 90 Days Should Deliver](/blog/seo-advisory-vs-project-first-90-days)
+- [SEO Consultant in Pune: A Founder's Guide (2026)](/blog/seo-consultant-in-pune-founders-guide-2026)
 - [SEO Consultant Pune vs SEO Agency: Which Fits Your Stage?](/blog/seo-consultant-pune-vs-agency)
-- [SEO Consultant vs Freelancer](/blog/seo-consultant-vs-freelancer)
 - [SEO consulting services](/seo-consulting-services)
 - [SaaS demo requests case study](/case-study/saas-demo-requests)
 
