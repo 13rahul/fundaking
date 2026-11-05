@@ -46,7 +46,7 @@ if (isset($_POST['action']) && $_POST['action'] === 'save_lead') {
                 'reply_to' => $leadEmail,
             ]);
         } else {
-            @mail('13rahulagarwal@gmail.com', $subject, $message, "From: consult@fundaking.com\r\nReply-To: {$leadEmail}");
+            @mail('rahul@fundaking.com', $subject, $message, "From: consult@fundaking.com\r\nReply-To: {$leadEmail}");
         }
 
         echo json_encode(['status' => 'success']);

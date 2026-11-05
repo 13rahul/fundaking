@@ -8,7 +8,7 @@
  */
 $cfg = [
     // Where form / lead emails are delivered
-    'to' => '13rahulagarwal@gmail.com',
+    'to' => 'rahul@fundaking.com',
     'from_email' => 'consult@fundaking.com',
     'from_name' => 'Fundaking Media',
     // Reply-To on notifications uses the visitor's address when available

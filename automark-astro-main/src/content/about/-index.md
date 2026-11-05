@@ -1,7 +1,7 @@
 ---
 title: "About"
-meta_title: "About Rahul Agarwal | SEO Consultant in Pune | Fundaking Media"
-description: "Meet Rahul Agarwal — independent SEO consultant in Pune & Baramati. Helps SaaS, D2C, and B2B founders turn Google search into real enquiries and sales."
+meta_title: "About Rahul Agarwal | Fundaking Media | Pune & Baramati"
+description: "Meet Rahul Agarwal, founder of Fundaking Media — independent SEO, web and AI consulting based in Pune and Baramati, serving Indian startups and B2B teams."
 image: "/images/og-image.png"
 draft: false
 
@@ -98,7 +98,9 @@ credentials:
   items:
     - label: "Legal name"
       value: "Fundaking Media OPC Pvt Ltd"
-    - label: "Founder"
+    - label: "CIN"
+      value: "U47912PN2021OPC198613"
+    - label: "Founder / Director"
       value: "Rahul Vijay Agarwal"
     - label: "HQ"
       value: "Pandare, Baramati, Pune — 413110"
@@ -106,20 +108,26 @@ credentials:
       value: "+91 84210 53710"
       link: "tel:+918421053710"
     - label: "Email"
-      value: "13rahulagarwal@gmail.com"
-      link: "mailto:13rahulagarwal@gmail.com"
+      value: "rahul@fundaking.com"
+      link: "mailto:rahul@fundaking.com"
     - label: "LinkedIn"
       value: "rahul-agarwal-510a5b79"
       link: "https://www.linkedin.com/in/rahul-agarwal-510a5b79/"
 
 our_team:
-  enable: false
+  enable: true
   badge: "Who you work with"
-  title: "Meet <strong>Rahul Agarwal</strong>"
+  title: "Meet the <strong>team</strong>"
   members:
     - image: "/images/author/rahul-agarwal.png"
       name: "Rahul Agarwal"
-      role: "Founder · SEO consultant · Fundaking Media"
+      role: "Founder · SEO Consultant"
+      bio: "SEO consultant and founder of Fundaking Media OPC Pvt Ltd. Helps Pune and India businesses turn search into enquiries with technical SEO, local SEO, and clear developer-ready work."
+      link: "https://www.linkedin.com/in/rahul-agarwal-510a5b79/"
+    - name: "Ganesh Mahale"
+      role: "Design and Branding Specialist"
+      bio: "Design and branding specialist based in Pune. Focuses on brand identity, product visuals, 3D visualisation, and motion that keep Fundaking Media’s look sharp and consistent across web and marketing."
+      link: "https://www.linkedin.com/in/ganesh-mahale-a5b0b01b0/"
 
 core_values:
   enable: true

@@ -59,7 +59,7 @@ export function organizationNode() {
     url: siteOrigin(),
     logo: absoluteUrl(config.site.logo || "/images/logo.png"),
     image: absoluteUrl(config.site.logo || "/images/logo.png"),
-    // Public business mailbox for schema (form leads use lead_notify_email / Gmail)
+    // Public business mailbox for schema (form leads use lead_notify_email → rahul@fundaking.com)
     email: "consult@fundaking.com",
     telephone: "+918421053710",
     priceRange: "₹₹",
