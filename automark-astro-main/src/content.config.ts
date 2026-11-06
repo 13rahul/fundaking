@@ -35,6 +35,7 @@ const aboutCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/about" }),
   schema: z.object({
     ...commonFields,
+    last_reviewed: z.string().optional(),
     page_header: z.object({
       title: z.string(),
       subtitle: z.string(),
@@ -107,7 +108,13 @@ const aboutCollection = defineCollection({
       badge: z.string().optional(),
       title: z.string(),
       members: z.array(
-        z.object({ image: z.string(), name: z.string(), role: z.string() }),
+        z.object({
+          image: z.string().optional(),
+          name: z.string(),
+          role: z.string(),
+          bio: z.string().optional(),
+          link: z.string().optional(),
+        }),
       ),
     }),
     core_values: z.object({
@@ -634,6 +641,7 @@ const servicesCollection = defineCollection({
     faqs: z
       .array(z.object({ question: z.string(), answer: z.string() }))
       .default([]),
+    last_reviewed: z.string().optional(),
   }),
 });
 

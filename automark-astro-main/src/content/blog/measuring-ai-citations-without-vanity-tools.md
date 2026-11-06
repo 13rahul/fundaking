@@ -42,6 +42,7 @@ Pick **five** prompts only — the ones sales actually hears. Expand after those
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## Sources of truth (and what to ignore)
 
 | Source | Use for | Ignore for |

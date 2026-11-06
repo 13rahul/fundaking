@@ -2,7 +2,8 @@
 title: "Local SEO India Playbook: Maps, GBP, and Organic"
 meta_title: "Local SEO India Playbook 2026 | GBP, Maps, Organic | Fundaking"
 description: "A practical local SEO playbook for India: Google Business Profile, NAP consistency, reviews, service-area pages, Maps vs organic, and AI answers."
-\ndate_modified: 2026-09-10T06:00:00Z
+date: 2026-02-20T08:00:00Z
+date_modified: 2026-11-06T09:00:00Z
 image: "/images/blog/featured/local-seo-india-playbook.svg"
 author: "Rahul Agarwal"
 author_title: "Founder, Fundaking Media"
@@ -14,7 +15,7 @@ tags: ["local-seo", "india", "gbp", "deep-dive"]
 draft: false
 ---
 
-Local SEO in India is not “add city name to title tags.” It is **Maps visibility + organic landing pages + consistent entity data** for how people actually search — in English, Hindi, and often WhatsApp-first journeys. This playbook is Fundaking’s **Local SEO hub**.
+Local SEO in India is **Maps visibility + organic landing pages + consistent entity data** — not “add city name to title tags.” Fundaking Media (Rahul Agarwal) uses this playbook for clinics, manufacturers and multi-location brands across India from Pune / Baramati. It matches how people actually search — English, Hindi, and often WhatsApp-first. This is Fundaking’s **Local SEO hub**.
 
 ## In this Local SEO cluster
 
@@ -38,6 +39,8 @@ Local SEO in India is not “add city name to title tags.” It is **Maps visibi
 
 Services: [Local SEO consultant](/local-seo-consultant) · [Local SEO Pune](/local-seo-pune) · [Local SEO Baramati](/local-seo-baramati).
 
+**Next step for operators:** If you need Maps + GBP execution, start with [local SEO consulting](/local-seo-consultant/). Pune neighbourhood businesses should use [local SEO in Pune](/local-seo-pune/).
+
 ## Who this playbook is for
 
 - Clinics, education, manufacturing, real estate, home services, multi-city agencies
@@ -54,6 +57,7 @@ SaaS selling pan-India demos often needs **less** Maps and more category SEO —
   <img src="/images/infographics/blog/local-seo-india-playbook-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
+
 
 ## Layer 1 — Google Business Profile (GBP)
 
@@ -289,3 +293,13 @@ If you want a second opinion on whether this topic is P0 for your stage, [book a
 **What is the fastest win?** Fix contradictory facts, improve one BOFU page, and add hub ↔ spoke links. Then expand depth.
 
 **Where do I start on the site?** Open the cluster hub, then [Local SEO India Playbook: Maps, GBP, and Organic](/blog/local-seo-india-playbook) as the working spoke, then the matching service page CTA.
+
+<!-- fk-cluster-links -->
+
+## Related reading on Fundaking
+
+- [Baramati SEO Consultant Guide for Local Businesses](/blog/baramati-seo-consultant-guide)
+- [Citation Building Without Spam in India](/blog/citation-building-without-spam-india)
+- [GBP Q&A and Messaging That Converts](/blog/gbp-qa-messaging-that-converts)
+- [Local SEO consulting](/local-seo-consultant)
+- [Real Group case study](/case-study/real-group)

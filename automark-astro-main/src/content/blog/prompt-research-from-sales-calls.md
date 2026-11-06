@@ -14,6 +14,7 @@ categories: ["AI / Answer Engine SEO"]
 tags: ["prompts","research","sales"]
 draft: false
 ---
+
 Sales calls are the highest-signal “keyword research” most Indian SaaS and service teams ignore. Prospects already tell you the comparisons, objections, and phrasing they type into Google or paste into ChatGPT. This guide shows how I turn call notes into a prompt/query library that feeds AI SEO and classic content — without buying another research tool.
 
 ## The sales-call capture system
@@ -46,6 +47,7 @@ Every phrase must map to **one primary URL**. If three blogs fight the same obje
   <img src="/images/infographics/blog/prompt-research-from-sales-calls-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
+
 
 ## Building the prompt library for AI surfaces
 

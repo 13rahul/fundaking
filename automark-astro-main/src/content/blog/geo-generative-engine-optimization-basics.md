@@ -43,6 +43,7 @@ Black-hat “AI bait” paragraphs stuffed with synonyms. Fake statistics. Pages
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## GEO vs classic SEO in one table
 
 | Classic SEO | GEO emphasis |

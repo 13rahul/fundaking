@@ -44,6 +44,7 @@ Ask every option for: who diagnoses, who writes tickets, who QA’s, and which K
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## Hybrid patterns that work in India
 
 1. Consultant sets 90-day roadmap; in-house marketer executes content; eng owns technical PRs  

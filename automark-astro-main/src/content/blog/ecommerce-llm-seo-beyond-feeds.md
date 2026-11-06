@@ -35,6 +35,7 @@ Care, sizing, warranty—reduces returns and gives models factual chunks.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Why founders should care now
 
 Feeds fix shopping tabs; LLM SEO needs buying guides, fit FAQs, and policy clarity. I connect catalog SEO to conversational queries. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.

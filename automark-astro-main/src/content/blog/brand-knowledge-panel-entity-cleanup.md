@@ -14,6 +14,7 @@ categories: ["AI / Answer Engine SEO"]
 tags: ["entity","knowledge-panel","eeat"]
 draft: false
 ---
+
 A messy brand SERP and Knowledge Panel quietly poison AI answers and classic trust. This is the cleanup playbook I run before scaling content for Indian brands — especially when Google shows the wrong industry, old address, or a namesake conflict.
 
 ## Symptoms that mean entity work is P0
@@ -37,6 +38,7 @@ List every public fact Google might merge: legal name, trade name, founder, logo
   <img src="/images/infographics/blog/brand-knowledge-panel-entity-cleanup-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
+
 
 ## Cleanup sequence that usually works
 

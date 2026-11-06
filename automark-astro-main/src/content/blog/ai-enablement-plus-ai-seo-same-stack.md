@@ -39,6 +39,7 @@ Marketing buys “AI content.” Ops buys a chatbot. Neither owns the money URL 
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## The joint 30-day sequence
 
 **Days 1–7:** Baseline GSC + five buyer prompts; map CRM lead stages; list contradictory facts (pricing, NAP, founder bio).  

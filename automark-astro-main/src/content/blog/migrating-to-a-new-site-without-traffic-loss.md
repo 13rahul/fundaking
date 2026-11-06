@@ -28,6 +28,16 @@ Rebuilds destroy rankings when URL maps are improvised on launch night. This spo
 ## Launch sequence
 
 Staging parity → redirect test on preview host → DNS → Submit sitemaps → Monitor GSC 30 days. Pair with [website launch SEO checklist](/blog/website-launch-seo-checklist-india).
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/migrating-to-a-new-site-without-traffic-loss-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/migrating-to-a-new-site-without-traffic-loss-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
+</figure>
+
 
 ## Content parity
 

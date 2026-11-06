@@ -50,6 +50,7 @@ Document every rule in a Sheet: pattern, action, owner, date.
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## 21-day cleanup programme
 
 Week 1: Segment + sample. Week 2: Ship rules on staging; validate. Week 3: Production + monitor coverage/impressions on money URLs daily.

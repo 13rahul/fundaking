@@ -33,6 +33,7 @@ Spreadsheet: prompt, owner, target URL, citation baseline, refresh cadence.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Anti-patterns
 
 Do not let the team invent fantasy prompts—ground in tickets and calls.

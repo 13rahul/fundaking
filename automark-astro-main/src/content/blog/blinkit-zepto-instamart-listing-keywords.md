@@ -33,6 +33,16 @@ Build a sheet: search_term → volume proxy (rank of competitor) → preferred t
 Example: `FarmGold Groundnut Oil 1L Cold Pressed` — not a poem.
 
 Keep platform character limits. Put the highest-intent modifier early. Pair with [catalogue content ops](/blog/quick-commerce-catalogue-content-ops) so variants do not cannibalize each other.
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/blinkit-zepto-instamart-listing-keywords-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/blinkit-zepto-instamart-listing-keywords-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
+</figure>
+
 
 ## Description / bullets
 

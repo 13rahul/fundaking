@@ -33,6 +33,7 @@ Acknowledge where a competitor is strong; models and humans both trust you more.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Maintenance
 
 Calendar quarterly review when either vendor ships pricing or packaging changes—stale comparisons become misinformation.

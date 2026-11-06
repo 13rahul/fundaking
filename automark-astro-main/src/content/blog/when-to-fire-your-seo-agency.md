@@ -41,6 +41,7 @@ Firing an SEO agency is a business decision, not a tantrum about rankings. Use t
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## The 30-day exit / transition plan
 
 **Week 1:** Export all logins, GSC, analytics, content inventory, backlink exports.  

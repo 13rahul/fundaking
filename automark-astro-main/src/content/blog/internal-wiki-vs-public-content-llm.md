@@ -33,6 +33,7 @@ Margins, roadmap debates, draft positioning—leaking them hurts trust if indexe
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Sync process
 
 When internal wiki updates, ticket a public doc update within 48 hours for customer-visible changes.

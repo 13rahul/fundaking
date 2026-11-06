@@ -35,6 +35,7 @@ If a competitor doc wins on ‘implementation timeline,’ outline their heading
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Avoid plagiarism
 
 Structure is fair game; copy is not. Add first-party data they do not have.

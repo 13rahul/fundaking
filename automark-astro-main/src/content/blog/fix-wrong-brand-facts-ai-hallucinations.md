@@ -37,6 +37,7 @@ Use Organization + Product schema that mirrors visible copy exactly.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Create correcting content
 
 If models confuse you with a similarly named company, publish a short ‘Not to be confused with…’ section on About—carefully, without sounding petty.

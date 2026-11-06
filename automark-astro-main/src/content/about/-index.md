@@ -1,13 +1,14 @@
 ---
 title: "About"
 meta_title: "About Rahul Agarwal | Fundaking Media | Pune & Baramati"
-description: "Meet Rahul Agarwal, founder of Fundaking Media — independent SEO, web and AI consulting based in Pune and Baramati, serving Indian startups and B2B teams."
+description: "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility."
 image: "/images/og-image.png"
 draft: false
+last_reviewed: "2026-11-06"
 
 page_header:
   title: "SEO consultant in Pune who makes <strong>Google work for your sales</strong>"
-  subtitle: "Fundaking Media is Rahul Agarwal — one senior consultant for search, website structure, and results you can measure. You work with him directly, not a junior account manager."
+  subtitle: "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility. You work with Rahul directly — not a junior account manager."
   image: "/images/author/rahul-agarwal.png"
   primary_cta:
     label: "Book free SEO audit on WhatsApp"
@@ -122,12 +123,12 @@ our_team:
     - image: "/images/author/rahul-agarwal.png"
       name: "Rahul Agarwal"
       role: "Founder · SEO Consultant"
-      bio: "SEO consultant and founder of Fundaking Media OPC Pvt Ltd. Helps Pune and India businesses turn search into enquiries with technical SEO, local SEO, and clear developer-ready work."
+      bio: "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility."
       link: "https://www.linkedin.com/in/rahul-agarwal-510a5b79/"
     - name: "Ganesh Mahale"
       role: "Design and Branding Specialist"
-      bio: "Design and branding specialist based in Pune. Focuses on brand identity, product visuals, 3D visualisation, and motion that keep Fundaking Media’s look sharp and consistent across web and marketing."
-      link: "https://www.linkedin.com/in/ganesh-mahale-a5b0b01b0/"
+      bio: "Design and branding for Fundaking Media — brand identity, product visuals, 3D visualisation, and motion across web and marketing."
+      link: "https://www.linkedin.com/in/ganesh-mahale-81555a91/"
 
 core_values:
   enable: true

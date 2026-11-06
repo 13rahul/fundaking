@@ -68,6 +68,7 @@ These are patterns from client work — not rules about every company on a road.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Should your money page say “SEO consultant in Pune”?
 
 For **Type B** companies buying consulting, yes — on hiring-intent pages and founder-facing content. It matches how you search for vendors.

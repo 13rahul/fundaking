@@ -33,6 +33,7 @@ Repeat canonical product name, spell founder name consistently, mention city/mar
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Clip strategy
 
 Short clips are fine for social; long-form transcript is what models train and retrieve on.

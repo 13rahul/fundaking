@@ -27,9 +27,21 @@ Quick commerce search is SEO with tighter queries and crueler real-time constrai
 
 Service: [Quick commerce enablement](/quick-commerce-enablement). Adjacent organic: [SEO for D2C brands](/blog/seo-for-d2c-brands-india). Feeds: [product data feeds and AI shopping](/blog/product-data-feeds-and-ai-shopping).
 
+**Want listings fixed for you?** Book [quick commerce enablement](/quick-commerce-enablement/) for Blinkit, Zepto and Instamart catalogue SEO — research, titles, ops cadence and visibility tracking.
+
 ## How in-app ranking roughly works
 
 Relevance (title/category/attributes) × availability × price competitiveness × rating/reviews × platform ads. You do not control the algorithm; you control **data quality and ops**.
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/quick-commerce-seo-visibility-playbook-india-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/quick-commerce-seo-visibility-playbook-india-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## Founder scorecard (monthly)
 

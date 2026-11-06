@@ -19,10 +19,11 @@
     "apply_form_action": "/api/contact.php",
     "lead_notify_email": "rahul@fundaking.com",
     "copyright": "Copyright &copy; 2026 <strong>Fundaking Media OPC Pvt Ltd</strong>. All rights reserved.",
-    "footer_tagline": "SEO consultant in Pune & Baramati — technical SEO, local SEO, and revenue-focused organic growth.",
+    "footer_tagline": "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility.",
     "footer_email": "rahul@fundaking.com",
     "footer_phone": "+91 84210 53710",
     "footer_address": "H S No. 155, Near Bhairavnath Temple, Pandare, Baramati, Pune — 413110, Maharashtra, India",
+    "entity_sentence": "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility.",
     "whatsapp_url": "https://wa.me/918421053710?text=Hi%20Rahul%2C%20I%20want%20to%20book%20a%20free%20SEO%20audit"
   },
   "navigation_button": {
@@ -38,8 +39,8 @@
   "metadata": {
     "meta_author": "Rahul Agarwal",
     "founder_name": "Rahul Agarwal",
-    "founder_job_title": "Founder, Fundaking Media",
+    "founder_job_title": "Founder & SEO Consultant, Fundaking Media",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Top SEO consultant in Pune — Rahul Agarwal, Fundaking Media. Technical SEO, content strategy, CRO and monthly advisory for SaaS, D2C, and B2B founders."
+    "meta_description": "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility."
   }
 }

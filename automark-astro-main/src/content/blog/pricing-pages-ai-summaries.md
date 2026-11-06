@@ -33,6 +33,7 @@ Offer or Product schema with priceCurrency and description matching visible numb
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## FAQ under pricing
 
 ‘Do you charge per seat?’ ‘Is there a free trial?’—exact Q&A blocks reduce support burden and give models clean chunks.

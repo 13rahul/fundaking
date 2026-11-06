@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interior Website Quotation — Fundaking Media OPC Pvt Ltd</title>
+  <style>
+    @page { size: A4; margin: 12mm 14mm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Calibri, Arial, sans-serif;
+      color: #1c1c24;
+      background: #dcd8e8;
+      font-size: 10pt;
+      line-height: 1.4;
+    }
+    .actions {
+      position: fixed;
+      top: 12px;
+      right: 12px;
+      z-index: 20;
+    }
+    .actions button {
+      background: #3d2eb8;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .sheet {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 16px auto;
+      background: #fff;
+      padding: 14mm 15mm 12mm;
+      box-shadow: 0 8px 28px rgba(40, 30, 80, 0.14);
+      position: relative;
+    }
+    .sheet::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 5px;
+      background: #3d2eb8;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #3d2eb8;
+      margin-bottom: 12px;
+    }
+    .brand img { height: 40px; width: auto; display: block; }
+    .brand .co {
+      margin-top: 6px;
+      font-size: 8.5pt;
+      color: #555;
+      line-height: 1.35;
+    }
+    .doc-title {
+      text-align: right;
+    }
+    .doc-title h1 {
+      font-size: 18pt;
+      color: #3d2eb8;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .doc-title .sub {
+      font-size: 10.5pt;
+      font-weight: 600;
+      color: #1c1c24;
+      margin-top: 2px;
+    }
+
+    h2 {
+      font-size: 10.5pt;
+      color: #fff;
+      background: #3d2eb8;
+      padding: 6px 10px;
+      margin: 14px 0 0;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+    }
+    table.info th,
+    table.info td,
+    table.data th,
+    table.data td {
+      border: 1px solid #cfc9e0;
+      padding: 7px 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+    table.info th {
+      width: 32%;
+      background: #f3f0fa;
+      color: #333;
+      font-weight: 600;
+      font-size: 9.5pt;
+    }
+    table.info td { font-size: 10pt; }
+    table.data thead th {
+      background: #f3f0fa;
+      font-weight: 700;
+      font-size: 9.5pt;
+      color: #2a2a35;
+    }
+    table.data td { font-size: 10pt; }
+    table.data td.num,
+    table.data th.num {
+      text-align: right;
+      white-space: nowrap;
+    }
+    table.data td.center,
+    table.data th.center {
+      text-align: center;
+    }
+    table.data tr:nth-child(even) td { background: #faf9fd; }
+    .total-row td {
+      background: #ebe6ff !important;
+      font-weight: 800;
+      font-size: 11pt;
+      color: #2a1f8a;
+    }
+    .check { color: #2f7a3e; font-weight: 700; }
+    a { color: #3d2eb8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .note-box {
+      border: 1px solid #cfc9e0;
+      border-top: none;
+      padding: 8px 10px;
+      font-size: 9pt;
+      color: #444;
+      background: #faf9fd;
+    }
+    .note-box strong { color: #1c1c24; }
+
+    .greeting {
+      margin: 10px 0 4px;
+      font-size: 10pt;
+    }
+
+    .sign-table td {
+      border: none;
+      padding: 0;
+      vertical-align: bottom;
+    }
+    .sign-line {
+      border-top: 1px solid #999;
+      margin-top: 40px;
+      padding-top: 6px;
+      font-size: 9.5pt;
+    }
+    .sign-line .hint {
+      font-size: 8pt;
+      color: #777;
+      margin-top: 2px;
+    }
+
+    .footer {
+      margin-top: 14px;
+      padding-top: 8px;
+      border-top: 1px solid #cfc9e0;
+      font-size: 8pt;
+      color: #666;
+      text-align: center;
+      line-height: 1.45;
+    }
+
+    .trusted {
+      margin-top: 16px;
+      padding: 10px 12px;
+      border: 1px solid #cfc9e0;
+      border-radius: 8px;
+      background: #faf9fd;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: nowrap;
+      overflow: hidden;
+    }
+    .trusted .label {
+      font-size: 8.5pt;
+      font-weight: 700;
+      color: #3d2eb8;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .trusted .logos {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex: 1;
+      min-width: 0;
+      justify-content: space-between;
+    }
+    .trusted .logos img {
+      height: 22px;
+      width: auto;
+      max-width: 72px;
+      object-fit: contain;
+      filter: grayscale(100%);
+      opacity: 0.85;
+    }
+
+    .signature-block {
+      margin-top: 8px;
+    }
+    .signature-script {
+      font-family: "Segoe Script", "Brush Script MT", "Lucida Handwriting", cursive;
+      font-size: 22pt;
+      color: #1a1a5c;
+      line-height: 1;
+      margin-bottom: 2px;
+    }
+    .signed-badge {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 8pt;
+      color: #2f7a3e;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    @media print {
+      body { background: #fff; }
+      .sheet { margin: 0; box-shadow: none; width: auto; min-height: auto; padding: 0; }
+      .actions { display: none !important; }
+      .sheet::before,
+      h2,
+      table.data tr:nth-child(even) td,
+      .total-row td,
+      table.info th,
+      table.data thead th {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="actions">
+    <button type="button" onclick="window.print()">Print / Save PDF</button>
+  </div>
+
+  <div class="sheet">
+    <header class="header">
+      <div class="brand">
+        <img src="../../images/logo.png" alt="Fundaking Media" onerror="this.outerHTML='<strong style=&quot;font-size:16pt;color:#3d2eb8&quot;>Fundaking Media</strong>'" />
+        <div class="co">
+          <strong>Fundaking Media OPC Pvt Ltd</strong><br />
+          CIN: U47912PN2021OPC198613<br />
+          <a href="https://fundaking.com">fundaking.com</a>
+        </div>
+      </div>
+      <div class="doc-title">
+        <h1>Quotation</h1>
+        <div class="sub">Interior Website Package</div>
+      </div>
+    </header>
+
+    <p class="greeting">Dear <strong>Jyoti Mam</strong>,</p>
+    <p class="greeting" style="margin-top:0;margin-bottom:10px;color:#444;font-size:9.5pt;">
+      Please find below our clear quotation for your interior website. Everything is listed in tables for easy reading.
+    </p>
+
+    <h2>1. Quotation details</h2>
+    <table class="info">
+      <tr>
+        <th>Quotation number</th>
+        <td>FK/QT/2026/INT-001</td>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <td>4 November 2026</td>
+      </tr>
+      <tr>
+        <th>Valid till</th>
+        <td>19 November 2026 (15 days)</td>
+      </tr>
+      <tr>
+        <th>Project name</th>
+        <td>Interior Website</td>
+      </tr>
+      <tr>
+        <th>Client name</th>
+        <td>Jyoti Mam</td>
+      </tr>
+      <tr>
+        <th>Client email</th>
+        <td><a href="mailto:hitechet@emirates.net.ae">hitechet@emirates.net.ae</a></td>
+      </tr>
+      <tr>
+        <th>Prepared by</th>
+        <td>Rahul Agarwal · Founder · <a href="mailto:rahul@fundaking.com">rahul@fundaking.com</a> · +91 84210 53710</td>
+      </tr>
+    </table>
+
+    <h2>2. Package price</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th style="width:8%" class="center">No.</th>
+          <th>Item</th>
+          <th class="num" style="width:22%">Amount (INR)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="center">1</td>
+          <td>Complete Interior Website Package — website, domain, hosting, 5 emails, SEO, branding, features (booking, CRM, etc.) &amp; 1 year support (see Sections 3–6)</td>
+          <td class="num">35,000</td>
+        </tr>
+        <tr class="total-row">
+          <td></td>
+          <td>Total payable</td>
+          <td class="num">₹ 35,000</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="note-box">
+      <strong>Delivery:</strong> Within 1 week (or earlier if possible). &nbsp;|&nbsp;
+      <strong>Taxes:</strong> Extra only if applicable by law.
+    </div>
+
+    <h2>3. What you get (deliverables)</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th style="width:7%" class="center">No.</th>
+          <th>Deliverable</th>
+          <th style="width:14%" class="center">Included</th>
+          <th style="width:28%">For 1 year / notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="center">1</td>
+          <td>Custom website (multiple pages — no page limit for future growth)</td>
+          <td class="center check">Yes</td>
+          <td>One-time build (yours forever after full payment)</td>
+        </tr>
+        <tr>
+          <td class="center">2</td>
+          <td>Domain name</td>
+          <td class="center check">Yes</td>
+          <td><strong>Free for 1 year</strong> · renew after 1 year (chargeable)</td>
+        </tr>
+        <tr>
+          <td class="center">3</td>
+          <td>Hosting server</td>
+          <td class="center check">Yes</td>
+          <td><strong>Free for 1 year</strong> · renew after 1 year (chargeable)</td>
+        </tr>
+        <tr>
+          <td class="center">4</td>
+          <td>5 business email accounts on your domain</td>
+          <td class="center check">Yes</td>
+          <td><strong>Free for 1 year</strong> · renew after 1 year (with hosting)</td>
+        </tr>
+        <tr>
+          <td class="center">5</td>
+          <td>Secure SSL certificate (HTTPS padlock)</td>
+          <td class="center check">Yes</td>
+          <td><strong>Free for 1 year</strong> · renew after 1 year (with hosting)</td>
+        </tr>
+        <tr>
+          <td class="center">6</td>
+          <td>Basic SEO setup for your company website</td>
+          <td class="center check">Yes</td>
+          <td>One-time setup included</td>
+        </tr>
+        <tr>
+          <td class="center">7</td>
+          <td>AI SEO settings for your brand</td>
+          <td class="center check">Yes</td>
+          <td>One-time setup included</td>
+        </tr>
+        <tr>
+          <td class="center">8</td>
+          <td>Company logo design (main logo + simple variations for web / social)</td>
+          <td class="center check">Yes</td>
+          <td>One-time design (yours after full payment)</td>
+        </tr>
+        <tr>
+          <td class="center">9</td>
+          <td>Website branding — colours, fonts &amp; overall look for your brand</td>
+          <td class="center check">Yes</td>
+          <td>One-time design</td>
+        </tr>
+        <tr>
+          <td class="center">10</td>
+          <td>Visiting card design (print-ready)</td>
+          <td class="center check">Yes</td>
+          <td>One-time design</td>
+        </tr>
+        <tr>
+          <td class="center">11</td>
+          <td>Image design for the website (banners, section visuals, project graphics)</td>
+          <td class="center check">Yes</td>
+          <td>One-time design for launch</td>
+        </tr>
+        <tr>
+          <td class="center">12</td>
+          <td>Video design / edits for the website (short promo or showcase clips)</td>
+          <td class="center check">Yes</td>
+          <td>One-time design for launch</td>
+        </tr>
+        <tr>
+          <td class="center">13</td>
+          <td>Modern animations on the website</td>
+          <td class="center check">Yes</td>
+          <td>Included in website build</td>
+        </tr>
+        <tr>
+          <td class="center">14</td>
+          <td><strong>1 year website technical support</strong> (see Section 6)</td>
+          <td class="center check">Yes</td>
+          <td><strong>Free for 1 year</strong> from go-live · renew separately after that if needed</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="note-box">
+      <strong>Free for 1st year (included in ₹35,000):</strong>
+      Domain + Hosting + 5 business emails + SSL.<br />
+      <strong>After 1 year (renewal — chargeable):</strong>
+      Domain + Hosting + emails + SSL together usually cost about <strong>₹2,000 to ₹3,000 per year</strong>.
+      Exact amount will be <strong>shown and informed based on prices given by the provider at that time</strong>
+      (we use secure domain &amp; hosting services of <strong>Hostinger.com</strong>).
+      Other agencies often charge ₹10,000–15,000 / year for similar renewals.
+    </div>
+
+    <h2>4. Website technical details (simple view)</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th style="width:8%" class="center">No.</th>
+          <th style="width:32%">Point</th>
+          <th>In simple words</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="center">1</td>
+          <td>Custom multi-page website</td>
+          <td>We build your own site with as many pages as you need. No page limit.</td>
+        </tr>
+        <tr>
+          <td class="center">2</td>
+          <td>Built with Next.js</td>
+          <td>Modern, fast website technology used by leading companies.</td>
+        </tr>
+        <tr>
+          <td class="center">3</td>
+          <td>Basic SEO setup</td>
+          <td>We set up your site so Google can find and show your business better.</td>
+        </tr>
+        <tr>
+          <td class="center">4</td>
+          <td>Logo, branding &amp; visiting card</td>
+          <td>We design your logo, website brand look, and a print-ready visiting card.</td>
+        </tr>
+        <tr>
+          <td class="center">5</td>
+          <td>Images, videos &amp; animations</td>
+          <td>Custom images, short videos, and modern motion for a premium website feel.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. Website features</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th style="width:8%" class="center">No.</th>
+          <th style="width:34%">Feature</th>
+          <th>In simple words</th>
+          <th style="width:14%" class="center">Included</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="center">1</td>
+          <td>Modern dynamic web pages</td>
+          <td>Fresh, modern pages that look professional on phone, tablet, and computer.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">2</td>
+          <td>Consultation / meeting booking system</td>
+          <td>Visitors can book a consultation or meeting with you from the website.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">3</td>
+          <td>CRM to manage client &amp; prospect data</td>
+          <td>Simple system to store and manage leads, clients, and enquiry details.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">4</td>
+          <td>Google Search Console setup</td>
+          <td>Connect your site to Google so you can track search performance.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">5</td>
+          <td>Bing Webmaster Tools setup</td>
+          <td>Connect your site to Bing for search visibility on Microsoft search.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">6</td>
+          <td>Google Business Profile setup &amp; connection</td>
+          <td>Help set up / connect your Google Business listing with your website.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">7</td>
+          <td>WhatsApp chat option</td>
+          <td>WhatsApp button on the website so customers can message you easily (if you want it).</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">8</td>
+          <td>Impressive animations, videos &amp; images</td>
+          <td>Strong visual presentation for an interior / design brand.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">9</td>
+          <td>Secure SSL certificate</td>
+          <td>Website opens with https:// and a lock icon — <strong>free for 1 year</strong> (with Hostinger hosting).</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">10</td>
+          <td>5 business email accounts</td>
+          <td>Official emails on your domain (example: info@yoursite.com) — <strong>free for 1 year</strong>.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">11</td>
+          <td>Mobile-friendly (responsive) design</td>
+          <td>Website works smoothly on mobile phones (most customers browse on phone).</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">12</td>
+          <td>Contact / enquiry form</td>
+          <td>Form on the website so customers can send enquiries to your email.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">13</td>
+          <td>Project / portfolio gallery</td>
+          <td>Showcase your interior projects with photos in a clean gallery.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">14</td>
+          <td>Google Analytics setup</td>
+          <td>See how many people visit your website and which pages they open.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">15</td>
+          <td>Basic speed &amp; performance setup</td>
+          <td>Website is set up to load quickly for a better first impression.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">16</td>
+          <td>Sitemap + basic SEO pages structure</td>
+          <td>Helps Google understand and index your pages correctly.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">17</td>
+          <td>Social media links &amp; share setup</td>
+          <td>Connect Instagram / Facebook / LinkedIn icons on your site.</td>
+          <td class="center check">Yes</td>
+        </tr>
+        <tr>
+          <td class="center">18</td>
+          <td>Basic privacy / contact pages</td>
+          <td>Standard pages visitors and Google expect on a business website.</td>
+          <td class="center check">Yes</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="note-box">
+      <strong>Suggested extras we added for you:</strong> mobile-friendly design, contact form, portfolio gallery,
+      Google Analytics, speed setup, sitemap, social links, and basic policy pages — common needs for an interior business website.
+    </div>
+
+    <h2>6. 1 year website technical support</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th style="width:8%" class="center">No.</th>
+          <th style="width:34%">What is covered</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="center">1</td>
+          <td>Duration</td>
+          <td><strong>12 months</strong> from the website go-live date</td>
+        </tr>
+        <tr>
+          <td class="center">2</td>
+          <td>Bug / error fixes</td>
+          <td>Fix broken links, form issues, layout problems, and technical errors on the delivered site</td>
+        </tr>
+        <tr>
+          <td class="center">3</td>
+          <td>Small content updates</td>
+          <td>Reasonable text / image updates (example: phone number, address, service line changes)</td>
+        </tr>
+        <tr>
+          <td class="center">4</td>
+          <td>Email &amp; hosting guidance</td>
+          <td>Help with business emails, domain, and hosting during the support year</td>
+        </tr>
+        <tr>
+          <td class="center">5</td>
+          <td>Consulting</td>
+          <td>Basic advice on website, SEO settings, and next growth steps</td>
+        </tr>
+        <tr>
+          <td class="center">6</td>
+          <td>Response time</td>
+          <td>We aim to reply within <strong>1–2 working days</strong></td>
+        </tr>
+        <tr>
+          <td class="center">7</td>
+          <td>Not included in free support</td>
+          <td>Large redesign, brand-new pages in bulk, paid ads management, or completely new features beyond this package</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>7. Timeline — when you get what</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th style="width:18%">Days</th>
+          <th>What happens</th>
+          <th style="width:22%">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Day 1 – 2</strong></td>
+          <td>First draft of the website ready for your review</td>
+          <td>Draft shared</td>
+        </tr>
+        <tr>
+          <td><strong>Day 3 – 4</strong></td>
+          <td>Your feedback + we make the changes</td>
+          <td>Revisions</td>
+        </tr>
+        <tr>
+          <td><strong>Day 5 – 6</strong></td>
+          <td>Website goes live on the internet</td>
+          <td>Go live</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>8. Payment terms</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th style="width:12%" class="center">Stage</th>
+          <th style="width:14%" class="center">%</th>
+          <th>When you pay</th>
+          <th class="num" style="width:22%">Amount (INR)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="center"><strong>1</strong></td>
+          <td class="center"><strong>25%</strong></td>
+          <td>Advance — to start the work</td>
+          <td class="num">₹ 8,750</td>
+        </tr>
+        <tr>
+          <td class="center"><strong>2</strong></td>
+          <td class="center"><strong>75%</strong></td>
+          <td>After website is live</td>
+          <td class="num">₹ 26,250</td>
+        </tr>
+        <tr class="total-row">
+          <td class="center"></td>
+          <td class="center">100%</td>
+          <td>Total</td>
+          <td class="num">₹ 35,000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>9. Terms and conditions</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th style="width:8%" class="center">No.</th>
+          <th style="width:28%">Topic</th>
+          <th>Condition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="center">1</td>
+          <td>Quotation validity</td>
+          <td>This quotation is valid for <strong>15 days</strong> from the date mentioned above.</td>
+        </tr>
+        <tr>
+          <td class="center">2</td>
+          <td>Work start</td>
+          <td>Work starts after <strong>25% advance payment</strong> and confirmation from Jyoti Mam.</td>
+        </tr>
+        <tr>
+          <td class="center">3</td>
+          <td>Final payment</td>
+          <td><strong>75% balance</strong> is payable when the website is made live.</td>
+        </tr>
+        <tr>
+          <td class="center">4</td>
+          <td>Client content</td>
+          <td>Client will share business details, photos, videos, and text on time. Delay in content may delay delivery.</td>
+        </tr>
+        <tr>
+          <td class="center">5</td>
+          <td>Feedback rounds</td>
+          <td>Feedback and changes are planned in <strong>Days 3–4</strong>. Extra major redesign after approval may be charged separately.</td>
+        </tr>
+        <tr>
+          <td class="center">6</td>
+          <td>Third-party accounts</td>
+          <td>Google, Bing, WhatsApp, domain, and email setup need client access / approval where required.</td>
+        </tr>
+        <tr>
+          <td class="center">7</td>
+          <td>Ownership</td>
+          <td>After full payment, the website, logo files, and designs delivered under this package belong to the client.</td>
+        </tr>
+        <tr>
+          <td class="center">8</td>
+          <td>Domain, hosting, emails &amp; SSL (Year 1)</td>
+          <td>
+            <strong>Domain, hosting, 5 emails, and SSL are free for 1 year</strong> and included in the package price.
+          </td>
+        </tr>
+        <tr>
+          <td class="center">9</td>
+          <td>Renewal after 1 year</td>
+          <td>
+            After 1 year, renewal of <strong>domain + hosting + emails + SSL</strong> is <strong>chargeable</strong>.
+            Collectively this usually costs about <strong>₹2,000–₹3,000 per year</strong>.
+            We will <strong>show and inform the exact prices given by the provider at that time</strong>.
+          </td>
+        </tr>
+        <tr>
+          <td class="center">10</td>
+          <td>Hosting &amp; domain provider</td>
+          <td>
+            We use secure hosting and domain services of <strong>Hostinger.com</strong>.
+            Renewal billing follows Hostinger’s then-current rates (plus any applicable taxes).
+          </td>
+        </tr>
+        <tr>
+          <td class="center">11</td>
+          <td>Support period</td>
+          <td>1 year technical support runs from go-live date, as listed in Section 6. Support renewal after year 1 is optional and separate.</td>
+        </tr>
+        <tr>
+          <td class="center">12</td>
+          <td>Scope change</td>
+          <td>New modules or features outside this quotation will be quoted separately before work starts.</td>
+        </tr>
+        <tr>
+          <td class="center">13</td>
+          <td>Cancellation</td>
+          <td>Advance is non-refundable once design / development work has started.</td>
+        </tr>
+        <tr>
+          <td class="center">14</td>
+          <td>Taxes</td>
+          <td>Prices are in INR. Taxes extra only if applicable by law.</td>
+        </tr>
+        <tr>
+          <td class="center">15</td>
+          <td>Confidentiality</td>
+          <td>This quotation is confidential and meant only for Jyoti Mam / the named client.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>10. Our team</h2>
+    <table class="data">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Email</th>
+          <th>LinkedIn</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Rahul Agarwal</strong></td>
+          <td>Founder · SEO &amp; Web</td>
+          <td><a href="mailto:rahul@fundaking.com">rahul@fundaking.com</a></td>
+          <td><a href="https://www.linkedin.com/in/rahul-agarwal-510a5b79/" target="_blank" rel="noopener">Profile</a></td>
+        </tr>
+        <tr>
+          <td><strong>Ganesh Mahale</strong></td>
+          <td>Design and Branding Specialist</td>
+          <td><a href="mailto:ganesh@fundaking.com">ganesh@fundaking.com</a></td>
+          <td><a href="https://www.linkedin.com/in/ganesh-mahale-81555a91/" target="_blank" rel="noopener">Profile</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>11. Company details</h2>
+    <table class="info">
+      <tr>
+        <th>Legal name</th>
+        <td>Fundaking Media OPC Pvt Ltd</td>
+      </tr>
+      <tr>
+        <th>CIN</th>
+        <td>U47912PN2021OPC198613</td>
+      </tr>
+      <tr>
+        <th>Registered office</th>
+        <td>H S No. 155, Near Bhairavnath Temple, Pandare, Baramati, Pune — 413110, Maharashtra, India</td>
+      </tr>
+      <tr>
+        <th>Phone</th>
+        <td>+91 84210 53710</td>
+      </tr>
+      <tr>
+        <th>Emails</th>
+        <td>
+          <a href="mailto:rahul@fundaking.com">rahul@fundaking.com</a> ·
+          <a href="mailto:ganesh@fundaking.com">ganesh@fundaking.com</a>
+        </td>
+      </tr>
+      <tr>
+        <th>Website</th>
+        <td><a href="https://fundaking.com" target="_blank" rel="noopener">fundaking.com</a></td>
+      </tr>
+    </table>
+
+    <h2>12. Acceptance</h2>
+    <table class="sign-table" style="margin-top:8px;width:100%;">
+      <tr>
+        <td style="width:48%;padding-right:4%;">
+          <div class="signature-block">
+            <div class="signature-script">R Agarwal</div>
+            <div class="signed-badge">Digitally signed quotation</div>
+          </div>
+          <div class="sign-line" style="margin-top:10px;">
+            <strong>For Fundaking Media OPC Pvt Ltd</strong><br />
+            Rahul Vijay Agarwal, Director
+            <div class="hint">Authorised signatory · Date: 4 November 2026</div>
+          </div>
+        </td>
+        <td style="width:48%;padding-left:4%;">
+          <div class="sign-line">
+            <strong>Accepted by — Jyoti Mam</strong><br />
+            hitechet@emirates.net.ae
+            <div class="hint">Client signature · Date _______________</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <div class="trusted">
+      <span class="label">Trusted by</span>
+      <div class="logos">
+        <img src="../../images/clients/real-group.png" alt="Real Group" />
+        <img src="../../images/clients/ewebguru.png" alt="eWebGuru" />
+        <img src="../../images/clients/shubhshrey-industries.png" alt="Shubhshrey Industries" />
+        <img src="../../images/clients/sky-group.png" alt="Sky Group" />
+        <img src="../../images/clients/collegeastra.png" alt="CollegeAstra" />
+        <img src="../../images/clients/13th-pencil.png" alt="13th Pencil" />
+        <img src="../../images/clients/meribindiya.png" alt="Meribindiya" />
+      </div>
+    </div>
+
+    <div class="footer">
+      This quotation is confidential and meant only for Jyoti Mam.
+      Prices are in Indian Rupees (INR). Company website: <a href="https://fundaking.com">fundaking.com</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -35,6 +35,7 @@ Syndication with canonical back; avoid same article on five paths.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Why founders should care now
 
 Large catalogues need chunk-friendly templates. I help publishers avoid duplicate embeddings drowning good articles. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.

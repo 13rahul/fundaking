@@ -33,6 +33,7 @@ Each page needs unique proof: team, parking/landmarks, local FAQs, local case sn
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Citation consistency
 
 Syndicate the same NAP to major India directories; fix duplicates before building more. Track with a simple sheet: source, NAP string, URL, last verified.

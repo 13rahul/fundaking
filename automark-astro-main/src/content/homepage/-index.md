@@ -1,7 +1,7 @@
 ---
 banner:
   title: "SEO consultant in Pune & Baramati for <strong>SEO, websites & AI</strong>"
-  content: "Rahul Agarwal helps SaaS, D2C, B2B and manufacturing teams grow through SEO, local search, websites, AI automation and quick commerce — measured by enquiries and cost per customer, not ranking PDFs."
+  content: "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility — measured by enquiries and cost per customer, not ranking PDFs."
   trust_line: "8+ years · Pune, Baramati & remote · Clear tasks for your developers"
   button_primary:
     enable: true

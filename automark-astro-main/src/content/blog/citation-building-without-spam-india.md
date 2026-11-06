@@ -40,6 +40,7 @@ Skip: automated submission blasts, keyword-stuffed titles, duplicate spawns.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Maintenance cadence
 
 Quarterly NAP audit across the active list. After any move or phone change, update GBP and site the same day, directories within a week. Remove duplicates rather than “claiming everything.”

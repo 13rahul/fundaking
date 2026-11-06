@@ -37,6 +37,7 @@ Buyers message after hours. Sales already lives in WhatsApp. Your job is to make
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## On-site and landing-page pattern
 
 City/service pages should show: click-to-call, WhatsApp deep link with pre-filled text, and one short form. Do not hide WhatsApp in the footer only. Example structure in [local landing page template](/blog/local-landing-page-template-india).

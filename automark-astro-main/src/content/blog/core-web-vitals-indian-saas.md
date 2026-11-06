@@ -37,6 +37,7 @@ Usual culprits: uncompressed hero WebPs still too large, late-discovered CSS, ch
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## INP — interaction to next paint
 
 Heavy main-thread work from analytics bundles, A/B tools, and React hydration on public pages. Split marketing site from app when possible; hydrate less above the fold.

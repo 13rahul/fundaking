@@ -38,6 +38,7 @@ Agencies excel at volume execution. An independent strategist fits when you need
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Next step
 
 [Book a free SEO strategy call](/contact) or read the [Pune hiring guide](/hire-seo-consultant-pune) on the main site.

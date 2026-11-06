@@ -35,6 +35,7 @@ Allow indexing of public docs, canonicalize versioned URLs, expose sitemap for /
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Feedback loop
 
 Top support tickets → new doc → link from in-app → watch citation prompts in AI tools monthly.

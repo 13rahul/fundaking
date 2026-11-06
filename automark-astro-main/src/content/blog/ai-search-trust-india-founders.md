@@ -33,6 +33,7 @@ Write for clear Indian English; add city pages where service is local; do not ma
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## WhatsApp-ready facts
 
 Short FAQ answers founders can paste into chats should match site copy—models and humans both copy from the same source.

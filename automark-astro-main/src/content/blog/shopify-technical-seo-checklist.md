@@ -37,6 +37,7 @@ Filters that create infinite `?sort` / attribute URLs split equity. Decide which
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Speed and Core Web Vitals (India)
 
 - Audit app scripts; remove unused apps  

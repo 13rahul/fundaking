@@ -33,6 +33,7 @@ Spell the city and PIN the same way as your site footer and invoices. Dual-langu
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Photos and posts
 
 Weekly posts beat abandoned profiles. Show real premises, team, and delivery proof. Geotagged spam photos are not a strategy.

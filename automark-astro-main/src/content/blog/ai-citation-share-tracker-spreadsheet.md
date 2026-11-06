@@ -39,6 +39,16 @@ prompt_id → defect (entity / page / technical) → ticket → due date.
 - Do not chase every new assistant weekly — rotate  
 
 Detail protocol lives in the vanity-tools article; competitive framing in [competitor citation analysis](/blog/competitor-citation-analysis).
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/ai-citation-share-tracker-spreadsheet-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/ai-citation-share-tracker-spreadsheet-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## From share % to work
 

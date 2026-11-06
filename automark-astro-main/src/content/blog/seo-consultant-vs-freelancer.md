@@ -37,6 +37,7 @@ draft: false
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## India hiring tip
 
 Cheap freelance retainers flood the market. Pay for judgment. Use the [Pune hiring checklist](/hire-seo-consultant-pune) and compare [consultant vs agency](/seo-consultant-vs-agency).

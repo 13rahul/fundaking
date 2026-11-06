@@ -33,6 +33,7 @@ The best consultants write tickets your developers can ship. If everything stays
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Ask how they measure success
 
 Pipeline, demos, and revenue segments beat vanity rankings. Search Console and GA4 should connect to business outcomes.

@@ -44,6 +44,7 @@ Google Maps ranking in India still hinges on relevance, distance, and prominence
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## On-site pages that support Maps
 
 City pages need unique proof: service area description, FAQs, photos, embedded map, and click-to-call/WhatsApp. Template: [local landing page India](/blog/local-landing-page-template-india). Decision frame: [local vs national SEO](/blog/local-seo-vs-national-seo-decision).
@@ -172,6 +173,8 @@ Related reading in this cluster: [Citation Building Without Spam in India](/blog
 Related reading in this cluster: [Local SEO for Clinics in India](/blog/local-seo-for-clinics-india).
 
 Related reading in this cluster: [NAP Consistency Across India Directories](/blog/nap-consistency-india-directories).
+
+Pune operators implementing these factors should use [local SEO in Pune](/local-seo-pune/); India-wide programmes start at [local SEO consulting](/local-seo-consultant/).
 
 
 <!-- fk-cluster-links -->

@@ -33,6 +33,7 @@ Export 30 days, filter known AI/search bots, chart status codes and top paths, c
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Policy
 
 Decide allow/deny per bot based on business policy—document it, do not wing it per environment.

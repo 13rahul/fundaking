@@ -33,6 +33,7 @@ Ship one content patch: lede, table, or FAQ block on a target URL.
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Friday
 
 Review GSC + branded search; note sales feedback; adjust next week’s patch.

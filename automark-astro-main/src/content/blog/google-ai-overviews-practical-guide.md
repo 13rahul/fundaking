@@ -58,6 +58,7 @@ If it fully satisfies the intent, I stop chasing “position 1 fantasies” and 
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## Page patterns I see cited
 
 **Definitions in the first 120 words** with the product or category name stated plainly — not a metaphor opening.

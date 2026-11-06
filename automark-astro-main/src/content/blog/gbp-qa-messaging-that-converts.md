@@ -39,6 +39,16 @@ Keep answers short, factual, and identical to the website. Contradiction kills t
 | Log outcomes | Message → visit / booking |
 
 Route heavy chat to WhatsApp with a clean handoff — [WhatsApp leads from Google Maps](/blog/whatsapp-leads-from-google-maps-india).
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/gbp-qa-messaging-that-converts-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/gbp-qa-messaging-that-converts-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## Posts + Q&A + reviews = one system
 

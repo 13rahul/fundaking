@@ -42,6 +42,7 @@ Ops detail: [90-day AI SEO roadmap](/blog/ai-seo-roadmap-90-days).
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Tie AI SEO to product and ops
 
 Fundaking’s [AI enablement](/ai-enablement) work — CRM, agents, enrichment — pairs with public AI visibility. Example: [Shubhshrey Industries AI CRM case study](/case-study/shubhshrey-industries) and [CollegeAstra](/case-study/collegeastra).

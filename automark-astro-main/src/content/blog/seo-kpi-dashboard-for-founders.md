@@ -46,6 +46,7 @@ Everything else (DA, average position across thousands of keywords) is optional 
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## Agency reporting that fails the founder test
 
 If the deck leads with “keywords in top 10” and buries demos on slide 18, the operating system is wrong. Replace it with the [monthly SEO reporting CEOs read](/blog/monthly-seo-reporting-that-ceos-read) format.

@@ -37,6 +37,7 @@ List every plugin; remove abandoned ones. Page builders that ship empty HTML she
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Performance and hosting
 
 - Object/page cache appropriate to host (not three conflicting caches)  

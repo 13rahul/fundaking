@@ -52,6 +52,7 @@ Bring this sheet into the same meeting where you review pipeline — not a separ
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## Priority order (do not skip ahead)
 
 **P0 — Technical and factual truth.** Money pages must be crawlable, fast enough on mobile India networks, and factually aligned with schema and sales decks. Without this, content and citations rot.
@@ -138,6 +139,8 @@ When engineering bandwidth exists but prioritisation is missing — or when migr
 Fix contradictory facts, improve one BOFU page tied to “Next.js SEO: Rendering Guide for Marketing Sites”, and add hub ↔ spoke ↔ service links. Then expand depth.
 
 Related reading in this cluster: [SEO-Ready Website Builds for Indian B2B](/blog/seo-ready-website-builds-indian-b2b).
+
+Pune SaaS teams that need tickets and pairing can engage [technical SEO in Pune](/technical-seo-pune/); national programmes use [technical SEO consulting](/technical-seo-consultant/).
 
 
 <!-- fk-cluster-links -->

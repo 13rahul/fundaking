@@ -30,6 +30,16 @@ Subdomain (`app.`) or path with forced login both work if robots and auth are co
 ## Rendering traps
 
 SPAs that hide marketing content behind the same JS bundle as the app confuse bots. Prefer [Next.js SEO rendering](/blog/nextjs-seo-rendering-guide) patterns and read [JS + AI crawlers](/blog/javascript-rendering-and-ai-crawlers).
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/crm-portal-seo-implications-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/crm-portal-seo-implications-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## Lead capture bridge
 

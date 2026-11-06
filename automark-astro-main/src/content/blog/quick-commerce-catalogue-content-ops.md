@@ -26,7 +26,17 @@ Maintain a master sheet / PIM: SKU ID, GTIN, title tokens, attributes, image set
 - White / clean background hero  
 - Secondary lifestyle if allowed  
 - Size / pack readable  
-- No banned claims on image text  
+- No banned claims on image text
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/quick-commerce-catalogue-content-ops-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/quick-commerce-catalogue-content-ops-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## Monthly cadence
 

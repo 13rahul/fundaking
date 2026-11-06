@@ -35,6 +35,7 @@ Junior execution, generic reports, and keywords nobody converts on. If the pitch
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## How I scope
 
 Free discovery call → clear scope → proposal. No 12-month lock-in required to start. Based in Pune, serving [India-wide](/seo-consultant-india) clients remotely. See [engagement models](/pricing) for how projects are structured.

@@ -133,7 +133,15 @@ const wa =
           class="hasHighlight mb-6 text-h3 lg:text-h1"
           set:html={markdownify(data.hero.title)}
         />
-        <p class="mx-auto mb-10 max-w-2xl text-lg">{data.hero.content}</p>
+        <p class="mx-auto mb-4 max-w-2xl text-lg">{data.hero.content}</p>
+        {
+          data.last_reviewed && (
+            <p class="mx-auto mb-10 max-w-2xl text-sm text-text/70">
+              Last reviewed: {data.last_reviewed}
+            </p>
+          )
+        }
+        {!data.last_reviewed && <div class="mb-10" />}
         <div class="flex flex-wrap items-center justify-center gap-4">
           <a
             class="btn btn-primary"

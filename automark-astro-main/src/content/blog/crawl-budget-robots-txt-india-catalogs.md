@@ -38,6 +38,16 @@ If bots never reach new products, fixing copy will not help.
 | Avoid blocking CSS/JS needed to render | Rendering still matters |
 
 Never Disallow a URL you still want indexed. Prefer canonical + noindex + parameter handling for borderline filters — see [faceted navigation SEO](/blog/faceted-navigation-seo-ecommerce) and [index bloat cleanup](/blog/index-bloat-cleanup-playbook).
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/crawl-budget-robots-txt-india-catalogs-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/crawl-budget-robots-txt-india-catalogs-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## Sitemap discipline
 

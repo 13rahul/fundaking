@@ -1,13 +1,13 @@
 ---
 title: "Contact"
 meta_title: "Contact Rahul Agarwal | SEO Consultant Pune | Fundaking Media"
-description: "Book a free SEO audit on WhatsApp +91 84210 53710 or email rahul@fundaking.com — Fundaking Media, Pune & remote across India."
+description: "Contact Fundaking Media (Rahul Agarwal) — SEO consulting in Pune / Baramati for technical SEO, local SEO, and AI-search visibility. WhatsApp +91 84210 53710 · rahul@fundaking.com."
 image: ""
 draft: false
 
 page_header:
   title: "Book a free <strong>SEO audit</strong>"
-  subtitle: "Send the form below or message WhatsApp +91 84210 53710. Rahul replies personally — usually within one business day."
+  subtitle: "Fundaking Media (Rahul Agarwal) — SEO consulting in Pune / Baramati. Send the form or WhatsApp +91 84210 53710. Rahul replies personally — usually within one business day."
 
 contact_info:
   enable: true

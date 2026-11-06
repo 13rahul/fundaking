@@ -42,6 +42,16 @@ Pick **one** flagship program. Build:
 5. Internal links from blog → program → contact / WhatsApp  
 
 Then expand to the next program. Volume without this spine dilutes crawl and trust.
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/seo-for-edtech-coaching-india-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/seo-for-edtech-coaching-india-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## Local vs national edtech
 

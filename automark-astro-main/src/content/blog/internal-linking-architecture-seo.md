@@ -40,6 +40,7 @@ Use destination meaning: “technical SEO audit checklist”, not “click here�
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Audit process (half day)
 
 Crawl internal outlinks from hubs and money URLs. Flag: orphan spokes, hubs with <3 children, educational pages with zero BOFU link, over-optimised repeated anchors. Fix in batches of 20 links — measurable and reversible.

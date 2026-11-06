@@ -1,13 +1,14 @@
 ---
 title: "Web Development Services"
-meta_title: "Web Development Company | SEO-Ready Websites, CRM & Web Apps - Fundaking"
-description: "Web development for businesses in Pune, Baramati and across India: fast SEO-ready websites, custom CRMs, portals and web apps with frontend, backend and hosting handled end to end."
+meta_title: "SEO-Ready Web Development | Fundaking"
+description: "Web development for Indian B2B: fast SEO-ready websites, custom CRMs and web apps — crawlable HTML, schema, Core Web Vitals and analytics from day one. Pune, Baramati and remote."
 service: "web-development"
 keywords:
   - "web development company"
   - "website development services"
   - "custom crm development"
   - "seo friendly website development"
+  - "seo ready website india"
 hero:
   badge: "Web Development"
   title: "Websites and web apps that <strong>load fast and rank</strong>"
@@ -18,7 +19,9 @@ intro:
   content: |
     Many sites look good but are slow, hard to crawl or impossible for the marketing team to update. Because we run SEO engagements too, every build ships with clean URLs, fast templates, schema and tracking already in place.
 
-    Recent work includes the Real Group corporate site, the Shubhshrey Industries website and CRM in Baramati, the CollegeAstra platform, and the UltraLooper product site.
+    Recent work includes the Real Group corporate site, the Shubhshrey Industries website and CRM in Baramati, the CollegeAstra platform, and the UltraLooper product site. See [SEO-ready website builds for Indian B2B](/blog/seo-ready-website-builds-indian-b2b).
+
+    **Who this page is for:** New sites, rebuilds and CRM+site engagements. **Already have a site with crawl issues?** Start with [technical SEO](/technical-seo-consultant/).
 deliverables:
   title: "Web development <strong>services</strong>"
   items:
@@ -85,4 +88,12 @@ faqs:
     answer: "Yes. For Shubhshrey Industries we delivered the public website and a custom CRM for enquiries and follow-ups in one engagement."
   - question: "Will we be able to edit the site ourselves?"
     answer: "Yes. We set up an editing workflow suited to your team and provide a short handover."
+  - question: "Is SEO included in the build?"
+    answer: "Yes — clean URLs, metadata fields, schema, sitemap, analytics and a launch checklist are part of every project."
+  - question: "Do you migrate old sites without traffic loss?"
+    answer: "Yes. URL maps, 301s and Search Console monitoring are standard for rebuilds."
+  - question: "What stacks do you use?"
+    answer: "Modern static/SSR stacks (including Astro/Next-style patterns), WordPress when it fits, and custom PHP/Node backends for CRMs and portals."
+  - question: "How is this different from technical SEO consulting?"
+    answer: "Web development ships a new or rebuilt product. Technical SEO diagnoses and tickets an existing site. Many clients use technical SEO first, then rebuild if the platform is the blocker."
 ---

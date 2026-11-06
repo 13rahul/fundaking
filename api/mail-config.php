@@ -9,15 +9,15 @@
 $cfg = [
     // Where form / lead emails are delivered
     'to' => 'rahul@fundaking.com',
-    'from_email' => 'consult@fundaking.com',
+    'from_email' => 'rahul@fundaking.com',
     'from_name' => 'Fundaking Media',
     // Reply-To on notifications uses the visitor's address when available
+    // SMTP password lives only in mail-config.local.php on Hostinger (gitignored)
     'smtp' => [
         'host' => 'smtp.hostinger.com',
         'port' => 465,
         'encryption' => 'ssl', // ssl (465) or tls (587)
-        'username' => 'consult@fundaking.com',
-        // Set password in mail-config.local.php on the server (never commit it)
+        'username' => 'rahul@fundaking.com',
         'password' => '',
     ],
 ];

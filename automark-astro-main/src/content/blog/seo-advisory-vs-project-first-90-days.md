@@ -39,6 +39,7 @@ Pricing context: [SEO consulting pricing in India](/blog/seo-consulting-pricing-
   <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
 </figure>
 
+
 ## First 90 days — non-negotiable outcomes
 
 | Phase | Outcome |

@@ -36,6 +36,16 @@ Start from the hiring hub: [SEO consultant in Pune founder’s guide](/blog/seo-
 - Mass directory spam (except real local citations — see [citation building without spam](/blog/citation-building-without-spam-india))  
 - “DA50 guarantees”  
 - Link exchanges that look like a carousel
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/link-building-india-2026-without-penalties-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/link-building-india-2026-without-penalties-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## Mentions beat raw links in the LLM era
 

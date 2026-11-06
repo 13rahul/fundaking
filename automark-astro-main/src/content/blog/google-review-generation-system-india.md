@@ -34,6 +34,16 @@ Never ask only unhappy customers by accident (complaint desk only). Train front-
 - No filtering “only happy customers” into a fake channel while suppressing others  
 - Use the official Google review link / QR from GBP  
 - Keep NAP consistent so reviews attach to the right entity ([NAP consistency](/blog/nap-consistency-india-directories))
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/google-review-generation-system-india-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/google-review-generation-system-india-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## System components
 

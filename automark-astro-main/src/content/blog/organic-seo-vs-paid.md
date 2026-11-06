@@ -39,6 +39,7 @@ Most healthy teams run both. I help reduce ad dependency without flipping paid o
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Why founders should care now
 
 Organic SEO consultant work compounds; paid ads buy speed. How to balance both without starving growth. That is not theory for me — it shows up on discovery calls when organic pipeline stalls or when AI answers describe a competitor instead of your brand. Search and answer engines reward **specific, verifiable pages**, not generic SEO filler.

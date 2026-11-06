@@ -40,6 +40,7 @@ Migrations destroy organic pipeline when teams redesign first and “SEO later.�
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Post-launch (30 days)
 
 - Monitor Coverage and 404 spikes daily for two weeks

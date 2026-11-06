@@ -33,6 +33,7 @@ Ship or refresh 4–6 pages: two comparisons, one pricing clarity pass, one impl
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Days 61–90: Measure and iterate
 
 Re-run prompt library, track citation share, double down on winning formats, prune pages that confuse entities.

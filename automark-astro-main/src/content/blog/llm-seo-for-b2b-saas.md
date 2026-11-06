@@ -37,6 +37,7 @@ Public docs with stable anchors beat blog fluff for ‘how to configure…’ pr
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Measure beyond MQLs
 
 Branded search lift, direct traffic, and ‘heard about you from ChatGPT’ fields on demo forms—messy but directional.

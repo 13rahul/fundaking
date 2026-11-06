@@ -14,6 +14,7 @@ categories: ["Local SEO"]
 tags: ["nap","citations","india"]
 draft: false
 ---
+
 NAP inconsistency (Name, Address, Phone) is still one of the fastest ways to confuse Google and customers across India. This guide prioritises which directories matter and how to keep them boringly identical.
 
 ## The canonical NAP record
@@ -40,6 +41,7 @@ Audit quarterly: screenshot mismatches; fix high-traffic properties first.
   <img src="/images/infographics/blog/nap-consistency-india-directories-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
+
 
 ## Operational habit
 

@@ -55,12 +55,13 @@ export function organizationNode() {
     "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
     "@id": orgId,
     name: "Fundaking Media OPC Pvt Ltd",
-    alternateName: "Fundaking Media",
+    alternateName: ["Fundaking Media", "Fundaking"],
+    description:
+      "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility.",
     url: siteOrigin(),
     logo: absoluteUrl(config.site.logo || "/images/logo.png"),
     image: absoluteUrl(config.site.logo || "/images/logo.png"),
-    // Public business mailbox for schema (form leads use lead_notify_email → rahul@fundaking.com)
-    email: "consult@fundaking.com",
+    email: "rahul@fundaking.com",
     telephone: "+918421053710",
     priceRange: "₹₹",
     founder: { "@id": founderId() },
@@ -115,14 +116,20 @@ export function personFounderNode() {
     alternateName: "Rahul Vijay Agarwal",
     jobTitle:
       founder.jobTitle || "Founder & SEO Consultant, Fundaking Media",
+    description:
+      authorConfig.bio ||
+      "Fundaking Media (Rahul Agarwal) is an SEO consulting firm in Pune / Baramati helping Indian B2B, SaaS, D2C and local businesses with technical SEO, local SEO, and AI-search visibility.",
     url: founder.url,
     image: absoluteUrl(
       authorConfig.image || "/images/author/rahul-agarwal.png",
     ),
+    email: "rahul@fundaking.com",
+    telephone: "+918421053710",
     sameAs,
     worksFor: { "@id": organizationId() },
     address: {
       "@type": "PostalAddress",
+      streetAddress: "H S No. 155, Near Bhairavnath Temple, Pandare",
       addressLocality: "Baramati",
       addressRegion: "Maharashtra",
       postalCode: "413110",
@@ -134,6 +141,7 @@ export function personFounderNode() {
       "SEO consulting",
       "Content architecture",
       "AI search visibility",
+      "SEO consultant Pune",
     ],
   };
 }

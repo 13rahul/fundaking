@@ -11,8 +11,8 @@
   <text x="68" y="68" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800">FK</text>
   <text x="112" y="62" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800">Fundaking <tspan fill="#937AFF">Media</tspan></text>
   <text x="112" y="82" fill="#937AFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">SEO · LLM visibility · Pune</text>
-  <text x="576" y="150" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800">Local SEO India Playbook: Maps, GBP, and Organic</text>
-  <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">A practical local SEO playbook for India: Google Business Profile, NAP consistency, rev…</text>
+  <text x="576" y="150" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800">local-seo-india-playbook</text>
+  <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Practical SEO &amp; AI visibility — Fundaking Media</text>
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · Local SEO</text>
@@ -25,7 +25,7 @@
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · Local SEO</text>
     <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">Layer 1 — Google Business Profile (GBP)</text>
-    <text x="104" y="498" fill="#A8C0D0" font-size="15">Primary lever for “near me” and city+service queries.</text>
+    <text x="104" y="498" fill="#A8C0D0" font-size="15">Primary lever for “near me” and city+service queries.  | Element | India-specific notes | | --- | --- | | Categories | Primar…</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · Local SEO</text>
     <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">Layer 2 — Reviews that are not spam</text>

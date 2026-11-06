@@ -27,6 +27,8 @@ Pretty sites that fail Search Console are expensive brochures. Because we also r
 
 Service: [Web development](/web-development). Technical depth: [technical SEO audit checklist](/blog/technical-seo-audit-checklist-2026). Stack notes: [Next.js SEO rendering](/blog/nextjs-seo-rendering-guide). Proof: [Shubhshrey website & CRM](/case-study/shubhshrey-industries).
 
+**Ready to build?** Start with [SEO-ready web development](/web-development/) for corporate sites, CRMs and portals that ship crawlable and fast on day one.
+
 ## Non-negotiables in every build
 
 1. Server-rendered or prerendered money pages  
@@ -35,7 +37,17 @@ Service: [Web development](/web-development). Technical depth: [technical SEO au
 4. XML sitemap + robots  
 5. Core Web Vitals budget  
 6. 404 / redirect plan  
-7. Enquiry CTA above the fold on service pages  
+7. Enquiry CTA above the fold on service pages
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/seo-ready-website-builds-indian-b2b-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/seo-ready-website-builds-indian-b2b-2.svg" alt="Side-by-side comparison pulled from the table in this post." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Side-by-side comparison pulled from the table in this post.</figcaption>
+</figure>
+
 
 ## Who this is for
 

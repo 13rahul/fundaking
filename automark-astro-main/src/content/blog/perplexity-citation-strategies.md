@@ -39,6 +39,7 @@ Host charts as HTML tables when possible; they survive extraction better than PN
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Off-site without spam
 
 Expert quotes in trade press, podcast show notes with transcripts, and GitHub readmes for dev tools—all reinforce the same entity facts as your site.

@@ -33,6 +33,7 @@ If it does not serve a human or a citation-worthy fact, merge or noindex. Redire
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## After prune
 
 Re-test top prompts—wrong competitor citations sometimes drop when noise leaves the index.

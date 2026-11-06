@@ -11,8 +11,8 @@
   <text x="68" y="68" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800">FK</text>
   <text x="112" y="62" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800">Fundaking <tspan fill="#937AFF">Media</tspan></text>
   <text x="112" y="82" fill="#937AFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">SEO · LLM visibility · Pune</text>
-  <text x="576" y="150" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800">Technical SEO Audit Checklist (2026)</text>
-  <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">A founder-ready technical SEO audit checklist: crawl, index, Core Web Vitals, JavaScrip…</text>
+  <text x="576" y="150" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800">technical-seo-audit-checklist-2026</text>
+  <text x="576" y="186" text-anchor="middle" fill="#A8C0D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Practical SEO &amp; AI visibility — Fundaking Media</text>
   <rect x="72" y="216" width="1008" height="560" rx="18" fill="none" stroke="#3EC6D4" stroke-width="2.5"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="104" y="268" fill="#3EC6D4" font-size="15" font-weight="700">Part 1 · Technical SEO</text>
@@ -21,11 +21,11 @@
     <line x1="104" y1="342" x2="1048" y2="342" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="356" fill="#3EC6D4" font-size="15" font-weight="700">Part 2 · Technical SEO</text>
     <text x="104" y="384" fill="#FFFFFF" font-size="22" font-weight="700">Before you open a crawler</text>
-    <text x="104" y="410" fill="#A8C0D0" font-size="15">1. List the five URLs that should earn revenue (home, pricing, product, demo, flagship service). 2. Confirm analytics and Search …</text>
+    <text x="104" y="410" fill="#A8C0D0" font-size="15">1. List the five URLs that should earn revenue (home, pricing, product, demo, flagship service). 2. Confirm analytics and Search…</text>
     <line x1="104" y1="430" x2="1048" y2="430" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="444" fill="#3EC6D4" font-size="15" font-weight="700">Part 3 · Technical SEO</text>
     <text x="104" y="472" fill="#FFFFFF" font-size="22" font-weight="700">1. Crawl and discovery</text>
-    <text x="104" y="498" fill="#A8C0D0" font-size="15">| Check | Pass looks like | Fail looks like | | --- | --- | --- | | XML sitemap | Money URLs present, lastmod sane, submitted in …</text>
+    <text x="104" y="498" fill="#A8C0D0" font-size="15">| Check | Pass looks like | Fail looks like | | --- | --- | --- | | XML sitemap | Money URLs present, lastmod sane, submitted i…</text>
     <line x1="104" y1="518" x2="1048" y2="518" stroke="#1A4A5C" stroke-width="1"/>
     <text x="104" y="532" fill="#3EC6D4" font-size="15" font-weight="700">Part 4 · Technical SEO</text>
     <text x="104" y="560" fill="#FFFFFF" font-size="22" font-weight="700">2. Indexation hygiene</text>

@@ -33,7 +33,17 @@ Launch day is when SEO debt becomes permanent. Use this checklist before DNS fli
 - [ ] Submit sitemap in Search Console  
 - [ ] Verify domain + set preferred host  
 - [ ] Smoke-test redirect map if replacing old site  
-- [ ] Analytics + conversion events live  
+- [ ] Analytics + conversion events live
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/website-launch-seo-checklist-india-1.svg" alt="At-a-glance summary of this article’s main sections (Fundaking infographic)." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> At-a-glance summary of this article’s main sections (Fundaking infographic).</figcaption>
+</figure>
+
+<figure class="blog-infographic">
+  <img src="/images/infographics/blog/website-launch-seo-checklist-india-2.svg" alt="Implementation checklist vs measurement focus — from this article." width="1152" height="864" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
+</figure>
+
 
 ## Week 1 after
 

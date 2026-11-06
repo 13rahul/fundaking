@@ -37,6 +37,7 @@ List pricing, comparison, integration, and alternative pages. Confirm each retur
   <figcaption><strong>Figure 2.</strong> Implementation checklist vs measurement focus — from this article.</figcaption>
 </figure>
 
+
 ## Months 3–4: BOFU depth, not blog volume
 
 Rewrite or build:
