@@ -63,6 +63,24 @@ export default defineConfig({
   integrations: [
     react(),
     sitemap({
+      filter: (page) => {
+        try {
+          const path = new URL(page).pathname.replace(/\/+$/, "") || "/";
+          const excluded = [
+            "/careers",
+            "/integrations",
+            "/elements",
+            "/pricing",
+            "/features",
+            "/404",
+          ];
+          return !excluded.some(
+            (ex) => path === ex || path.startsWith(`${ex}/`),
+          );
+        } catch {
+          return true;
+        }
+      },
       serialize(item) {
         try {
           const pathname = new URL(item.url).pathname.replace(/\/$/, "") || "/";

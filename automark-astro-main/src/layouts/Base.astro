@@ -112,22 +112,25 @@ if (schemaExtras.length) {
   schemaPayload = mergeGraph(schemaPayload, schemaExtras);
 }
 
-try {
-  const reviewsSection = await getListPage("testimonialSection", "testimonial");
-  const googleReviews = (reviewsSection.data.testimonials ?? []).filter(
-    (r: { google_url?: string; content?: string }) =>
-      Boolean(r.google_url && r.content),
-  );
-  if (reviewsSection.data.enable && googleReviews.length) {
-    schemaPayload = attachReviewsToOrganization(schemaPayload, {
-      reviews: googleReviews,
-      ratingValue: reviewsSection.data.rating_value ?? "5.0",
-      reviewCount:
-        reviewsSection.data.review_count ?? googleReviews.length,
-    });
+/* GBP aggregateRating + review nodes only on homepage / about — not sitewide. */
+if (pagePath === "/" || pagePath === "/about") {
+  try {
+    const reviewsSection = await getListPage("testimonialSection", "testimonial");
+    const googleReviews = (reviewsSection.data.testimonials ?? []).filter(
+      (r: { google_url?: string; content?: string }) =>
+        Boolean(r.google_url && r.content),
+    );
+    if (reviewsSection.data.enable && googleReviews.length) {
+      schemaPayload = attachReviewsToOrganization(schemaPayload, {
+        reviews: googleReviews,
+        ratingValue: reviewsSection.data.rating_value ?? "5.0",
+        reviewCount:
+          reviewsSection.data.review_count ?? googleReviews.length,
+      });
+    }
+  } catch {
+    /* optional reviews section */
   }
-} catch {
-  /* optional reviews section */
 }
 ---
 

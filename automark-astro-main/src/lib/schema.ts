@@ -26,7 +26,23 @@ export function pathFromAstroPathname(pathname: string): string {
 export function absoluteUrl(path: string = "/"): string {
   if (path.startsWith("http://") || path.startsWith("https://")) return path;
   const origin = siteOrigin();
-  const segment = path.startsWith("/") ? path : `/${path}`;
+  let segment = path.startsWith("/") ? path : `/${path}`;
+  const bare = segment.split(/[?#]/)[0] ?? segment;
+  const isFile = /\.[a-z0-9]{1,8}$/i.test(bare);
+  if (
+    config.site.trailing_slash &&
+    !isFile &&
+    segment !== "/" &&
+    !segment.endsWith("/")
+  ) {
+    const qIndex = segment.search(/[?#]/);
+    if (qIndex === -1) {
+      segment = `${segment}/`;
+    } else {
+      segment = `${segment.slice(0, qIndex)}/${segment.slice(qIndex)}`;
+    }
+  }
+  if (segment === "/") return `${origin}/`;
   return `${origin}${segment}`.replace(/([^:]\/)\/+/g, "$1");
 }
 
@@ -37,8 +53,8 @@ const founder = {
   url: absoluteUrl("/about"),
 };
 
-const MAPS_PLACE_URL =
-  "https://www.google.com/maps/place/Fundaking+Media+-+Rahul+Agarwal/@21.0680074,82.7525294,5z/data=!3m1!4b1!4m6!3m5!1s0x3bc3a78b97137889:0x2464feeefb15a44d!8m2!3d21.0680074!4d82.7525294!16s%2Fg%2F11p4l9ptl4";
+/** CID-stable Maps URL matching live GBP (Fundaking Media - Rahul Agarwal). */
+const MAPS_PLACE_URL = "https://maps.google.com/?cid=2622501185404642381";
 const WRITE_REVIEW_URL = "https://g.page/r/CU2kFfvu_mQkEAE/review";
 
 export function organizationId() {
@@ -278,6 +294,8 @@ const PATH_LABELS: Record<string, string> = {
   contact: "Contact",
   pricing: "Pricing",
   integrations: "Integrations",
+  services: "Services",
+  features: "Services",
   blog: "Blog",
   "case-study": "Case Studies",
   careers: "Careers",

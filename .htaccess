@@ -31,7 +31,7 @@ DirectoryIndex index.html index.php
     # Retired Automark routes → contact
     RewriteRule ^pricing/?$ /contact/ [R=301,L]
     RewriteRule ^careers(/.*)?$ /contact/ [R=301,L]
-    RewriteRule ^features/?$ /seo-consulting-services/ [R=301,L]
+    RewriteRule ^features/?$ /services/ [R=301,L]
     RewriteRule ^integrations/?$ /contact/ [R=301,L]
     RewriteRule ^elements/?$ / [R=301,L]
 

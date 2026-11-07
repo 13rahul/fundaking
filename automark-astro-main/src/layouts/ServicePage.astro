@@ -66,7 +66,7 @@ const otherServices = SERVICE_ORDER.filter((key) => key !== data.service).map(
 
 const breadcrumbs = [
   { name: "Home", url: absoluteUrl("/") },
-  { name: "Services", url: absoluteUrl("/features") },
+  { name: "Services", url: absoluteUrl("/services") },
   ...(data.city
     ? [{ name: meta.label, url: absoluteUrl(serviceUrl(data.service)) }]
     : []),

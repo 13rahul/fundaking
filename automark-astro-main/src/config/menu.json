@@ -1,6 +1,6 @@
 {
   "main": [
-    { "name": "Services", "url": "/seo-consulting-services" },
+    { "name": "Services", "url": "/services" },
     { "name": "Case Studies", "url": "/case-study" },
     { "name": "Blog", "url": "/blog" },
     { "name": "About", "url": "/about" },
