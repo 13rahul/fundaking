@@ -14,7 +14,7 @@
 - https://fundaking.com/blog/
 
 ## Contact
-- Email: consult@fundaking.com
+- Email: rahul@fundaking.com
 - Phone: +91 84210 53710
 - Book: https://fundaking.com/contact/
 
@@ -27,7 +27,7 @@
 - Sitemap: https://fundaking.com/sitemap-index.xml
 - robots: https://fundaking.com/robots.txt
 
-## Blog articles (121)
+## Blog articles (122)
 - https://fundaking.com/blog/ai-citation-share-tracker-spreadsheet/
 - https://fundaking.com/blog/ai-crawler-logs-user-agents/
 - https://fundaking.com/blog/ai-enablement-plus-ai-seo-same-stack/
@@ -39,6 +39,7 @@
 - https://fundaking.com/blog/auditing-site-for-geo-readiness/
 - https://fundaking.com/blog/author-bylines-and-expertise-for-ai-citations/
 - https://fundaking.com/blog/baramati-seo-consultant-guide/
+- https://fundaking.com/blog/best-seo-consultants-pune-2026/
 - https://fundaking.com/blog/blinkit-zepto-instamart-listing-keywords/
 - https://fundaking.com/blog/brand-knowledge-panel-entity-cleanup/
 - https://fundaking.com/blog/brand-mentions-vs-backlinks-in-llm-era/

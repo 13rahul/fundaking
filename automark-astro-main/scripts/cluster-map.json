@@ -56,6 +56,7 @@
       "isHub": true,
       "siblings": [
         "baramati-seo-consultant-guide",
+        "best-seo-consultants-pune-2026",
         "content-cluster-strategy-b2b-india",
         "how-to-choose-technical-seo-consultant",
         "how-to-rank-seo-consultant-pune",
@@ -80,9 +81,19 @@
         "when-to-fire-your-seo-agency"
       ]
     },
+    "best-seo-consultants-pune-2026": {
+      "pillar": "seo-consulting",
+      "siblings": [
+        "seo-consultant-in-pune-founders-guide-2026",
+        "seo-consultant-pune-vs-agency",
+        "seo-consulting-pricing-india",
+        "how-to-choose-technical-seo-consultant"
+      ]
+    },
     "seo-consultant-pune-vs-agency": {
       "pillar": "seo-consulting",
       "siblings": [
+        "best-seo-consultants-pune-2026",
         "how-to-rank-seo-consultant-pune",
         "in-house-seo-vs-consultant-vs-agency",
         "seo-consultant-baramati-vs-pune",

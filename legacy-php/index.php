@@ -31,7 +31,7 @@ $schemaData = [
     "image" => "https://fundaking.com/og-image.png",
     "url" => "https://fundaking.com/",
     "telephone" => "+918421053710",
-    "email" => "consult@fundaking.com",
+    "email" => "rahul@fundaking.com",
     "priceRange" => "$$$",
     "address" => [
         "@type" => "PostalAddress",
@@ -570,7 +570,7 @@ $reviewSchema = [
                     <h3>Direct contact</h3>
                     <p class="small">Pune, Maharashtra · Fundaking Media</p>
                     <div class="contact-actions">
-                        <a class="cta-btn secondary" href="mailto:consult@fundaking.com">Email me</a>
+                        <a class="cta-btn secondary" href="mailto:rahul@fundaking.com">Email me</a>
                         <a class="cta-btn" href="https://wa.me/918421053710">WhatsApp</a>
                         <a class="cta-btn secondary" href="tel:+918421053710">Call +91 84210 53710</a>
                     </div>

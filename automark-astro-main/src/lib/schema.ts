@@ -114,7 +114,7 @@ export function organizationNode() {
       areaServed: "IN",
       availableLanguage: ["English", "Hindi", "Marathi"],
     },
-    hasMap: "https://www.google.com/maps?cid=2623935863145284685",
+    hasMap: MAPS_PLACE_URL,
   };
 }
 

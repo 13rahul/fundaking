@@ -119,8 +119,7 @@ function fundaking_schema_founder()
 function fundaking_schema_organization()
 {
     $origin = fundaking_schema_origin();
-    $mapsPlace = 'https://www.google.com/maps/place/Fundaking+Media+-+Rahul+Agarwal/@21.0680074,82.7525294,5z/data=!3m1!4b1!4m6!3m5!1s0x3bc3a78b97137889:0x2464feeefb15a44d!8m2!3d21.0680074!4d82.7525294!16s%2Fg%2F11p4l9ptl4';
-    $reviews = fundaking_schema_reviews();
+    $mapsPlace = 'https://maps.google.com/?cid=2622501185404642381';
     return [
         '@type' => ['Organization', 'ProfessionalService', 'LocalBusiness'],
         '@id' => $origin . '/#organization',
@@ -129,7 +128,7 @@ function fundaking_schema_organization()
         'url' => $origin,
         'logo' => $origin . '/images/logo.png',
         'image' => $origin . '/images/logo.png',
-        'email' => 'consult@fundaking.com',
+        'email' => 'rahul@fundaking.com',
         'telephone' => '+918421053710',
         'priceRange' => '₹₹',
         'founder' => ['@id' => $origin . '/#founder'],
@@ -166,15 +165,7 @@ function fundaking_schema_organization()
             'areaServed' => 'IN',
             'availableLanguage' => ['English', 'Hindi', 'Marathi'],
         ],
-        'hasMap' => 'https://www.google.com/maps?cid=2623935863145284685',
-        'aggregateRating' => [
-            '@type' => 'AggregateRating',
-            'ratingValue' => '5.0',
-            'reviewCount' => (string) count($reviews),
-            'bestRating' => '5',
-            'worstRating' => '1',
-        ],
-        'review' => $reviews,
+        'hasMap' => $mapsPlace,
     ];
 }
 
@@ -240,7 +231,7 @@ function fundaking_eeat_strip_html()
         . '<img src="' . htmlspecialchars($photo, ENT_QUOTES, 'UTF-8') . '" alt="Rahul Agarwal" width="96" height="96" style="border-radius:16px;object-fit:cover;width:96px;height:96px" loading="lazy" decoding="async">'
         . '<div style="flex:1;min-width:220px">'
         . '<h2 style="margin:0 0 8px;font-size:1.35rem">Who you work with</h2>'
-        . '<p class="muted" style="margin:0 0 12px">Rahul Agarwal — founder &amp; SEO consultant, Fundaking Media. 8+ years · Google 5.0 from 7 reviews · direct access, no junior account layer.</p>'
+        . '<p class="muted" style="margin:0 0 12px">Rahul Agarwal — founder &amp; SEO consultant, Fundaking Media. 8+ years · Google 5.0 from 8 reviews · direct access, no junior account layer.</p>'
         . '<p style="margin:0;display:flex;flex-wrap:wrap;gap:12px">'
         . '<a href="' . htmlspecialchars($about, ENT_QUOTES, 'UTF-8') . '">About Rahul</a>'
         . '<a href="' . htmlspecialchars($cases, ENT_QUOTES, 'UTF-8') . '">Case studies</a>'

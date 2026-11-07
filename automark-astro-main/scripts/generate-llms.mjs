@@ -46,7 +46,7 @@ ${staticPages
   .join("\n")}
 
 ## Contact
-- Email: consult@fundaking.com
+- Email: rahul@fundaking.com
 - Phone: +91 84210 53710
 - Book: ${ORIGIN}/contact/
 

@@ -30,7 +30,7 @@ contact_info:
     - type: "maps"
       title: "Google Business Profile"
       detail: "Fundaking Media — Pandare, Baramati, Pune · Open in Google Maps"
-      link: "https://www.google.com/maps?cid=2623935863145284685"
+      link: "https://maps.google.com/?cid=2622501185404642381"
       icon: "FaMapMarkerAlt"
     - type: "info"
       title: "Service area"

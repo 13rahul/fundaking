@@ -217,7 +217,7 @@ $breadcrumbSchema = [
                 <h3>Quick Contact</h3>
                 <p class="small">Reach me directly:</p>
                 <div style="margin-top:24px;display:flex;flex-direction:column;gap:16px">
-                    <a class="cta-btn secondary" href="mailto:consult@fundaking.com"><i class="fas fa-envelope"></i>
+                    <a class="cta-btn secondary" href="mailto:rahul@fundaking.com"><i class="fas fa-envelope"></i>
                         Email
                         Me</a>
                     <a class="cta-btn" style="background:#25D366;color:white" href="https://wa.me/918421053710"><i
