@@ -215,7 +215,7 @@ const articleAuthorUrl = absoluteUrl(authorConfig.profile_url);
           </div>
           {isFounderAuthor && (
             <>
-              <BlogPostCta categories={postData.categories} />
+              <BlogPostCta categories={postData.categories} slug={post.id} />
               <AuthorBio />
             </>
           )}

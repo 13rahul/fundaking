@@ -216,6 +216,78 @@ function fundaking_schema_print($data)
     echo '</script>' . "\n";
 }
 
+/** Topic guides + case studies for PHP money pages, from includes/related-content.php. */
+function fundaking_related_pillar($script = null)
+{
+    $page = basename($script ?? ($_SERVER['SCRIPT_NAME'] ?? ''), '.php');
+    $map = [
+        'llm-seo-consultant' => 'ai-answer-engine',
+        'eeat-grader' => 'ai-answer-engine',
+        'ecommerce-seo-consultant' => 'technical-seo',
+        'amazon-seo-consultant' => 'technical-seo',
+        'saas-seo-consultant' => 'technical-seo',
+        'enterprise-seo-consultant' => 'technical-seo',
+        'seo-audit-consultant' => 'technical-seo',
+        'b2b-seo-consultant' => 'seo-consulting',
+        'healthcare-seo-consultant' => 'local-seo',
+    ];
+    return $map[$page] ?? 'seo-consulting';
+}
+
+function fundaking_related_section_html($pillar = null)
+{
+    $file = __DIR__ . '/related-content.php';
+    if (!is_file($file)) {
+        return '';
+    }
+    include $file;
+    if (empty($fkRelated)) {
+        return '';
+    }
+    $pillar = $pillar ?: fundaking_related_pillar();
+    $guides = $fkRelated['guides'][$pillar] ?? $fkRelated['guides']['seo-consulting'] ?? [];
+    $proofSlug = $fkRelated['proof'][$pillar] ?? null;
+
+    $studies = $fkRelated['studies'] ?? [];
+    usort($studies, function ($a, $b) use ($proofSlug) {
+        return ($b['slug'] === $proofSlug) <=> ($a['slug'] === $proofSlug);
+    });
+    $studies = array_slice($studies, 0, 3);
+
+    $url = function ($path) {
+        return function_exists('fk_url') ? fk_url($path) : 'https://fundaking.com' . $path;
+    };
+    $e = function ($s) {
+        return htmlspecialchars((string) $s, ENT_QUOTES, 'UTF-8');
+    };
+
+    $html = '<section class="section container" aria-labelledby="fk-proof-heading">'
+        . '<h2 id="fk-proof-heading">Recent case studies</h2><div class="grid-3 reveal">';
+    foreach ($studies as $s) {
+        $html .= '<a class="card" style="text-decoration:none;color:inherit;display:block" href="' . $e($url('/case-study/' . $s['slug'] . '/')) . '">'
+            . '<p class="small muted" style="margin:0 0 8px">' . $e($s['badge']) . '</p>'
+            . '<h4>' . $e($s['title']) . '</h4>'
+            . ($s['stat'] ? '<p style="margin:8px 0"><strong>' . $e($s['stat']) . '</strong></p>' : '')
+            . '<p class="muted">' . $e($s['description']) . '</p>'
+            . '<p class="small" style="margin-top:12px">Read case study →</p></a>';
+    }
+    $html .= '</div><p style="margin-top:20px"><a href="' . $e($url('/case-study/')) . '">All case studies</a></p></section>';
+
+    if ($guides) {
+        $html .= '<section class="section container" aria-labelledby="fk-guides-heading">'
+            . '<h2 id="fk-guides-heading">Guides on this topic</h2><div class="grid-3 reveal">';
+        foreach ($guides as $g) {
+            $html .= '<a class="card" style="text-decoration:none;color:inherit;display:block" href="' . $e($url('/blog/' . $g['slug'] . '/')) . '">'
+                . '<p class="small muted" style="margin:0 0 8px">' . $e($g['category']) . '</p>'
+                . '<h4>' . $e($g['title']) . '</h4>'
+                . '<p class="muted">' . $e($g['description']) . '</p>'
+                . '<p class="small" style="margin-top:12px">Read guide →</p></a>';
+        }
+        $html .= '</div><p style="margin-top:20px"><a href="' . $e($url('/blog/')) . '">All SEO guides</a></p></section>';
+    }
+    return $html;
+}
+
 /** Compact expert / proof strip for niche and city PHP pages. */
 function fundaking_eeat_strip_html()
 {

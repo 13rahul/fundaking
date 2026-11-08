@@ -1,0 +1,50 @@
+---
+import ImageMod from "@/layouts/components/ImageMod.astro";
+import { withBase } from "@/lib/paths";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  study: CollectionEntry<"caseStudy">;
+}
+
+const { study } = Astro.props;
+---
+
+<a
+  href={withBase(`/case-study/${study.id}`)}
+  class="group flex flex-col rounded-2xl border border-border bg-light p-7 transition-colors hover:border-primary/40"
+>
+  <div class="mb-6 flex items-center justify-between gap-4">
+    <span class="rounded-lg bg-white px-3 py-1 text-sm font-medium text-dark">
+      {study.data.badge ?? "Case study"}
+    </span>
+    {
+      study.data.logo && (
+        <ImageMod
+          src={study.data.logo}
+          alt={study.data.company ?? study.data.title}
+          class="h-9 max-w-[140px] rounded-md bg-white/95 object-contain px-2 py-1"
+        />
+      )
+    }
+  </div>
+  <h3 class="mb-3 text-h5 font-bold text-white group-hover:text-primary">
+    {study.data.title}
+  </h3>
+  <p class="mb-6 flex-1 text-text">{study.data.description}</p>
+  {
+    study.data.stats && study.data.stats.length > 0 && (
+      <div class="flex gap-8 border-t border-border pt-5">
+        {study.data.stats.slice(0, 2).map((stat) => (
+          <div>
+            <div class="font-secondary text-h5 font-bold text-white">
+              {stat.value}
+            </div>
+            <p class="text-sm text-text">{stat.label}</p>
+          </div>
+        ))}
+      </div>
+    )
+  }
+  <span class="mt-5 text-sm font-medium text-primary">Read case study →</span>
+</a>

@@ -1,3 +1,8 @@
+<?php
+if (($fkShowRelated ?? true) && function_exists('fundaking_related_section_html')) {
+    echo fundaking_related_section_html($relatedPillar ?? null);
+}
+?>
 </main>
 <footer class="section pb-0 relative overflow-hidden">
     <div class="container pb-10">

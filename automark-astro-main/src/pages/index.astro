@@ -13,8 +13,13 @@ import PageEnd from "@/layouts/components/PageEnd.astro";
 import VideoShowcase from "@/layouts/components/VideoShowcase.astro";
 import PainPointPill from "@/layouts/components/PainPointPill.astro";
 import LeadGeneration from "@/layouts/components/LeadGeneration.astro";
+import CaseStudyLinkCard from "@/layouts/components/CaseStudyLinkCard.astro";
+import ServiceLinkCard from "@/layouts/components/ServiceLinkCard.astro";
 import config from "@/config/config.json";
-import { getListPage } from "@/lib/contentParser.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
+import { hubGuides } from "@/lib/internalLinks";
+import { withBase } from "@/lib/paths";
+import { sortByDate } from "@/lib/utils/sortFunctions";
 import { markdownify } from "@/lib/utils/textConverter";
 import Testimonial from "@/partials/Testimonial.astro";
 import Features from "@/partials/Features.astro";
@@ -28,6 +33,9 @@ const homeFaqItems =
   homeFaq.data.enable && homeFaq.data.items?.length ? homeFaq.data.items : [];
 
 const { checklist_form_action } = config.params;
+
+const featuredStudies = sortByDate(await getSinglePage("caseStudy")).slice(0, 3);
+const pillarGuides = hubGuides(await getSinglePage("blog"));
 
 const homeMetaTitle =
   "Fundaking Media | SEO, Websites & AI for Indian Businesses";
@@ -385,6 +393,36 @@ const homeSchema = pageGraph({
   <!-- Our Partners -->
   <BrandsCarousel />
 
+  <!-- Case Studies -->
+  {
+    featuredStudies.length > 0 && (
+      <section class="section-sm relative isolate">
+        <div class="container">
+          <div class="section-intro centralize mb-10" data-animate="fade-up">
+            <p class="badge mb-4">Proof</p>
+            <h2 class="title hasHighlight">
+              Recent <strong>case studies</strong>
+            </h2>
+            <p class="mx-auto mt-4 max-w-2xl text-text">
+              SEO, web and AI projects for SaaS, fintech, manufacturing and edtech
+              teams — with the numbers that moved.
+            </p>
+          </div>
+          <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3" data-animate-stagger>
+            {featuredStudies.map((study) => (
+              <CaseStudyLinkCard study={study} />
+            ))}
+          </div>
+          <p class="mt-8 text-center">
+            <a class="btn btn-outline" href={withBase("/case-study")}>
+              All case studies
+            </a>
+          </p>
+        </div>
+      </section>
+    )
+  }
+
   <!-- Single Testimonial -->
   {
     homepageData.single_testimonial.enable && (
@@ -601,6 +639,42 @@ const homeSchema = pageGraph({
         title={homepageData.pricing.title}
         content={homepageData.pricing.content}
       />
+    )
+  }
+
+  <!-- Guides -->
+  {
+    pillarGuides.length > 0 && (
+      <section class="section-sm relative isolate">
+        <div class="container">
+          <div class="section-intro centralize mb-10" data-animate="fade-up">
+            <p class="badge mb-4">Guides</p>
+            <h2 class="title hasHighlight">
+              Start with our <strong>SEO playbooks</strong>
+            </h2>
+            <p class="mx-auto mt-4 max-w-2xl text-text">
+              One in-depth guide per topic — consulting, technical, local, AI
+              search, websites and quick commerce.
+            </p>
+          </div>
+          <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3" data-animate-stagger>
+            {pillarGuides.map((post) => (
+              <ServiceLinkCard
+                title={post.data.title}
+                description={post.data.description ?? ""}
+                href={withBase(`/blog/${post.id}`)}
+                eyebrow={post.data.categories?.[0] ?? "Guide"}
+                cta="Read guide →"
+              />
+            ))}
+          </div>
+          <p class="mt-8 text-center">
+            <a class="btn btn-outline" href={withBase("/blog")}>
+              All SEO guides
+            </a>
+          </p>
+        </div>
+      </section>
     )
   }
 

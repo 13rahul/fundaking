@@ -49,7 +49,6 @@ Best when your site is large, built on React / Next.js, recently migrated, or lo
 </figure>
 
 
-
 ## Local SEO specialists (Google Maps and walk-in enquiries)
 
 Best for clinics, coaching institutes, restaurants, real estate and service-area businesses where calls and directions matter more than blog traffic.

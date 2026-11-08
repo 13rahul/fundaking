@@ -1,17 +1,28 @@
 ---
+import { pillarForPost, pillarMeta } from "@/lib/internalLinks";
 import { withBase } from "@/lib/paths";
 
 interface Props {
   categories?: string[];
+  slug?: string;
 }
 
-const { categories = [] } = Astro.props;
+const { categories = [], slug } = Astro.props;
 
 const cat = (categories[0] ?? "").toLowerCase();
 
 type LinkItem = { label: string; href: string };
 
 function contextualLinks(): LinkItem[] {
+  const pillar = slug ? pillarForPost(slug) : undefined;
+  if (pillar) {
+    const meta = pillarMeta(pillar);
+    const links: LinkItem[] = [{ label: meta.serviceLabel, href: meta.service }];
+    if (meta.proof.startsWith("/case-study/")) {
+      links.push({ label: meta.proofLabel, href: meta.proof });
+    }
+    return links;
+  }
   if (cat.includes("local")) {
     return [{ label: "Local SEO consulting", href: "/local-seo-consultant" }];
   }

@@ -3,6 +3,7 @@ import DynamicIcon from "@/helpers/DynamicIcon";
 import Base from "@/layouts/Base.astro";
 import Accordion from "@/layouts/components/Accordion.astro";
 import CallToAction from "@/layouts/components/CallToAction.astro";
+import CaseStudyLinkCard from "@/layouts/components/CaseStudyLinkCard.astro";
 import GradientBlob from "@/layouts/components/GradientBlob.astro";
 import ImageMod from "@/layouts/components/ImageMod.astro";
 import ServiceLinkCard from "@/layouts/components/ServiceLinkCard.astro";
@@ -22,6 +23,11 @@ import {
   SERVICE_ORDER,
   serviceUrl,
 } from "@/lib/services";
+import {
+  SERVICE_PILLAR,
+  guidesForPillar,
+  proofStudySlug,
+} from "@/lib/internalLinks";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
 import Testimonial from "@/partials/Testimonial.astro";
 import type { CollectionEntry } from "astro:content";
@@ -39,10 +45,23 @@ const pageUrl = absoluteUrl(pagePath);
 const pageName = plainify(data.meta_title ?? data.title);
 const pageDescription = plainify(data.description ?? "");
 
+const pillar = SERVICE_PILLAR[data.service];
 const allStudies = await getSinglePage("caseStudy");
-const studies = data.case_studies
+const fallbackStudy = proofStudySlug(pillar);
+const studySlugs = data.case_studies.length
+  ? data.case_studies
+  : fallbackStudy
+    ? [fallbackStudy]
+    : [];
+const studies = studySlugs
   .map((slug) => allStudies.find((study) => study.id === slug))
   .filter((study): study is NonNullable<typeof study> => Boolean(study));
+
+const allPosts = await getSinglePage("blog");
+const guides = guidesForPillar(allPosts, pillar, {
+  limit: 4,
+  city: data.city,
+});
 
 const locationLinks = [
   { label: `${meta.label} (India)`, href: serviceUrl(data.service) },
@@ -317,44 +336,44 @@ const wa =
           </div>
           <div class="grid gap-5 md:grid-cols-2" data-animate-stagger>
             {studies.slice(0, 4).map((study) => (
-              <a
-                href={withBase(`/case-study/${study.id}`)}
-                class="group flex flex-col rounded-2xl border border-border bg-light p-7 transition-colors hover:border-primary/40"
-              >
-                <div class="mb-6 flex items-center justify-between gap-4">
-                  <span class="rounded-lg bg-white px-3 py-1 text-sm font-medium text-dark">
-                    {study.data.badge ?? "Case study"}
-                  </span>
-                  {study.data.logo && (
-                    <ImageMod
-                      src={study.data.logo}
-                      alt={study.data.company ?? study.data.title}
-                      class="h-9 max-w-[140px] rounded-md bg-white/95 object-contain px-2 py-1"
-                    />
-                  )}
-                </div>
-                <h3 class="mb-3 text-h5 font-bold text-white group-hover:text-primary">
-                  {study.data.title}
-                </h3>
-                <p class="mb-6 flex-1 text-text">{study.data.description}</p>
-                {study.data.stats && study.data.stats.length > 0 && (
-                  <div class="flex gap-8 border-t border-border pt-5">
-                    {study.data.stats.slice(0, 2).map((stat) => (
-                      <div>
-                        <div class="font-secondary text-h5 font-bold text-white">
-                          {stat.value}
-                        </div>
-                        <p class="text-sm text-text">{stat.label}</p>
-                      </div>
-                    ))}
-                  </div>
-                )}
-                <span class="mt-5 text-sm font-medium text-primary">
-                  Read case study →
-                </span>
-              </a>
+              <CaseStudyLinkCard study={study} />
             ))}
           </div>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Guides -->
+  {
+    guides.length > 0 && (
+      <section class="section-sm relative isolate">
+        <div class="container">
+          <div class="section-intro centralize mb-10" data-animate="fade-up">
+            <h2 class="title hasHighlight">
+              {meta.label} <strong>guides</strong>
+            </h2>
+            <p class="mx-auto mt-4 max-w-2xl text-text">
+              Practical playbooks from client work
+              {cityLabel ? ` in ${cityLabel} and across India` : " across India"}.
+            </p>
+          </div>
+          <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4" data-animate-stagger>
+            {guides.map((post) => (
+              <ServiceLinkCard
+                title={post.data.title}
+                description={post.data.description ?? ""}
+                href={withBase(`/blog/${post.id}`)}
+                eyebrow={post.data.categories?.[0] ?? "Guide"}
+                cta="Read guide →"
+              />
+            ))}
+          </div>
+          <p class="mt-8 text-center">
+            <a class="btn btn-outline" href={withBase("/blog")}>
+              All SEO guides
+            </a>
+          </p>
         </div>
       </section>
     )
